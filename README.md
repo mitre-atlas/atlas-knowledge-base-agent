@@ -2,14 +2,14 @@
 
 `Version 0.0.0 (beta)`
 
-The ATLAS Agent is a tool helps LLMs generate responses to questions about the [MITRE ATLAS Framework](https://atlas.mitre.org/) that are grounded in authoritative context.
+The ATLAS Agent is a tool that helps LLMs generate responses to questions about the [MITRE ATLAS Framework](https://atlas.mitre.org/) that are grounded in authoritative context.
 
 ## What It Can Do
 
 - Find relevant ATLAS entities (tactics, techniques, mitigations, and case studies) from natural-language descriptions.
 - Look up exact ATLAS records by AML ID.
 - Summarize relationships among tactics, techniques, mitigations, and case studies.
-- Generate focused graph visualizations for using the [ATLAS Knowledge Graph](https://atlas.mitre.org/knowledge-graph).
+- Generate focused graph visualizations using the [ATLAS Knowledge Graph](https://atlas.mitre.org/knowledge-graph).
 
 ## How It Works
 
@@ -28,12 +28,11 @@ Typical routing:
 3. Mitigation or case-study questions identify related techniques, then summarize the supporting records.
 4. Graph requests verify relevant IDs, then generate a focused Kumu subgraph.
 
-
 ## MCP Client Setup
 
 Prerequisites:
 
-- An MCP-compatible client (e.g., Continue, Cline, etc. See MITRE's guide for [Coding Assistants](https://ai-platform.pages.mitre.org/external-tools/overview/#ai-coding-assistants)).
+- An MCP-compatible client, such as Continue or Cline. See MITRE's guide for [Coding Assistants](https://ai-platform.pages.mitre.org/external-tools/overview/#ai-coding-assistants).
 - `uvx` available on your `PATH` so the client can run `mcp-proxy`.
 
 Add the matching configuration to your MCP client.
@@ -106,6 +105,4 @@ Restart your MCP client after updating its configuration.
 
 ## Feedback & Community Support
 
-Please visit MS Teams `ATLAS Agent` for feedback and community support.
-
-
+Please visit the `ATLAS Agent` channel in MS Teams for feedback and community support.
