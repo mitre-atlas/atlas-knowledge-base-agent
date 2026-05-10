@@ -4,6 +4,8 @@
 
 The ATLAS Agent is a tool that helps LLMs generate responses to questions about the [MITRE ATLAS Framework](https://atlas.mitre.org/) that are grounded in authoritative context.
 
+![atlas-agent-architecture](assets/atlas-agent-architecture.png)
+
 ## What It Can Do
 
 - Find relevant ATLAS entities (tactics, techniques, mitigations, and case studies) from natural-language descriptions.
@@ -18,8 +20,6 @@ The ATLAS Agent is a Langflow orchestration workflow with three specialist agent
 - **Vector Store Agent**: semantic search over ATLAS entities.
 - **CSV Agent**: structured lookup and relationship extraction from the ATLAS dataset.
 - **Kumu Graph Generator Agent**: focused graph URL generation from verified ATLAS IDs.
-
-![atlas-agent-architecture](assets/atlas-agent-architecture.png)
 
 Typical routing:
 
