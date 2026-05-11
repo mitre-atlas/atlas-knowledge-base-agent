@@ -14,3 +14,6 @@ wheels/
 
 # Langflow database
 .langflow
+
+# Continue files
+.continue/
