@@ -105,4 +105,4 @@ Restart your MCP client after updating its configuration.
 
 ## Feedback & Community Support
 
-Please visit the `ATLAS Agent` channel in MS Teams for feedback and community support.
+MS Teams: [🤖 ATLAS Agent Forum](https://gitlab.mitre.org/dgomez/atlas-agent-mcp)
