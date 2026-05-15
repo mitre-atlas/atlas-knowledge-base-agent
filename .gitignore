@@ -17,3 +17,7 @@ wheels/
 
 # Continue files
 .continue/
+
+
+# .DS_Store
+.DS_Store
