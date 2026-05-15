@@ -1,4 +1,4 @@
-FROM artifacts.mitre.org:8200/langflowai/langflow:latest 
+FROM artifacts.mitre.org:8200/langflowai/langflow:1.9.2 
 
 ENV DEBIAN_FRONTEND=noninteractive
 
