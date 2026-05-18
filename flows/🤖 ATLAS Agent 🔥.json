@@ -1262,9 +1262,11 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
+                "input_types": [],
                 "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
               },
               "_frontend_node_folder_id": {
+                "input_types": [],
                 "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
               },
               "_type": "Component",
@@ -1325,7 +1327,7 @@
                 "dynamic": false,
                 "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -1336,7 +1338,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -1490,7 +1492,7 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": false,
+              "is_refresh": true,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -1815,7 +1817,7 @@
           "x": 1465.2204245896285,
           "y": 1177.406426530813
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
@@ -1853,7 +1855,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T00:06:16.620Z",
+            "last_updated": "2026-05-18T13:07:35.946Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -2522,7 +2524,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-05-18T00:06:16.621Z",
+            "last_updated": "2026-05-18T13:07:35.948Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -3085,7 +3087,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T00:09:32.960Z",
+            "last_updated": "2026-05-18T13:07:35.949Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -3197,7 +3199,7 @@
                 "dynamic": false,
                 "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -3208,7 +3210,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -3765,7 +3767,7 @@
             ],
             "frozen": false,
             "icon": "LangChain",
-            "last_updated": "2026-05-18T00:09:01.952Z",
+            "last_updated": "2026-05-18T13:07:35.950Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -3900,7 +3902,7 @@
                 "dynamic": false,
                 "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": false,
+                "load_from_db": true,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -3911,7 +3913,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -4244,7 +4246,7 @@
         "dragging": false,
         "id": "CSVAgent-k1wc1",
         "measured": {
-          "height": 418,
+          "height": 417,
           "width": 320
         },
         "position": {
@@ -4275,7 +4277,7 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-05-18T00:06:16.622Z",
+            "last_updated": "2026-05-18T13:07:35.951Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -4503,7 +4505,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T00:06:16.625Z",
+            "last_updated": "2026-05-18T13:07:35.954Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -5169,7 +5171,7 @@
             ],
             "frozen": false,
             "icon": "calculator",
-            "last_updated": "2026-05-18T00:06:16.625Z",
+            "last_updated": "2026-05-18T13:07:35.955Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -5341,7 +5343,7 @@
             ],
             "frozen": false,
             "icon": "filter",
-            "last_updated": "2026-05-18T00:06:16.626Z",
+            "last_updated": "2026-05-18T13:07:35.956Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -5585,7 +5587,7 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-05-18T00:06:16.628Z",
+            "last_updated": "2026-05-18T13:07:35.958Z",
             "legacy": false,
             "lf_version": "1.9.0",
             "metadata": {
@@ -6382,7 +6384,7 @@
         "data": {
           "id": "note-jRYSk",
           "node": {
-            "description": "Reliable performance with nemotron-3-nano/super.",
+            "description": "Reliable performance with devstral.",
             "display_name": "",
             "documentation": "",
             "template": {
@@ -6399,11 +6401,11 @@
           "width": 405
         },
         "position": {
-          "x": -1889.1425496571405,
-          "y": 905.9688175362919
+          "x": -1687.4859285959378,
+          "y": 909.5379612718884
         },
         "resizing": false,
-        "selected": false,
+        "selected": true,
         "type": "noteNode",
         "width": 405
       },
@@ -6866,9 +6868,9 @@
       }
     ],
     "viewport": {
-      "x": -890.0133723779577,
-      "y": -907.0076097066294,
-      "zoom": 0.9903407940120487
+      "x": 2640.848241121811,
+      "y": -755.9915139803893,
+      "zoom": 1.1207169832098354
     }
   },
   "description": "ATLAS Agent is a hierarchical agentic system that uses specialized agents for semantic search, CSV relationship lookup, and Kumu graph generation to answer MITRE ATLAS questions with grounded tactics, techniques, mitigations, and case studies.",
