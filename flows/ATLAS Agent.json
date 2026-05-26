@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-4ilvA",
+            "id": "OpenAIModel-XSmdc",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "model",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "model"
           }
         },
-        "id": "reactflow__edge-OpenAIModel-4ilvA{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-4ilvAœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-h1dfq{œfieldNameœ:œmodelœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "id": "reactflow__edge-OpenAIModel-XSmdc{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-XSmdcœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-cninD{œfieldNameœ:œmodelœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
         "selected": false,
-        "source": "OpenAIModel-4ilvA",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-4ilvAœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+        "source": "OpenAIModel-XSmdc",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-XSmdcœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChromaDBQuery",
-            "id": "ChromaDBQuery-oZlfK",
+            "id": "ChromaDBQuery-AsHJG",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -43,19 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-Isu9P",
+            "id": "Agent-BFQks",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-ChromaDBQuery-oZlfK{œdataTypeœ:œChromaDBQueryœ,œidœ:œChromaDBQuery-oZlfKœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-Isu9P{œfieldNameœ:œtoolsœ,œidœ:œAgent-Isu9Pœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-ChromaDBQuery-AsHJG{œdataTypeœ:œChromaDBQueryœ,œidœ:œChromaDBQuery-AsHJGœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-BFQks{œfieldNameœ:œtoolsœ,œidœ:œAgent-BFQksœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "ChromaDBQuery-oZlfK",
-        "sourceHandle": "{œdataTypeœ:œChromaDBQueryœ,œidœ:œChromaDBQuery-oZlfKœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-Isu9P",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-Isu9Pœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "ChromaDBQuery-AsHJG",
+        "sourceHandle": "{œdataTypeœ:œChromaDBQueryœ,œidœ:œChromaDBQuery-AsHJGœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-BFQks",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-BFQksœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -63,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-Isu9P",
+            "id": "Agent-BFQks",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -71,19 +71,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-Isu9P{œdataTypeœ:œAgentœ,œidœ:œAgent-Isu9Pœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-h1dfq{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-BFQks{œdataTypeœ:œAgentœ,œidœ:œAgent-BFQksœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-Isu9P",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-Isu9Pœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Agent-BFQks",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-BFQksœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -91,7 +91,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "name": "response",
             "output_types": [
               "Message"
@@ -99,7 +99,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-CEzth",
+            "id": "ChatOutput-FKhrP",
             "inputTypes": [
               "Data",
               "JSON",
@@ -110,12 +110,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-h1dfq{œdataTypeœ:œAgentœ,œidœ:œAgent-h1dfqœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-CEzth{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-CEzthœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-cninD{œdataTypeœ:œAgentœ,œidœ:œAgent-cninDœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-FKhrP{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-FKhrPœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-h1dfq",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-h1dfqœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-CEzth",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-CEzthœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "Agent-cninD",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-cninDœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-FKhrP",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-FKhrPœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -123,7 +123,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-nKZDl",
+            "id": "ChatInput-3Ya9r",
             "name": "message",
             "output_types": [
               "Message"
@@ -131,19 +131,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "reactflow__edge-ChatInput-nKZDl{œdataTypeœ:œChatInputœ,œidœ:œChatInput-nKZDlœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-h1dfq{œfieldNameœ:œinput_valueœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-3Ya9r{œdataTypeœ:œChatInputœ,œidœ:œChatInput-3Ya9rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-cninD{œfieldNameœ:œinput_valueœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-nKZDl",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-nKZDlœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-3Ya9r",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-3Ya9rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -151,7 +151,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-YaGzM",
+            "id": "Agent-DFOLN",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -159,19 +159,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-YaGzM{œdataTypeœ:œAgentœ,œidœ:œAgent-YaGzMœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-h1dfq{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-DFOLN{œdataTypeœ:œAgentœ,œidœ:œAgent-DFOLNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-YaGzM",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-YaGzMœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Agent-DFOLN",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-DFOLNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -179,7 +179,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "CSVAgent",
-            "id": "CSVAgent-k1wc1",
+            "id": "CSVAgent-MMPFi",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -187,19 +187,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-YaGzM",
+            "id": "Agent-DFOLN",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-CSVAgent-k1wc1{œdataTypeœ:œCSVAgentœ,œidœ:œCSVAgent-k1wc1œ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-YaGzM{œfieldNameœ:œtoolsœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-CSVAgent-MMPFi{œdataTypeœ:œCSVAgentœ,œidœ:œCSVAgent-MMPFiœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-DFOLN{œfieldNameœ:œtoolsœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "CSVAgent-k1wc1",
-        "sourceHandle": "{œdataTypeœ:œCSVAgentœ,œidœ:œCSVAgent-k1wc1œ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-YaGzM",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "CSVAgent-MMPFi",
+        "sourceHandle": "{œdataTypeœ:œCSVAgentœ,œidœ:œCSVAgent-MMPFiœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-DFOLN",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -207,7 +207,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "KumuSubgraphURL",
-            "id": "KumuSubgraphURL-4jY2q",
+            "id": "KumuSubgraphURL-8ET7e",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -215,19 +215,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-pgLIP",
+            "id": "Agent-XebQj",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-KumuSubgraphURL-4jY2q{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-4jY2qœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-pgLIP{œfieldNameœ:œtoolsœ,œidœ:œAgent-pgLIPœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-KumuSubgraphURL-8ET7e{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-8ET7eœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-XebQj{œfieldNameœ:œtoolsœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "KumuSubgraphURL-4jY2q",
-        "sourceHandle": "{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-4jY2qœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-pgLIP",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-pgLIPœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "KumuSubgraphURL-8ET7e",
+        "sourceHandle": "{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-8ET7eœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-XebQj",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -235,7 +235,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-pgLIP",
+            "id": "Agent-XebQj",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -243,19 +243,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-pgLIP{œdataTypeœ:œAgentœ,œidœ:œAgent-pgLIPœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-h1dfq{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-XebQj{œdataTypeœ:œAgentœ,œidœ:œAgent-XebQjœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-pgLIP",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-pgLIPœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Agent-XebQj",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-XebQjœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -263,7 +263,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "CalculatorComponent",
-            "id": "CalculatorComponent-plDNS",
+            "id": "CalculatorComponent-C1VWy",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -271,19 +271,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-h1dfq",
+            "id": "Agent-cninD",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-CalculatorComponent-plDNS{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-plDNSœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-h1dfq{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-CalculatorComponent-C1VWy{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-C1VWyœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "CalculatorComponent-plDNS",
-        "sourceHandle": "{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-plDNSœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-h1dfq",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-h1dfqœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "CalculatorComponent-C1VWy",
+        "sourceHandle": "{œdataTypeœ:œCalculatorComponentœ,œidœ:œCalculatorComponent-C1VWyœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-cninD",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -291,7 +291,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameJSONFilter",
-            "id": "DataFrameJSONFilter-I1p1q",
+            "id": "DataFrameJSONFilter-MY6uE",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -299,19 +299,131 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-YaGzM",
+            "id": "Agent-DFOLN",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "reactflow__edge-DataFrameJSONFilter-I1p1q{œdataTypeœ:œDataFrameJSONFilterœ,œidœ:œDataFrameJSONFilter-I1p1qœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-YaGzM{œfieldNameœ:œtoolsœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameJSONFilter-MY6uE{œdataTypeœ:œDataFrameJSONFilterœ,œidœ:œDataFrameJSONFilter-MY6uEœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-DFOLN{œfieldNameœ:œtoolsœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameJSONFilter-I1p1q",
-        "sourceHandle": "{œdataTypeœ:œDataFrameJSONFilterœ,œidœ:œDataFrameJSONFilter-I1p1qœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-YaGzM",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "DataFrameJSONFilter-MY6uE",
+        "sourceHandle": "{œdataTypeœ:œDataFrameJSONFilterœ,œidœ:œDataFrameJSONFilter-MY6uEœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-DFOLN",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-rWRbV",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "CSVAgent-MMPFi",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-rWRbV{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-CSVAgent-MMPFi{œfieldNameœ:œmodelœ,œidœ:œCSVAgent-MMPFiœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-rWRbV",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "CSVAgent-MMPFi",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œCSVAgent-MMPFiœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-rWRbV",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-XebQj",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-rWRbV{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-XebQj{œfieldNameœ:œmodelœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-rWRbV",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-XebQj",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-rWRbV",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-BFQks",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-rWRbV{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-BFQks{œfieldNameœ:œmodelœ,œidœ:œAgent-BFQksœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-rWRbV",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-BFQks",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-BFQksœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-rWRbV",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-DFOLN",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-rWRbV{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-DFOLN{œfieldNameœ:œmodelœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-rWRbV",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-rWRbVœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-DFOLN",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-DFOLNœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       },
       {
         "animated": false,
@@ -319,7 +431,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-I3o6W",
+            "id": "File-Rr8vX",
             "name": "dataframe",
             "output_types": [
               "Table"
@@ -327,7 +439,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameJSONFilter-I1p1q",
+            "id": "DataFrameJSONFilter-MY6uE",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -335,130 +447,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__File-I3o6W{œdataTypeœ:œFileœ,œidœ:œFile-I3o6Wœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameJSONFilter-I1p1q{œfieldNameœ:œdfœ,œidœ:œDataFrameJSONFilter-I1p1qœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__File-Rr8vX{œdataTypeœ:œFileœ,œidœ:œFile-Rr8vXœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameJSONFilter-MY6uE{œfieldNameœ:œdfœ,œidœ:œDataFrameJSONFilter-MY6uEœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-I3o6W",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-I3o6Wœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameJSONFilter-I1p1q",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameJSONFilter-I1p1qœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-7BbBI",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "CSVAgent-k1wc1",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-7BbBI{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-CSVAgent-k1wc1{œfieldNameœ:œmodelœ,œidœ:œCSVAgent-k1wc1œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-7BbBI",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "CSVAgent-k1wc1",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œCSVAgent-k1wc1œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-7BbBI",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-pgLIP",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-7BbBI{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-pgLIP{œfieldNameœ:œmodelœ,œidœ:œAgent-pgLIPœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-7BbBI",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-pgLIP",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-pgLIPœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-7BbBI",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-Isu9P",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-7BbBI{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-Isu9P{œfieldNameœ:œmodelœ,œidœ:œAgent-Isu9Pœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-7BbBI",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-Isu9P",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-Isu9Pœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-7BbBI",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-YaGzM",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-7BbBI{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-YaGzM{œfieldNameœ:œmodelœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-7BbBI",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-7BbBIœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-YaGzM",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-YaGzMœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+        "source": "File-Rr8vX",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-Rr8vXœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameJSONFilter-MY6uE",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameJSONFilter-MY6uEœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "OpenAIModel-4ilvA",
+          "id": "OpenAIModel-XSmdc",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -489,7 +489,7 @@
             "frozen": false,
             "icon": "OpenAI",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "d574e16d78cb",
               "dependencies": {
@@ -872,7 +872,7 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-4ilvA",
+        "id": "OpenAIModel-XSmdc",
         "measured": {
           "height": 459,
           "width": 320
@@ -886,7 +886,7 @@
       },
       {
         "data": {
-          "id": "ChatInput-nKZDl",
+          "id": "ChatInput-3Ya9r",
           "node": {
             "base_classes": [
               "Message"
@@ -910,7 +910,7 @@
             "frozen": false,
             "icon": "MessagesSquare",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "7a26c54d89ed",
               "dependencies": {
@@ -1166,7 +1166,7 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-nKZDl",
+        "id": "ChatInput-3Ya9r",
         "measured": {
           "height": 52,
           "width": 192
@@ -1180,7 +1180,7 @@
       },
       {
         "data": {
-          "id": "Agent-h1dfq",
+          "id": "Agent-cninD",
           "node": {
             "base_classes": [
               "Message"
@@ -1213,9 +1213,9 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T00:10:19.015Z",
+            "last_updated": "2026-05-26T14:38:17.531Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "154c71cf7441",
               "dependencies": {
@@ -1262,12 +1262,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "input_types": [],
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "input_types": [],
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -1327,7 +1325,7 @@
                 "dynamic": false,
                 "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -1338,7 +1336,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "OPENAI_API_KEY"
+                "value": ""
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -1492,7 +1490,7 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": true,
+              "is_refresh": false,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -1756,7 +1754,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "You are the ATLAS Agent, a subject-matter expert on the MITRE ATLAS framework.\n\nYour job is to answer user questions about adversarial threats to AI systems using the ATLAS framework by coordinating specialized agents:\n\n1. Vector Store Agent - semantic search over ATLAS entities\n2. Dataset Agent - structured lookup and relationship extraction over ATLAS data\n3. Kumu Graph Generator Agent - Kumu subgraph URL generation from selected ATLAS IDs\n\nYou do not directly invent ATLAS facts. Use the specialized agents to retrieve evidence, then synthesize the final answer.\n\n---\n\n## ATLAS Framework\n\n\nATLAS (Adversarial Threat Landscape for AI Systems) is a structured knowledge base of adversary behavior against AI-enabled systems, including real-world attack observations and red-team demonstrations.\n\nEntities in ATLAS are identified by their Adversarial Machine Learning (AML) Identifier, also called an ATLAS ID.\n\nEntity types:\n\n* **Tactics (`AML.TA####`)** - high-level adversary objectives; why an action is performed\n* **Techniques (`AML.T####` or `AML.T####.###`)** - adversary methods; how objectives are achieved\n* **Mitigations (`AML.M####`)** - security measures that prevent or reduce techniques\n* **Case Studies (`AML.CS####`)** - incidents or demonstrations showing technique usage\n\nRelationship rules:\n\n* Tactics are parents of techniques.\n* Techniques may be parents of sub-techniques.\n* Mitigations are parents of techniques they mitigate.\n* Case studies are parents of techniques they demonstrate.\n\n---\n\n## Context Schema\n\nEach retrieved ATLAS context chunk may contain:\n\n* `id` - AML identifier\n* `entity` - `tactic`, `technique`, `mitigation`, or `casestudy`\n* `name` - entity name\n* `text` - entity description\n* `url` - reference URL\n* `PARENT_TACTICS` - list of parent tactic IDs (applicable only when entity is a techniques)\n* `PARENT_TECHNIQUES` - list of parent technique IDs (applicable only when entity is a techniques)\n* `PARENT_MITIGATIONS` - list of parent mitigation IDs (applicable only when entity is a techniques)\n* `PARENT_CASESTUDIES` - list of parent case study IDs (applicable only when entity is a techniques)\n* `CHILD_TECHNIQUES` - list of child technique IDs (applicable for all entities: tactics, techniques, mitigations, casestudies)\n\nSummary of relationships:\n- tactic -HAS_CHILD-> technique\n- technique -HAS_CHILD-> technique\n- mitigation -HAS_CHILD-> technique\n- casestudy -HAS_CHILD-> techniques\n\n---\n\n## Specialized Agents\n\n### Vector Store Agent\n\nUse the Vector Store Agent when:\n\n* The user describes a concept, scenario, threat, behavior, or defense in natural language.\n* You need candidate ATLAS entities by semantic similarity.\n* The user gives an approximate name or incomplete description.\n\nInput:\n\n* A text string describing the entity, behavior, scenario, or defense concept to search for.\n\nOutput:\n\n* Candidate ATLAS entities with semantic-match rationale and observed context fields.\n\n### Dataset Agent\n\nUse the Dataset Agent when:\n\n* The user provides an ATLAS ID.\n* You need exact attributes for an entity.\n* You need relationships such as parent tactics, mitigations, child techniques, or case studies.\n* You need filtering by entity type, ID pattern, or structured fields.\n* You need to verify or hydrate vector-search results.\n\nInput:\n\n* A text instruction specifying the exact structured information to retrieve.\n\nOutput:\n\n* Exact ATLAS rows, fields, and relationships from the dataset.\n\n### Kumu Graph Generator Agent\n\nUse the Kumu Graph Generator Agent when:\n\n* The final answer should include a focused ATLAS graph or Kumu subgraph.\n* You have one or more verified ATLAS IDs that should be visualized.\n* The user asks for a graph, map, visualization, Kumu URL, Kumu embed, or subgraph.\n\nInput:\n\n* A JSON-compatible object containing an ordered `ids` list.\n* For each ID, its node and all its neighbor entities will be shown.\n* Including additional IDs will \"expand\" the neighbors of those nodes as well.\n\nOutput:\n\n* A Kumu embed URL and iframe generated by the Kumu Subgraph URL component.\n\n---\n\n## Routing Guidance\n\nFor fuzzy, scenario-based, or natural-language questions:\n\n1. Ask the Vector Store Agent for relevant ATLAS candidate entities.\n2. Ask the Dataset Agent to verify and hydrate the strongest candidates.\n3. Ask the Dataset Agent for relationships needed to answer the question.\n4. Synthesize the final answer from retrieved evidence.\n\nFor ID-based questions:\n\n1. Ask the Dataset Agent for the exact entity.\n2. Ask the Dataset Agent for related entities if useful.\n3. Use the Vector Store Agent only if broader semantic context is needed.\n\nFor mitigation questions:\n\n1. Identify relevant techniques using the Vector Store Agent or Dataset Agent.\n2. Use the Dataset Agent to retrieve mitigations related to those techniques.\n3. Summarize defenses in terms of ATLAS mitigations and the threat behaviors they address.\n\nFor case-study questions:\n\n1. Identify relevant case studies or techniques.\n2. Use the Dataset Agent to retrieve demonstrated techniques and related entities.\n3. Summarize evidence-backed examples.\n\nFor graph or visualization requests:\n\n1. Use the Vector Store Agent and Dataset Agent as needed to identify and verify relevant ATLAS IDs.\n2. Choose a focused ordered ID list, with the primary entity first as the anchor.\n3. Ask the Kumu Graph Generator Agent to generate the Kumu subgraph URL.\n4. Include the generated Kumu URL using a code block.\n\n---\n\n## Response Requirements\n\nEvery final answer should:\n\n1. Briefly summarize your understanding of the user's question.\n2. Describe the tool-call plan you followed.\n3. Present the ATLAS-based answer using retrieved evidence.\n4. Include relevant ATLAS IDs along with their names (use Dataset Agent to hydrate IDs, do *NOT* hallucinate entity names).\n5. Clearly distinguish exact structured facts from semantic matches or inferred relevance.\n6. Mention uncertainty when results are ambiguous or incomplete.\n\nDo not expose internal chain-of-thought. Provide concise reasoning summaries only.\n"
+                "value": "You are the ATLAS Agent, a subject-matter expert on the MITRE ATLAS framework.\n\nYour job is to answer user questions about adversarial threats to AI systems using ATLAS evidence retrieved from specialized agents. You should sound like a knowledgeable analyst, not a workflow log or orchestration layer.\n\nYou have access to three specialized agents:\n\n1. Vector Store Agent\n   - Semantic search over ATLAS entities.\n   - Use it to find likely ATLAS techniques, mitigations, tactics, or case studies when the user describes a concept in natural language.\n\n2. Dataset Agent\n   - Structured lookup over ATLAS data.\n   - Use it to verify entity IDs, hydrate exact names and descriptions, and retrieve relationships such as parent tactics, child techniques, mitigations, and case studies.\n\n3. Kumu Graph Generator Agent\n   - Generates Kumu subgraph URLs from selected ATLAS IDs.\n   - Use it only when the user asks for a graph, map, visualization, Kumu URL, or subgraph.\n\nYou do not invent ATLAS facts. Ground all factual claims in retrieved evidence from the specialized agents.\n\n---\n\n## ATLAS Framework\n\nATLAS (Adversarial Threat Landscape for AI Systems) is a structured knowledge base of adversary behavior against AI-enabled systems, including real-world attack observations and red-team demonstrations.\n\nEntities in ATLAS are identified by their Adversarial Machine Learning (AML) Identifier, also called an ATLAS ID.\n\nEntity types:\n\n- Tactics (`AML.TA####`) — high-level adversary objectives; why an action is performed\n- Techniques (`AML.T####` or `AML.T####.###`) — adversary methods; how objectives are achieved\n- Mitigations (`AML.M####`) — security measures that prevent or reduce techniques\n- Case Studies (`AML.CS####`) — incidents or demonstrations showing technique usage\n\nRelationship rules:\n\n- Tactics are parents of techniques.\n- Techniques may be parents of sub-techniques.\n- Mitigations are parents of techniques they mitigate.\n- Case studies are parents of techniques they demonstrate.\n\n---\n\n## Context Schema\n\nEach retrieved ATLAS context chunk may contain:\n\n- `id` — AML identifier\n- `entity` — `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity description\n- `url` — reference URL\n- `PARENT_TACTICS` — list of parent tactic IDs\n- `PARENT_TECHNIQUES` — list of parent technique IDs\n- `PARENT_MITIGATIONS` — list of parent mitigation IDs\n- `PARENT_CASESTUDIES` — list of parent case study IDs\n- `CHILD_TECHNIQUES` — list of child technique IDs\n\nSummary of relationships:\n\n- tactic -HAS_CHILD-> technique\n- technique -HAS_CHILD-> technique\n- mitigation -HAS_CHILD-> technique\n- casestudy -HAS_CHILD-> technique\n\n---\n\n## Specialized Agent Routing\n\n### Use the Vector Store Agent when:\n- The user describes a concept, behavior, threat, defense, or scenario in natural language.\n- You need candidate ATLAS entities by semantic similarity.\n- The user gives an approximate name or incomplete description.\n\n### Use the Dataset Agent when:\n- The user provides an ATLAS ID.\n- You need exact attributes for an entity.\n- You need relationships such as parent tactics, mitigations, child techniques, or case studies.\n- You need to verify or hydrate vector-search results.\n\n### Use the Kumu Graph Generator Agent when:\n- The user asks for a graph, map, visualization, Kumu URL, embed, or subgraph.\n- You already have one or more verified ATLAS IDs.\n\n---\n\n## Workflow Guidance\n\nFor fuzzy, scenario-based, or natural-language questions:\n\n1. Use the Vector Store Agent to identify relevant candidate ATLAS entities.\n2. Use the Dataset Agent to verify the strongest candidates.\n3. Use the Dataset Agent to retrieve relationships needed to answer the question.\n4. Synthesize the answer naturally from the retrieved evidence.\n\nFor ID-based questions:\n\n1. Use the Dataset Agent to retrieve the exact entity.\n2. Use the Dataset Agent for related entities if useful.\n3. Use the Vector Store Agent only if broader semantic context is needed.\n\nFor mitigation questions:\n\n1. Identify the relevant technique or techniques using the Vector Store Agent or Dataset Agent.\n2. Retrieve mitigations related to those techniques with the Dataset Agent.\n3. Summarize defenses in terms of ATLAS mitigations and the threats they address.\n\nFor case-study questions:\n\n1. Identify relevant case studies or techniques.\n2. Retrieve the demonstrated techniques and related entities with the Dataset Agent.\n3. Summarize evidence-backed examples.\n\nFor graph or visualization requests:\n\n1. Identify and verify relevant ATLAS IDs using the Vector Store Agent and Dataset Agent as needed.\n2. Choose a focused ordered ID list with the primary entity first.\n3. Ask the Kumu Graph Generator Agent to generate the subgraph URL.\n4. Include the generated Kumu URL in a code block.\n\n---\n\n## Response Style\n\nYour answers should feel like a concise expert explanation.\n\nDo:\n- Answer the user directly.\n- Use ATLAS IDs and entity names where relevant.\n- Distinguish exact structured facts from semantic matches or inferences.\n- Mention uncertainty only when results are ambiguous or incomplete.\n- Keep the tone natural, concise, and helpful.\n- Synthesize retrieved evidence into plain language suited to the user’s level of technical depth.\n\nDo not:\n- Narrate internal tool calls.\n- Say things like “plan followed,” “I used the Vector Store Agent,” or “I used the Dataset Agent,” unless the user explicitly asks about your process.\n- Repeat the user’s question verbatim unless it improves clarity.\n- Sound like a workflow engine, audit log, or telemetry feed.\n- Over-explain orchestration when the user only wants the answer.\n\nWhen relevant, you may briefly mention how the answer was grounded, but only in a natural way. For example:\n- “ATLAS identifies this as AML.T0015 — Evade AI Model.”\n- “ATLAS links this technique to the following mitigations...”\n\nAvoid procedural phrasing such as:\n- “Plan followed:”\n- “Used the Vector Store Agent...”\n- “Retrieved from the Dataset Agent...”\n\n---\n\n## Output Requirements\n\nEvery final answer should:\n\n1. Answer the question directly and naturally.\n2. Present the ATLAS-based answer using retrieved evidence.\n3. Include relevant ATLAS IDs along with their names.\n4. Clearly distinguish exact structured facts from semantic matches or inferred relevance.\n5. Mention uncertainty when results are ambiguous or incomplete.\n6. Use concise, human-sounding prose.\n\nIf the user asks for a graph or visualization, include the Kumu subgraph URL.\n\nDo not expose internal chain-of-thought."
               },
               "tools": {
                 "_input_type": "HandleInput",
@@ -1808,7 +1806,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-h1dfq",
+        "id": "Agent-cninD",
         "measured": {
           "height": 431,
           "width": 320
@@ -1817,12 +1815,12 @@
           "x": 1465.2204245896285,
           "y": 1177.406426530813
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Agent-Isu9P",
+          "id": "Agent-BFQks",
           "node": {
             "base_classes": [
               "Message"
@@ -1855,9 +1853,9 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T13:07:35.946Z",
+            "last_updated": "2026-05-26T14:02:43.545Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "154c71cf7441",
               "dependencies": {
@@ -1904,10 +1902,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -2490,7 +2488,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-Isu9P",
+        "id": "Agent-BFQks",
         "measured": {
           "height": 429,
           "width": 320
@@ -2504,7 +2502,7 @@
       },
       {
         "data": {
-          "id": "ChromaDBQuery-oZlfK",
+          "id": "ChromaDBQuery-AsHJG",
           "node": {
             "base_classes": [
               "Table"
@@ -2524,9 +2522,9 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-05-18T13:07:35.948Z",
+            "last_updated": "2026-05-26T14:02:43.546Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "005a237e5068",
               "dependencies": {
@@ -2569,10 +2567,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "code": {
@@ -2740,7 +2738,7 @@
           "type": "ChromaDBQuery"
         },
         "dragging": false,
-        "id": "ChromaDBQuery-oZlfK",
+        "id": "ChromaDBQuery-AsHJG",
         "measured": {
           "height": 385,
           "width": 320
@@ -2754,7 +2752,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-CEzth",
+          "id": "ChatOutput-FKhrP",
           "node": {
             "base_classes": [
               "Message"
@@ -2779,7 +2777,7 @@
             "frozen": false,
             "icon": "MessagesSquare",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "84009527d08c",
               "dependencies": {
@@ -3040,7 +3038,7 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-CEzth",
+        "id": "ChatOutput-FKhrP",
         "measured": {
           "height": 52,
           "width": 192
@@ -3054,7 +3052,7 @@
       },
       {
         "data": {
-          "id": "Agent-YaGzM",
+          "id": "Agent-DFOLN",
           "node": {
             "base_classes": [
               "Message"
@@ -3087,9 +3085,9 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T13:07:35.949Z",
+            "last_updated": "2026-05-26T14:02:43.546Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "154c71cf7441",
               "dependencies": {
@@ -3136,10 +3134,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -3722,7 +3720,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-YaGzM",
+        "id": "Agent-DFOLN",
         "measured": {
           "height": 413,
           "width": 320
@@ -3736,7 +3734,7 @@
       },
       {
         "data": {
-          "id": "CSVAgent-k1wc1",
+          "id": "CSVAgent-MMPFi",
           "node": {
             "base_classes": [
               "AgentExecutor",
@@ -3767,9 +3765,9 @@
             ],
             "frozen": false,
             "icon": "LangChain",
-            "last_updated": "2026-05-18T13:07:35.950Z",
+            "last_updated": "2026-05-26T14:05:39.049Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "3e54888a9330",
               "dependencies": {
@@ -3812,10 +3810,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "agent_description": {
@@ -3902,7 +3900,7 @@
                 "dynamic": false,
                 "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -3913,7 +3911,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "OPENAI_API_KEY"
+                "value": ""
               },
               "base_url_ibm_watsonx": {
                 "_input_type": "DropdownInput",
@@ -4132,7 +4130,7 @@
                 "fileTypes": [
                   "csv"
                 ],
-                "file_path": "7327ce6c-4526-4987-9222-6fc6e4cad960/atlas-nodes-with-optimized-text-04-2026-full.csv",
+                "file_path": "9f0fefc3-b20e-472c-ab95-2ac8339134e5/atlas-nodes-with-optimized-text-04-2026-full.csv",
                 "info": "A CSV File or File Path.",
                 "input_types": [
                   "str",
@@ -4244,7 +4242,7 @@
           "type": "CSVAgent"
         },
         "dragging": false,
-        "id": "CSVAgent-k1wc1",
+        "id": "CSVAgent-MMPFi",
         "measured": {
           "height": 417,
           "width": 320
@@ -4258,7 +4256,7 @@
       },
       {
         "data": {
-          "id": "KumuSubgraphURL-4jY2q",
+          "id": "KumuSubgraphURL-8ET7e",
           "node": {
             "base_classes": [
               "JSON"
@@ -4277,9 +4275,9 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-05-18T13:07:35.951Z",
+            "last_updated": "2026-05-26T14:02:43.553Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "6fb9581d2c40",
               "dependencies": {
@@ -4318,10 +4316,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "code": {
@@ -4458,7 +4456,7 @@
           "type": "KumuSubgraphURL"
         },
         "dragging": false,
-        "id": "KumuSubgraphURL-4jY2q",
+        "id": "KumuSubgraphURL-8ET7e",
         "measured": {
           "height": 385,
           "width": 320
@@ -4472,7 +4470,7 @@
       },
       {
         "data": {
-          "id": "Agent-pgLIP",
+          "id": "Agent-XebQj",
           "node": {
             "base_classes": [
               "Message"
@@ -4505,9 +4503,9 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-05-18T13:07:35.954Z",
+            "last_updated": "2026-05-26T14:02:43.554Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "154c71cf7441",
               "dependencies": {
@@ -4554,10 +4552,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -5140,7 +5138,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-pgLIP",
+        "id": "Agent-XebQj",
         "measured": {
           "height": 413,
           "width": 320
@@ -5154,7 +5152,7 @@
       },
       {
         "data": {
-          "id": "CalculatorComponent-plDNS",
+          "id": "CalculatorComponent-C1VWy",
           "node": {
             "base_classes": [
               "JSON"
@@ -5171,9 +5169,9 @@
             ],
             "frozen": false,
             "icon": "calculator",
-            "last_updated": "2026-05-18T13:07:35.955Z",
+            "last_updated": "2026-05-26T14:02:43.554Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "37caa1aba62c",
               "dependencies": {
@@ -5212,10 +5210,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "code": {
@@ -5310,7 +5308,7 @@
           "type": "CalculatorComponent"
         },
         "dragging": false,
-        "id": "CalculatorComponent-plDNS",
+        "id": "CalculatorComponent-C1VWy",
         "measured": {
           "height": 221,
           "width": 320
@@ -5324,7 +5322,7 @@
       },
       {
         "data": {
-          "id": "DataFrameJSONFilter-I1p1q",
+          "id": "DataFrameJSONFilter-MY6uE",
           "node": {
             "base_classes": [
               "Table"
@@ -5343,9 +5341,9 @@
             ],
             "frozen": false,
             "icon": "filter",
-            "last_updated": "2026-05-18T13:07:35.956Z",
+            "last_updated": "2026-05-26T14:02:43.554Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "0c317469e342",
               "dependencies": {
@@ -5388,10 +5386,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "code": {
@@ -5532,7 +5530,7 @@
           "type": "DataFrameJSONFilter"
         },
         "dragging": false,
-        "id": "DataFrameJSONFilter-I1p1q",
+        "id": "DataFrameJSONFilter-MY6uE",
         "measured": {
           "height": 347,
           "width": 320
@@ -5546,7 +5544,7 @@
       },
       {
         "data": {
-          "id": "File-I3o6W",
+          "id": "File-Rr8vX",
           "node": {
             "base_classes": [
               "Message"
@@ -5587,9 +5585,9 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2026-05-18T13:07:35.958Z",
+            "last_updated": "2026-05-26T14:05:21.722Z",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "c20646f04f8e",
               "dependencies": {
@@ -5675,10 +5673,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597"
+                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
               },
               "_frontend_node_folder_id": {
-                "value": "6b4977da-f398-4df3-8b00-37e7486b951f"
+                "value": "6fed3e91-a92b-4862-ad89-5c399b2dd639"
               },
               "_type": "Component",
               "advanced_mode": {
@@ -6113,7 +6111,7 @@
                   "gz"
                 ],
                 "file_path": [
-                  "7327ce6c-4526-4987-9222-6fc6e4cad960/atlas-nodes-with-optimized-text-04-2026-full.csv"
+                  "9f0fefc3-b20e-472c-ab95-2ac8339134e5/atlas-nodes-with-optimized-text-04-2026-full.csv"
                 ],
                 "info": "Supported file extensions: csv, json, pdf, txt, md, mdx, yaml, yml, xml, html, htm, docx, py, sh, sql, js, ts, tsx, adoc, asciidoc, asc, bmp, dotx, dotm, docm, jpg, jpeg, png, potx, ppsx, pptm, potm, ppsm, pptx, tiff, xls, xlsx, xhtml, webp; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
@@ -6311,7 +6309,7 @@
           "type": "File"
         },
         "dragging": false,
-        "id": "File-I3o6W",
+        "id": "File-Rr8vX",
         "measured": {
           "height": 237,
           "width": 320
@@ -6325,7 +6323,7 @@
       },
       {
         "data": {
-          "id": "note-DenzQ",
+          "id": "note-eXXT5",
           "node": {
             "description": "Store in the Docker volume `langflow-data` which is mounted at `app/.langflow`:\n- collection name: atlas-kb-04-2026\n- persistence path - /app/.langflow\n\nLast run on 2026-05-01 with full dataset.",
             "display_name": "",
@@ -6338,7 +6336,7 @@
         },
         "dragging": false,
         "height": 241,
-        "id": "note-DenzQ",
+        "id": "note-eXXT5",
         "measured": {
           "height": 241,
           "width": 434
@@ -6353,7 +6351,7 @@
       },
       {
         "data": {
-          "id": "note-sM4jA",
+          "id": "note-CWiHZ",
           "node": {
             "description": "Kumu Project ID rotates with each monthly release:\n\n- 04-2026: 8ab5c12a515c74db9b2a7149780de58e\n\n- map: atlas",
             "display_name": "",
@@ -6366,7 +6364,7 @@
         },
         "dragging": false,
         "height": 183,
-        "id": "note-sM4jA",
+        "id": "note-CWiHZ",
         "measured": {
           "height": 183,
           "width": 493
@@ -6382,7 +6380,7 @@
       },
       {
         "data": {
-          "id": "note-jRYSk",
+          "id": "note-E9tig",
           "node": {
             "description": "Reliable performance with devstral.",
             "display_name": "",
@@ -6395,7 +6393,7 @@
         },
         "dragging": false,
         "height": 140,
-        "id": "note-jRYSk",
+        "id": "note-E9tig",
         "measured": {
           "height": 140,
           "width": 405
@@ -6405,13 +6403,13 @@
           "y": 909.5379612718884
         },
         "resizing": false,
-        "selected": true,
+        "selected": false,
         "type": "noteNode",
         "width": 405
       },
       {
         "data": {
-          "id": "note-ZIAdC",
+          "id": "note-2Yx5Q",
           "node": {
             "description": "atlas-nodes-with-optimized-text-04-2026-full.csv",
             "display_name": "",
@@ -6424,7 +6422,7 @@
         },
         "dragging": false,
         "height": 140,
-        "id": "note-ZIAdC",
+        "id": "note-2Yx5Q",
         "measured": {
           "height": 140,
           "width": 529
@@ -6440,7 +6438,7 @@
       },
       {
         "data": {
-          "id": "OpenAIModel-7BbBI",
+          "id": "OpenAIModel-rWRbV",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -6471,7 +6469,7 @@
             "frozen": false,
             "icon": "OpenAI",
             "legacy": false,
-            "lf_version": "1.9.0",
+            "lf_version": "1.9.2",
             "metadata": {
               "code_hash": "d574e16d78cb",
               "dependencies": {
@@ -6854,7 +6852,7 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-7BbBI",
+        "id": "OpenAIModel-rWRbV",
         "measured": {
           "height": 459,
           "width": 320
@@ -6868,17 +6866,17 @@
       }
     ],
     "viewport": {
-      "x": 2640.848241121811,
-      "y": -755.9915139803893,
-      "zoom": 1.1207169832098354
+      "x": -603.5666267824136,
+      "y": -496.10329016133846,
+      "zoom": 0.6344962438103509
     }
   },
   "description": "ATLAS Agent is a hierarchical agentic system that uses specialized agents for semantic search, CSV relationship lookup, and Kumu graph generation to answer MITRE ATLAS questions with grounded tactics, techniques, mitigations, and case studies.",
   "endpoint_name": null,
-  "id": "a38a3f9b-5d08-46a0-b5b7-e3c8aa3fb597",
+  "id": "566d098c-b34d-4a80-8ba7-65318106a4db",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": true,
-  "name": "🤖 ATLAS Agent 🔥",
+  "name": "ATLAS Agent",
   "tags": []
 }
