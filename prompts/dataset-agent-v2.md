@@ -74,6 +74,15 @@ Examples:
 - “How many case studies are there?” → count rows where `entity = casestudy`
 - “List all mitigations” → return all rows where `entity = mitigation`
 - “How many techniques are under AML.TA0001?” → count the child technique IDs for that tactic
+- “Show me all tactics with more than 10 child techniques” → filter `entity = tactic`, compute `len(CHILD_TECHNIQUES)`, and return rows where the count is > 10
+- “Which techniques have mitigations?” → filter `entity = technique` where `PARENT_MITIGATIONS` is non-empty
+- “Which case studies demonstrate multiple techniques?” → filter `entity = casestudy` where `len(CHILD_TECHNIQUES) > 1`
+- “List all techniques that are sub-techniques” → filter `entity = technique` where `PARENT_TECHNIQUES` is non-empty
+- “How many mitigations address each technique?” → group by technique and count entries in `PARENT_MITIGATIONS`
+- “Find all entities whose name contains ‘spoof’” → substring filter on `name`
+- “Return the names and URLs for all case studies” → select `name` and `url` from rows where `entity = casestudy`
+- “Which techniques are linked to both a mitigation and a case study?” → filter `entity = technique` where both `PARENT_MITIGATIONS` and `PARENT_CASESTUDIES` are non-empty
+- “What are the children of AML.M0003?” → return all rows referenced in `CHILD_TECHNIQUES` for that mitigation
 
 Do not perform broad semantic search. If a query is vague, return a clarification note or say that semantic search should be handled by the Vector Store Agent.
 
