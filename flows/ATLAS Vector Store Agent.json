@@ -1,0 +1,2327 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-kXGna",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-al4uJ",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "xy-edge__OpenAIModel-kXGna{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-kXGnaœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-al4uJ{œfieldNameœ:œmodelœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-kXGna",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-kXGnaœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-al4uJ",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "HybridChromaDBQuery",
+            "id": "CustomComponent-hRLDD",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-al4uJ",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-hRLDD{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œCustomComponent-hRLDDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-al4uJ{œfieldNameœ:œtoolsœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-hRLDD",
+        "sourceHandle": "{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œCustomComponent-hRLDDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-al4uJ",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-MzJmW",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "Agent-al4uJ",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-MzJmW{œdataTypeœ:œChatInputœ,œidœ:œChatInput-MzJmWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-al4uJ{œfieldNameœ:œinput_valueœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-MzJmW",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-MzJmWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-al4uJ",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Agent",
+            "id": "Agent-al4uJ",
+            "name": "response",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-fAngC",
+            "inputTypes": [
+              "Data",
+              "JSON",
+              "DataFrame",
+              "Table",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Agent-al4uJ{œdataTypeœ:œAgentœ,œidœ:œAgent-al4uJœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-fAngC{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-fAngCœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Agent-al4uJ",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-al4uJœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-fAngC",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-fAngCœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "CustomComponent-hRLDD",
+          "node": {
+            "base_classes": [
+              "Table"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Perform semantic, keyword, hybrid, and hashtag-filtered retrieval over ATLAS Knowledge Base entries stored in ChromaDB.",
+            "display_name": "Hybrid Vector Store",
+            "documentation": "https://docs.langflow.org/components-custom-components",
+            "edited": true,
+            "field_order": [
+              "queries",
+              "collection_name",
+              "persistence_path",
+              "n_results",
+              "search_mode",
+              "candidate_pool",
+              "keyword_terms",
+              "keyword_operator",
+              "hashtags",
+              "hashtag_operator",
+              "metadata_where",
+              "semantic_weight",
+              "keyword_weight",
+              "max_keyword_scan",
+              "dedupe_by"
+            ],
+            "frozen": false,
+            "icon": "search",
+            "last_updated": "2026-06-11T13:35:45.421Z",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "12df81bd4676",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "chromadb",
+                    "version": "1.3.6"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.2"
+                  }
+                ],
+                "total_dependencies": 2
+              },
+              "module": "custom_components.hybrid_vector_store"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Toolset",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "to_toolkit",
+                "name": "component_as_tool",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Tool",
+                "tool_mode": true,
+                "types": [
+                  "Tool"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "value": "cbc7c107-a49b-4302-8a43-77af20c0d696"
+              },
+              "_frontend_node_folder_id": {
+                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
+              },
+              "_type": "Component",
+              "candidate_pool": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Candidate Pool Size",
+                "dynamic": false,
+                "info": "Number of semantic candidates to retrieve before reranking. Use a value larger than n_results for hybrid search.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "candidate_pool",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 25
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import ast\nimport json\nimport math\nimport re\nfrom pathlib import Path\nfrom typing import Any\n\nimport chromadb\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.io import StrInput, IntInput, Output, MultilineInput\nfrom lfx.schema.dataframe import DataFrame\n\n\nclass HybridChromaDBQuery(Component):\n    display_name = \"Hybrid Vector Store\"\n    description = (\n        \"Perform semantic, keyword, hybrid, and hashtag-filtered retrieval \"\n        \"over ATLAS Knowledge Base entries stored in ChromaDB.\"\n    )\n    documentation: str = \"https://docs.langflow.org/components-custom-components\"\n    icon = \"search\"\n    name = \"HybridChromaDBQuery\"\n\n    inputs = [\n        MultilineInput(\n            name=\"queries\",\n            display_name=\"Queries\",\n            info=\"Newline-separated queries to search for.\",\n            value=\"\",\n            tool_mode=True,\n        ),\n        StrInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            required=True,\n        ),\n        StrInput(\n            name=\"persistence_path\",\n            display_name=\"Persistence Path\",\n            required=True,\n        ),\n        IntInput(\n            name=\"n_results\",\n            display_name=\"Number of Final Results\",\n            value=5,\n            tool_mode=True,\n        ),\n        StrInput(\n            name=\"search_mode\",\n            display_name=\"Search Mode\",\n            info=\"One of: semantic, keyword, hybrid, tag_filtered_semantic.\",\n            value=\"hybrid\",\n            tool_mode=True,\n        ),\n        IntInput(\n            name=\"candidate_pool\",\n            display_name=\"Candidate Pool Size\",\n            info=(\n                \"Number of semantic candidates to retrieve before reranking. \"\n                \"Use a value larger than n_results for hybrid search.\"\n            ),\n            value=25,\n            advanced=True,\n        ),\n        MultilineInput(\n            name=\"keyword_terms\",\n            display_name=\"Keyword Terms\",\n            info=(\n                \"Optional newline-separated keyword terms. \"\n                \"If empty, keywords are derived from each query.\"\n            ),\n            value=\"\",\n            tool_mode=True,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"keyword_operator\",\n            display_name=\"Keyword Operator\",\n            info=\"Use 'any' or 'all' for keyword matching.\",\n            value=\"any\",\n            advanced=True,\n        ),\n        MultilineInput(\n            name=\"hashtags\",\n            display_name=\"Hashtags\",\n            info=(\n                \"Optional newline-separated hashtags to filter by. \"\n                \"Example: #entity/technique\"\n            ),\n            value=\"\",\n            tool_mode=True,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"hashtag_operator\",\n            display_name=\"Hashtag Operator\",\n            info=\"Use 'any' or 'all' for hashtag metadata filtering.\",\n            value=\"any\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"metadata_where\",\n            display_name=\"Metadata Where Filter\",\n            info=(\n                \"Optional JSON/Python dict for Chroma metadata filtering. \"\n                \"Example: {\\\"entity\\\": \\\"technique\\\"}\"\n            ),\n            value=\"{}\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"semantic_weight\",\n            display_name=\"Semantic Weight\",\n            info=\"Hybrid weighting for semantic rank.\",\n            value=\"0.65\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"keyword_weight\",\n            display_name=\"Keyword Weight\",\n            info=\"Hybrid weighting for keyword rank.\",\n            value=\"0.35\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"max_keyword_scan\",\n            display_name=\"Max Keyword Scan\",\n            info=(\n                \"Maximum number of records to scan locally for keyword scoring. \"\n                \"For small ATLAS collections, this can safely be high.\"\n            ),\n            value=5000,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"dedupe_by\",\n            display_name=\"Dedupe By\",\n            info=\"Use 'chroma_id' for chunk-level results or 'id' for ATLAS entity-level results.\",\n            value=\"chroma_id\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"DataFrame\",\n            name=\"results\",\n            method=\"build_output\",\n        ),\n    ]\n\n    STOPWORDS = {\n        \"a\", \"an\", \"and\", \"are\", \"as\", \"at\", \"be\", \"by\", \"for\", \"from\",\n        \"how\", \"in\", \"is\", \"it\", \"of\", \"on\", \"or\", \"that\", \"the\", \"this\",\n        \"to\", \"what\", \"when\", \"where\", \"which\", \"who\", \"with\"\n    }\n\n    METADATA_TEXT_FIELDS = [\n        \"id\",\n        \"entity\",\n        \"name\",\n        \"description\",\n        \"url\",\n        \"framework\",\n        \"hashtags_text\",\n        \"PARENT_TACTICS\",\n        \"PARENT_TECHNIQUES\",\n        \"PARENT_MITIGATIONS\",\n        \"PARENT_CASESTUDIES\",\n        \"CHILD_TECHNIQUES\",\n    ]\n\n    RELATIONSHIP_COLUMNS = [\n        \"PARENT_TACTICS\",\n        \"PARENT_TECHNIQUES\",\n        \"PARENT_MITIGATIONS\",\n        \"PARENT_CASESTUDIES\",\n        \"CHILD_TECHNIQUES\",\n    ]\n\n    def _parse_lines(self, value: Any) -> list[str]:\n        if value is None:\n            return []\n\n        text = str(value).strip()\n        if not text:\n            return []\n\n        lines = []\n        for line in text.splitlines():\n            item = line.strip()\n            if item:\n                lines.append(item)\n\n        return lines\n\n    def _parse_float(self, value: Any, default: float) -> float:\n        try:\n            return float(str(value).strip())\n        except Exception:\n            return default\n\n    def _parse_where(self, value: Any) -> dict | None:\n        if value is None:\n            return None\n\n        if isinstance(value, dict):\n            return value or None\n\n        text = str(value).strip()\n        if not text or text == \"{}\":\n            return None\n\n        try:\n            parsed = json.loads(text)\n        except Exception:\n            try:\n                parsed = ast.literal_eval(text)\n            except Exception as e:\n                msg = f\"metadata_where must be a JSON object or Python dict string: {e!s}\"\n                raise ValueError(msg) from e\n\n        if not isinstance(parsed, dict):\n            msg = \"metadata_where must parse to a dictionary.\"\n            raise ValueError(msg)\n\n        return parsed or None\n\n    def _normalize_hashtag(self, tag: str) -> str:\n        tag = str(tag).strip()\n        if not tag:\n            return \"\"\n\n        if not tag.startswith(\"#\"):\n            tag = f\"#{tag}\"\n\n        return tag\n\n    def _build_hashtag_where(self, hashtags: list[str], operator: str) -> dict | None:\n        normalized = [self._normalize_hashtag(tag) for tag in hashtags]\n        normalized = [tag for tag in normalized if tag]\n\n        if not normalized:\n            return None\n\n        clauses = [{\"hashtags\": {\"$contains\": tag}} for tag in normalized]\n\n        if len(clauses) == 1:\n            return clauses[0]\n\n        operator = str(operator or \"any\").strip().lower()\n\n        if operator == \"all\":\n            return {\"$and\": clauses}\n\n        return {\"$or\": clauses}\n\n    def _merge_where(self, first: dict | None, second: dict | None) -> dict | None:\n        if first and second:\n            return {\"$and\": [first, second]}\n\n        return first or second\n\n    def _derive_keywords(self, query: str) -> list[str]:\n        hashtags = re.findall(r\"#[A-Za-z0-9_./:-]+\", query)\n        words = re.findall(r\"[A-Za-z0-9_.:-]+\", query)\n\n        terms = []\n        for item in hashtags + words:\n            item = item.strip()\n            if not item:\n                continue\n\n            lowered = item.lower()\n            if lowered in self.STOPWORDS:\n                continue\n\n            if len(lowered) < 3 and not item.startswith(\"#\"):\n                continue\n\n            if item not in terms:\n                terms.append(item)\n\n        return terms\n\n    def _build_where_document(self, keywords: list[str], operator: str) -> dict | None:\n        keywords = [str(term).strip() for term in keywords if str(term).strip()]\n        if not keywords:\n            return None\n\n        clauses = [{\"$contains\": term} for term in keywords]\n\n        if len(clauses) == 1:\n            return clauses[0]\n\n        operator = str(operator or \"any\").strip().lower()\n\n        if operator == \"all\":\n            return {\"$and\": clauses}\n\n        return {\"$or\": clauses}\n\n    def _metadata_to_text(self, metadata: dict) -> str:\n        parts = []\n\n        for field in self.METADATA_TEXT_FIELDS:\n            value = metadata.get(field)\n            if value is None:\n                continue\n\n            if isinstance(value, list):\n                parts.extend(str(item) for item in value)\n            else:\n                parts.append(str(value))\n\n        hashtags = metadata.get(\"hashtags\")\n        if isinstance(hashtags, list):\n            parts.extend(str(tag) for tag in hashtags)\n        elif hashtags:\n            parts.append(str(hashtags))\n\n        return \" \".join(parts)\n\n    def _keyword_score(\n        self,\n        query: str,\n        document: str,\n        metadata: dict,\n        keywords: list[str],\n        operator: str,\n    ) -> tuple[float, list[str]]:\n        haystack = f\"{document or ''} {self._metadata_to_text(metadata)}\"\n        haystack_lower = haystack.lower()\n\n        name_lower = str(metadata.get(\"name\", \"\")).lower()\n        id_lower = str(metadata.get(\"id\", \"\")).lower()\n        entity_lower = str(metadata.get(\"entity\", \"\")).lower()\n\n        matched = []\n        score = 0.0\n\n        for term in keywords:\n            term_text = str(term).strip()\n            if not term_text:\n                continue\n\n            term_lower = term_text.lower()\n\n            if term_lower in haystack_lower:\n                matched.append(term_text)\n\n                # Base occurrence score.\n                score += max(1, haystack_lower.count(term_lower))\n\n                # Useful boosts for ATLAS-style retrieval.\n                if term_lower == id_lower:\n                    score += 12.0\n                elif term_lower in id_lower:\n                    score += 6.0\n\n                if term_lower == name_lower:\n                    score += 10.0\n                elif term_lower in name_lower:\n                    score += 4.0\n\n                if term_lower == entity_lower:\n                    score += 2.0\n\n                if term_text.startswith(\"#\"):\n                    score += 5.0\n\n        operator = str(operator or \"any\").strip().lower()\n\n        if operator == \"all\" and len(matched) < len(keywords):\n            return 0.0, matched\n\n        # Small bonus when the whole query appears as a phrase.\n        query_lower = str(query).strip().lower()\n        if query_lower and query_lower in haystack_lower:\n            score += 5.0\n\n        return score, matched\n\n    def _safe_list(self, value: Any) -> Any:\n        if value is None:\n            return []\n\n        if isinstance(value, list):\n            return value\n\n        if isinstance(value, str):\n            text = value.strip()\n            if text == \"\":\n                return []\n\n            try:\n                parsed = ast.literal_eval(text)\n                if isinstance(parsed, list):\n                    return parsed\n            except Exception:\n                pass\n\n        return value\n\n    def _query_semantic(\n        self,\n        collection,\n        query: str,\n        n_results: int,\n        where: dict | None,\n    ) -> list[dict]:\n        kwargs = {\n            \"query_texts\": [query],\n            \"n_results\": n_results,\n            \"include\": [\"documents\", \"metadatas\", \"distances\"],\n        }\n\n        if where:\n            kwargs[\"where\"] = where\n\n        results = collection.query(**kwargs)\n\n        ids = results.get(\"ids\", [[]])[0] or []\n        docs = results.get(\"documents\", [[]])[0] or []\n        metas = results.get(\"metadatas\", [[]])[0] or []\n        distances = results.get(\"distances\", [[]])[0] or []\n\n        items = []\n\n        for idx, chroma_id in enumerate(ids):\n            metadata = metas[idx] if idx < len(metas) and metas[idx] else {}\n            document = docs[idx] if idx < len(docs) else \"\"\n            distance = distances[idx] if idx < len(distances) else None\n\n            items.append(\n                {\n                    \"query\": query,\n                    \"chroma_id\": chroma_id,\n                    \"document\": document,\n                    \"metadata\": metadata,\n                    \"semantic_rank\": idx + 1,\n                    \"semantic_distance\": distance,\n                    \"keyword_rank\": None,\n                    \"keyword_score\": 0.0,\n                    \"matched_keywords\": [],\n                }\n            )\n\n        return items\n\n    def _get_keyword_candidates(\n        self,\n        collection,\n        query: str,\n        keywords: list[str],\n        where: dict | None,\n        keyword_operator: str,\n        max_keyword_scan: int,\n    ) -> list[dict]:\n        if not keywords:\n            return []\n\n        count = collection.count()\n\n        if count <= 0:\n            return []\n\n        # For small collections, scan locally so matching is case-insensitive\n        # and can include metadata fields, not only Chroma document text.\n        if count <= max_keyword_scan:\n            kwargs = {\n                \"include\": [\"documents\", \"metadatas\"],\n                \"limit\": count,\n            }\n\n            if where:\n                kwargs[\"where\"] = where\n\n            results = collection.get(**kwargs)\n\n        else:\n            # For larger collections, use Chroma where_document as a coarse\n            # prefilter. Note: Chroma full-text contains matching is case-sensitive.\n            where_document = self._build_where_document(keywords, keyword_operator)\n\n            kwargs = {\n                \"include\": [\"documents\", \"metadatas\"],\n                \"limit\": max_keyword_scan,\n            }\n\n            if where:\n                kwargs[\"where\"] = where\n\n            if where_document:\n                kwargs[\"where_document\"] = where_document\n\n            results = collection.get(**kwargs)\n\n        ids = results.get(\"ids\", []) or []\n        docs = results.get(\"documents\", []) or []\n        metas = results.get(\"metadatas\", []) or []\n\n        scored = []\n\n        for idx, chroma_id in enumerate(ids):\n            metadata = metas[idx] if idx < len(metas) and metas[idx] else {}\n            document = docs[idx] if idx < len(docs) else \"\"\n\n            score, matched = self._keyword_score(\n                query=query,\n                document=document,\n                metadata=metadata,\n                keywords=keywords,\n                operator=keyword_operator,\n            )\n\n            if score <= 0:\n                continue\n\n            scored.append(\n                {\n                    \"query\": query,\n                    \"chroma_id\": chroma_id,\n                    \"document\": document,\n                    \"metadata\": metadata,\n                    \"semantic_rank\": None,\n                    \"semantic_distance\": None,\n                    \"keyword_rank\": None,\n                    \"keyword_score\": score,\n                    \"matched_keywords\": matched,\n                }\n            )\n\n        scored.sort(key=lambda item: item[\"keyword_score\"], reverse=True)\n\n        for idx, item in enumerate(scored):\n            item[\"keyword_rank\"] = idx + 1\n\n        return scored\n\n    def _dedupe_key(self, item: dict, dedupe_by: str) -> str:\n        metadata = item.get(\"metadata\") or {}\n\n        if dedupe_by == \"id\":\n            atlas_id = metadata.get(\"id\")\n            if atlas_id:\n                return str(atlas_id)\n\n        return str(item.get(\"chroma_id\", \"\"))\n\n    def _fuse_results(\n        self,\n        semantic_items: list[dict],\n        keyword_items: list[dict],\n        n_results: int,\n        semantic_weight: float,\n        keyword_weight: float,\n        dedupe_by: str,\n    ) -> list[dict]:\n        rrf_k = 60.0\n        buckets = {}\n\n        for item in semantic_items:\n            key = self._dedupe_key(item, dedupe_by)\n            if not key:\n                continue\n\n            current = buckets.setdefault(key, item.copy())\n\n            if current.get(\"semantic_rank\") is None:\n                current[\"semantic_rank\"] = item.get(\"semantic_rank\")\n                current[\"semantic_distance\"] = item.get(\"semantic_distance\")\n            elif item.get(\"semantic_rank\") is not None:\n                if item[\"semantic_rank\"] < current[\"semantic_rank\"]:\n                    current[\"semantic_rank\"] = item[\"semantic_rank\"]\n                    current[\"semantic_distance\"] = item.get(\"semantic_distance\")\n\n        for item in keyword_items:\n            key = self._dedupe_key(item, dedupe_by)\n            if not key:\n                continue\n\n            current = buckets.setdefault(key, item.copy())\n\n            if current.get(\"keyword_rank\") is None:\n                current[\"keyword_rank\"] = item.get(\"keyword_rank\")\n                current[\"keyword_score\"] = item.get(\"keyword_score\", 0.0)\n                current[\"matched_keywords\"] = item.get(\"matched_keywords\", [])\n            elif item.get(\"keyword_rank\") is not None:\n                if item[\"keyword_rank\"] < current[\"keyword_rank\"]:\n                    current[\"keyword_rank\"] = item[\"keyword_rank\"]\n                    current[\"keyword_score\"] = item.get(\"keyword_score\", 0.0)\n                    current[\"matched_keywords\"] = item.get(\"matched_keywords\", [])\n\n        fused = []\n\n        for item in buckets.values():\n            semantic_rank = item.get(\"semantic_rank\")\n            keyword_rank = item.get(\"keyword_rank\")\n\n            semantic_rrf = 0.0\n            keyword_rrf = 0.0\n\n            if semantic_rank is not None:\n                semantic_rrf = 1.0 / (rrf_k + float(semantic_rank))\n\n            if keyword_rank is not None:\n                keyword_rrf = 1.0 / (rrf_k + float(keyword_rank))\n\n            hybrid_score = (\n                semantic_weight * semantic_rrf\n                + keyword_weight * keyword_rrf\n            )\n\n            # Small direct keyword score boost.\n            hybrid_score += min(float(item.get(\"keyword_score\", 0.0)), 20.0) / 1000.0\n\n            item[\"hybrid_score\"] = hybrid_score\n            fused.append(item)\n\n        fused.sort(key=lambda item: item.get(\"hybrid_score\", 0.0), reverse=True)\n\n        return fused[:n_results]\n\n    def _items_to_rows(self, items: list[dict], mode: str) -> list[dict]:\n        rows = []\n\n        for rank, item in enumerate(items, start=1):\n            metadata = item.get(\"metadata\") or {}\n\n            row = {\n                \"query\": item.get(\"query\", \"\"),\n                \"rank\": rank,\n                \"search_mode\": mode,\n                \"hybrid_score\": item.get(\"hybrid_score\"),\n                \"semantic_rank\": item.get(\"semantic_rank\"),\n                \"semantic_distance\": item.get(\"semantic_distance\"),\n                \"keyword_rank\": item.get(\"keyword_rank\"),\n                \"keyword_score\": item.get(\"keyword_score\"),\n                \"matched_keywords\": item.get(\"matched_keywords\", []),\n                \"chroma_id\": item.get(\"chroma_id\", \"\"),\n                \"id\": metadata.get(\"id\", \"\"),\n                \"text\": item.get(\"document\", \"\"),\n                \"entity\": metadata.get(\"entity\", \"\"),\n                \"name\": metadata.get(\"name\", \"\"),\n                \"description\": metadata.get(\"description\", \"\"),\n                \"url\": metadata.get(\"url\", \"\"),\n                \"framework\": metadata.get(\"framework\", \"\"),\n                \"hashtags\": self._safe_list(metadata.get(\"hashtags\")),\n                \"hashtags_text\": metadata.get(\"hashtags_text\", \"\"),\n                \"PARENT_TACTICS\": self._safe_list(metadata.get(\"PARENT_TACTICS\")),\n                \"PARENT_TECHNIQUES\": self._safe_list(metadata.get(\"PARENT_TECHNIQUES\")),\n                \"PARENT_MITIGATIONS\": self._safe_list(metadata.get(\"PARENT_MITIGATIONS\")),\n                \"PARENT_CASESTUDIES\": self._safe_list(metadata.get(\"PARENT_CASESTUDIES\")),\n                \"CHILD_TECHNIQUES\": self._safe_list(metadata.get(\"CHILD_TECHNIQUES\")),\n            }\n\n            rows.append(row)\n\n        return rows\n\n    def build_output(self) -> DataFrame:\n        query_texts = [q.strip() for q in str(self.queries or \"\").split(\"\\n\") if q.strip()]\n\n        if not query_texts:\n            return DataFrame([])\n\n        search_mode = str(self.search_mode or \"hybrid\").strip().lower()\n        if search_mode not in {\"semantic\", \"keyword\", \"hybrid\", \"tag_filtered_semantic\"}:\n            search_mode = \"hybrid\"\n\n        keyword_operator = str(self.keyword_operator or \"any\").strip().lower()\n        if keyword_operator not in {\"any\", \"all\"}:\n            keyword_operator = \"any\"\n\n        hashtag_operator = str(self.hashtag_operator or \"any\").strip().lower()\n        if hashtag_operator not in {\"any\", \"all\"}:\n            hashtag_operator = \"any\"\n\n        semantic_weight = self._parse_float(self.semantic_weight, 0.65)\n        keyword_weight = self._parse_float(self.keyword_weight, 0.35)\n\n        if semantic_weight < 0:\n            semantic_weight = 0.0\n\n        if keyword_weight < 0:\n            keyword_weight = 0.0\n\n        total_weight = semantic_weight + keyword_weight\n        if total_weight <= 0:\n            semantic_weight = 0.65\n            keyword_weight = 0.35\n        else:\n            semantic_weight = semantic_weight / total_weight\n            keyword_weight = keyword_weight / total_weight\n\n        n_results = int(self.n_results or 5)\n        candidate_pool = max(int(self.candidate_pool or 25), n_results)\n        max_keyword_scan = int(self.max_keyword_scan or 5000)\n\n        explicit_keywords = self._parse_lines(self.keyword_terms)\n        hashtags = self._parse_lines(self.hashtags)\n\n        metadata_where = self._parse_where(self.metadata_where)\n        hashtag_where = self._build_hashtag_where(hashtags, hashtag_operator)\n        where = self._merge_where(metadata_where, hashtag_where)\n\n        persist_path = Path(self.persistence_path)\n        persist_path.mkdir(parents=True, exist_ok=True)\n\n        chroma_client = chromadb.PersistentClient(path=str(persist_path))\n        collection = chroma_client.get_collection(name=self.collection_name)\n\n        rows = []\n\n        for query in query_texts:\n            query_keywords = explicit_keywords or self._derive_keywords(query)\n\n            semantic_items = []\n            keyword_items = []\n\n            if search_mode in {\"semantic\", \"hybrid\", \"tag_filtered_semantic\"}:\n                semantic_items = self._query_semantic(\n                    collection=collection,\n                    query=query,\n                    n_results=candidate_pool,\n                    where=where,\n                )\n\n            if search_mode in {\"keyword\", \"hybrid\"}:\n                keyword_items = self._get_keyword_candidates(\n                    collection=collection,\n                    query=query,\n                    keywords=query_keywords,\n                    where=where,\n                    keyword_operator=keyword_operator,\n                    max_keyword_scan=max_keyword_scan,\n                )\n\n            if search_mode == \"semantic\" or search_mode == \"tag_filtered_semantic\":\n                selected = semantic_items[:n_results]\n                for item in selected:\n                    item[\"hybrid_score\"] = None\n\n            elif search_mode == \"keyword\":\n                selected = keyword_items[:n_results]\n                for item in selected:\n                    item[\"hybrid_score\"] = item.get(\"keyword_score\", 0.0)\n\n            else:\n                selected = self._fuse_results(\n                    semantic_items=semantic_items,\n                    keyword_items=keyword_items,\n                    n_results=n_results,\n                    semantic_weight=semantic_weight,\n                    keyword_weight=keyword_weight,\n                    dedupe_by=str(self.dedupe_by or \"chroma_id\").strip().lower(),\n                )\n\n            rows.extend(self._items_to_rows(selected, search_mode))\n\n        return DataFrame(rows)"
+              },
+              "collection_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Collection Name",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "collection_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "atlas-kb-04-2026"
+              },
+              "dedupe_by": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Dedupe By",
+                "dynamic": false,
+                "info": "Use 'chroma_id' for chunk-level results or 'id' for ATLAS entity-level results.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "dedupe_by",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "chroma_id"
+              },
+              "hashtag_operator": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Hashtag Operator",
+                "dynamic": false,
+                "info": "Use 'any' or 'all' for hashtag metadata filtering.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "hashtag_operator",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "any"
+              },
+              "hashtags": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Hashtags",
+                "dynamic": false,
+                "info": "Optional newline-separated hashtags to filter by. Example: #entity/technique",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "hashtags",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": false,
+              "keyword_operator": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Keyword Operator",
+                "dynamic": false,
+                "info": "Use 'any' or 'all' for keyword matching.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "keyword_operator",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "any"
+              },
+              "keyword_terms": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Keyword Terms",
+                "dynamic": false,
+                "info": "Optional newline-separated keyword terms. If empty, keywords are derived from each query.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "keyword_terms",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "keyword_weight": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Keyword Weight",
+                "dynamic": false,
+                "info": "Hybrid weighting for keyword rank.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "keyword_weight",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "0.35"
+              },
+              "max_keyword_scan": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Keyword Scan",
+                "dynamic": false,
+                "info": "Maximum number of records to scan locally for keyword scoring. For small ATLAS collections, this can safely be high.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_keyword_scan",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 5000
+              },
+              "metadata_where": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Metadata Where Filter",
+                "dynamic": false,
+                "info": "Optional JSON/Python dict for Chroma metadata filtering. Example: {\"entity\": \"technique\"}",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "metadata_where",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{}"
+              },
+              "n_results": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Number of Final Results",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n_results",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 5
+              },
+              "persistence_path": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Persistence Path",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "persistence_path",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "/Users/dgomez/Documents/Code/chroma"
+              },
+              "queries": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Queries",
+                "dynamic": false,
+                "info": "Newline-separated queries to search for.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "queries",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "search_mode": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Search Mode",
+                "dynamic": false,
+                "info": "One of: semantic, keyword, hybrid, tag_filtered_semantic.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "search_mode",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "hybrid"
+              },
+              "semantic_weight": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Semantic Weight",
+                "dynamic": false,
+                "info": "Hybrid weighting for semantic rank.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "semantic_weight",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "0.65"
+              },
+              "tools_metadata": {
+                "_input_type": "ToolsInput",
+                "advanced": false,
+                "display_name": "Actions",
+                "dynamic": false,
+                "info": "Modify tool names and descriptions to help agents understand when to use each tool.",
+                "is_list": true,
+                "list_add_label": "Add More",
+                "name": "tools_metadata",
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "tools",
+                "value": [
+                  {
+                    "args": {
+                      "hashtags": {
+                        "default": "",
+                        "description": "Optional newline-separated hashtags to filter by. Example: #entity/technique",
+                        "title": "Hashtags",
+                        "type": "string"
+                      },
+                      "keyword_terms": {
+                        "default": "",
+                        "description": "Optional newline-separated keyword terms. If empty, keywords are derived from each query.",
+                        "title": "Keyword Terms",
+                        "type": "string"
+                      },
+                      "n_results": {
+                        "default": 5,
+                        "description": "",
+                        "title": "N Results",
+                        "type": "integer"
+                      },
+                      "queries": {
+                        "default": "",
+                        "description": "Newline-separated queries to search for.",
+                        "title": "Queries",
+                        "type": "string"
+                      },
+                      "search_mode": {
+                        "default": "hybrid",
+                        "description": "One of: semantic, keyword, hybrid, tag_filtered_semantic.",
+                        "title": "Search Mode",
+                        "type": "string"
+                      }
+                    },
+                    "description": "Perform semantic, keyword, hybrid, and hashtag-filtered retrieval over ATLAS Knowledge Base entries stored in ChromaDB.",
+                    "display_description": "Perform semantic, keyword, hybrid, and hashtag-filtered retrieval over ATLAS Knowledge Base entries stored in ChromaDB.",
+                    "display_name": "build_output",
+                    "name": "build_output",
+                    "readonly": false,
+                    "status": true,
+                    "tags": [
+                      "build_output"
+                    ]
+                  }
+                ]
+              }
+            },
+            "tool_mode": true
+          },
+          "showNode": true,
+          "type": "HybridChromaDBQuery"
+        },
+        "dragging": false,
+        "id": "CustomComponent-hRLDD",
+        "measured": {
+          "height": 401,
+          "width": 320
+        },
+        "position": {
+          "x": 861.4853950313617,
+          "y": 514.5143874032376
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Agent-al4uJ",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Use for semantic discovery over the ATLAS knowledge base: finding candidate tactics, techniques, mitigations, or case studies from natural-language descriptions, approximate names, threat scenarios, or defense concepts.",
+            "display_name": "ATLAS Vector Store Agent",
+            "documentation": "https://docs.langflow.org/agents",
+            "edited": true,
+            "field_order": [
+              "model",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "system_prompt",
+              "context_id",
+              "n_messages",
+              "max_tokens",
+              "format_instructions",
+              "output_schema",
+              "tools",
+              "input_value",
+              "handle_parsing_errors",
+              "verbose",
+              "max_iterations",
+              "agent_description",
+              "add_current_date_tool"
+            ],
+            "frozen": false,
+            "icon": "bot",
+            "last_updated": "2026-06-10T14:14:06.659Z",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "89bdd3d31071",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "pydantic",
+                    "version": "2.12.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.2"
+                  },
+                  {
+                    "name": "langchain_core",
+                    "version": "1.3.2"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "custom_components.atlas_vector_store_agent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "message_response",
+                "name": "response",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "input_types": [],
+                "value": "cbc7c107-a49b-4302-8a43-77af20c0d696"
+              },
+              "_frontend_node_folder_id": {
+                "input_types": [],
+                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
+              },
+              "_type": "Component",
+              "add_current_date_tool": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Current Date",
+                "dynamic": false,
+                "info": "If true, will add a tool to the agent that returns the current date.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "add_current_date_tool",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "agent_description": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Description [Deprecated]",
+                "dynamic": false,
+                "info": "The description of the agent. This is only used when in Tool Mode. Defaults to 'A helpful assistant with access to the following tools:' and tools are added dynamically. This feature is deprecated and will be removed in future versions.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "agent_description",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "A helpful assistant with access to the following tools:"
+              },
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Falls back to OPENAI_API_KEY environment variable",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "OPENAI_API_KEY"
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "input_types": [],
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from __future__ import annotations\n\nimport json\nimport re\nfrom typing import TYPE_CHECKING\n\nfrom pydantic import ValidationError\n\nfrom lfx.components.models_and_agents.memory import MemoryComponent\n\nif TYPE_CHECKING:\n    from langchain_core.tools import Tool\n\nfrom lfx.base.agents.agent import LCToolsAgentComponent\nfrom lfx.base.agents.events import ExceptionWithMessageError\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.agentics.helpers.model_config import validate_model_selection\nfrom lfx.components.helpers import CurrentDateComponent\nfrom lfx.components.langchain_utilities.tool_calling import ToolCallingAgentComponent\nfrom lfx.custom.custom_component.component import get_component_toolkit\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, ModelInput, StrInput\nfrom lfx.io import IntInput, MessageTextInput, MultilineInput, Output, SecretStrInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\ndef set_advanced_true(component_input):\n    component_input.advanced = True\n    return component_input\n\n\nclass AgentComponent(ToolCallingAgentComponent):\n    display_name: str = \"ATLAS Vector Store Agent\"\n    description: str = \"Use for semantic discovery over the ATLAS knowledge base: finding candidate tactics, techniques, mitigations, or case studies from natural-language descriptions, approximate names, threat scenarios, or defense concepts.\"\n    documentation: str = \"https://docs.langflow.org/agents\"\n    icon = \"bot\"\n    beta = False\n    name = \"Agent\"\n\n    memory_inputs = [set_advanced_true(component_input) for component_input in MemoryComponent().inputs]\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        MultilineInput(\n            name=\"system_prompt\",\n            display_name=\"Agent Instructions\",\n            info=\"System Prompt: Initial instructions and context provided to guide the agent's behavior.\",\n            value=\"You are a helpful assistant that can use tools to answer questions and perform tasks.\",\n            advanced=False,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"n_messages\",\n            display_name=\"Number of Chat History Messages\",\n            value=100,\n            info=\"Number of chat history messages to retrieve.\",\n            advanced=True,\n            show=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n        MultilineInput(\n            name=\"format_instructions\",\n            display_name=\"Output Format Instructions\",\n            info=\"Generic Template for structured output formatting. Valid only with Structured response.\",\n            value=(\n                \"You are an AI that extracts structured JSON objects from unstructured text. \"\n                \"Use a predefined schema with expected types (str, int, float, bool, dict). \"\n                \"Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. \"\n                \"Fill missing or ambiguous values with defaults: null for missing values. \"\n                \"Remove exact duplicates but keep variations that have different field values. \"\n                \"Always return valid JSON in the expected format, never throw errors. \"\n                \"If multiple objects can be extracted, return them all in the structured format.\"\n            ),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"output_schema\",\n            display_name=\"Output Schema\",\n            info=(\n                \"Schema Validation: Define the structure and data types for structured output. \"\n                \"No validation if no output schema.\"\n            ),\n            advanced=True,\n            required=False,\n            value=[],\n            table_schema=[\n                {\n                    \"name\": \"name\",\n                    \"display_name\": \"Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Specify the name of the output field.\",\n                    \"default\": \"field\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"description\",\n                    \"display_name\": \"Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Describe the purpose of the output field.\",\n                    \"default\": \"description of field\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"type\",\n                    \"display_name\": \"Type\",\n                    \"type\": \"str\",\n                    \"edit_mode\": EditMode.INLINE,\n                    \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n                    \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n                    \"default\": \"str\",\n                },\n                {\n                    \"name\": \"multiple\",\n                    \"display_name\": \"As List\",\n                    \"type\": \"boolean\",\n                    \"description\": \"Set to True if this output field should be a list of the specified type.\",\n                    \"default\": \"False\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n            ],\n        ),\n        *LCToolsAgentComponent.get_base_inputs(),\n        # removed memory inputs from agent component\n        # *memory_inputs,\n        BoolInput(\n            name=\"add_current_date_tool\",\n            display_name=\"Current Date\",\n            advanced=True,\n            info=\"If true, will add a tool to the agent that returns the current date.\",\n            value=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"response\", display_name=\"Response\", method=\"message_response\"),\n    ]\n\n    def _resolve_selected_model(self):\n        \"\"\"Resolve the selected model, including legacy agent_llm/model_name inputs.\"\"\"\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            if isinstance(self.model, BaseLanguageModel):\n                return self.model\n        except ImportError:\n            pass\n\n        if isinstance(self.model, list) and self.model:\n            return self.model\n\n        legacy_provider = getattr(self, \"agent_llm\", None)\n        legacy_model_name = getattr(self, \"model_name\", None)\n        if not legacy_provider or not legacy_model_name:\n            return self.model\n\n        options = get_language_model_options(user_id=self.user_id)\n        for option in options:\n            if option.get(\"provider\") == legacy_provider and option.get(\"name\") == legacy_model_name:\n                return [option]\n\n        return [\n            {\n                \"name\": legacy_model_name,\n                \"provider\": legacy_provider,\n                \"metadata\": {},\n            }\n        ]\n\n    def _get_max_tokens_value(self):\n        \"\"\"Return the user-supplied max_tokens or None when unset/zero.\"\"\"\n        val = getattr(self, \"max_tokens\", None)\n        if val in {\"\", 0}:\n            return None\n        return val\n\n    def _get_llm(self):\n        \"\"\"Override parent to include max_tokens from the Agent's input field.\"\"\"\n        return get_llm(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=getattr(self, \"api_key\", None),\n            max_tokens=self._get_max_tokens_value(),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n        )\n\n    async def get_agent_requirements(self):\n        \"\"\"Get the agent requirements for the agent.\"\"\"\n        from langchain_core.tools import StructuredTool\n\n        selected_model = self._resolve_selected_model()\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            is_connected_model = isinstance(selected_model, BaseLanguageModel)\n        except ImportError:\n            is_connected_model = False\n\n        if not is_connected_model:\n            validate_model_selection(selected_model)\n\n        # Ensure _get_llm() uses the resolved model (e.g. from legacy agent_llm/model_name)\n        self.model = selected_model\n        llm_model = self._get_llm()\n        if llm_model is None:\n            msg = \"No language model selected. Please choose a model to proceed.\"\n            raise ValueError(msg)\n\n        # Get memory data\n        self.chat_history = await self.get_memory_data()\n        await logger.adebug(f\"Retrieved {len(self.chat_history)} chat history messages\")\n        if isinstance(self.chat_history, Message):\n            self.chat_history = [self.chat_history]\n\n        # Add current date tool if enabled\n        if self.add_current_date_tool:\n            if not isinstance(self.tools, list):  # type: ignore[has-type]\n                self.tools = []\n            current_date_tool = (await CurrentDateComponent(**self.get_base_args()).to_toolkit()).pop(0)\n\n            if not isinstance(current_date_tool, StructuredTool):\n                msg = \"CurrentDateComponent must be converted to a StructuredTool\"\n                raise TypeError(msg)\n            self.tools.append(current_date_tool)\n\n        # Set shared callbacks for tracing the tools used by the agent\n        self.set_tools_callbacks(self.tools, self._get_shared_callbacks())\n\n        return llm_model, self.chat_history, self.tools\n\n    async def message_response(self) -> Message:\n        try:\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            # Set up and run agent\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=self.system_prompt,\n            )\n            agent = self.create_agent_runnable()\n            result = await self.run_agent(agent)\n\n            # Store result for potential JSON output\n            self._agent_result = result\n\n        except (ValueError, TypeError, KeyError) as e:\n            await logger.aerror(f\"{type(e).__name__}: {e!s}\")\n            raise\n        except ExceptionWithMessageError as e:\n            await logger.aerror(f\"ExceptionWithMessageError occurred: {e}\")\n            raise\n        # Avoid catching blind Exception; let truly unexpected exceptions propagate\n        except Exception as e:\n            await logger.aerror(f\"Unexpected error: {e!s}\")\n            raise\n        else:\n            return result\n\n    def _preprocess_schema(self, schema):\n        \"\"\"Preprocess schema to ensure correct data types for build_model_from_schema.\"\"\"\n        processed_schema = []\n        for field in schema:\n            processed_field = {\n                \"name\": str(field.get(\"name\", \"field\")),\n                \"type\": str(field.get(\"type\", \"str\")),\n                \"description\": str(field.get(\"description\", \"\")),\n                \"multiple\": field.get(\"multiple\", False),\n            }\n            # Ensure multiple is handled correctly\n            if isinstance(processed_field[\"multiple\"], str):\n                processed_field[\"multiple\"] = processed_field[\"multiple\"].lower() in [\n                    \"true\",\n                    \"1\",\n                    \"t\",\n                    \"y\",\n                    \"yes\",\n                ]\n            processed_schema.append(processed_field)\n        return processed_schema\n\n    async def build_structured_output_base(self, content: str):\n        \"\"\"Build structured output with optional BaseModel validation.\"\"\"\n        json_pattern = r\"\\{.*\\}\"\n        schema_error_msg = \"Try setting an output schema\"\n\n        # Try to parse content as JSON first\n        json_data = None\n        try:\n            json_data = json.loads(content)\n        except json.JSONDecodeError:\n            json_match = re.search(json_pattern, content, re.DOTALL)\n            if json_match:\n                try:\n                    json_data = json.loads(json_match.group())\n                except json.JSONDecodeError:\n                    return {\"content\": content, \"error\": schema_error_msg}\n            else:\n                return {\"content\": content, \"error\": schema_error_msg}\n\n        # If no output schema provided, return parsed JSON without validation\n        if not hasattr(self, \"output_schema\") or not self.output_schema or len(self.output_schema) == 0:\n            return json_data\n\n        # Use BaseModel validation with schema\n        try:\n            processed_schema = self._preprocess_schema(self.output_schema)\n            output_model = build_model_from_schema(processed_schema)\n\n            # Validate against the schema\n            if isinstance(json_data, list):\n                # Multiple objects\n                validated_objects = []\n                for item in json_data:\n                    try:\n                        validated_obj = output_model.model_validate(item)\n                        validated_objects.append(validated_obj.model_dump())\n                    except ValidationError as e:\n                        await logger.aerror(f\"Validation error for item: {e}\")\n                        # Include invalid items with error info\n                        validated_objects.append({\"data\": item, \"validation_error\": str(e)})\n                return validated_objects\n\n            # Single object\n            try:\n                validated_obj = output_model.model_validate(json_data)\n                return [validated_obj.model_dump()]  # Return as list for consistency\n            except ValidationError as e:\n                await logger.aerror(f\"Validation error: {e}\")\n                return [{\"data\": json_data, \"validation_error\": str(e)}]\n\n        except (TypeError, ValueError) as e:\n            await logger.aerror(f\"Error building structured output: {e}\")\n            # Fallback to parsed JSON without validation\n            return json_data\n\n    async def json_response(self) -> Data:\n        \"\"\"Convert agent response to structured JSON Data output with schema validation.\"\"\"\n        # Always use structured chat agent for JSON response mode for better JSON formatting\n        try:\n            system_components = []\n\n            # 1. Agent Instructions (system_prompt)\n            agent_instructions = getattr(self, \"system_prompt\", \"\") or \"\"\n            if agent_instructions:\n                system_components.append(f\"{agent_instructions}\")\n\n            # 2. Format Instructions\n            format_instructions = getattr(self, \"format_instructions\", \"\") or \"\"\n            if format_instructions:\n                system_components.append(f\"Format instructions: {format_instructions}\")\n\n            # 3. Schema Information from BaseModel\n            if hasattr(self, \"output_schema\") and self.output_schema and len(self.output_schema) > 0:\n                try:\n                    processed_schema = self._preprocess_schema(self.output_schema)\n                    output_model = build_model_from_schema(processed_schema)\n                    schema_dict = output_model.model_json_schema()\n                    schema_info = (\n                        \"You are given some text that may include format instructions, \"\n                        \"explanations, or other content alongside a JSON schema.\\n\\n\"\n                        \"Your task:\\n\"\n                        \"- Extract only the JSON schema.\\n\"\n                        \"- Return it as valid JSON.\\n\"\n                        \"- Do not include format instructions, explanations, or extra text.\\n\\n\"\n                        \"Input:\\n\"\n                        f\"{json.dumps(schema_dict, indent=2)}\\n\\n\"\n                        \"Output (only JSON schema):\"\n                    )\n                    system_components.append(schema_info)\n                except (ValidationError, ValueError, TypeError, KeyError) as e:\n                    await logger.aerror(f\"Could not build schema for prompt: {e}\", exc_info=True)\n\n            # Combine all components\n            combined_instructions = \"\\n\\n\".join(system_components) if system_components else \"\"\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=combined_instructions,\n            )\n\n            # Create and run structured chat agent\n            try:\n                structured_agent = self.create_agent_runnable()\n            except (NotImplementedError, ValueError, TypeError) as e:\n                await logger.aerror(f\"Error with structured chat agent: {e}\")\n                raise\n            try:\n                result = await self.run_agent(structured_agent)\n            except (\n                ExceptionWithMessageError,\n                ValueError,\n                TypeError,\n                RuntimeError,\n            ) as e:\n                await logger.aerror(f\"Error with structured agent result: {e}\")\n                raise\n            # Extract content from structured agent result\n            if hasattr(result, \"content\"):\n                content = result.content\n            elif hasattr(result, \"text\"):\n                content = result.text\n            else:\n                content = str(result)\n\n        except (\n            ExceptionWithMessageError,\n            ValueError,\n            TypeError,\n            NotImplementedError,\n            AttributeError,\n        ) as e:\n            await logger.aerror(f\"Error with structured chat agent: {e}\")\n            # Fallback to regular agent\n            content_str = \"No content returned from agent\"\n            return Data(data={\"content\": content_str, \"error\": str(e)})\n\n        # Process with structured output validation\n        try:\n            structured_output = await self.build_structured_output_base(content)\n\n            # Handle different output formats\n            if isinstance(structured_output, list) and structured_output:\n                if len(structured_output) == 1:\n                    return Data(data=structured_output[0])\n                return Data(data={\"results\": structured_output})\n            if isinstance(structured_output, dict):\n                return Data(data=structured_output)\n            return Data(data={\"content\": content})\n\n        except (ValueError, TypeError) as e:\n            await logger.aerror(f\"Error in structured output processing: {e}\")\n            return Data(data={\"content\": content, \"error\": str(e)})\n\n    async def get_memory_data(self):\n        # TODO: This is a temporary fix to avoid message duplication. We should develop a function for this.\n        messages = (\n            await MemoryComponent(**self.get_base_args())\n            .set(\n                session_id=self.graph.session_id,\n                context_id=self.context_id,\n                order=\"Ascending\",\n                n_messages=self.n_messages,\n            )\n            .retrieve_messages()\n        )\n        return [\n            message for message in messages if getattr(message, \"id\", None) != getattr(self.input_value, \"id\", None)\n        ]\n\n    def update_input_types(self, build_config: dotdict) -> dotdict:\n        \"\"\"Update input types for all fields in build_config.\"\"\"\n        for key, value in build_config.items():\n            if isinstance(value, dict):\n                if value.get(\"input_types\") is None:\n                    build_config[key][\"input_types\"] = []\n            elif hasattr(value, \"input_types\") and value.input_types is None:\n                value.input_types = []\n        return build_config\n\n    async def update_build_config(\n        self,\n        build_config: dotdict,\n        field_value: list[dict],\n        field_name: str | None = None,\n    ) -> dotdict:\n        # Update model options with caching (for all field changes)\n        # Agents require tool calling, so filter for only tool-calling capable models\n        build_config = handle_model_input_update(\n            component=self,\n            build_config=dict(build_config),\n            field_value=field_value,\n            field_name=field_name,\n            cache_key_prefix=\"language_model_options_tool_calling\",\n            get_options_func=lambda user_id=None: get_language_model_options(user_id=user_id, tool_calling=True),\n        )\n        build_config = dotdict(build_config)\n\n        if field_name == \"model\":\n            build_config = self.update_input_types(build_config)\n\n            # Validate required keys\n            default_keys = [\n                \"code\",\n                \"_type\",\n                \"model\",\n                \"tools\",\n                \"input_value\",\n                \"add_current_date_tool\",\n                \"system_prompt\",\n                \"agent_description\",\n                \"max_iterations\",\n                \"handle_parsing_errors\",\n                \"verbose\",\n            ]\n            missing_keys = [key for key in default_keys if key not in build_config]\n            if missing_keys:\n                msg = f\"Missing required keys in build_config: {missing_keys}\"\n                raise ValueError(msg)\n        return dotdict({k: v.to_dict() if hasattr(v, \"to_dict\") else v for k, v in build_config.items()})\n\n    async def _get_tools(self) -> list[Tool]:\n        component_toolkit = get_component_toolkit()\n        tools_names = self._build_tools_names()\n        agent_description = self.get_tool_description()\n        # TODO: Agent Description Depreciated Feature to be removed\n        description = f\"{agent_description}{tools_names}\"\n\n        tools = component_toolkit(component=self).get_tools(\n            tool_name=\"Call_Agent\",\n            tool_description=description,\n            # here we do not use the shared callbacks as we are exposing the agent as a tool\n            callbacks=self.get_langchain_callbacks(),\n        )\n        if hasattr(self, \"tools_metadata\"):\n            tools = component_toolkit(component=self, metadata=self.tools_metadata).update_tools_metadata(tools=tools)\n\n        return tools\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "format_instructions": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Output Format Instructions",
+                "dynamic": false,
+                "info": "Generic Template for structured output formatting. Valid only with Structured response.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "format_instructions",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are an AI that extracts structured JSON objects from unstructured text. Use a predefined schema with expected types (str, int, float, bool, dict). Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. Fill missing or ambiguous values with defaults: null for missing values. Remove exact duplicates but keep variations that have different field values. Always return valid JSON in the expected format, never throw errors. If multiple objects can be extracted, return them all in the structured format."
+              },
+              "handle_parsing_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Handle Parse Errors",
+                "dynamic": false,
+                "info": "Should the Agent fix errors when reading user input for better processing?",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "handle_parsing_errors",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input provided by the user for the agent to process.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": true,
+              "max_iterations": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Iterations",
+                "dynamic": false,
+                "info": "The maximum number of attempts the agent can make to complete its task before it stops.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_iterations",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 15
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "model_type": "language",
+                "name": "model",
+                "options": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "default": true,
+                      "deprecated": false,
+                      "icon": "OpenAI",
+                      "model_type": "llm",
+                      "not_enabled_locally": true,
+                      "not_supported": false,
+                      "preview": false,
+                      "reasoning": true,
+                      "search": false,
+                      "tool_calling": true
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  }
+                ],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "default": true,
+                      "deprecated": false,
+                      "icon": "OpenAI",
+                      "model_type": "llm",
+                      "not_supported": false,
+                      "preview": false,
+                      "reasoning": true,
+                      "search": false,
+                      "tool_calling": true
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  }
+                ]
+              },
+              "n_messages": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Chat History Messages",
+                "dynamic": false,
+                "info": "Number of chat history messages to retrieve.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n_messages",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 100
+              },
+              "output_schema": {
+                "_input_type": "TableInput",
+                "advanced": true,
+                "display_name": "Output Schema",
+                "dynamic": false,
+                "info": "Schema Validation: Define the structure and data types for structured output. No validation if no output schema.",
+                "input_types": [
+                  "DataFrame",
+                  "Table"
+                ],
+                "is_list": true,
+                "list_add_label": "Add More",
+                "name": "output_schema",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "table_icon": "Table",
+                "table_schema": [
+                  {
+                    "default": "field",
+                    "description": "Specify the name of the output field.",
+                    "display_name": "Name",
+                    "edit_mode": "inline",
+                    "formatter": "text",
+                    "name": "name",
+                    "type": "str"
+                  },
+                  {
+                    "default": "description of field",
+                    "description": "Describe the purpose of the output field.",
+                    "display_name": "Description",
+                    "edit_mode": "popover",
+                    "formatter": "text",
+                    "name": "description",
+                    "type": "str"
+                  },
+                  {
+                    "default": "str",
+                    "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
+                    "display_name": "Type",
+                    "edit_mode": "inline",
+                    "formatter": "text",
+                    "name": "type",
+                    "options": [
+                      "str",
+                      "int",
+                      "float",
+                      "bool",
+                      "dict"
+                    ],
+                    "type": "str"
+                  },
+                  {
+                    "default": "False",
+                    "description": "Set to True if this output field should be a list of the specified type.",
+                    "display_name": "As List",
+                    "edit_mode": "inline",
+                    "formatter": "text",
+                    "name": "multiple",
+                    "type": "boolean"
+                  }
+                ],
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "trigger_icon": "Table",
+                "trigger_text": "Open table",
+                "type": "table",
+                "value": []
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "system_prompt": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Instructions",
+                "dynamic": false,
+                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_prompt",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are the ATLAS Vector Store Agent.\n\nYour sole purpose is to perform semantic similarity search over the ATLAS Knowledge Base using the provided semantic search tool.\n\nYou receive a text query from the Orchestrator. The query may describe:\n- An ATLAS entity name\n- A partial or approximate ATLAS entity name\n- A partial or approximate entity description\n- A threat scenario\n- A defense concept\n- A mitigation goal\n- A case-study-like scenario\n- A user’s natural-language description of adversarial behavior against AI systems\n\nDo not produce the final user-facing answer.\n\nReturn semantically relevant ATLAS entity candidates for the Orchestrator to verify, hydrate, rank, and synthesize.\n\nYour output must use the same top-level structure as the Dataset Agent response schema so the Orchestrator can process both agents consistently.\n\n---\n\n# Core Responsibility\n\nYou are responsible for semantic retrieval only.\n\nYou may:\n- Search for ATLAS entities that are semantically similar to the query.\n- Return multiple candidate entities when the query is broad, vague, or underspecified.\n- Identify approximate matches to entity names or descriptions.\n- Surface potentially relevant tactics, techniques, mitigations, and case studies.\n- Provide short evidence-based rationales in `notes`.\n- Note ambiguity or alternate interpretations in `notes`.\n\nYou must not:\n- Produce the final answer to the user.\n- Perform exact dataset hydration.\n- Perform authoritative ID lookup.\n- Perform relationship traversal.\n- Count, aggregate, sort, or analyze the full dataset.\n- Infer relationships that are not explicitly present in retrieved chunks.\n- Invent ATLAS IDs, names, URLs, descriptions, or relationships.\n- Treat semantic matches as verified facts.\n- Claim that a candidate is definitive unless the retrieved text strongly supports it.\n\nThe Dataset Agent is responsible for exact lookup, hydration, filtering, counting, relationship traversal, and dataset-grounded verification.\n\n---\n\n# Tool\n\n## `SEMANTIC_SEARCH`\n\nUse `SEMANTIC_SEARCH` for all semantic retrieval tasks.\n\n`SEMANTIC_SEARCH` performs semantic similarity search over ATLAS Knowledge Base entries.\n\nEach retrieved result may represent one ATLAS entity:\n- `tactic`\n- `technique`\n- `mitigation`\n- `casestudy`\n\nEach retrieved context chunk may contain:\n- `id`\n- `entity`\n- `name`\n- `text`\n- `url`\n- `PARENT_TACTICS`\n- `PARENT_TECHNIQUES`\n- `PARENT_MITIGATIONS`\n- `PARENT_CASESTUDIES`\n- `CHILD_TECHNIQUES`\n\nUse `SEMANTIC_SEARCH` when the Orchestrator asks for:\n- Relevant ATLAS entries for a natural-language scenario\n- Techniques related to a behavior or attack pattern\n- Mitigations related to a defense goal\n- Tactics, techniques, mitigations, or case studies matching an approximate description\n- Candidate IDs for later dataset hydration\n- Broad discovery over the ATLAS knowledge base\n- Similarity search against user-provided text\n\n---\n\n# Tool Use Rules\n\nAlways use `SEMANTIC_SEARCH` when responding to a semantic retrieval request.\n\nUse the Orchestrator’s instruction as the search query, but rewrite internally only when it improves retrieval clarity. Preserve the original query meaning in the returned `notes` when relevant.\n\nWhen the query is short, vague, or ambiguous:\n- Prefer recall over precision.\n- Return multiple plausible candidates.\n- Explain ambiguity in `notes`.\n- Include weaker candidates only when useful.\n\nWhen the query is specific:\n- Prefer precision.\n- Return the strongest matches first.\n- Avoid padding with weakly related candidates unless the Orchestrator requested broad recall.\n\nWhen the query appears to request exact dataset operations, do not attempt to answer them semantically. Return a routing-style structured response using the shared schema.\n\n---\n\n# Supported Query Types\n\nYou can perform semantic retrieval for queries such as:\n\n- “Find ATLAS techniques related to prompt injection.”\n- “What ATLAS entries are relevant to an attacker manipulating model outputs?”\n- “Find mitigations for training data poisoning.”\n- “Which ATLAS techniques resemble model evasion?”\n- “Find case studies involving adversarial examples.”\n- “What ATLAS concepts apply to stealing a model?”\n- “Find entries related to exfiltrating sensitive data from an AI system.”\n- “Find techniques where an attacker causes the model to behave incorrectly.”\n- “Find mitigations related to monitoring model behavior.”\n- “Find ATLAS entries relevant to this scenario: [scenario text].”\n\n---\n\n# Retrieval Strategy\n\nUse the user’s scenario or description to retrieve semantically similar ATLAS entities.\n\nWhen useful, emphasize these semantic dimensions:\n- Adversarial behavior\n- Targeted AI lifecycle phase\n- Attack objective\n- Attack mechanism\n- Defensive control or mitigation goal\n- Observable behavior\n- Impact on model, data, system, or user\n- Similarity to known ATLAS tactic, technique, mitigation, or case study descriptions\n\nDo not rely on general cybersecurity assumptions unless they are reflected in retrieved ATLAS text.\n\nDo not expand the scope beyond the query unless the Orchestrator explicitly asks for broad discovery.\n\n---\n\n# Ranking Guidance\n\nRank records by semantic relevance to the query.\n\nPrefer higher ranking for records where:\n- The retrieved `name` closely matches the query.\n- The retrieved `text` directly describes the behavior, defense, or scenario.\n- The retrieved entity type matches the requested type, if specified.\n- Multiple parts of the retrieved record support the match.\n- The match is specific rather than merely adjacent.\n\nLower ranking for records where:\n- The match is based on broad topical overlap only.\n- The entity is related to the general domain but not the specific behavior.\n- The retrieved text supports only part of the query.\n- The match depends on unstated assumptions.\n\nBecause the shared response schema does not include a dedicated `match_confidence` field, include confidence and rationale in `notes` rather than adding non-schema fields to each record.\n\n---\n\n# Match Confidence Guidance\n\nUse `notes` to communicate confidence when useful.\n\nUse `high confidence` when:\n- The query directly matches the entity name, or\n- The retrieved text clearly and specifically describes the requested behavior, defense, or scenario, or\n- The requested entity type and the retrieved entity type align exactly.\n\nUse `medium confidence` when:\n- The retrieved entity is plausibly relevant, but the match is indirect.\n- The result matches part of the query but not all of it.\n- The relationship to the query is clear but somewhat general.\n- The entity type is relevant but not explicitly requested.\n\nUse `low confidence` when:\n- The result is only broadly related.\n- The query is vague and the candidate is one possible interpretation.\n- The retrieved text has weak or partial overlap.\n- The candidate may be useful for exploration but needs verification.\n\nDo not use high-confidence language when the match depends on inference beyond retrieved text.\n\n---\n\n# Entity Type Handling\n\nIf the Orchestrator requests a specific entity type, such as techniques or mitigations:\n- Prefer records of that entity type.\n- Exclude unrelated entity types unless they are highly relevant and useful to the Orchestrator.\n- Note when returned records include other entity types.\n\nIf the Orchestrator does not specify an entity type:\n- Return the most semantically relevant mix of tactics, techniques, mitigations, and case studies.\n- Do not force diversity if one entity type clearly dominates the relevant results.\n\nUse `casestudy` exactly as the entity value for case studies.\n\n---\n\n# Relationship Handling\n\nRetrieved chunks may include relationship fields.\n\nYou may report relationships only when they are explicitly present in the retrieved chunk:\n- `PARENT_TACTICS`\n- `PARENT_TECHNIQUES`\n- `PARENT_MITIGATIONS`\n- `PARENT_CASESTUDIES`\n- `CHILD_TECHNIQUES`\n\nDo not:\n- Infer missing relationships.\n- Traverse relationships.\n- Hydrate related IDs.\n- Claim that a relationship exists unless it appears in the retrieved result.\n- Use relationships to answer structured graph questions.\n\nIf the Orchestrator needs relationship traversal or hydrated relationship details, note that the Dataset Agent or Graph Agent should handle that next.\n\n---\n\n# Handling Exact-ID Queries\n\nIf the query consists primarily of exact AML.IDs or asks to hydrate known IDs, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it using ID_LOOKUP.\"\n  ]\n}\n````\n\nIf the query includes both exact IDs and semantic context:\n\n* Use semantic search only for the natural-language portion if useful.\n* Include a note that exact IDs should be hydrated by the Dataset Agent.\n* Do not claim retrieved records are authoritative replacements for ID lookup.\n\n---\n\n# Handling Structured Dataset Queries\n\nIf the query asks for counts, filters, lists, field selection, aggregations, or relationship traversal, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle it using PANDAS_EXPERT or ID_LOOKUP.\"\n  ]\n}\n```\n\nExamples:\n\n* “How many techniques are there?”\n* “List all mitigations.”\n* “Which techniques have mitigations?”\n* “Return the URLs for all case studies.”\n* “What are the children of AML.M0003?”\n* “Which tactics have more than 10 child techniques?”\n\n---\n\n# Handling Graph Queries\n\nIf the query asks for graph structure, paths, neighborhoods, connected components, relationship chains, visualization, Kumu URL, or multi-hop traversal, semantic search is not appropriate unless the Orchestrator explicitly asks for candidate entities first.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation after IDs are verified.\"\n  ]\n}\n```\n\nExamples:\n\n* “Show all paths from this tactic to its mitigations.”\n* “What is connected to AML.T0001 within two hops?”\n* “Find clusters of related techniques.”\n* “Which mitigations connect the most techniques?”\n* “Find the shortest path between these entities.”\n* “Generate a Kumu graph for this scenario.”\n\n---\n\n# Output Format\n\nReturn JSON-compatible structured output using the same top-level response structure as the Dataset Agent.\n\nDo not use `results`, `candidate_ids`, `relationships_observed`, `summary`, or `match_confidence` as top-level or per-record fields.\n\nPlace retrieved candidate entities in `records`.\n\nPlace match rationales, confidence, ambiguity, and routing guidance in `notes`.\n\n---\n\n## Successful semantic retrieval response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS description or context text.\",\n      \"url\": \"URL if available\",\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"Semantic candidate retrieval only. Records should be verified or hydrated by the Dataset Agent before final use.\",\n    \"AML...: high confidence because the retrieved text directly matches the scenario.\"\n  ]\n}\n```\n\n---\n\n## Weak or ambiguous semantic retrieval response\n\nUse this when there are plausible semantic candidates but the query is broad, vague, or the matches are only partial.\n\n```json\n{\n  \"status\": \"partial_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS description or context text.\",\n      \"url\": \"URL if available\",\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"The query is broad or ambiguous. These are candidate semantic matches, not verified final answers.\",\n    \"AML...: medium confidence because the retrieved text partially overlaps with the query.\",\n    \"The Dataset Agent should hydrate and verify selected candidate IDs before final synthesis.\"\n  ]\n}\n```\n\n---\n\n## No useful semantic matches response\n\nUse this only when the semantic search returns no usable candidates.\n\n```json\n{\n  \"status\": \"no_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [],\n  \"notes\": [\n    \"No useful semantic matches were found in the retrieved ATLAS context.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset lookup response\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset analysis response\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle filtering, counting, aggregation, or relationship lookup.\"\n  ]\n}\n```\n\n---\n\n## Needs graph analysis response\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation.\"\n  ]\n}\n```\n\n---\n\n# Record Construction Rules\n\nFor each retrieved record:\n\n* Preserve the retrieved `id` exactly.\n* Preserve the retrieved `entity` exactly, except use `casestudy` consistently for case studies.\n* Preserve the retrieved `name` exactly.\n* Include retrieved `text` exactly or as the most relevant available retrieved description/context.\n* Include the retrieved `url` if available.\n* Include relationship fields only when explicitly present in the retrieved chunk.\n* Use empty arrays for missing relationship fields.\n* Do not include fields outside the shared record schema.\n\nRequired record fields:\n\n```json\n{\n  \"id\": \"...\",\n  \"entity\": \"...\",\n  \"name\": \"...\",\n  \"text\": \"...\",\n  \"url\": \"...\",\n  \"PARENT_TACTICS\": [],\n  \"PARENT_TECHNIQUES\": [],\n  \"PARENT_MITIGATIONS\": [],\n  \"PARENT_CASESTUDIES\": [],\n  \"CHILD_TECHNIQUES\": []\n}\n```\n\nDo not include duplicate IDs in `records`.\n\nIf multiple chunks refer to the same entity:\n\n* Merge them into one record.\n* Keep the clearest and most relevant text available.\n* Preserve observed relationships without inventing missing ones.\n* Add a note if multiple chunks supported the same candidate.\n\n---\n\n# Notes Guidance\n\nUse `notes` to tell the Orchestrator:\n\n* That returned records are semantic candidates.\n* Whether the query was ambiguous.\n* Whether matches are high, medium, or low confidence.\n* Why each important candidate matched the query.\n* Whether exact hydration should be performed by the Dataset Agent.\n* Whether relationship traversal should be performed by the Graph Agent or Dataset Agent.\n* Whether the search was constrained by retrieved context.\n\nKeep notes concise and operational.\n\nPreferred note format for candidate rationales:\n\n```text\nAML.T####: high confidence — retrieved text directly describes [brief reason].\nAML.T####: medium confidence — overlaps with [brief reason], but does not cover [missing aspect].\nAML.T####: low confidence — broad topical overlap only.\n```\n\n---\n\n# Constraints\n\n* Always ground records in retrieved vector-store content.\n* Do not invent ATLAS IDs.\n* Do not invent entity names.\n* Do not invent text, URLs, or relationships.\n* Do not infer missing relationships.\n* Do not hydrate related IDs.\n* Do not count, aggregate, or analyze the full dataset.\n* Do not perform graph traversal.\n* Do not provide final user-facing synthesis.\n* Treat semantic results as candidates, not authoritative final answers.\n* Prefer recall over precision for broad or ambiguous queries.\n* Prefer precision over recall for specific queries.\n* If no strong matches are found, return the closest weak matches when useful.\n* Use `casestudy` consistently as the entity value."
+              },
+              "tools": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Tools",
+                "dynamic": false,
+                "info": "These are the tools that the agent can use to help with tasks.",
+                "input_types": [
+                  "Tool"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tools",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "verbose": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Verbose",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "verbose",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Agent"
+        },
+        "dragging": false,
+        "id": "Agent-al4uJ",
+        "measured": {
+          "height": 479,
+          "width": 320
+        },
+        "position": {
+          "x": 1480.1952540614334,
+          "y": 556.9966637282783
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "OpenAIModel-kXGna",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generates text using AIP LLMs.",
+            "display_name": "AIP LLM",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_tokens",
+              "model_kwargs",
+              "json_mode",
+              "model_name",
+              "openai_api_base",
+              "api_key",
+              "temperature",
+              "seed",
+              "max_retries",
+              "timeout"
+            ],
+            "frozen": false,
+            "icon": "OpenAI",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "d574e16d78cb",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "langchain_openai",
+                    "version": "1.1.12"
+                  },
+                  {
+                    "name": "pydantic",
+                    "version": "2.12.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.0"
+                  },
+                  {
+                    "name": "openai",
+                    "version": "2.31.0"
+                  }
+                ],
+                "total_dependencies": 4
+              },
+              "keywords": [
+                "model",
+                "llm",
+                "language model",
+                "large language model"
+              ],
+              "module": "custom_components.aip_llm"
+            },
+            "minimized": false,
+            "official": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Model Response",
+                "group_outputs": false,
+                "method": "text_response",
+                "name": "text_output",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "group_outputs": false,
+                "method": "build_model",
+                "name": "model_output",
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "OpenAI API Key",
+                "dynamic": false,
+                "info": "The OpenAI API Key to use for the OpenAI model.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "MY_AIP_API_KEY"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom langchain_openai import ChatOpenAI\nfrom pydantic.v1 import SecretStr\n\nfrom lfx.base.models.model import LCModelComponent\nfrom lfx.base.models.openai_constants import OPENAI_CHAT_MODEL_NAMES, OPENAI_REASONING_MODEL_NAMES\nfrom lfx.field_typing import LanguageModel\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.inputs.inputs import BoolInput, DictInput, DropdownInput, IntInput, SecretStrInput, SliderInput, StrInput\nfrom lfx.log.logger import logger\n\n\nclass OpenAIModelComponent(LCModelComponent):\n    display_name = \"AIP LLM\"\n    description = \"Generates text using AIP LLMs.\"\n    icon = \"OpenAI\"\n    name = \"OpenAIModel\"\n\n    inputs = [\n        *LCModelComponent.get_base_inputs(),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            advanced=True,\n            info=\"The maximum number of tokens to generate. Set to 0 for unlimited tokens.\",\n            range_spec=RangeSpec(min=0, max=128000),\n        ),\n        DictInput(\n            name=\"model_kwargs\",\n            display_name=\"Model Kwargs\",\n            advanced=True,\n            info=\"Additional keyword arguments to pass to the model.\",\n        ),\n        BoolInput(\n            name=\"json_mode\",\n            display_name=\"JSON Mode\",\n            advanced=True,\n            info=\"If True, it will output JSON regardless of passing a schema.\",\n        ),\n        StrInput(\n            name=\"model_name\",\n            display_name=\"Model Name\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"openai_api_base\",\n            display_name=\"OpenAI API Base\",\n            advanced=True,\n            info=\"The base URL of the OpenAI API. \"\n            \"Defaults to https://api.openai.com/v1. \"\n            \"You can change this to use other APIs like JinaChat, LocalAI and Prem.\",\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"OpenAI API Key\",\n            info=\"The OpenAI API Key to use for the OpenAI model.\",\n            advanced=False,\n            value=\"OPENAI_API_KEY\",\n            required=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=1, step=0.01),\n            show=True,\n        ),\n        IntInput(\n            name=\"seed\",\n            display_name=\"Seed\",\n            info=\"The seed controls the reproducibility of the job.\",\n            advanced=True,\n            value=1,\n        ),\n        IntInput(\n            name=\"max_retries\",\n            display_name=\"Max Retries\",\n            info=\"The maximum number of retries to make when generating.\",\n            advanced=True,\n            value=5,\n        ),\n        IntInput(\n            name=\"timeout\",\n            display_name=\"Timeout\",\n            info=\"The timeout for requests to OpenAI completion API.\",\n            advanced=True,\n            value=700,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        logger.debug(f\"Executing request with model: {self.model_name}\")\n        # Handle api_key - it can be string or SecretStr\n        api_key_value = None\n        if self.api_key:\n            logger.debug(f\"API key type: {type(self.api_key)}, value: {'***' if self.api_key else None}\")\n            if isinstance(self.api_key, SecretStr):\n                api_key_value = self.api_key.get_secret_value()\n            else:\n                api_key_value = str(self.api_key)\n        logger.debug(f\"Final api_key_value type: {type(api_key_value)}, value: {'***' if api_key_value else None}\")\n\n        # Handle model_kwargs and ensure api_key doesn't conflict\n        model_kwargs = self.model_kwargs or {}\n        # Remove api_key from model_kwargs if it exists to prevent conflicts\n        if \"api_key\" in model_kwargs:\n            logger.warning(\"api_key found in model_kwargs, removing to prevent conflicts\")\n            model_kwargs = dict(model_kwargs)  # Make a copy\n            del model_kwargs[\"api_key\"]\n\n        parameters = {\n            \"api_key\": api_key_value,\n            \"model_name\": self.model_name,\n            \"max_tokens\": self.max_tokens or None,\n            \"model_kwargs\": model_kwargs,\n            \"base_url\": self.openai_api_base or \"https://api.openai.com/v1\",\n            \"max_retries\": self.max_retries,\n            \"timeout\": self.timeout,\n        }\n\n        # TODO: Revisit if/once parameters are supported for reasoning models\n        unsupported_params_for_reasoning_models = [\"temperature\", \"seed\"]\n\n        if self.model_name not in OPENAI_REASONING_MODEL_NAMES:\n            parameters[\"temperature\"] = self.temperature if self.temperature is not None else 0.1\n            parameters[\"seed\"] = self.seed\n        else:\n            params_str = \", \".join(unsupported_params_for_reasoning_models)\n            logger.debug(f\"{self.model_name} is a reasoning model, {params_str} are not configurable. Ignoring.\")\n\n        # Ensure all parameter values are the correct types\n        if isinstance(parameters.get(\"api_key\"), SecretStr):\n            parameters[\"api_key\"] = parameters[\"api_key\"].get_secret_value()\n        output = ChatOpenAI(**parameters)\n        if self.json_mode:\n            output = output.bind(response_format={\"type\": \"json_object\"})\n\n        return output\n\n    def _get_exception_message(self, e: Exception):\n        \"\"\"Get a message from an OpenAI exception.\n\n        Args:\n            e (Exception): The exception to get the message from.\n\n        Returns:\n            str: The message from the exception.\n        \"\"\"\n        try:\n            from openai import BadRequestError\n        except ImportError:\n            return None\n        if isinstance(e, BadRequestError):\n            message = e.body.get(\"message\")\n            if message:\n                return message\n        return None\n\n    def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None) -> dict:\n        if field_name in {\"base_url\", \"model_name\", \"api_key\"} and field_value in OPENAI_REASONING_MODEL_NAMES:\n            build_config[\"temperature\"][\"show\"] = False\n            build_config[\"seed\"][\"show\"] = False\n            # Hide system_message for o1 models - currently unsupported\n            if field_value.startswith(\"o1\") and \"system_message\" in build_config:\n                build_config[\"system_message\"][\"show\"] = False\n        if field_name in {\"base_url\", \"model_name\", \"api_key\"} and field_value in OPENAI_CHAT_MODEL_NAMES:\n            build_config[\"temperature\"][\"show\"] = True\n            build_config[\"seed\"][\"show\"] = True\n            if \"system_message\" in build_config:\n                build_config[\"system_message\"][\"show\"] = True\n        return build_config\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": true,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "json_mode": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "JSON Mode",
+                "dynamic": false,
+                "info": "If True, it will output JSON regardless of passing a schema.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "json_mode",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_retries": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Retries",
+                "dynamic": false,
+                "info": "The maximum number of retries to make when generating.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_retries",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 5
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate. Set to 0 for unlimited tokens.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 0,
+                  "step": 0.1,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model_kwargs": {
+                "_input_type": "DictInput",
+                "advanced": true,
+                "display_name": "Model Kwargs",
+                "dynamic": false,
+                "info": "Additional keyword arguments to pass to the model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "model_kwargs",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "dict",
+                "value": {}
+              },
+              "model_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Model Name",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "model_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "devstral"
+              },
+              "openai_api_base": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "OpenAI API Base",
+                "dynamic": false,
+                "info": "The base URL of the OpenAI API. Defaults to https://api.openai.com/v1. You can change this to use other APIs like JinaChat, LocalAI and Prem.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "openai_api_base",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "https://models.k8s.aip.mitre.org/v1"
+              },
+              "seed": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Seed",
+                "dynamic": false,
+                "info": "The seed controls the reproducibility of the job.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "seed",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 1
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 1,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "track_in_telemetry": false,
+                "type": "slider",
+                "value": 0.2
+              },
+              "timeout": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Timeout",
+                "dynamic": false,
+                "info": "The timeout for requests to OpenAI completion API.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "timeout",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 700
+              }
+            },
+            "tool_mode": false
+          },
+          "selected_output": "model_output",
+          "showNode": true,
+          "type": "OpenAIModel"
+        },
+        "dragging": false,
+        "id": "OpenAIModel-kXGna",
+        "measured": {
+          "height": 459,
+          "width": 320
+        },
+        "position": {
+          "x": 859.7119622130095,
+          "y": 11.922971280502125
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatInput-MzJmW",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "files"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "7a26c54d89ed",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 1
+              },
+              "module": "lfx.components.input_output.chat.ChatInput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chat Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from lfx.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.inputs.inputs import BoolInput\nfrom lfx.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom lfx.schema.message import Message\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Input Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Chat Message\", name=\"message\", method=\"message_response\"),\n    ]\n\n    async def message_response(self) -> Message:\n        # Ensure files is a list and filter out empty/None values\n        files = self.files if self.files else []\n        if files and not isinstance(files, list):\n            files = [files]\n        # Filter out None/empty values\n        files = [f for f in files if f is not None and f != \"\"]\n\n        session_id = self.session_id or self.graph.session_id or \"\"\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=session_id,\n            context_id=self.context_id,\n            files=files,\n        )\n        if session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "csv",
+                  "json",
+                  "pdf",
+                  "txt",
+                  "md",
+                  "mdx",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Input Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-MzJmW",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": 1147.0495462925676,
+          "y": 998.8268578713725
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-fAngC",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "https://docs.langflow.org/chat-input-and-output",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "context_id",
+              "data_template",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "84009527d08c",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "orjson",
+                    "version": "3.11.8"
+                  },
+                  {
+                    "name": "fastapi",
+                    "version": "0.136.1"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": null
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "lfx.components.input_output.chat_output.ChatOutput"
+            },
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output Message",
+                "group_outputs": false,
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean data before converting to string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nimport orjson\nfrom fastapi.encoders import jsonable_encoder\n\nfrom lfx.base.io.chat import ChatComponent\nfrom lfx.helpers.data import safe_convert\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, HandleInput, MessageTextInput\nfrom lfx.schema.data import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\nfrom lfx.schema.properties import Source\nfrom lfx.template.field.base import Output\nfrom lfx.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    documentation: str = \"https://docs.langflow.org/chat-input-and-output\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Inputs\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"JSON\", \"DataFrame\", \"Table\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            advanced=True,\n            info=\"Whether to clean data before converting to string.\",\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Output Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n\n        # Get source properties\n        source, _, display_name, source_id = self.get_properties_from_source_component()\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message) and not self.is_connected_to_chat_input():\n            message = self.input_value\n            # Update message properties\n            message.text = text\n            # Preserve existing session_id from the incoming message if it exists\n            existing_session_id = message.session_id\n        else:\n            message = Message(text=text)\n            existing_session_id = None\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        # Preserve session_id from incoming message, or use component/graph session_id\n        message.session_id = (\n            self.session_id or existing_session_id or (self.graph.session_id if hasattr(self, \"graph\") else None) or \"\"\n        )\n        message.context_id = self.context_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n\n        # Store message if needed\n        if message.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        # Set accumulated token usage from all upstream LLM vertices.\n        # This must happen AFTER send_message() because streaming captures\n        # usage from chunks and would overwrite accumulated totals.\n        if hasattr(self, \"_vertex\") and self._vertex is not None:\n            accumulated_usage = self._vertex._accumulate_upstream_token_usage()  # noqa: SLF001\n            if accumulated_usage:\n                message.properties.usage = accumulated_usage\n                if self.should_store_message and message.get_id():\n                    message = await self._update_stored_message(message)\n                    await self._send_message_event(message, id_=message.get_id())\n\n        self.status = message\n        return message\n\n    def _serialize_data(self, data: Data) -> str:\n        \"\"\"Serialize Data object to JSON string.\"\"\"\n        # Convert data.data to JSON-serializable format\n        serializable_data = jsonable_encoder(data.data)\n        # Serialize with orjson, enabling pretty printing with indentation\n        json_bytes = orjson.dumps(serializable_data, option=orjson.OPT_INDENT_2)\n        # Convert bytes to string and wrap in Markdown code blocks\n        return \"```json\\n\" + json_bytes.decode(\"utf-8\") + \"\\n```\"\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            clean_data: bool = getattr(self, \"clean_data\", False)\n            return \"\\n\".join([safe_convert(item, clean_data=clean_data) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return safe_convert(self.input_value)\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Inputs",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "JSON",
+                  "DataFrame",
+                  "Table",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "external_options": {},
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "dragging": false,
+        "id": "ChatOutput-fAngC",
+        "measured": {
+          "height": 52,
+          "width": 192
+        },
+        "position": {
+          "x": 1938.6556928600487,
+          "y": 1013.5495536210248
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": -139.65033685623644,
+      "y": 44.89846689950542,
+      "zoom": 1.150007602047299
+    }
+  },
+  "description": "ATLAS Vector Store Agent",
+  "endpoint_name": null,
+  "id": "cbc7c107-a49b-4302-8a43-77af20c0d696",
+  "is_component": false,
+  "last_tested_version": "1.9.2",
+  "locked": false,
+  "name": "ATLAS Vector Store Agent",
+  "tags": []
+}
