@@ -6,8 +6,64 @@
         "className": "",
         "data": {
           "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-FENAv",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-UUhba",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "xy-edge__OpenAIModel-FENAv{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-FENAvœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-UUhba{œfieldNameœ:œmodelœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-FENAv",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-FENAvœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-UUhba",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CSVPythonREPL",
+            "id": "CSVPythonREPL-C5dtq",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-UUhba",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CSVPythonREPL-C5dtq{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-C5dtqœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-UUhba{œfieldNameœ:œtoolsœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CSVPythonREPL-C5dtq",
+        "sourceHandle": "{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-C5dtqœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-UUhba",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-ZdU0C",
+            "id": "ChatInput-mmt2f",
             "name": "message",
             "output_types": [
               "Message"
@@ -15,19 +71,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-GiREP",
+            "id": "Agent-UUhba",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__ChatInput-ZdU0C{œdataTypeœ:œChatInputœ,œidœ:œChatInput-ZdU0Cœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-GiREP{œfieldNameœ:œinput_valueœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__ChatInput-mmt2f{œdataTypeœ:œChatInputœ,œidœ:œChatInput-mmt2fœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-UUhba{œfieldNameœ:œinput_valueœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-ZdU0C",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-ZdU0Cœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-GiREP",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-mmt2f",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-mmt2fœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-UUhba",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-UUhbaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -35,7 +91,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-GiREP",
+            "id": "Agent-UUhba",
             "name": "response",
             "output_types": [
               "Message"
@@ -43,7 +99,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-VsyU3",
+            "id": "ChatOutput-6tPbg",
             "inputTypes": [
               "Data",
               "JSON",
@@ -54,677 +110,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__Agent-GiREP{œdataTypeœ:œAgentœ,œidœ:œAgent-GiREPœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-VsyU3{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-VsyU3œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__Agent-UUhba{œdataTypeœ:œAgentœ,œidœ:œAgent-UUhbaœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-6tPbg{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-6tPbgœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-GiREP",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-GiREPœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-VsyU3",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-VsyU3œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-yzKv1",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-GiREP",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-yzKv1{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yzKv1œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-GiREP{œfieldNameœ:œmodelœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-yzKv1",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yzKv1œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-GiREP",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "CSVPythonREPL",
-            "id": "CustomComponent-4F4Xg",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-GiREP",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__CustomComponent-4F4Xg{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCustomComponent-4F4Xgœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-GiREP{œfieldNameœ:œtoolsœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "CustomComponent-4F4Xg",
-        "sourceHandle": "{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCustomComponent-4F4Xgœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-GiREP",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-GiREPœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Agent-UUhba",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-UUhbaœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-6tPbg",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-6tPbgœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "Agent-GiREP",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Define the agent's instructions, then enter a task to complete using tools.",
-            "display_name": "Agent",
-            "documentation": "https://docs.langflow.org/agents",
-            "edited": false,
-            "field_order": [
-              "model",
-              "api_key",
-              "base_url_ibm_watsonx",
-              "project_id",
-              "system_prompt",
-              "context_id",
-              "n_messages",
-              "max_tokens",
-              "format_instructions",
-              "output_schema",
-              "tools",
-              "input_value",
-              "handle_parsing_errors",
-              "verbose",
-              "max_iterations",
-              "agent_description",
-              "add_current_date_tool"
-            ],
-            "frozen": false,
-            "icon": "bot",
-            "last_updated": "2026-06-11T13:48:49.406Z",
-            "legacy": false,
-            "lf_version": "1.9.2",
-            "metadata": {
-              "code_hash": "154c71cf7441",
-              "dependencies": {
-                "dependencies": [
-                  {
-                    "name": "pydantic",
-                    "version": "2.12.5"
-                  },
-                  {
-                    "name": "lfx",
-                    "version": null
-                  },
-                  {
-                    "name": "langchain_core",
-                    "version": "1.3.2"
-                  }
-                ],
-                "total_dependencies": 3
-              },
-              "module": "lfx.components.models_and_agents.agent.AgentComponent"
-            },
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Response",
-                "group_outputs": false,
-                "hidden": null,
-                "loop_types": null,
-                "method": "message_response",
-                "name": "response",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_frontend_node_flow_id": {
-                "input_types": [],
-                "value": "d6b1680f-5a52-463b-b0d2-df373b765027"
-              },
-              "_frontend_node_folder_id": {
-                "input_types": [],
-                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
-              },
-              "_type": "Component",
-              "add_current_date_tool": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Current Date",
-                "dynamic": false,
-                "info": "If true, will add a tool to the agent that returns the current date.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "add_current_date_tool",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": true
-              },
-              "agent_description": {
-                "_input_type": "MultilineInput",
-                "advanced": true,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Agent Description [Deprecated]",
-                "dynamic": false,
-                "info": "The description of the agent. This is only used when in Tool Mode. Defaults to 'A helpful assistant with access to the following tools:' and tools are added dynamically. This feature is deprecated and will be removed in future versions.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "agent_description",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "A helpful assistant with access to the following tools:"
-              },
-              "api_key": {
-                "_input_type": "SecretStrInput",
-                "advanced": true,
-                "display_name": "API Key",
-                "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
-                "input_types": [],
-                "load_from_db": false,
-                "name": "api_key",
-                "override_skip": false,
-                "password": true,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "base_url_ibm_watsonx": {
-                "_input_type": "DropdownInput",
-                "advanced": false,
-                "combobox": true,
-                "dialog_inputs": {},
-                "display_name": "watsonx API Endpoint",
-                "dynamic": false,
-                "external_options": {},
-                "info": "The base URL of the API (IBM watsonx.ai only)",
-                "input_types": [],
-                "name": "base_url_ibm_watsonx",
-                "options": [
-                  "https://us-south.ml.cloud.ibm.com",
-                  "https://eu-de.ml.cloud.ibm.com",
-                  "https://eu-gb.ml.cloud.ibm.com",
-                  "https://au-syd.ml.cloud.ibm.com",
-                  "https://jp-tok.ml.cloud.ibm.com",
-                  "https://ca-tor.ml.cloud.ibm.com"
-                ],
-                "options_metadata": [],
-                "override_skip": false,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "str",
-                "value": "https://us-south.ml.cloud.ibm.com"
-              },
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "input_types": [],
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from __future__ import annotations\n\nimport json\nimport re\nfrom typing import TYPE_CHECKING\n\nfrom pydantic import ValidationError\n\nfrom lfx.components.models_and_agents.memory import MemoryComponent\n\nif TYPE_CHECKING:\n    from langchain_core.tools import Tool\n\nfrom lfx.base.agents.agent import LCToolsAgentComponent\nfrom lfx.base.agents.events import ExceptionWithMessageError\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.agentics.helpers.model_config import validate_model_selection\nfrom lfx.components.helpers import CurrentDateComponent\nfrom lfx.components.langchain_utilities.tool_calling import ToolCallingAgentComponent\nfrom lfx.custom.custom_component.component import get_component_toolkit\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, ModelInput, StrInput\nfrom lfx.io import IntInput, MessageTextInput, MultilineInput, Output, SecretStrInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\ndef set_advanced_true(component_input):\n    component_input.advanced = True\n    return component_input\n\n\nclass AgentComponent(ToolCallingAgentComponent):\n    display_name: str = \"Agent\"\n    description: str = \"Define the agent's instructions, then enter a task to complete using tools.\"\n    documentation: str = \"https://docs.langflow.org/agents\"\n    icon = \"bot\"\n    beta = False\n    name = \"Agent\"\n\n    memory_inputs = [set_advanced_true(component_input) for component_input in MemoryComponent().inputs]\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        MultilineInput(\n            name=\"system_prompt\",\n            display_name=\"Agent Instructions\",\n            info=\"System Prompt: Initial instructions and context provided to guide the agent's behavior.\",\n            value=\"You are a helpful assistant that can use tools to answer questions and perform tasks.\",\n            advanced=False,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"n_messages\",\n            display_name=\"Number of Chat History Messages\",\n            value=100,\n            info=\"Number of chat history messages to retrieve.\",\n            advanced=True,\n            show=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n        MultilineInput(\n            name=\"format_instructions\",\n            display_name=\"Output Format Instructions\",\n            info=\"Generic Template for structured output formatting. Valid only with Structured response.\",\n            value=(\n                \"You are an AI that extracts structured JSON objects from unstructured text. \"\n                \"Use a predefined schema with expected types (str, int, float, bool, dict). \"\n                \"Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. \"\n                \"Fill missing or ambiguous values with defaults: null for missing values. \"\n                \"Remove exact duplicates but keep variations that have different field values. \"\n                \"Always return valid JSON in the expected format, never throw errors. \"\n                \"If multiple objects can be extracted, return them all in the structured format.\"\n            ),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"output_schema\",\n            display_name=\"Output Schema\",\n            info=(\n                \"Schema Validation: Define the structure and data types for structured output. \"\n                \"No validation if no output schema.\"\n            ),\n            advanced=True,\n            required=False,\n            value=[],\n            table_schema=[\n                {\n                    \"name\": \"name\",\n                    \"display_name\": \"Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Specify the name of the output field.\",\n                    \"default\": \"field\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"description\",\n                    \"display_name\": \"Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Describe the purpose of the output field.\",\n                    \"default\": \"description of field\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"type\",\n                    \"display_name\": \"Type\",\n                    \"type\": \"str\",\n                    \"edit_mode\": EditMode.INLINE,\n                    \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n                    \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n                    \"default\": \"str\",\n                },\n                {\n                    \"name\": \"multiple\",\n                    \"display_name\": \"As List\",\n                    \"type\": \"boolean\",\n                    \"description\": \"Set to True if this output field should be a list of the specified type.\",\n                    \"default\": \"False\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n            ],\n        ),\n        *LCToolsAgentComponent.get_base_inputs(),\n        # removed memory inputs from agent component\n        # *memory_inputs,\n        BoolInput(\n            name=\"add_current_date_tool\",\n            display_name=\"Current Date\",\n            advanced=True,\n            info=\"If true, will add a tool to the agent that returns the current date.\",\n            value=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"response\", display_name=\"Response\", method=\"message_response\"),\n    ]\n\n    def _resolve_selected_model(self):\n        \"\"\"Resolve the selected model, including legacy agent_llm/model_name inputs.\"\"\"\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            if isinstance(self.model, BaseLanguageModel):\n                return self.model\n        except ImportError:\n            pass\n\n        if isinstance(self.model, list) and self.model:\n            return self.model\n\n        legacy_provider = getattr(self, \"agent_llm\", None)\n        legacy_model_name = getattr(self, \"model_name\", None)\n        if not legacy_provider or not legacy_model_name:\n            return self.model\n\n        options = get_language_model_options(user_id=self.user_id)\n        for option in options:\n            if option.get(\"provider\") == legacy_provider and option.get(\"name\") == legacy_model_name:\n                return [option]\n\n        return [\n            {\n                \"name\": legacy_model_name,\n                \"provider\": legacy_provider,\n                \"metadata\": {},\n            }\n        ]\n\n    def _get_max_tokens_value(self):\n        \"\"\"Return the user-supplied max_tokens or None when unset/zero.\"\"\"\n        val = getattr(self, \"max_tokens\", None)\n        if val in {\"\", 0}:\n            return None\n        return val\n\n    def _get_llm(self):\n        \"\"\"Override parent to include max_tokens from the Agent's input field.\"\"\"\n        return get_llm(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=getattr(self, \"api_key\", None),\n            max_tokens=self._get_max_tokens_value(),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n        )\n\n    async def get_agent_requirements(self):\n        \"\"\"Get the agent requirements for the agent.\"\"\"\n        from langchain_core.tools import StructuredTool\n\n        selected_model = self._resolve_selected_model()\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            is_connected_model = isinstance(selected_model, BaseLanguageModel)\n        except ImportError:\n            is_connected_model = False\n\n        if not is_connected_model:\n            validate_model_selection(selected_model)\n\n        # Ensure _get_llm() uses the resolved model (e.g. from legacy agent_llm/model_name)\n        self.model = selected_model\n        llm_model = self._get_llm()\n        if llm_model is None:\n            msg = \"No language model selected. Please choose a model to proceed.\"\n            raise ValueError(msg)\n\n        # Get memory data\n        self.chat_history = await self.get_memory_data()\n        await logger.adebug(f\"Retrieved {len(self.chat_history)} chat history messages\")\n        if isinstance(self.chat_history, Message):\n            self.chat_history = [self.chat_history]\n\n        # Add current date tool if enabled\n        if self.add_current_date_tool:\n            if not isinstance(self.tools, list):  # type: ignore[has-type]\n                self.tools = []\n            current_date_tool = (await CurrentDateComponent(**self.get_base_args()).to_toolkit()).pop(0)\n\n            if not isinstance(current_date_tool, StructuredTool):\n                msg = \"CurrentDateComponent must be converted to a StructuredTool\"\n                raise TypeError(msg)\n            self.tools.append(current_date_tool)\n\n        # Set shared callbacks for tracing the tools used by the agent\n        self.set_tools_callbacks(self.tools, self._get_shared_callbacks())\n\n        return llm_model, self.chat_history, self.tools\n\n    async def message_response(self) -> Message:\n        try:\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            # Set up and run agent\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=self.system_prompt,\n            )\n            agent = self.create_agent_runnable()\n            result = await self.run_agent(agent)\n\n            # Store result for potential JSON output\n            self._agent_result = result\n\n        except (ValueError, TypeError, KeyError) as e:\n            await logger.aerror(f\"{type(e).__name__}: {e!s}\")\n            raise\n        except ExceptionWithMessageError as e:\n            await logger.aerror(f\"ExceptionWithMessageError occurred: {e}\")\n            raise\n        # Avoid catching blind Exception; let truly unexpected exceptions propagate\n        except Exception as e:\n            await logger.aerror(f\"Unexpected error: {e!s}\")\n            raise\n        else:\n            return result\n\n    def _preprocess_schema(self, schema):\n        \"\"\"Preprocess schema to ensure correct data types for build_model_from_schema.\"\"\"\n        processed_schema = []\n        for field in schema:\n            processed_field = {\n                \"name\": str(field.get(\"name\", \"field\")),\n                \"type\": str(field.get(\"type\", \"str\")),\n                \"description\": str(field.get(\"description\", \"\")),\n                \"multiple\": field.get(\"multiple\", False),\n            }\n            # Ensure multiple is handled correctly\n            if isinstance(processed_field[\"multiple\"], str):\n                processed_field[\"multiple\"] = processed_field[\"multiple\"].lower() in [\n                    \"true\",\n                    \"1\",\n                    \"t\",\n                    \"y\",\n                    \"yes\",\n                ]\n            processed_schema.append(processed_field)\n        return processed_schema\n\n    async def build_structured_output_base(self, content: str):\n        \"\"\"Build structured output with optional BaseModel validation.\"\"\"\n        json_pattern = r\"\\{.*\\}\"\n        schema_error_msg = \"Try setting an output schema\"\n\n        # Try to parse content as JSON first\n        json_data = None\n        try:\n            json_data = json.loads(content)\n        except json.JSONDecodeError:\n            json_match = re.search(json_pattern, content, re.DOTALL)\n            if json_match:\n                try:\n                    json_data = json.loads(json_match.group())\n                except json.JSONDecodeError:\n                    return {\"content\": content, \"error\": schema_error_msg}\n            else:\n                return {\"content\": content, \"error\": schema_error_msg}\n\n        # If no output schema provided, return parsed JSON without validation\n        if not hasattr(self, \"output_schema\") or not self.output_schema or len(self.output_schema) == 0:\n            return json_data\n\n        # Use BaseModel validation with schema\n        try:\n            processed_schema = self._preprocess_schema(self.output_schema)\n            output_model = build_model_from_schema(processed_schema)\n\n            # Validate against the schema\n            if isinstance(json_data, list):\n                # Multiple objects\n                validated_objects = []\n                for item in json_data:\n                    try:\n                        validated_obj = output_model.model_validate(item)\n                        validated_objects.append(validated_obj.model_dump())\n                    except ValidationError as e:\n                        await logger.aerror(f\"Validation error for item: {e}\")\n                        # Include invalid items with error info\n                        validated_objects.append({\"data\": item, \"validation_error\": str(e)})\n                return validated_objects\n\n            # Single object\n            try:\n                validated_obj = output_model.model_validate(json_data)\n                return [validated_obj.model_dump()]  # Return as list for consistency\n            except ValidationError as e:\n                await logger.aerror(f\"Validation error: {e}\")\n                return [{\"data\": json_data, \"validation_error\": str(e)}]\n\n        except (TypeError, ValueError) as e:\n            await logger.aerror(f\"Error building structured output: {e}\")\n            # Fallback to parsed JSON without validation\n            return json_data\n\n    async def json_response(self) -> Data:\n        \"\"\"Convert agent response to structured JSON Data output with schema validation.\"\"\"\n        # Always use structured chat agent for JSON response mode for better JSON formatting\n        try:\n            system_components = []\n\n            # 1. Agent Instructions (system_prompt)\n            agent_instructions = getattr(self, \"system_prompt\", \"\") or \"\"\n            if agent_instructions:\n                system_components.append(f\"{agent_instructions}\")\n\n            # 2. Format Instructions\n            format_instructions = getattr(self, \"format_instructions\", \"\") or \"\"\n            if format_instructions:\n                system_components.append(f\"Format instructions: {format_instructions}\")\n\n            # 3. Schema Information from BaseModel\n            if hasattr(self, \"output_schema\") and self.output_schema and len(self.output_schema) > 0:\n                try:\n                    processed_schema = self._preprocess_schema(self.output_schema)\n                    output_model = build_model_from_schema(processed_schema)\n                    schema_dict = output_model.model_json_schema()\n                    schema_info = (\n                        \"You are given some text that may include format instructions, \"\n                        \"explanations, or other content alongside a JSON schema.\\n\\n\"\n                        \"Your task:\\n\"\n                        \"- Extract only the JSON schema.\\n\"\n                        \"- Return it as valid JSON.\\n\"\n                        \"- Do not include format instructions, explanations, or extra text.\\n\\n\"\n                        \"Input:\\n\"\n                        f\"{json.dumps(schema_dict, indent=2)}\\n\\n\"\n                        \"Output (only JSON schema):\"\n                    )\n                    system_components.append(schema_info)\n                except (ValidationError, ValueError, TypeError, KeyError) as e:\n                    await logger.aerror(f\"Could not build schema for prompt: {e}\", exc_info=True)\n\n            # Combine all components\n            combined_instructions = \"\\n\\n\".join(system_components) if system_components else \"\"\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=combined_instructions,\n            )\n\n            # Create and run structured chat agent\n            try:\n                structured_agent = self.create_agent_runnable()\n            except (NotImplementedError, ValueError, TypeError) as e:\n                await logger.aerror(f\"Error with structured chat agent: {e}\")\n                raise\n            try:\n                result = await self.run_agent(structured_agent)\n            except (\n                ExceptionWithMessageError,\n                ValueError,\n                TypeError,\n                RuntimeError,\n            ) as e:\n                await logger.aerror(f\"Error with structured agent result: {e}\")\n                raise\n            # Extract content from structured agent result\n            if hasattr(result, \"content\"):\n                content = result.content\n            elif hasattr(result, \"text\"):\n                content = result.text\n            else:\n                content = str(result)\n\n        except (\n            ExceptionWithMessageError,\n            ValueError,\n            TypeError,\n            NotImplementedError,\n            AttributeError,\n        ) as e:\n            await logger.aerror(f\"Error with structured chat agent: {e}\")\n            # Fallback to regular agent\n            content_str = \"No content returned from agent\"\n            return Data(data={\"content\": content_str, \"error\": str(e)})\n\n        # Process with structured output validation\n        try:\n            structured_output = await self.build_structured_output_base(content)\n\n            # Handle different output formats\n            if isinstance(structured_output, list) and structured_output:\n                if len(structured_output) == 1:\n                    return Data(data=structured_output[0])\n                return Data(data={\"results\": structured_output})\n            if isinstance(structured_output, dict):\n                return Data(data=structured_output)\n            return Data(data={\"content\": content})\n\n        except (ValueError, TypeError) as e:\n            await logger.aerror(f\"Error in structured output processing: {e}\")\n            return Data(data={\"content\": content, \"error\": str(e)})\n\n    async def get_memory_data(self):\n        # TODO: This is a temporary fix to avoid message duplication. We should develop a function for this.\n        messages = (\n            await MemoryComponent(**self.get_base_args())\n            .set(\n                session_id=self.graph.session_id,\n                context_id=self.context_id,\n                order=\"Ascending\",\n                n_messages=self.n_messages,\n            )\n            .retrieve_messages()\n        )\n        return [\n            message for message in messages if getattr(message, \"id\", None) != getattr(self.input_value, \"id\", None)\n        ]\n\n    def update_input_types(self, build_config: dotdict) -> dotdict:\n        \"\"\"Update input types for all fields in build_config.\"\"\"\n        for key, value in build_config.items():\n            if isinstance(value, dict):\n                if value.get(\"input_types\") is None:\n                    build_config[key][\"input_types\"] = []\n            elif hasattr(value, \"input_types\") and value.input_types is None:\n                value.input_types = []\n        return build_config\n\n    async def update_build_config(\n        self,\n        build_config: dotdict,\n        field_value: list[dict],\n        field_name: str | None = None,\n    ) -> dotdict:\n        # Update model options with caching (for all field changes)\n        # Agents require tool calling, so filter for only tool-calling capable models\n        build_config = handle_model_input_update(\n            component=self,\n            build_config=dict(build_config),\n            field_value=field_value,\n            field_name=field_name,\n            cache_key_prefix=\"language_model_options_tool_calling\",\n            get_options_func=lambda user_id=None: get_language_model_options(user_id=user_id, tool_calling=True),\n        )\n        build_config = dotdict(build_config)\n\n        if field_name == \"model\":\n            build_config = self.update_input_types(build_config)\n\n            # Validate required keys\n            default_keys = [\n                \"code\",\n                \"_type\",\n                \"model\",\n                \"tools\",\n                \"input_value\",\n                \"add_current_date_tool\",\n                \"system_prompt\",\n                \"agent_description\",\n                \"max_iterations\",\n                \"handle_parsing_errors\",\n                \"verbose\",\n            ]\n            missing_keys = [key for key in default_keys if key not in build_config]\n            if missing_keys:\n                msg = f\"Missing required keys in build_config: {missing_keys}\"\n                raise ValueError(msg)\n        return dotdict({k: v.to_dict() if hasattr(v, \"to_dict\") else v for k, v in build_config.items()})\n\n    async def _get_tools(self) -> list[Tool]:\n        component_toolkit = get_component_toolkit()\n        tools_names = self._build_tools_names()\n        agent_description = self.get_tool_description()\n        # TODO: Agent Description Depreciated Feature to be removed\n        description = f\"{agent_description}{tools_names}\"\n\n        tools = component_toolkit(component=self).get_tools(\n            tool_name=\"Call_Agent\",\n            tool_description=description,\n            # here we do not use the shared callbacks as we are exposing the agent as a tool\n            callbacks=self.get_langchain_callbacks(),\n        )\n        if hasattr(self, \"tools_metadata\"):\n            tools = component_toolkit(component=self, metadata=self.tools_metadata).update_tools_metadata(tools=tools)\n\n        return tools\n"
-              },
-              "context_id": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Context ID",
-                "dynamic": false,
-                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "context_id",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "format_instructions": {
-                "_input_type": "MultilineInput",
-                "advanced": true,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Output Format Instructions",
-                "dynamic": false,
-                "info": "Generic Template for structured output formatting. Valid only with Structured response.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "format_instructions",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "You are an AI that extracts structured JSON objects from unstructured text. Use a predefined schema with expected types (str, int, float, bool, dict). Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. Fill missing or ambiguous values with defaults: null for missing values. Remove exact duplicates but keep variations that have different field values. Always return valid JSON in the expected format, never throw errors. If multiple objects can be extracted, return them all in the structured format."
-              },
-              "handle_parsing_errors": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Handle Parse Errors",
-                "dynamic": false,
-                "info": "Should the Agent fix errors when reading user input for better processing?",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "handle_parsing_errors",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": true
-              },
-              "input_value": {
-                "_input_type": "MessageInput",
-                "advanced": false,
-                "display_name": "Input",
-                "dynamic": false,
-                "info": "The input provided by the user for the agent to process.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "input_value",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": true,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "is_refresh": false,
-              "max_iterations": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Max Iterations",
-                "dynamic": false,
-                "info": "The maximum number of attempts the agent can make to complete its task before it stops.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "max_iterations",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 15
-              },
-              "max_tokens": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Max Tokens",
-                "dynamic": false,
-                "info": "Maximum number of tokens to generate. Field name varies by provider.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "max_tokens",
-                "override_skip": false,
-                "placeholder": "",
-                "range_spec": {
-                  "max": 128000,
-                  "min": 1,
-                  "step": 1,
-                  "step_type": "int"
-                },
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 0
-              },
-              "model": {
-                "_input_type": "ModelInput",
-                "advanced": false,
-                "display_name": "Language Model",
-                "dynamic": false,
-                "external_options": {
-                  "fields": {
-                    "data": {
-                      "node": {
-                        "display_name": "Connect other models",
-                        "icon": "CornerDownLeft",
-                        "name": "connect_other_models"
-                      }
-                    }
-                  }
-                },
-                "info": "Select your model provider",
-                "input_types": [
-                  "LanguageModel"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "model_type": "language",
-                "name": "model",
-                "options": [],
-                "override_skip": false,
-                "placeholder": "Setup Provider",
-                "real_time_refresh": true,
-                "refresh_button": true,
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "track_in_telemetry": false,
-                "type": "model",
-                "value": ""
-              },
-              "n_messages": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Number of Chat History Messages",
-                "dynamic": false,
-                "info": "Number of chat history messages to retrieve.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "n_messages",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 100
-              },
-              "output_schema": {
-                "_input_type": "TableInput",
-                "advanced": true,
-                "display_name": "Output Schema",
-                "dynamic": false,
-                "info": "Schema Validation: Define the structure and data types for structured output. No validation if no output schema.",
-                "input_types": [
-                  "DataFrame",
-                  "Table"
-                ],
-                "is_list": true,
-                "list_add_label": "Add More",
-                "name": "output_schema",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "table_icon": "Table",
-                "table_schema": [
-                  {
-                    "default": "field",
-                    "description": "Specify the name of the output field.",
-                    "display_name": "Name",
-                    "edit_mode": "inline",
-                    "name": "name",
-                    "type": "str"
-                  },
-                  {
-                    "default": "description of field",
-                    "description": "Describe the purpose of the output field.",
-                    "display_name": "Description",
-                    "edit_mode": "popover",
-                    "name": "description",
-                    "type": "str"
-                  },
-                  {
-                    "default": "str",
-                    "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
-                    "display_name": "Type",
-                    "edit_mode": "inline",
-                    "name": "type",
-                    "options": [
-                      "str",
-                      "int",
-                      "float",
-                      "bool",
-                      "dict"
-                    ],
-                    "type": "str"
-                  },
-                  {
-                    "default": "False",
-                    "description": "Set to True if this output field should be a list of the specified type.",
-                    "display_name": "As List",
-                    "edit_mode": "inline",
-                    "name": "multiple",
-                    "type": "boolean"
-                  }
-                ],
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "trigger_icon": "Table",
-                "trigger_text": "Open table",
-                "type": "table",
-                "value": []
-              },
-              "project_id": {
-                "_input_type": "StrInput",
-                "advanced": false,
-                "display_name": "watsonx Project ID",
-                "dynamic": false,
-                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "project_id",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "system_prompt": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Agent Instructions",
-                "dynamic": false,
-                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "system_prompt",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "You are the ATLAS Dataset Agent.\n\nYour sole purpose is to answer structured, exact, dataset-grounded queries about the ATLAS dataset using your single available tool: a Python interpreter with pandas installed.\n\nYou receive an instruction from the Orchestrator describing what information to extract, count, filter, hydrate, traverse, or analyze. You must use Python and pandas to inspect the dataset and return structured dataset-grounded results.\n\nDo not produce the final user-facing answer unless the Orchestrator explicitly asks you to. Return exact, structured results for the Orchestrator to verify, hydrate, and synthesize.\n\n---\n\n# Core Responsibility\n\nYou are responsible for exact ATLAS dataset operations only.\n\nYou may:\n- Retrieve records by exact AML.ID.\n- Hydrate candidate AML.IDs provided by another agent.\n- Filter records by exact or substring field values.\n- Count records matching structured conditions.\n- List IDs matching structured conditions.\n- Retrieve selected fields from records.\n- Resolve explicit dataset relationships.\n- Perform aggregations over dataset columns.\n- Perform table-style analysis over the full ATLAS dataset.\n- Use pandas to normalize, parse, filter, group, sort, count, and traverse dataset fields.\n\nYou must not:\n- Perform broad semantic search.\n- Guess IDs or relationships.\n- Invent missing records.\n- Infer dataset facts not present in the data.\n- Answer from general knowledge when the dataset should be used.\n- Treat semantic similarity as an exact dataset match.\n- Return conclusions that were not derived from the dataset.\n\nIf the query is vague or semantic in nature, return a note indicating that the Vector Store Agent should handle semantic retrieval first.\n\n---\n\n# Available Tool\n\nYou have exactly one tool:\n\n## Python Interpreter with pandas\n\nUse the Python interpreter to load, inspect, filter, transform, count, aggregate, and analyze the ATLAS dataset with pandas.\n\nThe Python environment has pandas installed.\n\nUse Python for all dataset operations, including:\n- Exact ID lookup\n- Multi-ID hydration\n- Field filtering\n- Substring matching\n- Counts\n- Aggregations\n- Relationship traversal\n- Sorting\n- Grouping\n- Linked-record hydration\n- Data validation\n- Empty/non-empty relationship checks\n- Parsing serialized relationship fields\n\nDo not pretend you have specialized tools such as `ID_LOOKUP`, `PANDAS_EXPERT`, search APIs, vector search, SQL, or external services.\n\nAll dataset work must be performed through Python and pandas.\n\n---\n\n# Tool Use Requirements\n\nUse Python whenever the Orchestrator asks for dataset-grounded information.\n\nBefore answering, use pandas to inspect the relevant dataframe columns and rows. Do not answer from memory or assumptions.\n\nFor exact lookups:\n1. Filter the dataframe where `id` exactly equals the requested AML.ID.\n2. Preserve the ID exactly as it appears in the dataset.\n3. Return the matching row as a JSON-compatible object.\n4. If no row exists, return a structured `no_match` response.\n\nFor multiple-ID hydration:\n1. Parse the provided IDs.\n2. Filter the dataframe where `id` is in the requested ID set.\n3. Return matched records.\n4. Include a note listing any requested IDs that were not found.\n\nFor filtering:\n1. Identify the relevant column or columns.\n2. Apply exact, case-insensitive, or substring matching as requested.\n3. Return only dataset rows that actually match.\n4. Do not broaden the query semantically.\n\nFor aggregates:\n1. Use pandas to compute the result.\n2. Return the computed value.\n3. Include a brief note describing the filter or grouping logic used.\n\nFor relationship traversal:\n1. Retrieve the source row by exact `id`.\n2. Parse the relevant relationship column into a list of IDs.\n3. Return the linked IDs.\n4. If hydration is requested, retrieve matching records for those linked IDs.\n5. If linked IDs are present but unresolved, preserve the IDs and include a note.\n\n---\n\n# Supported Query Types\n\nYou can perform structured dataset operations such as:\n\n- Retrieve an entity by AML.ID.\n- Retrieve multiple entities by AML.ID.\n- Hydrate candidate IDs returned by the Vector Store Agent.\n- Retrieve one or more entities by exact field values.\n- Filter entities by type: `tactic`, `technique`, `mitigation`, or `casestudy`.\n- Count entities matching a filter.\n- List IDs matching a filter.\n- Retrieve selected fields for one or more entities.\n- Retrieve parent tactics for a technique.\n- Retrieve parent techniques for a sub-technique.\n- Retrieve child techniques for a tactic, mitigation, case study, or parent technique.\n- Retrieve mitigations for a technique.\n- Retrieve case studies demonstrating a technique.\n- Identify entities with empty or non-empty relationship fields.\n- Compute counts based on relationship-list lengths.\n- Sort or filter by relationship counts.\n- Perform substring matching over `name` or `text`.\n\n---\n\n# Data Schema\n\nThe dataset has the following columns:\n\n- `id` — AML identifier\n- `entity` — entity type: `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity description\n- `url` — reference URL\n- `PARENT_TACTICS` — parent tactic IDs\n- `PARENT_TECHNIQUES` — parent technique IDs\n- `PARENT_MITIGATIONS` — mitigation IDs related to a technique\n- `PARENT_CASESTUDIES` — case study IDs related to a technique\n- `CHILD_TECHNIQUES` — child technique IDs\n\nRelationship columns may be represented as lists, serialized lists, comma-separated strings, empty strings, nulls, or missing values.\n\nTreat the following as empty relationship sets:\n- null\n- NaN\n- empty string\n- whitespace-only string\n- `[]`\n- missing values\n\nWhen using Python, normalize relationship fields before counting or traversing them.\n\n---\n\n# Relationship Semantics\n\n## For tactics\n\n- `CHILD_TECHNIQUES` are techniques under the tactic.\n\n## For techniques\n\n- `PARENT_TACTICS` are tactics that subsume the technique.\n- `PARENT_TECHNIQUES` are parent techniques, if the entity is a sub-technique.\n- `PARENT_MITIGATIONS` are mitigations that address the technique.\n- `PARENT_CASESTUDIES` are case studies that demonstrate the technique.\n- `CHILD_TECHNIQUES` are sub-techniques.\n\n## For mitigations\n\n- `CHILD_TECHNIQUES` are techniques mitigated by the mitigation.\n\n## For case studies\n\n- `CHILD_TECHNIQUES` are techniques demonstrated by the case study.\n\n---\n\n# Relationship Traversal Rules\n\nWhen asked for “children of X”:\n1. Use pandas to retrieve the row where `id = X`.\n2. Parse `CHILD_TECHNIQUES`.\n3. Return those child IDs.\n4. If hydration is requested, return the full records for those IDs.\n\nWhen asked for “parent tactics of X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_TACTICS`.\n3. Return those tactic IDs.\n4. If hydration is requested, return the full tactic records.\n\nWhen asked for “parent techniques of X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_TECHNIQUES`.\n3. Return those parent technique IDs.\n4. If hydration is requested, return the full parent technique records.\n\nWhen asked for “mitigations for X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_MITIGATIONS`.\n3. Return those mitigation IDs.\n4. If hydration is requested, return the full mitigation records.\n\nWhen asked for “case studies for X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_CASESTUDIES`.\n3. Return those case study IDs.\n4. If hydration is requested, return the full case study records.\n\nWhen asked which entities reference X:\n1. Use pandas to scan the relevant relationship columns across the dataframe.\n2. Parse relationship fields as lists before testing membership.\n3. Return records whose relationship fields contain X.\n\n---\n\n# Recommended Python Behavior\n\nWhen parsing relationship fields, use a cautious normalization function.\n\nRelationship values may appear as:\n- Python lists\n- JSON-style strings\n- Python literal strings\n- comma-separated strings\n- blank values\n- NaN\n\nUse logic equivalent to:\n\n```python\nimport ast\nimport pandas as pd\n\ndef parse_relationship(value):\n    if value is None or pd.isna(value):\n        return []\n\n    if isinstance(value, list):\n        return [str(v).strip() for v in value if str(v).strip()]\n\n    text = str(value).strip()\n\n    if text == \"\" or text == \"[]\":\n        return []\n\n    try:\n        parsed = ast.literal_eval(text)\n        if isinstance(parsed, list):\n            return [str(v).strip() for v in parsed if str(v).strip()]\n    except Exception:\n        pass\n\n    if \",\" in text:\n        return [part.strip() for part in text.split(\",\") if part.strip()]\n\n    return [text]\n````\n\nWhen returning records, convert NaN values into `null` or empty lists as appropriate.\n\nDo not expose unnecessary Python code in the final response unless the Orchestrator explicitly asks for it.\n\n---\n\n# Behavior\n\nReturn exact structured data from the dataset.\n\nUse Python and pandas for:\n\n* Direct AML.ID lookup\n* Counts\n* Aggregations\n* Filters\n* Lists\n* Relationship traversal\n* Field selection\n* Linked-record hydration\n\nDo not label aggregate queries as misses just because they are not single-record lookups.\n\nExamples:\n\n* “How many case studies are there?”\n\n  * Use pandas.\n  * Count rows where `entity = casestudy`.\n\n* “List all mitigations”\n\n  * Use pandas.\n  * Return rows where `entity = mitigation`.\n\n* “Hydrate AML.T0001 and AML.M0003”\n\n  * Use pandas.\n  * Filter where `id` is in the requested ID list.\n\n* “How many techniques are under AML.TA0001?”\n\n  * Use pandas.\n  * Find row where `id = AML.TA0001`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Count child IDs.\n\n* “Show me all tactics with more than 10 child techniques”\n\n  * Use pandas.\n  * Filter `entity = tactic`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Compute child count.\n  * Return rows where count > 10.\n\n* “Which techniques have mitigations?”\n\n  * Use pandas.\n  * Filter `entity = technique` where parsed `PARENT_MITIGATIONS` is non-empty.\n\n* “Which case studies demonstrate multiple techniques?”\n\n  * Use pandas.\n  * Filter `entity = casestudy` where parsed `CHILD_TECHNIQUES` has length greater than 1.\n\n* “List all techniques that are sub-techniques”\n\n  * Use pandas.\n  * Filter `entity = technique` where parsed `PARENT_TECHNIQUES` is non-empty.\n\n* “How many mitigations address each technique?”\n\n  * Use pandas.\n  * For each technique, count parsed `PARENT_MITIGATIONS`.\n\n* “Find all entities whose name contains ‘spoof’”\n\n  * Use pandas.\n  * Perform case-insensitive substring filtering on `name`.\n\n* “Return the names and URLs for all case studies”\n\n  * Use pandas.\n  * Filter `entity = casestudy`.\n  * Return `id`, `name`, and `url`.\n\n* “Which techniques are linked to both a mitigation and a case study?”\n\n  * Use pandas.\n  * Filter `entity = technique` where both parsed `PARENT_MITIGATIONS` and parsed `PARENT_CASESTUDIES` are non-empty.\n\n* “What are the children of AML.M0003?”\n\n  * Use pandas.\n  * Find `id = AML.M0003`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Optionally hydrate linked records if requested.\n\n---\n\n# Handling Ambiguous Queries\n\nIf the request depends on semantic meaning rather than exact dataset structure, do not guess.\n\nExamples of semantic or vague queries:\n\n* “Find techniques about spoofing”\n* “What applies to phishing?”\n* “Show relevant mitigations for model attacks”\n* “Find things related to data poisoning”\n* “What should I use for this scenario?”\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_semantic_retrieval\",\n  \"operation\": \"semantic_query\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This request requires semantic retrieval. The Vector Store Agent should identify candidate AML.IDs first, then the Dataset Agent can hydrate or analyze those IDs.\"\n  ]\n}\n```\n\nIf the query contains a clear structured operation plus a vague term, perform only the structured part if possible and note the limitation.\n\nExample:\n\n* “Count techniques related to spoofing”\n\n  * Do not perform semantic matching.\n  * Return `needs_semantic_retrieval` unless the Orchestrator supplied candidate IDs.\n\nHowever, exact substring matching is allowed when explicitly requested.\n\nExample:\n\n* “Count techniques whose name contains spoof”\n\n  * Use pandas.\n  * Filter `entity = technique`.\n  * Apply case-insensitive substring match on `name`.\n\n---\n\n# Output Format\n\nReturn one of the following structured response types.\n\n## Successful record response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"lookup | hydrate | filter | relationship_traversal | aggregate | field_selection\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [\n    {\n      \"id\": \"...\",\n      \"entity\": \"...\",\n      \"name\": \"...\",\n      \"text\": \"...\",\n      \"url\": \"...\",\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": []\n}\n```\n\n## Successful aggregate response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"aggregate\",\n  \"tool_used\": \"python_pandas\",\n  \"result\": {\n    \"metric\": \"...\",\n    \"value\": 0\n  },\n  \"records\": [],\n  \"notes\": []\n}\n```\n\n## Successful list response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"list_ids | field_selection | filter\",\n  \"tool_used\": \"python_pandas\",\n  \"result\": {\n    \"items\": []\n  },\n  \"records\": [],\n  \"notes\": []\n}\n```\n\n## No-match response\n\n```json\n{\n  \"status\": \"no_match\",\n  \"operation\": \"lookup | filter | relationship_traversal\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [],\n  \"notes\": [\n    \"No exact structured match was found in the ATLAS dataset.\"\n  ]\n}\n```\n\n## Semantic retrieval needed response\n\n```json\n{\n  \"status\": \"needs_semantic_retrieval\",\n  \"operation\": \"semantic_query\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This request requires semantic retrieval. The Vector Store Agent should identify candidate AML.IDs first.\"\n  ]\n}\n```\n\n## Error response\n\n```json\n{\n  \"status\": \"error\",\n  \"operation\": \"...\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [],\n  \"notes\": [\n    \"Describe the issue without inventing data.\"\n  ]\n}\n```\n\n---\n\n# Constraints\n\n* You have exactly one tool: a Python interpreter with pandas installed.\n* Always use Python and pandas for dataset-grounded operations.\n* Do not invent missing rows, IDs, names, URLs, relationships, or counts.\n* Preserve ATLAS IDs exactly as they appear in the dataset.\n* Treat the ATLAS dataset as the authority for exact IDs, relationships, and aggregates.\n* If no exact structured match is found for a lookup, say so in `notes`.\n* If a query is an aggregate query, do not label it as a miss simply because it is not a single-record lookup.\n* If the Orchestrator requested hydration, return linked entity details, not only linked IDs.\n* If linked IDs are present but corresponding records cannot be found, preserve the IDs and include a note listing unresolved IDs.\n* Keep outputs deterministic, structured, and concise.\n* Prefer returning exact JSON-compatible objects over prose.\n* Do not expose Python execution details unless they are useful to the Orchestrator."
-              },
-              "tools": {
-                "_input_type": "HandleInput",
-                "advanced": false,
-                "display_name": "Tools",
-                "dynamic": false,
-                "info": "These are the tools that the agent can use to help with tasks.",
-                "input_types": [
-                  "Tool"
-                ],
-                "list": true,
-                "list_add_label": "Add More",
-                "name": "tools",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "other",
-                "value": ""
-              },
-              "verbose": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Verbose",
-                "dynamic": false,
-                "info": "",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "verbose",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": true
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "Agent"
-        },
-        "dragging": false,
-        "id": "Agent-GiREP",
-        "measured": {
-          "height": 431,
-          "width": 320
-        },
-        "position": {
-          "x": 1258.408625394506,
-          "y": 645.6616546290131
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "ChatInput-ZdU0C",
+          "id": "ChatInput-mmt2f",
           "node": {
             "base_classes": [
               "Message"
@@ -1004,7 +401,7 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-ZdU0C",
+        "id": "ChatInput-mmt2f",
         "measured": {
           "height": 52,
           "width": 192
@@ -1018,7 +415,7 @@
       },
       {
         "data": {
-          "id": "ChatOutput-VsyU3",
+          "id": "ChatOutput-6tPbg",
           "node": {
             "base_classes": [
               "Message"
@@ -1304,21 +701,21 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-VsyU3",
+        "id": "ChatOutput-6tPbg",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 1650.953336132004,
-          "y": 1017.9781814889533
+          "x": 1654.7219195145492,
+          "y": 1177.5148780166937
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "OpenAIModel-yzKv1",
+          "id": "OpenAIModel-FENAv",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1423,7 +820,7 @@
                 "dynamic": false,
                 "info": "The OpenAI API Key to use for the OpenAI model.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -1433,7 +830,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "MY_AIP_API_KEY"
+                "value": ""
               },
               "code": {
                 "advanced": true,
@@ -1583,7 +980,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "devstral"
+                "value": ""
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -1604,7 +1001,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "https://models.k8s.aip.mitre.org/v1"
+                "value": ""
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -1733,21 +1130,21 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-yzKv1",
+        "id": "OpenAIModel-FENAv",
         "measured": {
-          "height": 459,
+          "height": 458,
           "width": 320
         },
         "position": {
-          "x": 797.2368841488671,
-          "y": 170.46362442787068
+          "x": 794.4152917191603,
+          "y": 138.01531148624116
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "CustomComponent-4F4Xg",
+          "id": "CSVPythonREPL-C5dtq",
           "node": {
             "base_classes": [
               "JSON"
@@ -1769,7 +1166,7 @@
             ],
             "frozen": false,
             "icon": "square-terminal",
-            "last_updated": "2026-06-11T13:48:49.407Z",
+            "last_updated": "2026-06-17T14:01:09.187Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1818,10 +1215,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "d6b1680f-5a52-463b-b0d2-df373b765027"
+                "value": "5e3df11c-a3d4-4c6b-b3cc-d151371c014a"
               },
               "_frontend_node_folder_id": {
-                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
+                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
               },
               "_type": "Component",
               "code": {
@@ -1850,7 +1247,7 @@
                 "fileTypes": [
                   "csv"
                 ],
-                "file_path": "8fa6ea2e-dc99-4c48-a5e6-be38a2005370/atlas-nodes-with-optimized-text-04-2026-full.csv",
+                "file_path": "f8640840-879f-4135-a788-bf5474bd3168/atlas-nodes-04-2026-with-hashtags-and-embedding-text.csv",
                 "info": "CSV file or file path to load into pandas as `df`.",
                 "input_types": [
                   "str",
@@ -2024,9 +1421,9 @@
           "type": "CSVPythonREPL"
         },
         "dragging": false,
-        "id": "CustomComponent-4F4Xg",
+        "id": "CSVPythonREPL-C5dtq",
         "measured": {
-          "height": 408,
+          "height": 412,
           "width": 320
         },
         "position": {
@@ -2035,17 +1432,648 @@
         },
         "selected": false,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Agent-UUhba",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Use for exact ATLAS dataset operations: AML.ID lookup, record hydration, field retrieval, filtering, counting, aggregation, and relationship resolution over structured dataset columns.",
+            "display_name": "ATLAS Dataset Agent",
+            "documentation": "https://docs.langflow.org/agents",
+            "edited": true,
+            "field_order": [
+              "model",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "system_prompt",
+              "context_id",
+              "n_messages",
+              "max_tokens",
+              "format_instructions",
+              "output_schema",
+              "tools",
+              "input_value",
+              "handle_parsing_errors",
+              "verbose",
+              "max_iterations",
+              "agent_description",
+              "add_current_date_tool"
+            ],
+            "frozen": false,
+            "icon": "bot",
+            "last_updated": "2026-06-17T14:01:09.188Z",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "45711611ea2b",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "pydantic",
+                    "version": "2.12.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.2"
+                  },
+                  {
+                    "name": "langchain_core",
+                    "version": "1.3.2"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "custom_components.atlas_dataset_agent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "message_response",
+                "name": "response",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "input_types": [],
+                "value": "5e3df11c-a3d4-4c6b-b3cc-d151371c014a"
+              },
+              "_frontend_node_folder_id": {
+                "input_types": [],
+                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
+              },
+              "_type": "Component",
+              "add_current_date_tool": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Current Date",
+                "dynamic": false,
+                "info": "If true, will add a tool to the agent that returns the current date.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "add_current_date_tool",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "agent_description": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Description [Deprecated]",
+                "dynamic": false,
+                "info": "The description of the agent. This is only used when in Tool Mode. Defaults to 'A helpful assistant with access to the following tools:' and tools are added dynamically. This feature is deprecated and will be removed in future versions.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "agent_description",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "A helpful assistant with access to the following tools:"
+              },
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "input_types": [],
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from __future__ import annotations\n\nimport json\nimport re\nfrom typing import TYPE_CHECKING\n\nfrom pydantic import ValidationError\n\nfrom lfx.components.models_and_agents.memory import MemoryComponent\n\nif TYPE_CHECKING:\n    from langchain_core.tools import Tool\n\nfrom lfx.base.agents.agent import LCToolsAgentComponent\nfrom lfx.base.agents.events import ExceptionWithMessageError\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.agentics.helpers.model_config import validate_model_selection\nfrom lfx.components.helpers import CurrentDateComponent\nfrom lfx.components.langchain_utilities.tool_calling import ToolCallingAgentComponent\nfrom lfx.custom.custom_component.component import get_component_toolkit\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, ModelInput, StrInput\nfrom lfx.io import IntInput, MessageTextInput, MultilineInput, Output, SecretStrInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\ndef set_advanced_true(component_input):\n    component_input.advanced = True\n    return component_input\n\n\nclass AgentComponent(ToolCallingAgentComponent):\n    display_name: str = \"ATLAS Dataset Agent\"\n    description: str = \"Use for exact ATLAS dataset operations: AML.ID lookup, record hydration, field retrieval, filtering, counting, aggregation, and relationship resolution over structured dataset columns.\"\n    documentation: str = \"https://docs.langflow.org/agents\"\n    icon = \"bot\"\n    beta = False\n    name = \"Agent\"\n\n    memory_inputs = [set_advanced_true(component_input) for component_input in MemoryComponent().inputs]\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        MultilineInput(\n            name=\"system_prompt\",\n            display_name=\"Agent Instructions\",\n            info=\"System Prompt: Initial instructions and context provided to guide the agent's behavior.\",\n            value=\"You are a helpful assistant that can use tools to answer questions and perform tasks.\",\n            advanced=False,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"n_messages\",\n            display_name=\"Number of Chat History Messages\",\n            value=100,\n            info=\"Number of chat history messages to retrieve.\",\n            advanced=True,\n            show=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n        MultilineInput(\n            name=\"format_instructions\",\n            display_name=\"Output Format Instructions\",\n            info=\"Generic Template for structured output formatting. Valid only with Structured response.\",\n            value=(\n                \"You are an AI that extracts structured JSON objects from unstructured text. \"\n                \"Use a predefined schema with expected types (str, int, float, bool, dict). \"\n                \"Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. \"\n                \"Fill missing or ambiguous values with defaults: null for missing values. \"\n                \"Remove exact duplicates but keep variations that have different field values. \"\n                \"Always return valid JSON in the expected format, never throw errors. \"\n                \"If multiple objects can be extracted, return them all in the structured format.\"\n            ),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"output_schema\",\n            display_name=\"Output Schema\",\n            info=(\n                \"Schema Validation: Define the structure and data types for structured output. \"\n                \"No validation if no output schema.\"\n            ),\n            advanced=True,\n            required=False,\n            value=[],\n            table_schema=[\n                {\n                    \"name\": \"name\",\n                    \"display_name\": \"Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Specify the name of the output field.\",\n                    \"default\": \"field\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"description\",\n                    \"display_name\": \"Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Describe the purpose of the output field.\",\n                    \"default\": \"description of field\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"type\",\n                    \"display_name\": \"Type\",\n                    \"type\": \"str\",\n                    \"edit_mode\": EditMode.INLINE,\n                    \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n                    \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n                    \"default\": \"str\",\n                },\n                {\n                    \"name\": \"multiple\",\n                    \"display_name\": \"As List\",\n                    \"type\": \"boolean\",\n                    \"description\": \"Set to True if this output field should be a list of the specified type.\",\n                    \"default\": \"False\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n            ],\n        ),\n        *LCToolsAgentComponent.get_base_inputs(),\n        # removed memory inputs from agent component\n        # *memory_inputs,\n        BoolInput(\n            name=\"add_current_date_tool\",\n            display_name=\"Current Date\",\n            advanced=True,\n            info=\"If true, will add a tool to the agent that returns the current date.\",\n            value=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"response\", display_name=\"Response\", method=\"message_response\"),\n    ]\n\n    def _resolve_selected_model(self):\n        \"\"\"Resolve the selected model, including legacy agent_llm/model_name inputs.\"\"\"\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            if isinstance(self.model, BaseLanguageModel):\n                return self.model\n        except ImportError:\n            pass\n\n        if isinstance(self.model, list) and self.model:\n            return self.model\n\n        legacy_provider = getattr(self, \"agent_llm\", None)\n        legacy_model_name = getattr(self, \"model_name\", None)\n        if not legacy_provider or not legacy_model_name:\n            return self.model\n\n        options = get_language_model_options(user_id=self.user_id)\n        for option in options:\n            if option.get(\"provider\") == legacy_provider and option.get(\"name\") == legacy_model_name:\n                return [option]\n\n        return [\n            {\n                \"name\": legacy_model_name,\n                \"provider\": legacy_provider,\n                \"metadata\": {},\n            }\n        ]\n\n    def _get_max_tokens_value(self):\n        \"\"\"Return the user-supplied max_tokens or None when unset/zero.\"\"\"\n        val = getattr(self, \"max_tokens\", None)\n        if val in {\"\", 0}:\n            return None\n        return val\n\n    def _get_llm(self):\n        \"\"\"Override parent to include max_tokens from the Agent's input field.\"\"\"\n        return get_llm(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=getattr(self, \"api_key\", None),\n            max_tokens=self._get_max_tokens_value(),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n        )\n\n    async def get_agent_requirements(self):\n        \"\"\"Get the agent requirements for the agent.\"\"\"\n        from langchain_core.tools import StructuredTool\n\n        selected_model = self._resolve_selected_model()\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            is_connected_model = isinstance(selected_model, BaseLanguageModel)\n        except ImportError:\n            is_connected_model = False\n\n        if not is_connected_model:\n            validate_model_selection(selected_model)\n\n        # Ensure _get_llm() uses the resolved model (e.g. from legacy agent_llm/model_name)\n        self.model = selected_model\n        llm_model = self._get_llm()\n        if llm_model is None:\n            msg = \"No language model selected. Please choose a model to proceed.\"\n            raise ValueError(msg)\n\n        # Get memory data\n        self.chat_history = await self.get_memory_data()\n        await logger.adebug(f\"Retrieved {len(self.chat_history)} chat history messages\")\n        if isinstance(self.chat_history, Message):\n            self.chat_history = [self.chat_history]\n\n        # Add current date tool if enabled\n        if self.add_current_date_tool:\n            if not isinstance(self.tools, list):  # type: ignore[has-type]\n                self.tools = []\n            current_date_tool = (await CurrentDateComponent(**self.get_base_args()).to_toolkit()).pop(0)\n\n            if not isinstance(current_date_tool, StructuredTool):\n                msg = \"CurrentDateComponent must be converted to a StructuredTool\"\n                raise TypeError(msg)\n            self.tools.append(current_date_tool)\n\n        # Set shared callbacks for tracing the tools used by the agent\n        self.set_tools_callbacks(self.tools, self._get_shared_callbacks())\n\n        return llm_model, self.chat_history, self.tools\n\n    async def message_response(self) -> Message:\n        try:\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            # Set up and run agent\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=self.system_prompt,\n            )\n            agent = self.create_agent_runnable()\n            result = await self.run_agent(agent)\n\n            # Store result for potential JSON output\n            self._agent_result = result\n\n        except (ValueError, TypeError, KeyError) as e:\n            await logger.aerror(f\"{type(e).__name__}: {e!s}\")\n            raise\n        except ExceptionWithMessageError as e:\n            await logger.aerror(f\"ExceptionWithMessageError occurred: {e}\")\n            raise\n        # Avoid catching blind Exception; let truly unexpected exceptions propagate\n        except Exception as e:\n            await logger.aerror(f\"Unexpected error: {e!s}\")\n            raise\n        else:\n            return result\n\n    def _preprocess_schema(self, schema):\n        \"\"\"Preprocess schema to ensure correct data types for build_model_from_schema.\"\"\"\n        processed_schema = []\n        for field in schema:\n            processed_field = {\n                \"name\": str(field.get(\"name\", \"field\")),\n                \"type\": str(field.get(\"type\", \"str\")),\n                \"description\": str(field.get(\"description\", \"\")),\n                \"multiple\": field.get(\"multiple\", False),\n            }\n            # Ensure multiple is handled correctly\n            if isinstance(processed_field[\"multiple\"], str):\n                processed_field[\"multiple\"] = processed_field[\"multiple\"].lower() in [\n                    \"true\",\n                    \"1\",\n                    \"t\",\n                    \"y\",\n                    \"yes\",\n                ]\n            processed_schema.append(processed_field)\n        return processed_schema\n\n    async def build_structured_output_base(self, content: str):\n        \"\"\"Build structured output with optional BaseModel validation.\"\"\"\n        json_pattern = r\"\\{.*\\}\"\n        schema_error_msg = \"Try setting an output schema\"\n\n        # Try to parse content as JSON first\n        json_data = None\n        try:\n            json_data = json.loads(content)\n        except json.JSONDecodeError:\n            json_match = re.search(json_pattern, content, re.DOTALL)\n            if json_match:\n                try:\n                    json_data = json.loads(json_match.group())\n                except json.JSONDecodeError:\n                    return {\"content\": content, \"error\": schema_error_msg}\n            else:\n                return {\"content\": content, \"error\": schema_error_msg}\n\n        # If no output schema provided, return parsed JSON without validation\n        if not hasattr(self, \"output_schema\") or not self.output_schema or len(self.output_schema) == 0:\n            return json_data\n\n        # Use BaseModel validation with schema\n        try:\n            processed_schema = self._preprocess_schema(self.output_schema)\n            output_model = build_model_from_schema(processed_schema)\n\n            # Validate against the schema\n            if isinstance(json_data, list):\n                # Multiple objects\n                validated_objects = []\n                for item in json_data:\n                    try:\n                        validated_obj = output_model.model_validate(item)\n                        validated_objects.append(validated_obj.model_dump())\n                    except ValidationError as e:\n                        await logger.aerror(f\"Validation error for item: {e}\")\n                        # Include invalid items with error info\n                        validated_objects.append({\"data\": item, \"validation_error\": str(e)})\n                return validated_objects\n\n            # Single object\n            try:\n                validated_obj = output_model.model_validate(json_data)\n                return [validated_obj.model_dump()]  # Return as list for consistency\n            except ValidationError as e:\n                await logger.aerror(f\"Validation error: {e}\")\n                return [{\"data\": json_data, \"validation_error\": str(e)}]\n\n        except (TypeError, ValueError) as e:\n            await logger.aerror(f\"Error building structured output: {e}\")\n            # Fallback to parsed JSON without validation\n            return json_data\n\n    async def json_response(self) -> Data:\n        \"\"\"Convert agent response to structured JSON Data output with schema validation.\"\"\"\n        # Always use structured chat agent for JSON response mode for better JSON formatting\n        try:\n            system_components = []\n\n            # 1. Agent Instructions (system_prompt)\n            agent_instructions = getattr(self, \"system_prompt\", \"\") or \"\"\n            if agent_instructions:\n                system_components.append(f\"{agent_instructions}\")\n\n            # 2. Format Instructions\n            format_instructions = getattr(self, \"format_instructions\", \"\") or \"\"\n            if format_instructions:\n                system_components.append(f\"Format instructions: {format_instructions}\")\n\n            # 3. Schema Information from BaseModel\n            if hasattr(self, \"output_schema\") and self.output_schema and len(self.output_schema) > 0:\n                try:\n                    processed_schema = self._preprocess_schema(self.output_schema)\n                    output_model = build_model_from_schema(processed_schema)\n                    schema_dict = output_model.model_json_schema()\n                    schema_info = (\n                        \"You are given some text that may include format instructions, \"\n                        \"explanations, or other content alongside a JSON schema.\\n\\n\"\n                        \"Your task:\\n\"\n                        \"- Extract only the JSON schema.\\n\"\n                        \"- Return it as valid JSON.\\n\"\n                        \"- Do not include format instructions, explanations, or extra text.\\n\\n\"\n                        \"Input:\\n\"\n                        f\"{json.dumps(schema_dict, indent=2)}\\n\\n\"\n                        \"Output (only JSON schema):\"\n                    )\n                    system_components.append(schema_info)\n                except (ValidationError, ValueError, TypeError, KeyError) as e:\n                    await logger.aerror(f\"Could not build schema for prompt: {e}\", exc_info=True)\n\n            # Combine all components\n            combined_instructions = \"\\n\\n\".join(system_components) if system_components else \"\"\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=combined_instructions,\n            )\n\n            # Create and run structured chat agent\n            try:\n                structured_agent = self.create_agent_runnable()\n            except (NotImplementedError, ValueError, TypeError) as e:\n                await logger.aerror(f\"Error with structured chat agent: {e}\")\n                raise\n            try:\n                result = await self.run_agent(structured_agent)\n            except (\n                ExceptionWithMessageError,\n                ValueError,\n                TypeError,\n                RuntimeError,\n            ) as e:\n                await logger.aerror(f\"Error with structured agent result: {e}\")\n                raise\n            # Extract content from structured agent result\n            if hasattr(result, \"content\"):\n                content = result.content\n            elif hasattr(result, \"text\"):\n                content = result.text\n            else:\n                content = str(result)\n\n        except (\n            ExceptionWithMessageError,\n            ValueError,\n            TypeError,\n            NotImplementedError,\n            AttributeError,\n        ) as e:\n            await logger.aerror(f\"Error with structured chat agent: {e}\")\n            # Fallback to regular agent\n            content_str = \"No content returned from agent\"\n            return Data(data={\"content\": content_str, \"error\": str(e)})\n\n        # Process with structured output validation\n        try:\n            structured_output = await self.build_structured_output_base(content)\n\n            # Handle different output formats\n            if isinstance(structured_output, list) and structured_output:\n                if len(structured_output) == 1:\n                    return Data(data=structured_output[0])\n                return Data(data={\"results\": structured_output})\n            if isinstance(structured_output, dict):\n                return Data(data=structured_output)\n            return Data(data={\"content\": content})\n\n        except (ValueError, TypeError) as e:\n            await logger.aerror(f\"Error in structured output processing: {e}\")\n            return Data(data={\"content\": content, \"error\": str(e)})\n\n    async def get_memory_data(self):\n        # TODO: This is a temporary fix to avoid message duplication. We should develop a function for this.\n        messages = (\n            await MemoryComponent(**self.get_base_args())\n            .set(\n                session_id=self.graph.session_id,\n                context_id=self.context_id,\n                order=\"Ascending\",\n                n_messages=self.n_messages,\n            )\n            .retrieve_messages()\n        )\n        return [\n            message for message in messages if getattr(message, \"id\", None) != getattr(self.input_value, \"id\", None)\n        ]\n\n    def update_input_types(self, build_config: dotdict) -> dotdict:\n        \"\"\"Update input types for all fields in build_config.\"\"\"\n        for key, value in build_config.items():\n            if isinstance(value, dict):\n                if value.get(\"input_types\") is None:\n                    build_config[key][\"input_types\"] = []\n            elif hasattr(value, \"input_types\") and value.input_types is None:\n                value.input_types = []\n        return build_config\n\n    async def update_build_config(\n        self,\n        build_config: dotdict,\n        field_value: list[dict],\n        field_name: str | None = None,\n    ) -> dotdict:\n        # Update model options with caching (for all field changes)\n        # Agents require tool calling, so filter for only tool-calling capable models\n        build_config = handle_model_input_update(\n            component=self,\n            build_config=dict(build_config),\n            field_value=field_value,\n            field_name=field_name,\n            cache_key_prefix=\"language_model_options_tool_calling\",\n            get_options_func=lambda user_id=None: get_language_model_options(user_id=user_id, tool_calling=True),\n        )\n        build_config = dotdict(build_config)\n\n        if field_name == \"model\":\n            build_config = self.update_input_types(build_config)\n\n            # Validate required keys\n            default_keys = [\n                \"code\",\n                \"_type\",\n                \"model\",\n                \"tools\",\n                \"input_value\",\n                \"add_current_date_tool\",\n                \"system_prompt\",\n                \"agent_description\",\n                \"max_iterations\",\n                \"handle_parsing_errors\",\n                \"verbose\",\n            ]\n            missing_keys = [key for key in default_keys if key not in build_config]\n            if missing_keys:\n                msg = f\"Missing required keys in build_config: {missing_keys}\"\n                raise ValueError(msg)\n        return dotdict({k: v.to_dict() if hasattr(v, \"to_dict\") else v for k, v in build_config.items()})\n\n    async def _get_tools(self) -> list[Tool]:\n        component_toolkit = get_component_toolkit()\n        tools_names = self._build_tools_names()\n        agent_description = self.get_tool_description()\n        # TODO: Agent Description Depreciated Feature to be removed\n        description = f\"{agent_description}{tools_names}\"\n\n        tools = component_toolkit(component=self).get_tools(\n            tool_name=\"Call_Agent\",\n            tool_description=description,\n            # here we do not use the shared callbacks as we are exposing the agent as a tool\n            callbacks=self.get_langchain_callbacks(),\n        )\n        if hasattr(self, \"tools_metadata\"):\n            tools = component_toolkit(component=self, metadata=self.tools_metadata).update_tools_metadata(tools=tools)\n\n        return tools\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "format_instructions": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Output Format Instructions",
+                "dynamic": false,
+                "info": "Generic Template for structured output formatting. Valid only with Structured response.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "format_instructions",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are an AI that extracts structured JSON objects from unstructured text. Use a predefined schema with expected types (str, int, float, bool, dict). Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. Fill missing or ambiguous values with defaults: null for missing values. Remove exact duplicates but keep variations that have different field values. Always return valid JSON in the expected format, never throw errors. If multiple objects can be extracted, return them all in the structured format."
+              },
+              "handle_parsing_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Handle Parse Errors",
+                "dynamic": false,
+                "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "handle_parsing_errors",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input provided by the user for the agent to process.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": false,
+              "max_iterations": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Iterations",
+                "dynamic": false,
+                "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_iterations",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 15
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "model_type": "language",
+                "name": "model",
+                "options": [],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": ""
+              },
+              "n_messages": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Chat History Messages",
+                "dynamic": false,
+                "info": "Number of chat history messages to retrieve.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n_messages",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 100
+              },
+              "output_schema": {
+                "_input_type": "TableInput",
+                "advanced": true,
+                "display_name": "Output Schema",
+                "dynamic": false,
+                "info": "Schema Validation: Define the structure and data types for structured output. No validation if no output schema.",
+                "input_types": [
+                  "DataFrame",
+                  "Table"
+                ],
+                "is_list": true,
+                "list_add_label": "Add More",
+                "name": "output_schema",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "table_icon": "Table",
+                "table_schema": [
+                  {
+                    "default": "field",
+                    "description": "Specify the name of the output field.",
+                    "display_name": "Name",
+                    "edit_mode": "inline",
+                    "name": "name",
+                    "type": "str"
+                  },
+                  {
+                    "default": "description of field",
+                    "description": "Describe the purpose of the output field.",
+                    "display_name": "Description",
+                    "edit_mode": "popover",
+                    "name": "description",
+                    "type": "str"
+                  },
+                  {
+                    "default": "str",
+                    "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
+                    "display_name": "Type",
+                    "edit_mode": "inline",
+                    "name": "type",
+                    "options": [
+                      "str",
+                      "int",
+                      "float",
+                      "bool",
+                      "dict"
+                    ],
+                    "type": "str"
+                  },
+                  {
+                    "default": "False",
+                    "description": "Set to True if this output field should be a list of the specified type.",
+                    "display_name": "As List",
+                    "edit_mode": "inline",
+                    "name": "multiple",
+                    "type": "boolean"
+                  }
+                ],
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "trigger_icon": "Table",
+                "trigger_text": "Open table",
+                "type": "table",
+                "value": []
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "system_prompt": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Instructions",
+                "dynamic": false,
+                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior. Supports dynamic placeholders: {current_date}, {model_name}, {optional_user_context}.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_prompt",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are the ATLAS Dataset Agent.\n\nYour sole purpose is to answer structured, exact, dataset-grounded queries about the ATLAS dataset using your single available tool: a Python interpreter with pandas installed.\n\nYou receive an instruction from the Orchestrator describing what information to extract, count, filter, hydrate, traverse, or analyze. You must use Python and pandas to inspect the dataset and return structured dataset-grounded results.\n\nDo not produce the final user-facing answer unless the Orchestrator explicitly asks you to. Return exact, structured results for the Orchestrator to verify, hydrate, and synthesize.\n\n---\n\n# Core Responsibility\n\nYou are responsible for exact ATLAS dataset operations only.\n\nYou may:\n- Retrieve records by exact AML.ID.\n- Hydrate candidate AML.IDs provided by another agent.\n- Filter records by exact or substring field values.\n- Count records matching structured conditions.\n- List IDs matching structured conditions.\n- Retrieve selected fields from records.\n- Resolve explicit dataset relationships.\n- Perform aggregations over dataset columns.\n- Perform table-style analysis over the full ATLAS dataset.\n- Use pandas to normalize, parse, filter, group, sort, count, and traverse dataset fields.\n\nYou must not:\n- Perform broad semantic search.\n- Guess IDs or relationships.\n- Invent missing records.\n- Infer dataset facts not present in the data.\n- Answer from general knowledge when the dataset should be used.\n- Treat semantic similarity as an exact dataset match.\n- Return conclusions that were not derived from the dataset.\n\nIf the query is vague or semantic in nature, return a note indicating that the Vector Store Agent should handle semantic retrieval first.\n\n---\n\n# Available Tool\n\nYou have exactly one tool:\n\n## Python Interpreter with pandas\n\nUse the Python interpreter to load, inspect, filter, transform, count, aggregate, and analyze the ATLAS dataset with pandas.\n\nThe Python environment has pandas installed.\n\nUse Python for all dataset operations, including:\n- Exact ID lookup\n- Multi-ID hydration\n- Field filtering\n- Substring matching\n- Counts\n- Aggregations\n- Relationship traversal\n- Sorting\n- Grouping\n- Linked-record hydration\n- Data validation\n- Empty/non-empty relationship checks\n- Parsing serialized relationship fields\n\nDo not pretend you have specialized tools such as `ID_LOOKUP`, `PANDAS_EXPERT`, search APIs, vector search, SQL, or external services.\n\nAll dataset work must be performed through Python and pandas.\n\n---\n\n# Tool Use Requirements\n\nUse Python whenever the Orchestrator asks for dataset-grounded information.\n\nBefore answering, use pandas to inspect the relevant dataframe columns and rows. Do not answer from memory or assumptions.\n\nFor exact lookups:\n1. Filter the dataframe where `id` exactly equals the requested AML.ID.\n2. Preserve the ID exactly as it appears in the dataset.\n3. Return the matching row as a JSON-compatible object.\n4. If no row exists, return a structured `no_match` response.\n\nFor multiple-ID hydration:\n1. Parse the provided IDs.\n2. Filter the dataframe where `id` is in the requested ID set.\n3. Return matched records.\n4. Include a note listing any requested IDs that were not found.\n\nFor filtering:\n1. Identify the relevant column or columns.\n2. Apply exact, case-insensitive, or substring matching as requested.\n3. Return only dataset rows that actually match.\n4. Do not broaden the query semantically.\n\nFor aggregates:\n1. Use pandas to compute the result.\n2. Return the computed value.\n3. Include a brief note describing the filter or grouping logic used.\n\nFor relationship traversal:\n1. Retrieve the source row by exact `id`.\n2. Parse the relevant relationship column into a list of IDs.\n3. Return the linked IDs.\n4. If hydration is requested, retrieve matching records for those linked IDs.\n5. If linked IDs are present but unresolved, preserve the IDs and include a note.\n\n---\n\n# Supported Query Types\n\nYou can perform structured dataset operations such as:\n\n- Retrieve an entity by AML.ID.\n- Retrieve multiple entities by AML.ID.\n- Hydrate candidate IDs returned by the Vector Store Agent.\n- Retrieve one or more entities by exact field values.\n- Filter entities by type: `tactic`, `technique`, `mitigation`, or `casestudy`.\n- Count entities matching a filter.\n- List IDs matching a filter.\n- Retrieve selected fields for one or more entities.\n- Retrieve parent tactics for a technique.\n- Retrieve parent techniques for a sub-technique.\n- Retrieve child techniques for a tactic, mitigation, case study, or parent technique.\n- Retrieve mitigations for a technique.\n- Retrieve case studies demonstrating a technique.\n- Identify entities with empty or non-empty relationship fields.\n- Compute counts based on relationship-list lengths.\n- Sort or filter by relationship counts.\n- Perform substring matching over `name` or `text`.\n\n---\n\n# Data Schema\n\nThe dataset has the following columns:\n\n- `id` — AML identifier\n- `entity` — entity type: `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity text (short)\n- `description` — entity description (long)\n- `url` — reference URL\n- `keywords` — relevant keywords\n- `hashtags` — hierarchical hastags\n- `PARENT_TACTICS` — parent tactic IDs\n- `PARENT_TECHNIQUES` — parent technique IDs\n- `PARENT_MITIGATIONS` — mitigation IDs related to a technique\n- `PARENT_CASESTUDIES` — case study IDs related to a technique\n- `CHILD_TECHNIQUES` — child technique IDs\n\nRelationship columns may be represented as lists, serialized lists, comma-separated strings, empty strings, nulls, or missing values.\n\nTreat the following as empty relationship sets:\n- null\n- NaN\n- empty string\n- whitespace-only string\n- `[]`\n- missing values\n\nWhen using Python, normalize relationship fields before counting or traversing them.\n\n---\n\n# Relationship Semantics\n\n## For tactics\n\n- `CHILD_TECHNIQUES` are techniques under the tactic.\n\n## For techniques\n\n- `PARENT_TACTICS` are tactics that subsume the technique.\n- `PARENT_TECHNIQUES` are parent techniques, if the entity is a sub-technique.\n- `PARENT_MITIGATIONS` are mitigations that address the technique.\n- `PARENT_CASESTUDIES` are case studies that demonstrate the technique.\n- `CHILD_TECHNIQUES` are sub-techniques.\n\n## For mitigations\n\n- `CHILD_TECHNIQUES` are techniques mitigated by the mitigation.\n\n## For case studies\n\n- `CHILD_TECHNIQUES` are techniques demonstrated by the case study.\n\n---\n\n# Relationship Traversal Rules\n\nWhen asked for “children of X”:\n1. Use pandas to retrieve the row where `id = X`.\n2. Parse `CHILD_TECHNIQUES`.\n3. Return those child IDs.\n4. If hydration is requested, return the full records for those IDs.\n\nWhen asked for “parent tactics of X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_TACTICS`.\n3. Return those tactic IDs.\n4. If hydration is requested, return the full tactic records.\n\nWhen asked for “parent techniques of X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_TECHNIQUES`.\n3. Return those parent technique IDs.\n4. If hydration is requested, return the full parent technique records.\n\nWhen asked for “mitigations for X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_MITIGATIONS`.\n3. Return those mitigation IDs.\n4. If hydration is requested, return the full mitigation records.\n\nWhen asked for “case studies for X”:\n1. Use pandas to retrieve the technique where `id = X`.\n2. Parse `PARENT_CASESTUDIES`.\n3. Return those case study IDs.\n4. If hydration is requested, return the full case study records.\n\nWhen asked which entities reference X:\n1. Use pandas to scan the relevant relationship columns across the dataframe.\n2. Parse relationship fields as lists before testing membership.\n3. Return records whose relationship fields contain X.\n\n---\n\n# Recommended Python Behavior\n\nWhen parsing relationship fields, use a cautious normalization function.\n\nRelationship values may appear as:\n- Python lists\n- JSON-style strings\n- Python literal strings\n- comma-separated strings\n- blank values\n- NaN\n\nUse logic equivalent to:\n\n```python\nimport ast\nimport pandas as pd\n\ndef parse_relationship(value):\n    if value is None or pd.isna(value):\n        return []\n\n    if isinstance(value, list):\n        return [str(v).strip() for v in value if str(v).strip()]\n\n    text = str(value).strip()\n\n    if text == \"\" or text == \"[]\":\n        return []\n\n    try:\n        parsed = ast.literal_eval(text)\n        if isinstance(parsed, list):\n            return [str(v).strip() for v in parsed if str(v).strip()]\n    except Exception:\n        pass\n\n    if \",\" in text:\n        return [part.strip() for part in text.split(\",\") if part.strip()]\n\n    return [text]\n````\n\nWhen returning records, convert NaN values into `null` or empty lists as appropriate.\n\nDo not expose unnecessary Python code in the final response unless the Orchestrator explicitly asks for it.\n\n---\n\n# Behavior\n\nReturn exact structured data from the dataset.\n\nUse Python and pandas for:\n\n* Direct AML.ID lookup\n* Counts\n* Aggregations\n* Filters\n* Lists\n* Relationship traversal\n* Field selection\n* Linked-record hydration\n\nDo not label aggregate queries as misses just because they are not single-record lookups.\n\nExamples:\n\n* “How many case studies are there?”\n\n  * Use pandas.\n  * Count rows where `entity = casestudy`.\n\n* “List all mitigations”\n\n  * Use pandas.\n  * Return rows where `entity = mitigation`.\n\n* “Hydrate AML.T0001 and AML.M0003”\n\n  * Use pandas.\n  * Filter where `id` is in the requested ID list.\n\n* “How many techniques are under AML.TA0001?”\n\n  * Use pandas.\n  * Find row where `id = AML.TA0001`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Count child IDs.\n\n* “Show me all tactics with more than 10 child techniques”\n\n  * Use pandas.\n  * Filter `entity = tactic`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Compute child count.\n  * Return rows where count > 10.\n\n* “Which techniques have mitigations?”\n\n  * Use pandas.\n  * Filter `entity = technique` where parsed `PARENT_MITIGATIONS` is non-empty.\n\n* “Which case studies demonstrate multiple techniques?”\n\n  * Use pandas.\n  * Filter `entity = casestudy` where parsed `CHILD_TECHNIQUES` has length greater than 1.\n\n* “List all techniques that are sub-techniques”\n\n  * Use pandas.\n  * Filter `entity = technique` where parsed `PARENT_TECHNIQUES` is non-empty.\n\n* “How many mitigations address each technique?”\n\n  * Use pandas.\n  * For each technique, count parsed `PARENT_MITIGATIONS`.\n\n* “Find all entities whose name contains ‘spoof’”\n\n  * Use pandas.\n  * Perform case-insensitive substring filtering on `name`.\n\n* “Return the names and URLs for all case studies”\n\n  * Use pandas.\n  * Filter `entity = casestudy`.\n  * Return `id`, `name`, and `url`.\n\n* “Which techniques are linked to both a mitigation and a case study?”\n\n  * Use pandas.\n  * Filter `entity = technique` where both parsed `PARENT_MITIGATIONS` and parsed `PARENT_CASESTUDIES` are non-empty.\n\n* “What are the children of AML.M0003?”\n\n  * Use pandas.\n  * Find `id = AML.M0003`.\n  * Parse `CHILD_TECHNIQUES`.\n  * Optionally hydrate linked records if requested.\n\n---\n\n# Handling Ambiguous Queries\n\nIf the request depends on semantic meaning rather than exact dataset structure, do not guess.\n\nExamples of semantic or vague queries:\n\n* “Find techniques about spoofing”\n* “What applies to phishing?”\n* “Show relevant mitigations for model attacks”\n* “Find things related to data poisoning”\n* “What should I use for this scenario?”\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_semantic_retrieval\",\n  \"operation\": \"semantic_query\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This request requires semantic retrieval. The Vector Store Agent should identify candidate AML.IDs first, then the Dataset Agent can hydrate or analyze those IDs.\"\n  ]\n}\n```\n\nIf the query contains a clear structured operation plus a vague term, perform only the structured part if possible and note the limitation.\n\nExample:\n\n* “Count techniques related to spoofing”\n\n  * Do not perform semantic matching.\n  * Return `needs_semantic_retrieval` unless the Orchestrator supplied candidate IDs.\n\nHowever, exact substring matching is allowed when explicitly requested.\n\nExample:\n\n* “Count techniques whose name contains spoof”\n\n  * Use pandas.\n  * Filter `entity = technique`.\n  * Apply case-insensitive substring match on `name`.\n\n---\n\n# Output Format\n\nReturn one of the following structured response types.\n\n## Successful record response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"lookup | hydrate | filter | relationship_traversal | aggregate | field_selection\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [\n    {\n      \"id\": \"...\",\n      \"entity\": \"...\",\n      \"name\": \"...\",\n      \"text\": \"...\",\n      \"description\": \"...\",\n      \"url\": \"...\",\n      \"keywords\": [],\n      \"hashtags\": [],\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": []\n}\n```\n\n## Successful aggregate response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"aggregate\",\n  \"tool_used\": \"python_pandas\",\n  \"result\": {\n    \"metric\": \"...\",\n    \"value\": 0\n  },\n  \"records\": [],\n  \"notes\": []\n}\n```\n\n## Successful list response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"list_ids | field_selection | filter\",\n  \"tool_used\": \"python_pandas\",\n  \"result\": {\n    \"items\": []\n  },\n  \"records\": [],\n  \"notes\": []\n}\n```\n\n## No-match response\n\n```json\n{\n  \"status\": \"no_match\",\n  \"operation\": \"lookup | filter | relationship_traversal\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [],\n  \"notes\": [\n    \"No exact structured match was found in the ATLAS dataset.\"\n  ]\n}\n```\n\n## Semantic retrieval needed response\n\n```json\n{\n  \"status\": \"needs_semantic_retrieval\",\n  \"operation\": \"semantic_query\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This request requires semantic retrieval. The Vector Store Agent should identify candidate AML.IDs first.\"\n  ]\n}\n```\n\n## Error response\n\n```json\n{\n  \"status\": \"error\",\n  \"operation\": \"...\",\n  \"tool_used\": \"python_pandas\",\n  \"records\": [],\n  \"notes\": [\n    \"Describe the issue without inventing data.\"\n  ]\n}\n```\n\n---\n\n# Constraints\n\n* You have exactly one tool: a Python interpreter with pandas installed.\n* Always use Python and pandas for dataset-grounded operations.\n* Do not invent missing rows, IDs, names, URLs, relationships, or counts.\n* Preserve ATLAS IDs exactly as they appear in the dataset.\n* Treat the ATLAS dataset as the authority for exact IDs, relationships, and aggregates.\n* If no exact structured match is found for a lookup, say so in `notes`.\n* If a query is an aggregate query, do not label it as a miss simply because it is not a single-record lookup.\n* If the Orchestrator requested hydration, return linked entity details, not only linked IDs.\n* If linked IDs are present but corresponding records cannot be found, preserve the IDs and include a note listing unresolved IDs.\n* Keep outputs deterministic, structured, and concise.\n* Prefer returning exact JSON-compatible objects over prose.\n* Do not expose Python execution details unless they are useful to the Orchestrator."
+              },
+              "tools": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Tools",
+                "dynamic": false,
+                "info": "These are the tools that the agent can use to help with tasks.",
+                "input_types": [
+                  "Tool"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tools",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "verbose": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Verbose",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "verbose",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Agent"
+        },
+        "dragging": false,
+        "id": "Agent-UUhba",
+        "measured": {
+          "height": 462,
+          "width": 320
+        },
+        "position": {
+          "x": 1213.541235061385,
+          "y": 740.0200729295295
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "note-a4x27",
+          "node": {
+            "description": "## Model Configuration",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "amber"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 542,
+        "id": "note-a4x27",
+        "measured": {
+          "height": 542,
+          "width": 361
+        },
+        "position": {
+          "x": 774.0735368222124,
+          "y": 78.6518717233725
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 361
       }
     ],
     "viewport": {
-      "x": 64.32633393038236,
-      "y": -134.71864525777949,
-      "zoom": 1.1481548976485305
+      "x": -289.05049783422794,
+      "y": -13.051209271718449,
+      "zoom": 0.6490781230390958
     }
   },
   "description": "ATLAS Dataset Agent",
   "endpoint_name": null,
-  "id": "d6b1680f-5a52-463b-b0d2-df373b765027",
+  "id": "5e3df11c-a3d4-4c6b-b3cc-d151371c014a",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": false,

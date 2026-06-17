@@ -9,14 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-# Environment variables
-.env
-
-# Langflow database
-.langflow
-
-# Continue files
-.continue/
-
 # .DS_Store
 .DS_Store

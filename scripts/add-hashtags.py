@@ -5,10 +5,13 @@ import ast
 import pandas as pd
 from pathlib import Path
 
+DATA_DIR = Path(__file__).parent.parent / "data" / "datasets"
 # %%
-
-DATA_DIR = Path(__file__).parent.parent / "data"
-df = pd.read_csv(DATA_DIR / "atlas-nodes-04-2026.csv")
+# Load ATLAS data
+file = "atlas-nodes-04-2026.csv"
+file_name = file.split(".csv")[0]
+file_path = DATA_DIR / file
+df = pd.read_csv(file_path)
 
 # %%
 # Prefix subtechnique names with parent technique name using ": " separator
@@ -218,6 +221,6 @@ df = df.drop(columns=["_expected_hashtag_count", "_actual_hashtag_count"])
 
 # %%
 # Save output
-
-df.to_csv(DATA_DIR / "atlas-graph-nodes-04-2026-with-prefixed-names-and-hashtags.csv", index=False)
+output_file_name = f"{file_name}-with-hashtags.csv"
+df.to_csv(DATA_DIR / output_file_name, index=False)
 # %%

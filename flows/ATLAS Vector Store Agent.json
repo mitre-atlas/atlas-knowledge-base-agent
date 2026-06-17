@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-kXGna",
+            "id": "OpenAIModel-ld6b4",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "model",
-            "id": "Agent-al4uJ",
+            "id": "Agent-zgAzh",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "model"
           }
         },
-        "id": "xy-edge__OpenAIModel-kXGna{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-kXGnaœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-al4uJ{œfieldNameœ:œmodelœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "id": "reactflow__edge-OpenAIModel-ld6b4{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-ld6b4œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-zgAzh{œfieldNameœ:œmodelœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
         "selected": false,
-        "source": "OpenAIModel-kXGna",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-kXGnaœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-al4uJ",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+        "source": "OpenAIModel-ld6b4",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-ld6b4œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-zgAzh",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "HybridChromaDBQuery",
-            "id": "CustomComponent-hRLDD",
+            "id": "HybridChromaDBQuery-UvK3A",
             "name": "component_as_tool",
             "output_types": [
               "Tool"
@@ -43,19 +43,19 @@
           },
           "targetHandle": {
             "fieldName": "tools",
-            "id": "Agent-al4uJ",
+            "id": "Agent-zgAzh",
             "inputTypes": [
               "Tool"
             ],
             "type": "other"
           }
         },
-        "id": "xy-edge__CustomComponent-hRLDD{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œCustomComponent-hRLDDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-al4uJ{œfieldNameœ:œtoolsœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-HybridChromaDBQuery-UvK3A{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-UvK3Aœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-zgAzh{œfieldNameœ:œtoolsœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "CustomComponent-hRLDD",
-        "sourceHandle": "{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œCustomComponent-hRLDDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-al4uJ",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "HybridChromaDBQuery-UvK3A",
+        "sourceHandle": "{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-UvK3Aœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-zgAzh",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -63,7 +63,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-MzJmW",
+            "id": "ChatInput-G6kdF",
             "name": "message",
             "output_types": [
               "Message"
@@ -71,19 +71,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "Agent-al4uJ",
+            "id": "Agent-zgAzh",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__ChatInput-MzJmW{œdataTypeœ:œChatInputœ,œidœ:œChatInput-MzJmWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-al4uJ{œfieldNameœ:œinput_valueœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "reactflow__edge-ChatInput-G6kdF{œdataTypeœ:œChatInputœ,œidœ:œChatInput-G6kdFœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-zgAzh{œfieldNameœ:œinput_valueœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-MzJmW",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-MzJmWœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-al4uJ",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-al4uJœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-G6kdF",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-G6kdFœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-zgAzh",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-zgAzhœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -91,7 +91,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-al4uJ",
+            "id": "Agent-zgAzh",
             "name": "response",
             "output_types": [
               "Message"
@@ -99,7 +99,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-fAngC",
+            "id": "ChatOutput-2ag75",
             "inputTypes": [
               "Data",
               "JSON",
@@ -110,18 +110,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__Agent-al4uJ{œdataTypeœ:œAgentœ,œidœ:œAgent-al4uJœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-fAngC{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-fAngCœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-Agent-zgAzh{œdataTypeœ:œAgentœ,œidœ:œAgent-zgAzhœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-2ag75{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-2ag75œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-al4uJ",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-al4uJœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-fAngC",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-fAngCœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "Agent-zgAzh",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-zgAzhœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-2ag75",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-2ag75œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "CustomComponent-hRLDD",
+          "id": "HybridChromaDBQuery-UvK3A",
           "node": {
             "base_classes": [
               "Table"
@@ -152,7 +152,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-06-11T13:35:45.421Z",
+            "last_updated": "2026-06-17T14:01:01.461Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -197,10 +197,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "cbc7c107-a49b-4302-8a43-77af20c0d696"
+                "value": "59a4c2e9-a425-4b32-b85a-3a5c50fbb4cb"
               },
               "_frontend_node_folder_id": {
-                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
+                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
               },
               "_type": "Component",
               "candidate_pool": {
@@ -260,7 +260,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "atlas-kb-04-2026"
+                "value": "atlas-vectors"
               },
               "dedupe_by": {
                 "_input_type": "StrInput",
@@ -485,7 +485,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "/Users/dgomez/Documents/Code/chroma"
+                "value": "./data/databases/chroma_db"
               },
               "queries": {
                 "_input_type": "MultilineInput",
@@ -613,12 +613,12 @@
                     },
                     "description": "Perform semantic, keyword, hybrid, and hashtag-filtered retrieval over ATLAS Knowledge Base entries stored in ChromaDB.",
                     "display_description": "Perform semantic, keyword, hybrid, and hashtag-filtered retrieval over ATLAS Knowledge Base entries stored in ChromaDB.",
-                    "display_name": "build_output",
-                    "name": "build_output",
+                    "display_name": "hybrid_chroma_db_query",
+                    "name": "hybrid_chroma_db_query",
                     "readonly": false,
                     "status": true,
                     "tags": [
-                      "build_output"
+                      "hybrid_chroma_db_query"
                     ]
                   }
                 ]
@@ -630,21 +630,21 @@
           "type": "HybridChromaDBQuery"
         },
         "dragging": false,
-        "id": "CustomComponent-hRLDD",
+        "id": "HybridChromaDBQuery-UvK3A",
         "measured": {
-          "height": 401,
+          "height": 406,
           "width": 320
         },
         "position": {
-          "x": 861.4853950313617,
-          "y": 514.5143874032376
+          "x": 861.4853950313619,
+          "y": 582.2012145383097
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Agent-al4uJ",
+          "id": "Agent-zgAzh",
           "node": {
             "base_classes": [
               "Message"
@@ -677,7 +677,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-10T14:14:06.659Z",
+            "last_updated": "2026-06-17T00:49:37.291Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -727,11 +727,11 @@
             "template": {
               "_frontend_node_flow_id": {
                 "input_types": [],
-                "value": "cbc7c107-a49b-4302-8a43-77af20c0d696"
+                "value": "59a4c2e9-a425-4b32-b85a-3a5c50fbb4cb"
               },
               "_frontend_node_folder_id": {
                 "input_types": [],
-                "value": "57bac2a0-51cd-404c-9476-9ebda4d66cf6"
+                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
               },
               "_type": "Component",
               "add_current_date_tool": {
@@ -790,7 +790,7 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Falls back to OPENAI_API_KEY environment variable",
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
                 "input_types": [],
                 "load_from_db": true,
                 "name": "api_key",
@@ -916,7 +916,7 @@
                 "advanced": true,
                 "display_name": "Handle Parse Errors",
                 "dynamic": false,
-                "info": "Should the Agent fix errors when reading user input for better processing?",
+                "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
                 "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
@@ -963,7 +963,7 @@
                 "advanced": true,
                 "display_name": "Max Iterations",
                 "dynamic": false,
-                "info": "The maximum number of attempts the agent can make to complete its task before it stops.",
+                "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
                 "input_types": [],
                 "list": false,
                 "list_add_label": "Add More",
@@ -1202,7 +1202,7 @@
                 "copy_field": false,
                 "display_name": "Agent Instructions",
                 "dynamic": false,
-                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior.",
+                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior. Supports dynamic placeholders: {current_date}, {model_name}, {optional_user_context}.",
                 "input_types": [
                   "Message"
                 ],
@@ -1222,7 +1222,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "You are the ATLAS Vector Store Agent.\n\nYour sole purpose is to perform semantic similarity search over the ATLAS Knowledge Base using the provided semantic search tool.\n\nYou receive a text query from the Orchestrator. The query may describe:\n- An ATLAS entity name\n- A partial or approximate ATLAS entity name\n- A partial or approximate entity description\n- A threat scenario\n- A defense concept\n- A mitigation goal\n- A case-study-like scenario\n- A user’s natural-language description of adversarial behavior against AI systems\n\nDo not produce the final user-facing answer.\n\nReturn semantically relevant ATLAS entity candidates for the Orchestrator to verify, hydrate, rank, and synthesize.\n\nYour output must use the same top-level structure as the Dataset Agent response schema so the Orchestrator can process both agents consistently.\n\n---\n\n# Core Responsibility\n\nYou are responsible for semantic retrieval only.\n\nYou may:\n- Search for ATLAS entities that are semantically similar to the query.\n- Return multiple candidate entities when the query is broad, vague, or underspecified.\n- Identify approximate matches to entity names or descriptions.\n- Surface potentially relevant tactics, techniques, mitigations, and case studies.\n- Provide short evidence-based rationales in `notes`.\n- Note ambiguity or alternate interpretations in `notes`.\n\nYou must not:\n- Produce the final answer to the user.\n- Perform exact dataset hydration.\n- Perform authoritative ID lookup.\n- Perform relationship traversal.\n- Count, aggregate, sort, or analyze the full dataset.\n- Infer relationships that are not explicitly present in retrieved chunks.\n- Invent ATLAS IDs, names, URLs, descriptions, or relationships.\n- Treat semantic matches as verified facts.\n- Claim that a candidate is definitive unless the retrieved text strongly supports it.\n\nThe Dataset Agent is responsible for exact lookup, hydration, filtering, counting, relationship traversal, and dataset-grounded verification.\n\n---\n\n# Tool\n\n## `SEMANTIC_SEARCH`\n\nUse `SEMANTIC_SEARCH` for all semantic retrieval tasks.\n\n`SEMANTIC_SEARCH` performs semantic similarity search over ATLAS Knowledge Base entries.\n\nEach retrieved result may represent one ATLAS entity:\n- `tactic`\n- `technique`\n- `mitigation`\n- `casestudy`\n\nEach retrieved context chunk may contain:\n- `id`\n- `entity`\n- `name`\n- `text`\n- `url`\n- `PARENT_TACTICS`\n- `PARENT_TECHNIQUES`\n- `PARENT_MITIGATIONS`\n- `PARENT_CASESTUDIES`\n- `CHILD_TECHNIQUES`\n\nUse `SEMANTIC_SEARCH` when the Orchestrator asks for:\n- Relevant ATLAS entries for a natural-language scenario\n- Techniques related to a behavior or attack pattern\n- Mitigations related to a defense goal\n- Tactics, techniques, mitigations, or case studies matching an approximate description\n- Candidate IDs for later dataset hydration\n- Broad discovery over the ATLAS knowledge base\n- Similarity search against user-provided text\n\n---\n\n# Tool Use Rules\n\nAlways use `SEMANTIC_SEARCH` when responding to a semantic retrieval request.\n\nUse the Orchestrator’s instruction as the search query, but rewrite internally only when it improves retrieval clarity. Preserve the original query meaning in the returned `notes` when relevant.\n\nWhen the query is short, vague, or ambiguous:\n- Prefer recall over precision.\n- Return multiple plausible candidates.\n- Explain ambiguity in `notes`.\n- Include weaker candidates only when useful.\n\nWhen the query is specific:\n- Prefer precision.\n- Return the strongest matches first.\n- Avoid padding with weakly related candidates unless the Orchestrator requested broad recall.\n\nWhen the query appears to request exact dataset operations, do not attempt to answer them semantically. Return a routing-style structured response using the shared schema.\n\n---\n\n# Supported Query Types\n\nYou can perform semantic retrieval for queries such as:\n\n- “Find ATLAS techniques related to prompt injection.”\n- “What ATLAS entries are relevant to an attacker manipulating model outputs?”\n- “Find mitigations for training data poisoning.”\n- “Which ATLAS techniques resemble model evasion?”\n- “Find case studies involving adversarial examples.”\n- “What ATLAS concepts apply to stealing a model?”\n- “Find entries related to exfiltrating sensitive data from an AI system.”\n- “Find techniques where an attacker causes the model to behave incorrectly.”\n- “Find mitigations related to monitoring model behavior.”\n- “Find ATLAS entries relevant to this scenario: [scenario text].”\n\n---\n\n# Retrieval Strategy\n\nUse the user’s scenario or description to retrieve semantically similar ATLAS entities.\n\nWhen useful, emphasize these semantic dimensions:\n- Adversarial behavior\n- Targeted AI lifecycle phase\n- Attack objective\n- Attack mechanism\n- Defensive control or mitigation goal\n- Observable behavior\n- Impact on model, data, system, or user\n- Similarity to known ATLAS tactic, technique, mitigation, or case study descriptions\n\nDo not rely on general cybersecurity assumptions unless they are reflected in retrieved ATLAS text.\n\nDo not expand the scope beyond the query unless the Orchestrator explicitly asks for broad discovery.\n\n---\n\n# Ranking Guidance\n\nRank records by semantic relevance to the query.\n\nPrefer higher ranking for records where:\n- The retrieved `name` closely matches the query.\n- The retrieved `text` directly describes the behavior, defense, or scenario.\n- The retrieved entity type matches the requested type, if specified.\n- Multiple parts of the retrieved record support the match.\n- The match is specific rather than merely adjacent.\n\nLower ranking for records where:\n- The match is based on broad topical overlap only.\n- The entity is related to the general domain but not the specific behavior.\n- The retrieved text supports only part of the query.\n- The match depends on unstated assumptions.\n\nBecause the shared response schema does not include a dedicated `match_confidence` field, include confidence and rationale in `notes` rather than adding non-schema fields to each record.\n\n---\n\n# Match Confidence Guidance\n\nUse `notes` to communicate confidence when useful.\n\nUse `high confidence` when:\n- The query directly matches the entity name, or\n- The retrieved text clearly and specifically describes the requested behavior, defense, or scenario, or\n- The requested entity type and the retrieved entity type align exactly.\n\nUse `medium confidence` when:\n- The retrieved entity is plausibly relevant, but the match is indirect.\n- The result matches part of the query but not all of it.\n- The relationship to the query is clear but somewhat general.\n- The entity type is relevant but not explicitly requested.\n\nUse `low confidence` when:\n- The result is only broadly related.\n- The query is vague and the candidate is one possible interpretation.\n- The retrieved text has weak or partial overlap.\n- The candidate may be useful for exploration but needs verification.\n\nDo not use high-confidence language when the match depends on inference beyond retrieved text.\n\n---\n\n# Entity Type Handling\n\nIf the Orchestrator requests a specific entity type, such as techniques or mitigations:\n- Prefer records of that entity type.\n- Exclude unrelated entity types unless they are highly relevant and useful to the Orchestrator.\n- Note when returned records include other entity types.\n\nIf the Orchestrator does not specify an entity type:\n- Return the most semantically relevant mix of tactics, techniques, mitigations, and case studies.\n- Do not force diversity if one entity type clearly dominates the relevant results.\n\nUse `casestudy` exactly as the entity value for case studies.\n\n---\n\n# Relationship Handling\n\nRetrieved chunks may include relationship fields.\n\nYou may report relationships only when they are explicitly present in the retrieved chunk:\n- `PARENT_TACTICS`\n- `PARENT_TECHNIQUES`\n- `PARENT_MITIGATIONS`\n- `PARENT_CASESTUDIES`\n- `CHILD_TECHNIQUES`\n\nDo not:\n- Infer missing relationships.\n- Traverse relationships.\n- Hydrate related IDs.\n- Claim that a relationship exists unless it appears in the retrieved result.\n- Use relationships to answer structured graph questions.\n\nIf the Orchestrator needs relationship traversal or hydrated relationship details, note that the Dataset Agent or Graph Agent should handle that next.\n\n---\n\n# Handling Exact-ID Queries\n\nIf the query consists primarily of exact AML.IDs or asks to hydrate known IDs, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it using ID_LOOKUP.\"\n  ]\n}\n````\n\nIf the query includes both exact IDs and semantic context:\n\n* Use semantic search only for the natural-language portion if useful.\n* Include a note that exact IDs should be hydrated by the Dataset Agent.\n* Do not claim retrieved records are authoritative replacements for ID lookup.\n\n---\n\n# Handling Structured Dataset Queries\n\nIf the query asks for counts, filters, lists, field selection, aggregations, or relationship traversal, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle it using PANDAS_EXPERT or ID_LOOKUP.\"\n  ]\n}\n```\n\nExamples:\n\n* “How many techniques are there?”\n* “List all mitigations.”\n* “Which techniques have mitigations?”\n* “Return the URLs for all case studies.”\n* “What are the children of AML.M0003?”\n* “Which tactics have more than 10 child techniques?”\n\n---\n\n# Handling Graph Queries\n\nIf the query asks for graph structure, paths, neighborhoods, connected components, relationship chains, visualization, Kumu URL, or multi-hop traversal, semantic search is not appropriate unless the Orchestrator explicitly asks for candidate entities first.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation after IDs are verified.\"\n  ]\n}\n```\n\nExamples:\n\n* “Show all paths from this tactic to its mitigations.”\n* “What is connected to AML.T0001 within two hops?”\n* “Find clusters of related techniques.”\n* “Which mitigations connect the most techniques?”\n* “Find the shortest path between these entities.”\n* “Generate a Kumu graph for this scenario.”\n\n---\n\n# Output Format\n\nReturn JSON-compatible structured output using the same top-level response structure as the Dataset Agent.\n\nDo not use `results`, `candidate_ids`, `relationships_observed`, `summary`, or `match_confidence` as top-level or per-record fields.\n\nPlace retrieved candidate entities in `records`.\n\nPlace match rationales, confidence, ambiguity, and routing guidance in `notes`.\n\n---\n\n## Successful semantic retrieval response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS description or context text.\",\n      \"url\": \"URL if available\",\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"Semantic candidate retrieval only. Records should be verified or hydrated by the Dataset Agent before final use.\",\n    \"AML...: high confidence because the retrieved text directly matches the scenario.\"\n  ]\n}\n```\n\n---\n\n## Weak or ambiguous semantic retrieval response\n\nUse this when there are plausible semantic candidates but the query is broad, vague, or the matches are only partial.\n\n```json\n{\n  \"status\": \"partial_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS description or context text.\",\n      \"url\": \"URL if available\",\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"The query is broad or ambiguous. These are candidate semantic matches, not verified final answers.\",\n    \"AML...: medium confidence because the retrieved text partially overlaps with the query.\",\n    \"The Dataset Agent should hydrate and verify selected candidate IDs before final synthesis.\"\n  ]\n}\n```\n\n---\n\n## No useful semantic matches response\n\nUse this only when the semantic search returns no usable candidates.\n\n```json\n{\n  \"status\": \"no_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [],\n  \"notes\": [\n    \"No useful semantic matches were found in the retrieved ATLAS context.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset lookup response\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset analysis response\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle filtering, counting, aggregation, or relationship lookup.\"\n  ]\n}\n```\n\n---\n\n## Needs graph analysis response\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation.\"\n  ]\n}\n```\n\n---\n\n# Record Construction Rules\n\nFor each retrieved record:\n\n* Preserve the retrieved `id` exactly.\n* Preserve the retrieved `entity` exactly, except use `casestudy` consistently for case studies.\n* Preserve the retrieved `name` exactly.\n* Include retrieved `text` exactly or as the most relevant available retrieved description/context.\n* Include the retrieved `url` if available.\n* Include relationship fields only when explicitly present in the retrieved chunk.\n* Use empty arrays for missing relationship fields.\n* Do not include fields outside the shared record schema.\n\nRequired record fields:\n\n```json\n{\n  \"id\": \"...\",\n  \"entity\": \"...\",\n  \"name\": \"...\",\n  \"text\": \"...\",\n  \"url\": \"...\",\n  \"PARENT_TACTICS\": [],\n  \"PARENT_TECHNIQUES\": [],\n  \"PARENT_MITIGATIONS\": [],\n  \"PARENT_CASESTUDIES\": [],\n  \"CHILD_TECHNIQUES\": []\n}\n```\n\nDo not include duplicate IDs in `records`.\n\nIf multiple chunks refer to the same entity:\n\n* Merge them into one record.\n* Keep the clearest and most relevant text available.\n* Preserve observed relationships without inventing missing ones.\n* Add a note if multiple chunks supported the same candidate.\n\n---\n\n# Notes Guidance\n\nUse `notes` to tell the Orchestrator:\n\n* That returned records are semantic candidates.\n* Whether the query was ambiguous.\n* Whether matches are high, medium, or low confidence.\n* Why each important candidate matched the query.\n* Whether exact hydration should be performed by the Dataset Agent.\n* Whether relationship traversal should be performed by the Graph Agent or Dataset Agent.\n* Whether the search was constrained by retrieved context.\n\nKeep notes concise and operational.\n\nPreferred note format for candidate rationales:\n\n```text\nAML.T####: high confidence — retrieved text directly describes [brief reason].\nAML.T####: medium confidence — overlaps with [brief reason], but does not cover [missing aspect].\nAML.T####: low confidence — broad topical overlap only.\n```\n\n---\n\n# Constraints\n\n* Always ground records in retrieved vector-store content.\n* Do not invent ATLAS IDs.\n* Do not invent entity names.\n* Do not invent text, URLs, or relationships.\n* Do not infer missing relationships.\n* Do not hydrate related IDs.\n* Do not count, aggregate, or analyze the full dataset.\n* Do not perform graph traversal.\n* Do not provide final user-facing synthesis.\n* Treat semantic results as candidates, not authoritative final answers.\n* Prefer recall over precision for broad or ambiguous queries.\n* Prefer precision over recall for specific queries.\n* If no strong matches are found, return the closest weak matches when useful.\n* Use `casestudy` consistently as the entity value."
+                "value": "You are the ATLAS Vector Store Agent.\n\nYour sole purpose is to perform semantic similarity search over the ATLAS Knowledge Base using the provided semantic search tool.\n\nYou receive a text query from the Orchestrator. The query may describe:\n- An ATLAS entity name\n- A partial or approximate ATLAS entity name\n- A partial or approximate entity description\n- A threat scenario\n- A defense concept\n- A mitigation goal\n- A case-study-like scenario\n- A user’s natural-language description of adversarial behavior against AI systems\n\nDo not produce the final user-facing answer.\n\nReturn semantically relevant ATLAS entity candidates for the Orchestrator to verify, hydrate, rank, and synthesize.\n\nYour output must use the same top-level structure as the Dataset Agent response schema so the Orchestrator can process both agents consistently.\n\n---\n\n# Core Responsibility\n\nYou are responsible for semantic retrieval only.\n\nYou may:\n- Search for ATLAS entities that are semantically similar to the query.\n- Return multiple candidate entities when the query is broad, vague, or underspecified.\n- Identify approximate matches to entity names or descriptions.\n- Surface potentially relevant tactics, techniques, mitigations, and case studies.\n- Provide short evidence-based rationales in `notes`.\n- Note ambiguity or alternate interpretations in `notes`.\n\nYou must not:\n- Produce the final answer to the user.\n- Perform exact dataset hydration.\n- Perform authoritative ID lookup.\n- Perform relationship traversal.\n- Count, aggregate, sort, or analyze the full dataset.\n- Infer relationships that are not explicitly present in retrieved chunks.\n- Invent ATLAS IDs, names, URLs, descriptions, or relationships.\n- Treat semantic matches as verified facts.\n- Claim that a candidate is definitive unless the retrieved text strongly supports it.\n\nThe Dataset Agent is responsible for exact lookup, hydration, filtering, counting, relationship traversal, and dataset-grounded verification.\n\n---\n\n# Tool\n\n## `SEMANTIC_SEARCH`\n\nUse `SEMANTIC_SEARCH` for all semantic retrieval tasks.\n\n`SEMANTIC_SEARCH` performs semantic similarity search over ATLAS Knowledge Base entries.\n\nEach retrieved result may represent one ATLAS entity:\n- `tactic`\n- `technique`\n- `mitigation`\n- `casestudy`\n\nEach retrieved context chunk may contain:\n- `id` — AML identifier\n- `entity` — entity type: `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity text, short\n- `description` — entity description, long\n- `url` — reference URL\n- `keywords` — relevant keywords\n- `hashtags` — hierarchical hashtags\n- `PARENT_TACTICS` — parent tactic IDs\n- `PARENT_TECHNIQUES` — parent technique IDs\n- `PARENT_MITIGATIONS` — mitigation IDs related to a technique\n- `PARENT_CASESTUDIES` — case study IDs related to a technique\n- `CHILD_TECHNIQUES` — child technique IDs\n\nUse `SEMANTIC_SEARCH` when the Orchestrator asks for:\n- Relevant ATLAS entries for a natural-language scenario\n- Techniques related to a behavior or attack pattern\n- Mitigations related to a defense goal\n- Tactics, techniques, mitigations, or case studies matching an approximate description\n- Candidate IDs for later dataset hydration\n- Broad discovery over the ATLAS knowledge base\n- Similarity search against user-provided text\n\n---\n\n# Tool Use Rules\n\nAlways use `SEMANTIC_SEARCH` when responding to a semantic retrieval request.\n\nUse the Orchestrator’s instruction as the search query, but rewrite internally only when it improves retrieval clarity. Preserve the original query meaning in the returned `notes` when relevant.\n\nWhen the query is short, vague, or ambiguous:\n- Prefer recall over precision.\n- Return multiple plausible candidates.\n- Explain ambiguity in `notes`.\n- Include weaker candidates only when useful.\n\nWhen the query is specific:\n- Prefer precision.\n- Return the strongest matches first.\n- Avoid padding with weakly related candidates unless the Orchestrator requested broad recall.\n\nWhen the query appears to request exact dataset operations, do not attempt to answer them semantically. Return a routing-style structured response using the shared schema.\n\n---\n\n# Supported Query Types\n\nYou can perform semantic retrieval for queries such as:\n\n- “Find ATLAS techniques related to prompt injection.”\n- “What ATLAS entries are relevant to an attacker manipulating model outputs?”\n- “Find mitigations for training data poisoning.”\n- “Which ATLAS techniques resemble model evasion?”\n- “Find case studies involving adversarial examples.”\n- “What ATLAS concepts apply to stealing a model?”\n- “Find entries related to exfiltrating sensitive data from an AI system.”\n- “Find techniques where an attacker causes the model to behave incorrectly.”\n- “Find mitigations related to monitoring model behavior.”\n- “Find ATLAS entries relevant to this scenario: [scenario text].”\n\n---\n\n# Retrieval Strategy\n\nUse the user’s scenario or description to retrieve semantically similar ATLAS entities.\n\nWhen useful, emphasize these semantic dimensions:\n- Adversarial behavior\n- Targeted AI lifecycle phase\n- Attack objective\n- Attack mechanism\n- Defensive control or mitigation goal\n- Observable behavior\n- Impact on model, data, system, or user\n- Similarity to known ATLAS tactic, technique, mitigation, or case study descriptions\n\nDo not rely on general cybersecurity assumptions unless they are reflected in retrieved ATLAS text.\n\nDo not expand the scope beyond the query unless the Orchestrator explicitly asks for broad discovery.\n\n---\n\n# Ranking Guidance\n\nRank records by semantic relevance to the query.\n\nPrefer higher ranking for records where:\n- The retrieved `name` closely matches the query.\n- The retrieved `text` directly describes the behavior, defense, or scenario.\n- The retrieved `description` directly supports the behavior, defense, or scenario.\n- The retrieved entity type matches the requested type, if specified.\n- Multiple parts of the retrieved record support the match.\n- The match is specific rather than merely adjacent.\n\nLower ranking for records where:\n- The match is based on broad topical overlap only.\n- The entity is related to the general domain but not the specific behavior.\n- The retrieved text supports only part of the query.\n- The match depends on unstated assumptions.\n\nBecause the shared response schema does not include a dedicated `match_confidence` field, include confidence and rationale in `notes` rather than adding non-schema fields to each record.\n\n---\n\n# Match Confidence Guidance\n\nUse `notes` to communicate confidence when useful.\n\nUse `high confidence` when:\n- The query directly matches the entity name, or\n- The retrieved text clearly and specifically describes the requested behavior, defense, or scenario, or\n- The retrieved description clearly and specifically describes the requested behavior, defense, or scenario, or\n- The requested entity type and the retrieved entity type align exactly.\n\nUse `medium confidence` when:\n- The retrieved entity is plausibly relevant, but the match is indirect.\n- The result matches part of the query but not all of it.\n- The relationship to the query is clear but somewhat general.\n- The entity type is relevant but not explicitly requested.\n\nUse `low confidence` when:\n- The result is only broadly related.\n- The query is vague and the candidate is one possible interpretation.\n- The retrieved text has weak or partial overlap.\n- The candidate may be useful for exploration but needs verification.\n\nDo not use high-confidence language when the match depends on inference beyond retrieved text.\n\n---\n\n# Entity Type Handling\n\nIf the Orchestrator requests a specific entity type, such as techniques or mitigations:\n- Prefer records of that entity type.\n- Exclude unrelated entity types unless they are highly relevant and useful to the Orchestrator.\n- Note when returned records include other entity types.\n\nIf the Orchestrator does not specify an entity type:\n- Return the most semantically relevant mix of tactics, techniques, mitigations, and case studies.\n- Do not force diversity if one entity type clearly dominates the relevant results.\n\nUse `casestudy` exactly as the entity value for case studies.\n\n---\n\n# Relationship Handling\n\nRetrieved chunks may include relationship fields.\n\nYou may report relationships only when they are explicitly present in the retrieved chunk:\n- `PARENT_TACTICS`\n- `PARENT_TECHNIQUES`\n- `PARENT_MITIGATIONS`\n- `PARENT_CASESTUDIES`\n- `CHILD_TECHNIQUES`\n\nDo not:\n- Infer missing relationships.\n- Traverse relationships.\n- Hydrate related IDs.\n- Claim that a relationship exists unless it appears in the retrieved result.\n- Use relationships to answer structured graph questions.\n\nIf the Orchestrator needs relationship traversal or hydrated relationship details, note that the Dataset Agent or Graph Agent should handle that next.\n\n---\n\n# Handling Exact-ID Queries\n\nIf the query consists primarily of exact AML.IDs or asks to hydrate known IDs, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it using ID_LOOKUP.\"\n  ]\n}\n````\n\nIf the query includes both exact IDs and semantic context:\n\n* Use semantic search only for the natural-language portion if useful.\n* Include a note that exact IDs should be hydrated by the Dataset Agent.\n* Do not claim retrieved records are authoritative replacements for ID lookup.\n\n---\n\n# Handling Structured Dataset Queries\n\nIf the query asks for counts, filters, lists, field selection, aggregations, or relationship traversal, semantic search is not appropriate.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle it using PANDAS_EXPERT or ID_LOOKUP.\"\n  ]\n}\n```\n\nExamples:\n\n* “How many techniques are there?”\n* “List all mitigations.”\n* “Which techniques have mitigations?”\n* “Return the URLs for all case studies.”\n* “What are the children of AML.M0003?”\n* “Which tactics have more than 10 child techniques?”\n\n---\n\n# Handling Graph Queries\n\nIf the query asks for graph structure, paths, neighborhoods, connected components, relationship chains, visualization, Kumu URL, or multi-hop traversal, semantic search is not appropriate unless the Orchestrator explicitly asks for candidate entities first.\n\nReturn:\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation after IDs are verified.\"\n  ]\n}\n```\n\nExamples:\n\n* “Show all paths from this tactic to its mitigations.”\n* “What is connected to AML.T0001 within two hops?”\n* “Find clusters of related techniques.”\n* “Which mitigations connect the most techniques?”\n* “Find the shortest path between these entities.”\n* “Generate a Kumu graph for this scenario.”\n\n---\n\n# Output Format\n\nReturn JSON-compatible structured output using the same top-level response structure as the Dataset Agent.\n\nDo not use `results`, `candidate_ids`, `relationships_observed`, `summary`, or `match_confidence` as top-level or per-record fields.\n\nPlace retrieved candidate entities in `records`.\n\nPlace match rationales, confidence, ambiguity, and routing guidance in `notes`.\n\n---\n\n## Successful semantic retrieval response\n\n```json\n{\n  \"status\": \"success\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS short text or context text.\",\n      \"description\": \"Retrieved ATLAS long description if available.\",\n      \"url\": \"URL if available\",\n      \"keywords\": [],\n      \"hashtags\": [],\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"Semantic candidate retrieval only. Records should be verified or hydrated by the Dataset Agent before final use.\",\n    \"AML...: high confidence — the retrieved text directly matches the scenario.\"\n  ]\n}\n```\n\n---\n\n## Weak or ambiguous semantic retrieval response\n\nUse this when there are plausible semantic candidates but the query is broad, vague, or the matches are only partial.\n\n```json\n{\n  \"status\": \"partial_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [\n    {\n      \"id\": \"AML...\",\n      \"entity\": \"tactic | technique | mitigation | casestudy\",\n      \"name\": \"Entity name\",\n      \"text\": \"Retrieved ATLAS short text or context text.\",\n      \"description\": \"Retrieved ATLAS long description if available.\",\n      \"url\": \"URL if available\",\n      \"keywords\": [],\n      \"hashtags\": [],\n      \"PARENT_TACTICS\": [],\n      \"PARENT_TECHNIQUES\": [],\n      \"PARENT_MITIGATIONS\": [],\n      \"PARENT_CASESTUDIES\": [],\n      \"CHILD_TECHNIQUES\": []\n    }\n  ],\n  \"notes\": [\n    \"The query is broad or ambiguous. These are candidate semantic matches, not verified final answers.\",\n    \"AML...: medium confidence — the retrieved text partially overlaps with the query.\",\n    \"The Dataset Agent should hydrate and verify selected candidate IDs before final synthesis.\"\n  ]\n}\n```\n\n---\n\n## No useful semantic matches response\n\nUse this only when the semantic search returns no usable candidates.\n\n```json\n{\n  \"status\": \"no_match\",\n  \"operation\": \"semantic_search\",\n  \"tool_used\": \"SEMANTIC_SEARCH\",\n  \"records\": [],\n  \"notes\": [\n    \"No useful semantic matches were found in the retrieved ATLAS context.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset lookup response\n\n```json\n{\n  \"status\": \"needs_dataset_lookup\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is an exact AML.ID lookup or hydration request. The Dataset Agent should handle it.\"\n  ]\n}\n```\n\n---\n\n## Needs dataset analysis response\n\n```json\n{\n  \"status\": \"needs_dataset_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a structured dataset query. The Dataset Agent should handle filtering, counting, aggregation, or relationship lookup.\"\n  ]\n}\n```\n\n---\n\n## Needs graph analysis response\n\n```json\n{\n  \"status\": \"needs_graph_analysis\",\n  \"operation\": \"routing_note\",\n  \"tool_used\": null,\n  \"records\": [],\n  \"notes\": [\n    \"This is a graph-structured or visualization query. The Graph Agent should handle relationship traversal, graph analysis, or Kumu URL generation.\"\n  ]\n}\n```\n\n---\n\n# Record Construction Rules\n\nFor each retrieved record:\n\n* Preserve the retrieved `id` exactly.\n* Preserve the retrieved `entity` exactly, except use `casestudy` consistently for case studies.\n* Preserve the retrieved `name` exactly.\n* Include retrieved `text` exactly, or use the most relevant available short retrieved context.\n* Include retrieved `description` exactly when available.\n* Include the retrieved `url` if available.\n* Include retrieved `keywords` when available.\n* Include retrieved `hashtags` when available.\n* Include relationship fields only when explicitly present in the retrieved chunk.\n* Use empty arrays for missing array fields.\n* Use an empty string for missing scalar fields when the shared schema requires the field.\n* Do not include fields outside the shared record schema.\n\nRequired record fields:\n\n```json\n{\n  \"id\": \"...\",\n  \"entity\": \"...\",\n  \"name\": \"...\",\n  \"text\": \"...\",\n  \"description\": \"...\",\n  \"url\": \"...\",\n  \"keywords\": [],\n  \"hashtags\": [],\n  \"PARENT_TACTICS\": [],\n  \"PARENT_TECHNIQUES\": [],\n  \"PARENT_MITIGATIONS\": [],\n  \"PARENT_CASESTUDIES\": [],\n  \"CHILD_TECHNIQUES\": []\n}\n```\n\nDo not include duplicate IDs in `records`.\n\nIf multiple chunks refer to the same entity:\n\n* Merge them into one record.\n* Keep the clearest and most relevant `text` available.\n* Preserve the clearest available `description`.\n* Merge observed `keywords` and `hashtags` without duplicates.\n* Preserve observed relationships without inventing missing ones.\n* Add a note if multiple chunks supported the same candidate.\n\n---\n\n# Notes Guidance\n\nUse `notes` to tell the Orchestrator:\n\n* That returned records are semantic candidates.\n* Whether the query was ambiguous.\n* Whether matches are high, medium, or low confidence.\n* Why each important candidate matched the query.\n* Whether exact hydration should be performed by the Dataset Agent.\n* Whether relationship traversal should be performed by the Graph Agent or Dataset Agent.\n* Whether the search was constrained by retrieved context.\n\nKeep notes concise and operational.\n\nPreferred note format for candidate rationales:\n\n```text\nAML.T####: high confidence — retrieved text directly describes [brief reason].\nAML.T####: medium confidence — overlaps with [brief reason], but does not cover [missing aspect].\nAML.T####: low confidence — broad topical overlap only.\n```\n\n---\n\n# Constraints\n\n* Always ground records in retrieved vector-store content.\n* Do not invent ATLAS IDs.\n* Do not invent entity names.\n* Do not invent text, descriptions, URLs, keywords, hashtags, or relationships.\n* Do not infer missing relationships.\n* Do not hydrate related IDs.\n* Do not count, aggregate, or analyze the full dataset.\n* Do not perform graph traversal.\n* Do not provide final user-facing synthesis.\n* Treat semantic results as candidates, not authoritative final answers.\n* Prefer recall over precision for broad or ambiguous queries.\n* Prefer precision over recall for specific queries.\n* If no strong matches are found, return the closest weak matches when useful.\n* Use `casestudy` consistently as the entity value."
               },
               "tools": {
                 "_input_type": "HandleInput",
@@ -1274,21 +1274,21 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-al4uJ",
+        "id": "Agent-zgAzh",
         "measured": {
-          "height": 479,
+          "height": 478,
           "width": 320
         },
         "position": {
-          "x": 1480.1952540614334,
-          "y": 556.9966637282783
+          "x": 1394.959990261713,
+          "y": 592.093537057575
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "OpenAIModel-kXGna",
+          "id": "OpenAIModel-ld6b4",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -1393,7 +1393,7 @@
                 "dynamic": false,
                 "info": "The OpenAI API Key to use for the OpenAI model.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -1403,7 +1403,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "MY_AIP_API_KEY"
+                "value": ""
               },
               "code": {
                 "advanced": true,
@@ -1553,7 +1553,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "devstral"
+                "value": ""
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -1574,7 +1574,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "https://models.k8s.aip.mitre.org/v1"
+                "value": ""
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -1703,21 +1703,21 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-kXGna",
+        "id": "OpenAIModel-ld6b4",
         "measured": {
-          "height": 459,
+          "height": 458,
           "width": 320
         },
         "position": {
-          "x": 859.7119622130095,
-          "y": 11.922971280502125
+          "x": 854.0700528028863,
+          "y": 14.743925985563763
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "ChatInput-MzJmW",
+          "id": "ChatInput-G6kdF",
           "node": {
             "base_classes": [
               "Message"
@@ -1997,21 +1997,21 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-MzJmW",
+        "id": "ChatInput-G6kdF",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 1147.0495462925676,
-          "y": 998.8268578713725
+          "x": 1126.994190104398,
+          "y": 1061.4998459594021
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "ChatOutput-fAngC",
+          "id": "ChatOutput-2ag75",
           "node": {
             "base_classes": [
               "Message"
@@ -2297,28 +2297,56 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-fAngC",
+        "id": "ChatOutput-2ag75",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 1938.6556928600487,
-          "y": 1013.5495536210248
+          "x": 1798.268199542862,
+          "y": 1056.1671855208851
         },
         "selected": false,
         "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "note-YTq1o",
+          "node": {
+            "description": "## Model Configuration",
+            "display_name": "",
+            "documentation": "",
+            "template": {
+              "backgroundColor": "amber"
+            }
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 542,
+        "id": "note-YTq1o",
+        "measured": {
+          "height": 542,
+          "width": 361
+        },
+        "position": {
+          "x": 833.3234664764293,
+          "y": -48.55761784789769
+        },
+        "selected": false,
+        "type": "noteNode",
+        "width": 361
       }
     ],
     "viewport": {
-      "x": -139.65033685623644,
-      "y": 44.89846689950542,
-      "zoom": 1.150007602047299
+      "x": -346.0381554737711,
+      "y": 68.21406785989592,
+      "zoom": 0.6428253535350749
     }
   },
   "description": "ATLAS Vector Store Agent",
   "endpoint_name": null,
-  "id": "cbc7c107-a49b-4302-8a43-77af20c0d696",
+  "id": "59a4c2e9-a425-4b32-b85a-3a5c50fbb4cb",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": false,
