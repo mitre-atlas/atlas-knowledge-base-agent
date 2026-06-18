@@ -1,7 +1,7 @@
 [project]
 name = "atlas-knowledge-base-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "ATLAS Knowledge Base Agent Langflow deployment"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

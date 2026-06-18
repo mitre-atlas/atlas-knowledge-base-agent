@@ -23,6 +23,9 @@ The ATLAS KB Agent is a hierarchical agentic workflow with an ochestrator which 
 
 ## Getting Started
 
+Requirements:
+* `uv`: an extremely fast Python package and project manager
+
 The ATLAS KB Agent is an open-sourced application built using [Langflow](https://docs.langflow.org/). 
 
 #### 1. Start Langflow
