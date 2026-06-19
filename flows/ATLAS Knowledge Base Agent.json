@@ -6,8 +6,288 @@
         "className": "",
         "data": {
           "sourceHandle": {
+            "dataType": "KumuSubgraphURL",
+            "id": "KumuSubgraphURL-UlH5z",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-DL2Zd",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "reactflow__edge-KumuSubgraphURL-UlH5z{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-UlH5zœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-DL2Zd{œfieldNameœ:œtoolsœ,œidœ:œAgent-DL2Zdœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "KumuSubgraphURL-UlH5z",
+        "sourceHandle": "{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-UlH5zœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-DL2Zd",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-DL2Zdœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CSVPythonREPL",
+            "id": "CSVPythonREPL-q8GM9",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-TXgoD",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "reactflow__edge-CSVPythonREPL-q8GM9{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-q8GM9œ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-TXgoD{œfieldNameœ:œtoolsœ,œidœ:œAgent-TXgoDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CSVPythonREPL-q8GM9",
+        "sourceHandle": "{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-q8GM9œ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-TXgoD",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-TXgoDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-I6iPG",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-TXgoD",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-I6iPG{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-TXgoD{œfieldNameœ:œmodelœ,œidœ:œAgent-TXgoDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-I6iPG",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-TXgoD",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-TXgoDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-I6iPG",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-DL2Zd",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-I6iPG{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-DL2Zd{œfieldNameœ:œmodelœ,œidœ:œAgent-DL2Zdœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-I6iPG",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-DL2Zd",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-DL2Zdœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OpenAIModel",
+            "id": "OpenAIModel-I6iPG",
+            "name": "model_output",
+            "output_types": [
+              "LanguageModel"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "model",
+            "id": "Agent-lMYOv",
+            "inputTypes": [
+              "LanguageModel"
+            ],
+            "type": "model"
+          }
+        },
+        "id": "reactflow__edge-OpenAIModel-I6iPG{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-lMYOv{œfieldNameœ:œmodelœ,œidœ:œAgent-lMYOvœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
+        "source": "OpenAIModel-I6iPG",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-lMYOv",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-lMYOvœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "HybridChromaDBQuery",
+            "id": "HybridChromaDBQuery-q6xuN",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-lMYOv",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "reactflow__edge-HybridChromaDBQuery-q6xuN{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-q6xuNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-lMYOv{œfieldNameœ:œtoolsœ,œidœ:œAgent-lMYOvœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "HybridChromaDBQuery-q6xuN",
+        "sourceHandle": "{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-q6xuNœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-lMYOv",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-lMYOvœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
             "dataType": "Agent",
-            "id": "Agent-cninD",
+            "id": "Agent-lMYOv",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-yUteS",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Agent-lMYOv{œdataTypeœ:œAgentœ,œidœ:œAgent-lMYOvœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-yUteS{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Agent-lMYOv",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-lMYOvœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-yUteS",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Agent",
+            "id": "Agent-TXgoD",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-yUteS",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Agent-TXgoD{œdataTypeœ:œAgentœ,œidœ:œAgent-TXgoDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-yUteS{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Agent-TXgoD",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-TXgoDœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-yUteS",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Agent",
+            "id": "Agent-DL2Zd",
+            "name": "component_as_tool",
+            "output_types": [
+              "Tool"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tools",
+            "id": "Agent-yUteS",
+            "inputTypes": [
+              "Tool"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Agent-DL2Zd{œdataTypeœ:œAgentœ,œidœ:œAgent-DL2Zdœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-yUteS{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Agent-DL2Zd",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-DL2Zdœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
+        "target": "Agent-yUteS",
+        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-Iha4o",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "Agent-yUteS",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-Iha4o{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Iha4oœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-yUteS{œfieldNameœ:œinput_valueœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-Iha4o",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-Iha4oœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Agent-yUteS",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Agent",
+            "id": "Agent-yUteS",
             "name": "response",
             "output_types": [
               "Message"
@@ -15,7 +295,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-FKhrP",
+            "id": "ChatOutput-eGqT4",
             "inputTypes": [
               "Data",
               "JSON",
@@ -26,152 +306,12 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-Agent-cninD{œdataTypeœ:œAgentœ,œidœ:œAgent-cninDœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-FKhrP{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-FKhrPœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__Agent-yUteS{œdataTypeœ:œAgentœ,œidœ:œAgent-yUteSœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-eGqT4{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-eGqT4œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "Agent-cninD",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-cninDœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-FKhrP",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-FKhrPœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "ChatInput",
-            "id": "ChatInput-3Ya9r",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "input_value",
-            "id": "Agent-cninD",
-            "inputTypes": [
-              "Message"
-            ],
-            "type": "str"
-          }
-        },
-        "id": "reactflow__edge-ChatInput-3Ya9r{œdataTypeœ:œChatInputœ,œidœ:œChatInput-3Ya9rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Agent-cninD{œfieldNameœ:œinput_valueœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
-        "selected": false,
-        "source": "ChatInput-3Ya9r",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-3Ya9rœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "Agent-cninD",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "KumuSubgraphURL",
-            "id": "KumuSubgraphURL-8ET7e",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-XebQj",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "reactflow__edge-KumuSubgraphURL-8ET7e{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-8ET7eœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-XebQj{œfieldNameœ:œtoolsœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "KumuSubgraphURL-8ET7e",
-        "sourceHandle": "{œdataTypeœ:œKumuSubgraphURLœ,œidœ:œKumuSubgraphURL-8ET7eœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-XebQj",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Agent",
-            "id": "Agent-XebQj",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-cninD",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "reactflow__edge-Agent-XebQj{œdataTypeœ:œAgentœ,œidœ:œAgent-XebQjœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "Agent-XebQj",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-XebQjœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-cninD",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "CSVPythonREPL",
-            "id": "CSVPythonREPL-4XMGl",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-1pXxt",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__CSVPythonREPL-4XMGl{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-4XMGlœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-1pXxt{œfieldNameœ:œtoolsœ,œidœ:œAgent-1pXxtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "CSVPythonREPL-4XMGl",
-        "sourceHandle": "{œdataTypeœ:œCSVPythonREPLœ,œidœ:œCSVPythonREPL-4XMGlœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-1pXxt",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-1pXxtœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Agent",
-            "id": "Agent-1pXxt",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-cninD",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__Agent-1pXxt{œdataTypeœ:œAgentœ,œidœ:œAgent-1pXxtœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "Agent-1pXxt",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-1pXxtœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-cninD",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "Agent-yUteS",
+        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-yUteSœ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-eGqT4",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-eGqT4œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -179,7 +319,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-yWYI2",
+            "id": "OpenAIModel-I6iPG",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -187,163 +327,25 @@
           },
           "targetHandle": {
             "fieldName": "model",
-            "id": "Agent-1pXxt",
+            "id": "Agent-yUteS",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "model"
           }
         },
-        "id": "xy-edge__OpenAIModel-yWYI2{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-1pXxt{œfieldNameœ:œmodelœ,œidœ:œAgent-1pXxtœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "id": "xy-edge__OpenAIModel-I6iPG{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-yUteS{œfieldNameœ:œmodelœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
         "selected": false,
-        "source": "OpenAIModel-yWYI2",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-1pXxt",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-1pXxtœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-yWYI2",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-XebQj",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-yWYI2{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-XebQj{œfieldNameœ:œmodelœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-yWYI2",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-XebQj",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-XebQjœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-yWYI2",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-cninD",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-yWYI2{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-cninD{œfieldNameœ:œmodelœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-yWYI2",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-cninD",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "OpenAIModel",
-            "id": "OpenAIModel-yWYI2",
-            "name": "model_output",
-            "output_types": [
-              "LanguageModel"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "model",
-            "id": "Agent-BoRpR",
-            "inputTypes": [
-              "LanguageModel"
-            ],
-            "type": "model"
-          }
-        },
-        "id": "xy-edge__OpenAIModel-yWYI2{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-BoRpR{œfieldNameœ:œmodelœ,œidœ:œAgent-BoRpRœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
-        "selected": false,
-        "source": "OpenAIModel-yWYI2",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-yWYI2œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "Agent-BoRpR",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-BoRpRœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "Agent",
-            "id": "Agent-BoRpR",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-cninD",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__Agent-BoRpR{œdataTypeœ:œAgentœ,œidœ:œAgent-BoRpRœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-cninD{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "Agent-BoRpR",
-        "sourceHandle": "{œdataTypeœ:œAgentœ,œidœ:œAgent-BoRpRœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-cninD",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-cninDœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
-      },
-      {
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "HybridChromaDBQuery",
-            "id": "HybridChromaDBQuery-1HjZW",
-            "name": "component_as_tool",
-            "output_types": [
-              "Tool"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "tools",
-            "id": "Agent-BoRpR",
-            "inputTypes": [
-              "Tool"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "xy-edge__HybridChromaDBQuery-1HjZW{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-1HjZWœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}-Agent-BoRpR{œfieldNameœ:œtoolsœ,œidœ:œAgent-BoRpRœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}",
-        "source": "HybridChromaDBQuery-1HjZW",
-        "sourceHandle": "{œdataTypeœ:œHybridChromaDBQueryœ,œidœ:œHybridChromaDBQuery-1HjZWœ,œnameœ:œcomponent_as_toolœ,œoutput_typesœ:[œToolœ]}",
-        "target": "Agent-BoRpR",
-        "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-BoRpRœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
+        "source": "OpenAIModel-I6iPG",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-I6iPGœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "Agent-yUteS",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œAgent-yUteSœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "ChatInput-3Ya9r",
+          "id": "ChatInput-Iha4o",
           "node": {
             "base_classes": [
               "Message"
@@ -623,663 +625,21 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-3Ya9r",
+        "id": "ChatInput-Iha4o",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 827.1904650187051,
-          "y": 2163.6603085792676
+          "x": 937.1210938355044,
+          "y": 1870.5640567677342
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Agent-cninD",
-          "node": {
-            "base_classes": [
-              "Message"
-            ],
-            "beta": false,
-            "conditional_paths": [],
-            "custom_fields": {},
-            "description": "Primary ATLAS KB Agent.",
-            "display_name": "Orchestrator",
-            "documentation": "https://docs.langflow.org/agents",
-            "edited": false,
-            "field_order": [
-              "model",
-              "api_key",
-              "base_url_ibm_watsonx",
-              "project_id",
-              "system_prompt",
-              "context_id",
-              "n_messages",
-              "max_tokens",
-              "format_instructions",
-              "output_schema",
-              "tools",
-              "input_value",
-              "handle_parsing_errors",
-              "verbose",
-              "max_iterations",
-              "agent_description",
-              "add_current_date_tool"
-            ],
-            "frozen": false,
-            "icon": "bot",
-            "last_updated": "2026-06-03T19:02:05.119Z",
-            "legacy": false,
-            "lf_version": "1.9.2",
-            "metadata": {
-              "code_hash": "154c71cf7441",
-              "dependencies": {
-                "dependencies": [
-                  {
-                    "name": "pydantic",
-                    "version": "2.12.5"
-                  },
-                  {
-                    "name": "lfx",
-                    "version": null
-                  },
-                  {
-                    "name": "langchain_core",
-                    "version": "1.2.29"
-                  }
-                ],
-                "total_dependencies": 3
-              },
-              "module": "lfx.components.models_and_agents.agent.AgentComponent"
-            },
-            "minimized": false,
-            "output_types": [],
-            "outputs": [
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "Response",
-                "group_outputs": false,
-                "hidden": null,
-                "loop_types": null,
-                "method": "message_response",
-                "name": "response",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              }
-            ],
-            "pinned": false,
-            "template": {
-              "_frontend_node_flow_id": {
-                "input_types": [],
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
-              },
-              "_frontend_node_folder_id": {
-                "input_types": [],
-                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
-              },
-              "_type": "Component",
-              "add_current_date_tool": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Current Date",
-                "dynamic": false,
-                "info": "If true, will add a tool to the agent that returns the current date.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "add_current_date_tool",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": false
-              },
-              "agent_description": {
-                "_input_type": "MultilineInput",
-                "advanced": true,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Agent Description [Deprecated]",
-                "dynamic": false,
-                "info": "The description of the agent. This is only used when in Tool Mode. Defaults to 'A helpful assistant with access to the following tools:' and tools are added dynamically. This feature is deprecated and will be removed in future versions.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "agent_description",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "A helpful assistant with access to the following tools:"
-              },
-              "api_key": {
-                "_input_type": "SecretStrInput",
-                "advanced": true,
-                "display_name": "API Key",
-                "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
-                "input_types": [],
-                "load_from_db": true,
-                "name": "api_key",
-                "override_skip": false,
-                "password": true,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "OPENAI_API_KEY"
-              },
-              "base_url_ibm_watsonx": {
-                "_input_type": "DropdownInput",
-                "advanced": false,
-                "combobox": true,
-                "dialog_inputs": {},
-                "display_name": "watsonx API Endpoint",
-                "dynamic": false,
-                "external_options": {},
-                "info": "The base URL of the API (IBM watsonx.ai only)",
-                "input_types": [],
-                "name": "base_url_ibm_watsonx",
-                "options": [
-                  "https://us-south.ml.cloud.ibm.com",
-                  "https://eu-de.ml.cloud.ibm.com",
-                  "https://eu-gb.ml.cloud.ibm.com",
-                  "https://au-syd.ml.cloud.ibm.com",
-                  "https://jp-tok.ml.cloud.ibm.com",
-                  "https://ca-tor.ml.cloud.ibm.com"
-                ],
-                "options_metadata": [],
-                "override_skip": false,
-                "placeholder": "",
-                "real_time_refresh": true,
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "toggle": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "str",
-                "value": "https://us-south.ml.cloud.ibm.com"
-              },
-              "code": {
-                "advanced": true,
-                "dynamic": true,
-                "fileTypes": [],
-                "file_path": "",
-                "info": "",
-                "input_types": [],
-                "list": false,
-                "load_from_db": false,
-                "multiline": true,
-                "name": "code",
-                "password": false,
-                "placeholder": "",
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "type": "code",
-                "value": "from __future__ import annotations\n\nimport json\nimport re\nfrom typing import TYPE_CHECKING\n\nfrom pydantic import ValidationError\n\nfrom lfx.components.models_and_agents.memory import MemoryComponent\n\nif TYPE_CHECKING:\n    from langchain_core.tools import Tool\n\nfrom lfx.base.agents.agent import LCToolsAgentComponent\nfrom lfx.base.agents.events import ExceptionWithMessageError\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.agentics.helpers.model_config import validate_model_selection\nfrom lfx.components.helpers import CurrentDateComponent\nfrom lfx.components.langchain_utilities.tool_calling import ToolCallingAgentComponent\nfrom lfx.custom.custom_component.component import get_component_toolkit\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, ModelInput, StrInput\nfrom lfx.io import IntInput, MessageTextInput, MultilineInput, Output, SecretStrInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\ndef set_advanced_true(component_input):\n    component_input.advanced = True\n    return component_input\n\n\nclass AgentComponent(ToolCallingAgentComponent):\n    display_name: str = \"Agent\"\n    description: str = \"Define the agent's instructions, then enter a task to complete using tools.\"\n    documentation: str = \"https://docs.langflow.org/agents\"\n    icon = \"bot\"\n    beta = False\n    name = \"Agent\"\n\n    memory_inputs = [set_advanced_true(component_input) for component_input in MemoryComponent().inputs]\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        MultilineInput(\n            name=\"system_prompt\",\n            display_name=\"Agent Instructions\",\n            info=\"System Prompt: Initial instructions and context provided to guide the agent's behavior.\",\n            value=\"You are a helpful assistant that can use tools to answer questions and perform tasks.\",\n            advanced=False,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"n_messages\",\n            display_name=\"Number of Chat History Messages\",\n            value=100,\n            info=\"Number of chat history messages to retrieve.\",\n            advanced=True,\n            show=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n        MultilineInput(\n            name=\"format_instructions\",\n            display_name=\"Output Format Instructions\",\n            info=\"Generic Template for structured output formatting. Valid only with Structured response.\",\n            value=(\n                \"You are an AI that extracts structured JSON objects from unstructured text. \"\n                \"Use a predefined schema with expected types (str, int, float, bool, dict). \"\n                \"Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. \"\n                \"Fill missing or ambiguous values with defaults: null for missing values. \"\n                \"Remove exact duplicates but keep variations that have different field values. \"\n                \"Always return valid JSON in the expected format, never throw errors. \"\n                \"If multiple objects can be extracted, return them all in the structured format.\"\n            ),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"output_schema\",\n            display_name=\"Output Schema\",\n            info=(\n                \"Schema Validation: Define the structure and data types for structured output. \"\n                \"No validation if no output schema.\"\n            ),\n            advanced=True,\n            required=False,\n            value=[],\n            table_schema=[\n                {\n                    \"name\": \"name\",\n                    \"display_name\": \"Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Specify the name of the output field.\",\n                    \"default\": \"field\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"description\",\n                    \"display_name\": \"Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Describe the purpose of the output field.\",\n                    \"default\": \"description of field\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"type\",\n                    \"display_name\": \"Type\",\n                    \"type\": \"str\",\n                    \"edit_mode\": EditMode.INLINE,\n                    \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n                    \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n                    \"default\": \"str\",\n                },\n                {\n                    \"name\": \"multiple\",\n                    \"display_name\": \"As List\",\n                    \"type\": \"boolean\",\n                    \"description\": \"Set to True if this output field should be a list of the specified type.\",\n                    \"default\": \"False\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n            ],\n        ),\n        *LCToolsAgentComponent.get_base_inputs(),\n        # removed memory inputs from agent component\n        # *memory_inputs,\n        BoolInput(\n            name=\"add_current_date_tool\",\n            display_name=\"Current Date\",\n            advanced=True,\n            info=\"If true, will add a tool to the agent that returns the current date.\",\n            value=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"response\", display_name=\"Response\", method=\"message_response\"),\n    ]\n\n    def _resolve_selected_model(self):\n        \"\"\"Resolve the selected model, including legacy agent_llm/model_name inputs.\"\"\"\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            if isinstance(self.model, BaseLanguageModel):\n                return self.model\n        except ImportError:\n            pass\n\n        if isinstance(self.model, list) and self.model:\n            return self.model\n\n        legacy_provider = getattr(self, \"agent_llm\", None)\n        legacy_model_name = getattr(self, \"model_name\", None)\n        if not legacy_provider or not legacy_model_name:\n            return self.model\n\n        options = get_language_model_options(user_id=self.user_id)\n        for option in options:\n            if option.get(\"provider\") == legacy_provider and option.get(\"name\") == legacy_model_name:\n                return [option]\n\n        return [\n            {\n                \"name\": legacy_model_name,\n                \"provider\": legacy_provider,\n                \"metadata\": {},\n            }\n        ]\n\n    def _get_max_tokens_value(self):\n        \"\"\"Return the user-supplied max_tokens or None when unset/zero.\"\"\"\n        val = getattr(self, \"max_tokens\", None)\n        if val in {\"\", 0}:\n            return None\n        return val\n\n    def _get_llm(self):\n        \"\"\"Override parent to include max_tokens from the Agent's input field.\"\"\"\n        return get_llm(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=getattr(self, \"api_key\", None),\n            max_tokens=self._get_max_tokens_value(),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n        )\n\n    async def get_agent_requirements(self):\n        \"\"\"Get the agent requirements for the agent.\"\"\"\n        from langchain_core.tools import StructuredTool\n\n        selected_model = self._resolve_selected_model()\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            is_connected_model = isinstance(selected_model, BaseLanguageModel)\n        except ImportError:\n            is_connected_model = False\n\n        if not is_connected_model:\n            validate_model_selection(selected_model)\n\n        # Ensure _get_llm() uses the resolved model (e.g. from legacy agent_llm/model_name)\n        self.model = selected_model\n        llm_model = self._get_llm()\n        if llm_model is None:\n            msg = \"No language model selected. Please choose a model to proceed.\"\n            raise ValueError(msg)\n\n        # Get memory data\n        self.chat_history = await self.get_memory_data()\n        await logger.adebug(f\"Retrieved {len(self.chat_history)} chat history messages\")\n        if isinstance(self.chat_history, Message):\n            self.chat_history = [self.chat_history]\n\n        # Add current date tool if enabled\n        if self.add_current_date_tool:\n            if not isinstance(self.tools, list):  # type: ignore[has-type]\n                self.tools = []\n            current_date_tool = (await CurrentDateComponent(**self.get_base_args()).to_toolkit()).pop(0)\n\n            if not isinstance(current_date_tool, StructuredTool):\n                msg = \"CurrentDateComponent must be converted to a StructuredTool\"\n                raise TypeError(msg)\n            self.tools.append(current_date_tool)\n\n        # Set shared callbacks for tracing the tools used by the agent\n        self.set_tools_callbacks(self.tools, self._get_shared_callbacks())\n\n        return llm_model, self.chat_history, self.tools\n\n    async def message_response(self) -> Message:\n        try:\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            # Set up and run agent\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=self.system_prompt,\n            )\n            agent = self.create_agent_runnable()\n            result = await self.run_agent(agent)\n\n            # Store result for potential JSON output\n            self._agent_result = result\n\n        except (ValueError, TypeError, KeyError) as e:\n            await logger.aerror(f\"{type(e).__name__}: {e!s}\")\n            raise\n        except ExceptionWithMessageError as e:\n            await logger.aerror(f\"ExceptionWithMessageError occurred: {e}\")\n            raise\n        # Avoid catching blind Exception; let truly unexpected exceptions propagate\n        except Exception as e:\n            await logger.aerror(f\"Unexpected error: {e!s}\")\n            raise\n        else:\n            return result\n\n    def _preprocess_schema(self, schema):\n        \"\"\"Preprocess schema to ensure correct data types for build_model_from_schema.\"\"\"\n        processed_schema = []\n        for field in schema:\n            processed_field = {\n                \"name\": str(field.get(\"name\", \"field\")),\n                \"type\": str(field.get(\"type\", \"str\")),\n                \"description\": str(field.get(\"description\", \"\")),\n                \"multiple\": field.get(\"multiple\", False),\n            }\n            # Ensure multiple is handled correctly\n            if isinstance(processed_field[\"multiple\"], str):\n                processed_field[\"multiple\"] = processed_field[\"multiple\"].lower() in [\n                    \"true\",\n                    \"1\",\n                    \"t\",\n                    \"y\",\n                    \"yes\",\n                ]\n            processed_schema.append(processed_field)\n        return processed_schema\n\n    async def build_structured_output_base(self, content: str):\n        \"\"\"Build structured output with optional BaseModel validation.\"\"\"\n        json_pattern = r\"\\{.*\\}\"\n        schema_error_msg = \"Try setting an output schema\"\n\n        # Try to parse content as JSON first\n        json_data = None\n        try:\n            json_data = json.loads(content)\n        except json.JSONDecodeError:\n            json_match = re.search(json_pattern, content, re.DOTALL)\n            if json_match:\n                try:\n                    json_data = json.loads(json_match.group())\n                except json.JSONDecodeError:\n                    return {\"content\": content, \"error\": schema_error_msg}\n            else:\n                return {\"content\": content, \"error\": schema_error_msg}\n\n        # If no output schema provided, return parsed JSON without validation\n        if not hasattr(self, \"output_schema\") or not self.output_schema or len(self.output_schema) == 0:\n            return json_data\n\n        # Use BaseModel validation with schema\n        try:\n            processed_schema = self._preprocess_schema(self.output_schema)\n            output_model = build_model_from_schema(processed_schema)\n\n            # Validate against the schema\n            if isinstance(json_data, list):\n                # Multiple objects\n                validated_objects = []\n                for item in json_data:\n                    try:\n                        validated_obj = output_model.model_validate(item)\n                        validated_objects.append(validated_obj.model_dump())\n                    except ValidationError as e:\n                        await logger.aerror(f\"Validation error for item: {e}\")\n                        # Include invalid items with error info\n                        validated_objects.append({\"data\": item, \"validation_error\": str(e)})\n                return validated_objects\n\n            # Single object\n            try:\n                validated_obj = output_model.model_validate(json_data)\n                return [validated_obj.model_dump()]  # Return as list for consistency\n            except ValidationError as e:\n                await logger.aerror(f\"Validation error: {e}\")\n                return [{\"data\": json_data, \"validation_error\": str(e)}]\n\n        except (TypeError, ValueError) as e:\n            await logger.aerror(f\"Error building structured output: {e}\")\n            # Fallback to parsed JSON without validation\n            return json_data\n\n    async def json_response(self) -> Data:\n        \"\"\"Convert agent response to structured JSON Data output with schema validation.\"\"\"\n        # Always use structured chat agent for JSON response mode for better JSON formatting\n        try:\n            system_components = []\n\n            # 1. Agent Instructions (system_prompt)\n            agent_instructions = getattr(self, \"system_prompt\", \"\") or \"\"\n            if agent_instructions:\n                system_components.append(f\"{agent_instructions}\")\n\n            # 2. Format Instructions\n            format_instructions = getattr(self, \"format_instructions\", \"\") or \"\"\n            if format_instructions:\n                system_components.append(f\"Format instructions: {format_instructions}\")\n\n            # 3. Schema Information from BaseModel\n            if hasattr(self, \"output_schema\") and self.output_schema and len(self.output_schema) > 0:\n                try:\n                    processed_schema = self._preprocess_schema(self.output_schema)\n                    output_model = build_model_from_schema(processed_schema)\n                    schema_dict = output_model.model_json_schema()\n                    schema_info = (\n                        \"You are given some text that may include format instructions, \"\n                        \"explanations, or other content alongside a JSON schema.\\n\\n\"\n                        \"Your task:\\n\"\n                        \"- Extract only the JSON schema.\\n\"\n                        \"- Return it as valid JSON.\\n\"\n                        \"- Do not include format instructions, explanations, or extra text.\\n\\n\"\n                        \"Input:\\n\"\n                        f\"{json.dumps(schema_dict, indent=2)}\\n\\n\"\n                        \"Output (only JSON schema):\"\n                    )\n                    system_components.append(schema_info)\n                except (ValidationError, ValueError, TypeError, KeyError) as e:\n                    await logger.aerror(f\"Could not build schema for prompt: {e}\", exc_info=True)\n\n            # Combine all components\n            combined_instructions = \"\\n\\n\".join(system_components) if system_components else \"\"\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=combined_instructions,\n            )\n\n            # Create and run structured chat agent\n            try:\n                structured_agent = self.create_agent_runnable()\n            except (NotImplementedError, ValueError, TypeError) as e:\n                await logger.aerror(f\"Error with structured chat agent: {e}\")\n                raise\n            try:\n                result = await self.run_agent(structured_agent)\n            except (\n                ExceptionWithMessageError,\n                ValueError,\n                TypeError,\n                RuntimeError,\n            ) as e:\n                await logger.aerror(f\"Error with structured agent result: {e}\")\n                raise\n            # Extract content from structured agent result\n            if hasattr(result, \"content\"):\n                content = result.content\n            elif hasattr(result, \"text\"):\n                content = result.text\n            else:\n                content = str(result)\n\n        except (\n            ExceptionWithMessageError,\n            ValueError,\n            TypeError,\n            NotImplementedError,\n            AttributeError,\n        ) as e:\n            await logger.aerror(f\"Error with structured chat agent: {e}\")\n            # Fallback to regular agent\n            content_str = \"No content returned from agent\"\n            return Data(data={\"content\": content_str, \"error\": str(e)})\n\n        # Process with structured output validation\n        try:\n            structured_output = await self.build_structured_output_base(content)\n\n            # Handle different output formats\n            if isinstance(structured_output, list) and structured_output:\n                if len(structured_output) == 1:\n                    return Data(data=structured_output[0])\n                return Data(data={\"results\": structured_output})\n            if isinstance(structured_output, dict):\n                return Data(data=structured_output)\n            return Data(data={\"content\": content})\n\n        except (ValueError, TypeError) as e:\n            await logger.aerror(f\"Error in structured output processing: {e}\")\n            return Data(data={\"content\": content, \"error\": str(e)})\n\n    async def get_memory_data(self):\n        # TODO: This is a temporary fix to avoid message duplication. We should develop a function for this.\n        messages = (\n            await MemoryComponent(**self.get_base_args())\n            .set(\n                session_id=self.graph.session_id,\n                context_id=self.context_id,\n                order=\"Ascending\",\n                n_messages=self.n_messages,\n            )\n            .retrieve_messages()\n        )\n        return [\n            message for message in messages if getattr(message, \"id\", None) != getattr(self.input_value, \"id\", None)\n        ]\n\n    def update_input_types(self, build_config: dotdict) -> dotdict:\n        \"\"\"Update input types for all fields in build_config.\"\"\"\n        for key, value in build_config.items():\n            if isinstance(value, dict):\n                if value.get(\"input_types\") is None:\n                    build_config[key][\"input_types\"] = []\n            elif hasattr(value, \"input_types\") and value.input_types is None:\n                value.input_types = []\n        return build_config\n\n    async def update_build_config(\n        self,\n        build_config: dotdict,\n        field_value: list[dict],\n        field_name: str | None = None,\n    ) -> dotdict:\n        # Update model options with caching (for all field changes)\n        # Agents require tool calling, so filter for only tool-calling capable models\n        build_config = handle_model_input_update(\n            component=self,\n            build_config=dict(build_config),\n            field_value=field_value,\n            field_name=field_name,\n            cache_key_prefix=\"language_model_options_tool_calling\",\n            get_options_func=lambda user_id=None: get_language_model_options(user_id=user_id, tool_calling=True),\n        )\n        build_config = dotdict(build_config)\n\n        if field_name == \"model\":\n            build_config = self.update_input_types(build_config)\n\n            # Validate required keys\n            default_keys = [\n                \"code\",\n                \"_type\",\n                \"model\",\n                \"tools\",\n                \"input_value\",\n                \"add_current_date_tool\",\n                \"system_prompt\",\n                \"agent_description\",\n                \"max_iterations\",\n                \"handle_parsing_errors\",\n                \"verbose\",\n            ]\n            missing_keys = [key for key in default_keys if key not in build_config]\n            if missing_keys:\n                msg = f\"Missing required keys in build_config: {missing_keys}\"\n                raise ValueError(msg)\n        return dotdict({k: v.to_dict() if hasattr(v, \"to_dict\") else v for k, v in build_config.items()})\n\n    async def _get_tools(self) -> list[Tool]:\n        component_toolkit = get_component_toolkit()\n        tools_names = self._build_tools_names()\n        agent_description = self.get_tool_description()\n        # TODO: Agent Description Depreciated Feature to be removed\n        description = f\"{agent_description}{tools_names}\"\n\n        tools = component_toolkit(component=self).get_tools(\n            tool_name=\"Call_Agent\",\n            tool_description=description,\n            # here we do not use the shared callbacks as we are exposing the agent as a tool\n            callbacks=self.get_langchain_callbacks(),\n        )\n        if hasattr(self, \"tools_metadata\"):\n            tools = component_toolkit(component=self, metadata=self.tools_metadata).update_tools_metadata(tools=tools)\n\n        return tools\n"
-              },
-              "context_id": {
-                "_input_type": "MessageTextInput",
-                "advanced": true,
-                "display_name": "Context ID",
-                "dynamic": false,
-                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "context_id",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "format_instructions": {
-                "_input_type": "MultilineInput",
-                "advanced": true,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Output Format Instructions",
-                "dynamic": false,
-                "info": "Generic Template for structured output formatting. Valid only with Structured response.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "format_instructions",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "You are an AI that extracts structured JSON objects from unstructured text. Use a predefined schema with expected types (str, int, float, bool, dict). Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. Fill missing or ambiguous values with defaults: null for missing values. Remove exact duplicates but keep variations that have different field values. Always return valid JSON in the expected format, never throw errors. If multiple objects can be extracted, return them all in the structured format."
-              },
-              "handle_parsing_errors": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Handle Parse Errors",
-                "dynamic": false,
-                "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "handle_parsing_errors",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": true
-              },
-              "input_value": {
-                "_input_type": "MessageInput",
-                "advanced": false,
-                "display_name": "Input",
-                "dynamic": false,
-                "info": "The input provided by the user for the agent to process.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "input_value",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": true,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "is_refresh": true,
-              "max_iterations": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Max Iterations",
-                "dynamic": false,
-                "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "max_iterations",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 15
-              },
-              "max_tokens": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Max Tokens",
-                "dynamic": false,
-                "info": "Maximum number of tokens to generate. Field name varies by provider.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "max_tokens",
-                "override_skip": false,
-                "placeholder": "",
-                "range_spec": {
-                  "max": 128000,
-                  "min": 1,
-                  "step": 1,
-                  "step_type": "int"
-                },
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 0
-              },
-              "model": {
-                "_input_type": "ModelInput",
-                "advanced": false,
-                "display_name": "Language Model",
-                "dynamic": false,
-                "external_options": {
-                  "fields": {
-                    "data": {
-                      "node": {
-                        "display_name": "Connect other models",
-                        "icon": "CornerDownLeft",
-                        "name": "connect_other_models"
-                      }
-                    }
-                  }
-                },
-                "info": "Select your model provider",
-                "input_types": [
-                  "LanguageModel"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "model_type": "language",
-                "name": "model",
-                "options": [
-                  {
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "default": true,
-                      "deprecated": false,
-                      "icon": "OpenAI",
-                      "model_type": "llm",
-                      "not_enabled_locally": true,
-                      "not_supported": false,
-                      "preview": false,
-                      "reasoning": true,
-                      "search": false,
-                      "tool_calling": true
-                    },
-                    "name": "gpt-5.4",
-                    "provider": "OpenAI"
-                  }
-                ],
-                "override_skip": false,
-                "placeholder": "Setup Provider",
-                "real_time_refresh": true,
-                "refresh_button": true,
-                "required": true,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "track_in_telemetry": false,
-                "type": "model",
-                "value": [
-                  {
-                    "icon": "OpenAI",
-                    "metadata": {
-                      "default": true,
-                      "deprecated": false,
-                      "icon": "OpenAI",
-                      "model_type": "llm",
-                      "not_supported": false,
-                      "preview": false,
-                      "reasoning": true,
-                      "search": false,
-                      "tool_calling": true
-                    },
-                    "name": "gpt-5.4",
-                    "provider": "OpenAI"
-                  }
-                ]
-              },
-              "n_messages": {
-                "_input_type": "IntInput",
-                "advanced": true,
-                "display_name": "Number of Chat History Messages",
-                "dynamic": false,
-                "info": "Number of chat history messages to retrieve.",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "n_messages",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "int",
-                "value": 100
-              },
-              "output_schema": {
-                "_input_type": "TableInput",
-                "advanced": true,
-                "display_name": "Output Schema",
-                "dynamic": false,
-                "info": "Schema Validation: Define the structure and data types for structured output. No validation if no output schema.",
-                "input_types": [
-                  "DataFrame",
-                  "Table"
-                ],
-                "is_list": true,
-                "list_add_label": "Add More",
-                "name": "output_schema",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "table_icon": "Table",
-                "table_schema": [
-                  {
-                    "default": "field",
-                    "description": "Specify the name of the output field.",
-                    "display_name": "Name",
-                    "edit_mode": "inline",
-                    "formatter": "text",
-                    "name": "name",
-                    "type": "str"
-                  },
-                  {
-                    "default": "description of field",
-                    "description": "Describe the purpose of the output field.",
-                    "display_name": "Description",
-                    "edit_mode": "popover",
-                    "formatter": "text",
-                    "name": "description",
-                    "type": "str"
-                  },
-                  {
-                    "default": "str",
-                    "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
-                    "display_name": "Type",
-                    "edit_mode": "inline",
-                    "formatter": "text",
-                    "name": "type",
-                    "options": [
-                      "str",
-                      "int",
-                      "float",
-                      "bool",
-                      "dict"
-                    ],
-                    "type": "str"
-                  },
-                  {
-                    "default": "False",
-                    "description": "Set to True if this output field should be a list of the specified type.",
-                    "display_name": "As List",
-                    "edit_mode": "inline",
-                    "formatter": "text",
-                    "name": "multiple",
-                    "type": "boolean"
-                  }
-                ],
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "trigger_icon": "Table",
-                "trigger_text": "Open table",
-                "type": "table",
-                "value": []
-              },
-              "project_id": {
-                "_input_type": "StrInput",
-                "advanced": false,
-                "display_name": "watsonx Project ID",
-                "dynamic": false,
-                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "name": "project_id",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": false,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": ""
-              },
-              "system_prompt": {
-                "_input_type": "MultilineInput",
-                "advanced": false,
-                "ai_enabled": false,
-                "copy_field": false,
-                "display_name": "Agent Instructions",
-                "dynamic": false,
-                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior. Supports dynamic placeholders: {current_date}, {model_name}, {optional_user_context}.",
-                "input_types": [
-                  "Message"
-                ],
-                "list": false,
-                "list_add_label": "Add More",
-                "load_from_db": false,
-                "multiline": true,
-                "name": "system_prompt",
-                "override_skip": false,
-                "password": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_input": true,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "str",
-                "value": "You are the ATLAS Agent, a subject-matter expert on the MITRE ATLAS framework.\n\nYour job is to answer user questions about adversarial threats to AI systems using ATLAS evidence retrieved from specialized agents. You should sound like a knowledgeable analyst, not a workflow log or orchestration layer.\n\nYou have access to three specialized agents:\n\n1. `ATLAS_VECTOR_SEARCH_AGENT`\n   - Performs semantic discovery over the ATLAS knowledge base.\n   - Use it to find candidate tactics, techniques, mitigations, or case studies from natural-language descriptions, approximate names, threat scenarios, or defense concepts.\n   - Treat its results as candidates, not final verified facts.\n\n2. `ATLAS_DATASET_AGENT`\n   - Performs exact ATLAS dataset operations.\n   - Use it for AML.ID lookup, record hydration, field retrieval, filtering, counting, aggregation, and relationship resolution over structured dataset columns.\n   - Treat its results as authoritative for exact IDs, names, descriptions, URLs, relationships, and dataset-derived counts.\n\n3. `ATLAS_GRAPH_AGENT`\n   - Generates Kumu subgraph URLs from selected ATLAS IDs.\n   - Use it only when the user asks for a graph, map, visualization, Kumu URL, embed, network, or subgraph.\n   - Use it only after you have verified the relevant ATLAS IDs.\n\nDo not invent ATLAS facts. Ground all factual claims in evidence retrieved from the specialized agents.\n\n---\n\n# ATLAS Framework\n\nATLAS, the Adversarial Threat Landscape for AI Systems, is a structured knowledge base of adversary behavior against AI-enabled systems, including real-world attack observations and red-team demonstrations.\n\nEntities in ATLAS are identified by their Adversarial Machine Learning identifier, also called an AML.ID or ATLAS ID.\n\nEntity types:\n\n- Tactics, usually `AML.TA####` — high-level adversary objectives; why an action is performed.\n- Techniques, usually `AML.T####` or `AML.T####.###` — adversary methods; how objectives are achieved.\n- Mitigations, usually `AML.M####` — security measures that prevent or reduce techniques.\n- Case studies, usually `AML.CS####` — incidents or demonstrations showing technique usage.\n\nUse `casestudy` consistently as the internal entity value for case studies.\n\n---\n\n# Context Schema\n\nRetrieved ATLAS records may contain:\n\n- `id` — AML identifier\n- `entity` — `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity description\n- `url` — reference URL\n- `PARENT_TACTICS` — parent tactic IDs\n- `PARENT_TECHNIQUES` — parent technique IDs\n- `PARENT_MITIGATIONS` — mitigation IDs related to a technique\n- `PARENT_CASESTUDIES` — case study IDs related to a technique\n- `CHILD_TECHNIQUES` — child technique IDs\n\nRelationship summary:\n\n- Tactics have child techniques.\n- Techniques may have parent tactics.\n- Techniques may have parent techniques if they are sub-techniques.\n- Techniques may have child techniques if they are parent techniques.\n- Techniques may have parent mitigations.\n- Techniques may have parent case studies.\n- Mitigations have child techniques they mitigate.\n- Case studies have child techniques they demonstrate.\n\nDo not infer relationships that are not present in retrieved ATLAS data.\n\n---\n\n# Specialized Agent Routing\n\n## Use `ATLAS_VECTOR_SEARCH_AGENT` when:\n\nThe user asks a semantic, fuzzy, exploratory, or natural-language question.\n\nUse it for:\n- Threat scenarios\n- Defense concepts\n- Approximate ATLAS entity names\n- Incomplete entity descriptions\n- Natural-language descriptions of adversarial behavior\n- Requests such as “what ATLAS techniques apply to this?”\n- Requests such as “find relevant mitigations for this scenario”\n- Broad discovery over ATLAS concepts\n\nExamples:\n- “What ATLAS techniques relate to prompt injection?”\n- “An attacker manipulates training data. What does ATLAS call that?”\n- “Find mitigations for model evasion.”\n- “What case studies resemble this scenario?”\n- “Which ATLAS entries are relevant to data poisoning?”\n\nThe Vector Store Agent returns candidate entities. You should usually verify or hydrate important candidate IDs with the Dataset Agent before presenting them as ATLAS facts.\n\n---\n\n## Use `ATLAS_DATASET_AGENT` when:\n\nThe user asks for exact structured information from ATLAS.\n\nUse it for:\n- Exact AML.ID lookup\n- Record hydration\n- Verifying vector-search candidate IDs\n- Retrieving exact names, descriptions, URLs, and entity types\n- Retrieving selected fields\n- Filtering by entity type or field value\n- Counting entities\n- Aggregations\n- Lists of records or IDs\n- Relationship resolution\n- Parent tactics\n- Parent techniques\n- Child techniques\n- Mitigations for techniques\n- Case studies for techniques\n- Dataset-wide analysis\n\nExamples:\n- “Hydrate AML.T0015.”\n- “What are the mitigations for AML.T0015?”\n- “How many case studies are there?”\n- “List all mitigations.”\n- “Which techniques have mitigations?”\n- “What are the children of AML.M0003?”\n- “Show all tactics with more than 10 child techniques.”\n- “Return names and URLs for all case studies.”\n\nThe Dataset Agent is authoritative for exact records, relationships, and counts.\n\n---\n\n## Use `ATLAS_GRAPH_AGENT` when:\n\nThe user explicitly asks for a graph, map, visualization, Kumu URL, embed, network, or subgraph.\n\nUse it for:\n- Kumu graph generation\n- Visualizing selected ATLAS IDs\n- Creating subgraph URLs\n- Mapping relationships around one or more entities\n\nBefore using the Graph Agent:\n1. Identify relevant ATLAS IDs.\n2. Verify them with the Dataset Agent.\n3. Select a focused ordered ID list, with the primary entity first.\n4. Send the verified IDs to the Graph Agent.\n\nDo not use the Graph Agent for ordinary textual explanations.\n\n---\n\n# Workflow Guidance\n\n## For fuzzy, scenario-based, or natural-language questions\n\n1. Use `ATLAS_VECTOR_SEARCH_AGENT` to identify semantically relevant candidate ATLAS entities.\n2. Use `ATLAS_DATASET_AGENT` to verify and hydrate the strongest candidate IDs.\n3. Use `ATLAS_DATASET_AGENT` again if relationships, mitigations, case studies, or parent tactics are needed.\n4. Synthesize a concise answer from the verified ATLAS evidence.\n5. Clearly distinguish semantic relevance from exact ATLAS relationships.\n\nExample behavior:\n- User: “What ATLAS techniques apply to an attacker causing a model to misclassify inputs?”\n- Route:\n  1. Vector search for candidate techniques.\n  2. Dataset hydrate the most relevant IDs.\n  3. Optionally retrieve mitigations or related case studies.\n  4. Answer in analyst prose.\n\n---\n\n## For exact ID-based questions\n\n1. Use `ATLAS_DATASET_AGENT`.\n2. Retrieve the exact entity record.\n3. Retrieve related entities if the user asks for them or if they are clearly useful.\n4. Use `ATLAS_VECTOR_SEARCH_AGENT` only if broader semantic context is requested.\n\nExample behavior:\n- User: “What is AML.T0015?”\n- Route:\n  1. Dataset lookup.\n  2. Answer with ID, name, type, description, and URL if available.\n\n---\n\n## For exact name or approximate name questions\n\nIf the name appears exact but no AML.ID is provided:\n1. Use `ATLAS_DATASET_AGENT` if the task is structured, such as exact field lookup or substring matching.\n2. Use `ATLAS_VECTOR_SEARCH_AGENT` if the name is approximate, partial, ambiguous, misspelled, or scenario-like.\n3. Hydrate the resulting candidate IDs with `ATLAS_DATASET_AGENT` before final synthesis.\n\n---\n\n## For mitigation questions\n\n1. Identify the relevant technique or techniques.\n   - Use `ATLAS_DATASET_AGENT` if the user provides exact IDs.\n   - Use `ATLAS_VECTOR_SEARCH_AGENT` if the user describes the threat in natural language.\n2. Use `ATLAS_DATASET_AGENT` to retrieve mitigations linked to the verified techniques.\n3. Summarize mitigations in terms of the ATLAS records and the threats they address.\n\nDo not invent mitigations beyond those present in ATLAS data.\n\n---\n\n## For case-study questions\n\n1. Identify relevant case studies or techniques.\n   - Use semantic search for scenario-like questions.\n   - Use dataset lookup for exact IDs or structured filters.\n2. Use `ATLAS_DATASET_AGENT` to retrieve demonstrated techniques and related entity details.\n3. Summarize evidence-backed examples.\n\nDo not claim a case study demonstrates a technique unless that relationship is present in ATLAS data.\n\n---\n\n## For relationship questions\n\nUse `ATLAS_DATASET_AGENT`.\n\nRelationship questions include:\n- “What are the parent tactics?”\n- “What are the child techniques?”\n- “Which mitigations address this technique?”\n- “Which case studies demonstrate this technique?”\n- “Which techniques are under this tactic?”\n- “Which techniques are mitigated by this mitigation?”\n- “Which techniques are demonstrated by this case study?”\n\nDo not use semantic search to answer exact relationship questions unless you first need candidate IDs from a vague user description.\n\n---\n\n## For aggregate or dataset-wide questions\n\nUse `ATLAS_DATASET_AGENT`.\n\nAggregate questions include:\n- Counts\n- Lists\n- Rankings\n- Filters\n- Groupings\n- Field selection\n- Dataset-wide summaries\n\nExamples:\n- “How many techniques are there?”\n- “List all mitigations.”\n- “Which techniques have no mitigations?”\n- “Which tactics have the most child techniques?”\n- “Return all case study names and URLs.”\n\nDo not use vector search for dataset-wide counts or complete lists.\n\n---\n\n## For graph or visualization requests\n\n1. Determine the relevant ATLAS IDs.\n   - Use `ATLAS_VECTOR_SEARCH_AGENT` for vague or semantic graph topics.\n   - Use `ATLAS_DATASET_AGENT` for exact ID lookup and relationship expansion.\n2. Verify the IDs with `ATLAS_DATASET_AGENT`.\n3. Choose a focused ordered ID list with the primary entity first.\n4. Use `ATLAS_GRAPH_AGENT` to generate the Kumu subgraph URL.\n5. Include the generated Kumu URL in the final answer.\n\nWhen the user asks for a graph, keep the text brief and include the URL prominently.\n\n---\n\n# Agent Result Interpretation\n\n## Vector Store Agent results\n\nTreat Vector Store Agent results as candidate semantic matches.\n\nYou may say:\n- “The closest ATLAS matches are...”\n- “Semantically, this maps most closely to...”\n- “This appears related to...”\n\nDo not say:\n- “ATLAS definitively classifies this as...” unless verified by the Dataset Agent.\n- “This technique has these mitigations...” unless those relationships are retrieved from the Dataset Agent.\n- “This case study demonstrates...” unless that relationship is present in the dataset.\n\nWhen vector results are weak or ambiguous:\n- Say so briefly.\n- Present the best candidates as possibilities.\n- Ask for clarification only when necessary to avoid a misleading answer.\n\n---\n\n## Dataset Agent results\n\nTreat Dataset Agent results as authoritative for exact structured ATLAS data.\n\nYou may say:\n- “ATLAS identifies this as...”\n- “The dataset links this technique to...”\n- “ATLAS lists the following child techniques...”\n\nIf the Dataset Agent reports no match:\n- Do not invent a replacement.\n- Say that no exact ATLAS dataset match was found.\n- If useful, use the Vector Store Agent to search semantically for approximate matches.\n\n---\n\n## Graph Agent results\n\nTreat Graph Agent results as generated visualization outputs based on the verified ID list you supplied.\n\nDo not imply the graph includes all possible ATLAS context unless the supplied ID list was comprehensive.\n\n---\n\n# Synthesis Rules\n\nUse the specialized agents to gather evidence, then answer naturally.\n\nYour final answer should:\n- Answer the user’s question directly.\n- Include relevant AML IDs and names.\n- Explain the ATLAS relevance in plain language.\n- Distinguish verified dataset facts from semantic candidate matches.\n- Mention uncertainty when results are ambiguous, weak, incomplete, or approximate.\n- Avoid exposing orchestration details unless the user asks for them.\n\nGood phrasing:\n- “ATLAS most closely maps this behavior to AML.T0015 — Evade AI Model.”\n- “The dataset links this technique to the following mitigations...”\n- “The closest semantic candidates are...”\n- “I found no exact ATLAS ID match for that string, but the closest candidates are...”\n\nAvoid procedural phrasing:\n- “I used the Vector Store Agent...”\n- “Then I called the Dataset Agent...”\n- “Plan followed...”\n- “Tool output says...”\n- “Routing decision...”\n\n---\n\n# Response Style\n\nYour answers should feel like concise expert analysis.\n\nDo:\n- Be direct.\n- Be accurate.\n- Use ATLAS IDs and names where relevant.\n- Use short paragraphs and compact bullets when helpful.\n- Keep the tone natural, professional, and helpful.\n- Tailor technical depth to the user’s question.\n- State when something is a semantic match rather than a verified relationship.\n- State when exact ATLAS data is missing or ambiguous.\n\nDo not:\n- Narrate internal tool calls.\n- Expose hidden reasoning.\n- Sound like an orchestration log.\n- Over-explain the workflow.\n- Invent missing IDs, descriptions, URLs, relationships, or counts.\n- Present semantic candidates as verified dataset facts.\n- Provide broad cybersecurity advice that is not grounded in ATLAS evidence unless the user asks for general guidance.\n\n---\n\n# Output Requirements\n\nEvery final answer should:\n\n1. Answer the user directly and naturally.\n2. Use retrieved ATLAS evidence.\n3. Include relevant AML IDs and entity names.\n4. Distinguish exact dataset facts from semantic matches or analyst interpretation.\n5. Mention uncertainty when results are ambiguous or incomplete.\n6. Avoid exposing chain-of-thought or internal orchestration.\n7. Include the Kumu subgraph URL when the user asks for a graph or visualization.\n\nIf the user asks for structured output, provide structured output.\n\nIf the user asks for JSON, return valid JSON only.\n\nIf the user asks for a graph or visualization, include the generated Kumu URL in a code block.\n\n---\n\n# Safety and Fidelity Constraints\n\n- Do not invent ATLAS facts.\n- Do not invent ATLAS IDs.\n- Do not invent relationships.\n- Do not invent counts.\n- Do not invent URLs.\n- Do not claim a mitigation, case study, tactic, or technique relationship unless retrieved from ATLAS data.\n- Treat the Dataset Agent as authoritative for exact structured data.\n- Treat the Vector Store Agent as semantic candidate generation.\n- Treat the Graph Agent as visualization generation only.\n- When evidence is incomplete, say so.\n- When a query is outside ATLAS scope, answer briefly and explain the boundary.\n- Do not expose internal chain-of-thought."
-              },
-              "tools": {
-                "_input_type": "HandleInput",
-                "advanced": false,
-                "display_name": "Tools",
-                "dynamic": false,
-                "info": "These are the tools that the agent can use to help with tasks.",
-                "input_types": [
-                  "Tool"
-                ],
-                "list": true,
-                "list_add_label": "Add More",
-                "name": "tools",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": false,
-                "type": "other",
-                "value": ""
-              },
-              "verbose": {
-                "_input_type": "BoolInput",
-                "advanced": true,
-                "display_name": "Verbose",
-                "dynamic": false,
-                "info": "",
-                "input_types": [],
-                "list": false,
-                "list_add_label": "Add More",
-                "name": "verbose",
-                "override_skip": false,
-                "placeholder": "",
-                "required": false,
-                "show": true,
-                "title_case": false,
-                "tool_mode": false,
-                "trace_as_metadata": true,
-                "track_in_telemetry": true,
-                "type": "bool",
-                "value": true
-              }
-            },
-            "tool_mode": false
-          },
-          "showNode": true,
-          "type": "Agent"
-        },
-        "dragging": false,
-        "id": "Agent-cninD",
-        "measured": {
-          "height": 414,
-          "width": 320
-        },
-        "position": {
-          "x": 1074.5888991132326,
-          "y": 1799.3665771176381
-        },
-        "selected": false,
-        "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "ChatOutput-FKhrP",
+          "id": "ChatOutput-eGqT4",
           "node": {
             "base_classes": [
               "Message"
@@ -1565,21 +925,21 @@
           "type": "ChatOutput"
         },
         "dragging": false,
-        "id": "ChatOutput-FKhrP",
+        "id": "ChatOutput-eGqT4",
         "measured": {
           "height": 52,
           "width": 192
         },
         "position": {
-          "x": 1463.413484360486,
-          "y": 2166.270545995961
+          "x": 1598.0202446477626,
+          "y": 1858.4185319824737
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "KumuSubgraphURL-8ET7e",
+          "id": "KumuSubgraphURL-UlH5z",
           "node": {
             "base_classes": [
               "JSON"
@@ -1598,7 +958,7 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-06-17T14:01:57.026Z",
+            "last_updated": "2026-06-19T02:04:34.197Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1639,7 +999,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
@@ -1778,7 +1138,7 @@
           "type": "KumuSubgraphURL"
         },
         "dragging": false,
-        "id": "KumuSubgraphURL-8ET7e",
+        "id": "KumuSubgraphURL-UlH5z",
         "measured": {
           "height": 390,
           "width": 320
@@ -1792,7 +1152,7 @@
       },
       {
         "data": {
-          "id": "Agent-XebQj",
+          "id": "Agent-DL2Zd",
           "node": {
             "base_classes": [
               "Message"
@@ -1825,7 +1185,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-17T14:01:57.026Z",
+            "last_updated": "2026-06-19T02:04:34.198Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1874,7 +1234,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
@@ -2364,7 +1724,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "You are the ATLAS Kumu Graph Generator Agent.\n\nYour sole purpose is to generate focused Kumu subgraph URLs for ATLAS entities using the Kumu Subgraph URL component.\n\nYou receive a request from the Orchestrator containing one or more ATLAS IDs. For each ID, that node and all its neighbors will be expanded.\n\nDo not produce a full user-facing ATLAS answer. Return graph-link evidence for the Orchestrator to attach to the final response.\n\n---\n\n## Available Tool\n\n### Kumu Subgraph URL Component\n\nUse the Kumu Subgraph URL component to generate an embeddable Kumu URL for a focused ATLAS subgraph.\n\nTool purpose:\n\n* Generate a Kumu embed URL for a focused ATLAS subgraph from AML IDs.\n\nTool input:\n\n```json\n{\n  \"ids\": [\"AML.ID1\", \"AML.ID2\", \"AML.ID3\"]\n}\n```\n\nInput rules:\n\n* `ids` must be a JSON object containing an `ids` list.\n* Each list item must be an ATLAS ID string.\n\nTool output:\n\n```json\n{\n  \"url\": \"https://embed.kumu.io/...\",\n  \"iframe\": \"<iframe src='...' width='600' height='400' frameborder='0'></iframe>\"\n}\n```\n\n---\n\n## ATLAS ID Scope\n\nValid ATLAS IDs include:\n\n* Tactics: `AML.TA####`\n* Techniques: `AML.T####` or `AML.T####.###`\n* Mitigations: `AML.M####`\n* Case Studies: `AML.CS####`\n\nPreserve IDs exactly as provided by the Orchestrator.\n\n---\n\n## Behavior\n\nGenerate a focused graph for the IDs provided by the Orchestrator.\n\nWhen the Orchestrator provides an ordered ID list:\n\n1. Preserve the given order.\n2. Pass the IDs to the Kumu Subgraph URL component.\n3. Return the generated URL and iframe.\n\nWhen the Orchestrator provides ATLAS entities but does not provide an ordered list:\n\n1. Select a concise graph set from the provided entities only.\n2. Add directly relevant tactics, techniques, mitigations, or case studies.\n3. Avoid including weakly related or duplicate IDs.\n4. Pass the resulting IDs to the Kumu Subgraph URL component.\n\nIf no valid ATLAS IDs are provided, do not call the tool. Return a clear note that graph generation requires at least one ATLAS ID.\n\n---\n\n## Output Format\n\nReturn results in this JSON-compatible structure:\n\n```json\n{\n  \"query\": \"original graph request\",\n  \"ids_used\": [\"AML...\"],\n  \"tool_result\": {\n    \"url\": \"Kumu embed URL if generated\",\n    \"iframe\": \"Kumu iframe HTML if generated\"\n  },\n  \"notes\": \"Any omitted IDs, invalid IDs, ambiguity, or graph-generation limitations\"\n}\n```\n\n---\n\n## Constraints\n\n* Do not invent ATLAS IDs.\n* Do not infer relationships that were not provided by the Orchestrator.\n* Do not perform semantic search or CSV lookup.\n* Do not explain the ATLAS entities in detail.\n* Do not generate graph URLs manually when the Kumu Subgraph URL component is available.\n* Keep the graph focused; prefer the smallest useful set of IDs.\n"
+                "value": "You are the ATLAS Graph Agent.\n\nYour sole purpose is to generate focused Kumu visualization URLs for verified MITRE ATLAS entities.\n\nYou receive a set of ATLAS IDs from the Orchestrator. These IDs have already been selected and verified by the Orchestrator using authoritative ATLAS dataset evidence.\n\nDo not perform ATLAS analysis.\nDo not discover additional ATLAS entities.\nDo not infer relationships.\nDo not add parent, child, mitigation, case-study, or neighboring IDs.\nDo not produce explanatory prose unless required by the tool output format.\n\nYour job is to call the Kumu URL generation tool with the exact focus IDs provided by the Orchestrator and return the generated URL and iframe.\n\n---\n\n# Purpose\n\nGenerate Kumu embed URLs for ATLAS graph visualizations.\n\nThe Graph Agent supports requests such as:\n- Visualize this ATLAS entity\n- Create a Kumu URL\n- Generate an embed\n- Show a graph or map\n- Build a focused subgraph\n- Compare or visualize multiple selected ATLAS IDs\n\nThe Graph Agent is not responsible for deciding which ATLAS entities are relevant. The Orchestrator handles discovery, verification, relationship lookup, and final user-facing synthesis.\n\n---\n\n# Input Contract\n\nYou receive one or more verified ATLAS IDs.\n\nExpected input shape:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n````\n\nor:\n\n```json\n{\n  \"ids\": [\"AML.T0015\", \"AML.T0031\"]\n}\n```\n\nThe first ID is the primary anchor.\n\nPreserve the order of IDs exactly as provided.\n\n---\n\n# ATLAS ID Types\n\nATLAS IDs may include:\n\n* Tactics: `AML.TA####`\n* Techniques: `AML.T####`\n* Sub-techniques: `AML.T####.###`\n* Mitigations: `AML.M####`\n* Case studies: `AML.CS####`\n\nTreat all IDs as opaque identifiers. Do not reinterpret, rename, correct, or transform them except as required by the Kumu URL generation tool.\n\n---\n\n# Critical Kumu Focus Behavior\n\nKumu focused URLs automatically display the focused entity and its immediate neighbors.\n\nEvery ID included in the focus URL becomes a focus point.\n\nEvery focus point expands its own immediate neighborhood.\n\nTherefore:\n\n* If the Orchestrator provides one ID, generate a URL focused on exactly that one ID.\n* If the Orchestrator provides multiple IDs, generate a URL focused on exactly those IDs.\n* Do not add related IDs for context.\n* Do not add child techniques.\n* Do not add parent tactics.\n* Do not add mitigations.\n* Do not add case studies.\n* Do not add graph neighbors of any kind.\n\nAdding extra IDs causes Kumu to expand too many neighborhoods and produces an overly broad visualization.\n\n---\n\n# Single-ID Visualization Rule\n\nFor a single-ID visualization, call the Kumu URL tool with exactly one ID.\n\nExample input:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nCorrect behavior:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nIncorrect behavior:\n\n```json\n{\n  \"ids\": [\n    \"AML.TA0011\",\n    \"AML.T0034\",\n    \"AML.T0015\",\n    \"AML.T0031\"\n  ]\n}\n```\n\nEven if those related IDs are valid neighbors, do not include them. Kumu will display immediate neighbors automatically.\n\n---\n\n# Multi-ID Visualization Rule\n\nUse multiple IDs only when the Orchestrator provides multiple IDs.\n\nThis usually means the user explicitly requested:\n\n* A comparison graph\n* A graph of several named entities\n* A visualization of a selected set\n* A multi-anchor Kumu view\n\nExample input:\n\n```json\n{\n  \"ids\": [\"AML.T0015\", \"AML.T0031\"]\n}\n```\n\nCorrect behavior:\n\n```json\n{\n  \"ids\": [\"AML.T0015\", \"AML.T0031\"]\n}\n```\n\nDo not enrich the list with additional related records.\n\n---\n\n# Tool Use\n\nYou have one tool:\n\n`KUMU_SUBGRAPH_URL`\n\nUse it to generate a Kumu embed URL from the provided ATLAS IDs.\n\nWhen calling the tool:\n\n* Pass the IDs exactly as received.\n* Preserve ID order.\n* Do not deduplicate unless exact duplicate strings are present.\n* Do not add IDs.\n* Do not remove IDs unless they are blank or malformed by transport.\n* Keep the primary anchor first.\n\nExpected tool input:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nExpected tool result may include:\n\n```json\n{\n  \"url\": \"https://embed.kumu.io/...\",\n  \"iframe\": \"<iframe src='...' width='600' height='400' frameborder='0'></iframe>\"\n}\n```\n\n---\n\n# Output Contract\n\nReturn the tool output directly.\n\nPrefer this shape:\n\n```json\n{\n  \"url\": \"...\",\n  \"iframe\": \"...\"\n}\n```\n\nDo not add commentary such as:\n\n* “Here is the graph”\n* “I generated this URL”\n* “This graph shows...”\n* “The neighbors include...”\n* “I selected these IDs because...”\n\nThe Orchestrator is responsible for user-facing language.\n\n---\n\n# Error Handling\n\nIf no IDs are provided, return an empty result:\n\n```json\n{\n  \"url\": \"\",\n  \"iframe\": \"\"\n}\n```\n\nIf the input is malformed but contains recoverable IDs, use only the recoverable IDs and do not invent replacements.\n\nIf no valid IDs can be recovered, return an empty result.\n\nDo not ask the user for clarification. The Orchestrator handles clarification.\n\n---\n\n# Fidelity Rules\n\n* Do not invent ATLAS IDs.\n* Do not invent ATLAS names.\n* Do not invent ATLAS relationships.\n* Do not verify IDs yourself.\n* Do not perform semantic search.\n* Do not perform dataset lookup.\n* Do not expand relationships.\n* Do not summarize the graph.\n* Do not claim the graph is comprehensive.\n* Do not claim the graph contains all related ATLAS entities.\n* Do not add neighboring entities for context.\n* Treat the provided IDs as the complete visualization focus set.\n\n---\n\n# Good Behavior Examples\n\n## Example 1: Single tactic\n\nInput:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nAction:\n\nCall the Kumu URL tool with exactly:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nRationale:\n\nKumu will automatically show `AML.TA0011` and its immediate neighbors.\n\n---\n\n## Example 2: Single technique\n\nInput:\n\n```json\n{\n  \"ids\": [\"AML.T0015\"]\n}\n```\n\nAction:\n\nCall the Kumu URL tool with exactly:\n\n```json\n{\n  \"ids\": [\"AML.T0015\"]\n}\n```\n\nRationale:\n\nDo not add parent tactics, child techniques, mitigations, or case studies.\n\n---\n\n## Example 3: Explicit multi-entity comparison\n\nInput:\n\n```json\n{\n  \"ids\": [\"AML.T0015\", \"AML.T0031\"]\n}\n```\n\nAction:\n\nCall the Kumu URL tool with exactly:\n\n```json\n{\n  \"ids\": [\"AML.T0015\", \"AML.T0031\"]\n}\n```\n\nRationale:\n\nThe Orchestrator intentionally selected two focus points.\n\n---\n\n## Example 4: Incorrect relationship expansion\n\nInput:\n\n```json\n{\n  \"ids\": [\"AML.TA0011\"]\n}\n```\n\nIncorrect action:\n\n```json\n{\n  \"ids\": [\n    \"AML.TA0011\",\n    \"AML.T0034\",\n    \"AML.T0015\",\n    \"AML.T0031\",\n    \"AML.T0059\"\n  ]\n}\n```\n\nWhy this is wrong:\n\nEach additional ID becomes a focus point and expands its own neighborhood, causing the graph to become too broad.\n\n---\n\n# Operating Principle\n\nThe Graph Agent is a URL generator, not a graph reasoning agent.\n\nUse exactly the verified focus IDs supplied by the Orchestrator."
               },
               "tools": {
                 "_input_type": "HandleInput",
@@ -2457,7 +1817,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-XebQj",
+        "id": "Agent-DL2Zd",
         "measured": {
           "height": 434,
           "width": 320
@@ -2471,7 +1831,7 @@
       },
       {
         "data": {
-          "id": "Agent-1pXxt",
+          "id": "Agent-TXgoD",
           "node": {
             "base_classes": [
               "Message"
@@ -2504,7 +1864,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-17T14:01:57.027Z",
+            "last_updated": "2026-06-19T02:04:34.199Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -2553,11 +1913,9 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "input_types": [],
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
-                "input_types": [],
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
               },
               "_type": "Component",
@@ -3101,7 +2459,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-1pXxt",
+        "id": "Agent-TXgoD",
         "measured": {
           "height": 466,
           "width": 320
@@ -3115,7 +2473,7 @@
       },
       {
         "data": {
-          "id": "CSVPythonREPL-4XMGl",
+          "id": "CSVPythonREPL-q8GM9",
           "node": {
             "base_classes": [
               "JSON"
@@ -3137,7 +2495,7 @@
             ],
             "frozen": false,
             "icon": "square-terminal",
-            "last_updated": "2026-06-17T14:01:57.028Z",
+            "last_updated": "2026-06-19T02:04:34.199Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3186,7 +2544,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
@@ -3392,7 +2750,7 @@
           "type": "CSVPythonREPL"
         },
         "dragging": false,
-        "id": "CSVPythonREPL-4XMGl",
+        "id": "CSVPythonREPL-q8GM9",
         "measured": {
           "height": 412,
           "width": 320
@@ -3406,7 +2764,7 @@
       },
       {
         "data": {
-          "id": "note-oVGB7",
+          "id": "note-ZnSQX",
           "node": {
             "description": "## Model Configuration",
             "display_name": "",
@@ -3419,14 +2777,14 @@
         },
         "dragging": false,
         "height": 542,
-        "id": "note-oVGB7",
+        "id": "note-ZnSQX",
         "measured": {
           "height": 542,
           "width": 361
         },
         "position": {
-          "x": -182.1292678603689,
-          "y": 53.44484087642502
+          "x": -746.6538074624426,
+          "y": 1188.0557382047305
         },
         "resizing": false,
         "selected": false,
@@ -3435,7 +2793,7 @@
       },
       {
         "data": {
-          "id": "OpenAIModel-yWYI2",
+          "id": "OpenAIModel-I6iPG",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -3700,7 +3058,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "gemma-4"
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -3721,7 +3079,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": ""
+                "value": "https://models.k8s.aip.mitre.org/v1"
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -3850,21 +3208,21 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-yWYI2",
+        "id": "OpenAIModel-I6iPG",
         "measured": {
           "height": 458,
           "width": 320
         },
         "position": {
-          "x": -165.43043913664098,
-          "y": 113.05801018476157
+          "x": -724.3931606145562,
+          "y": 1253.2307256372255
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "Agent-BoRpR",
+          "id": "Agent-lMYOv",
           "node": {
             "base_classes": [
               "Message"
@@ -3897,7 +3255,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-17T14:01:57.028Z",
+            "last_updated": "2026-06-19T02:04:34.201Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3946,7 +3304,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
@@ -4533,7 +3891,7 @@
           "type": "Agent"
         },
         "dragging": false,
-        "id": "Agent-BoRpR",
+        "id": "Agent-lMYOv",
         "measured": {
           "height": 482,
           "width": 320
@@ -4547,7 +3905,7 @@
       },
       {
         "data": {
-          "id": "HybridChromaDBQuery-1HjZW",
+          "id": "HybridChromaDBQuery-q6xuN",
           "node": {
             "base_classes": [
               "Table"
@@ -4578,7 +3936,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-06-17T14:01:58.009Z",
+            "last_updated": "2026-06-19T02:04:34.202Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -4623,7 +3981,7 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "566d098c-b34d-4a80-8ba7-65318106a4db"
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
               },
               "_frontend_node_folder_id": {
                 "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
@@ -5056,7 +4414,7 @@
           "type": "HybridChromaDBQuery"
         },
         "dragging": false,
-        "id": "HybridChromaDBQuery-1HjZW",
+        "id": "HybridChromaDBQuery-q6xuN",
         "measured": {
           "height": 406,
           "width": 320
@@ -5065,19 +4423,659 @@
           "x": -160.2970560531496,
           "y": 702.602749774385
         },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Agent-yUteS",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Primary ATLAS KB Agent (Orchestrator)",
+            "display_name": "ATLAS KB Agent",
+            "documentation": "https://docs.langflow.org/agents",
+            "edited": true,
+            "field_order": [
+              "model",
+              "api_key",
+              "base_url_ibm_watsonx",
+              "project_id",
+              "system_prompt",
+              "context_id",
+              "n_messages",
+              "max_tokens",
+              "format_instructions",
+              "output_schema",
+              "tools",
+              "input_value",
+              "handle_parsing_errors",
+              "verbose",
+              "max_iterations",
+              "agent_description",
+              "add_current_date_tool"
+            ],
+            "frozen": false,
+            "icon": "bot",
+            "last_updated": "2026-06-19T01:05:05.794Z",
+            "legacy": false,
+            "lf_version": "1.9.2",
+            "metadata": {
+              "code_hash": "7bcf94bacb78",
+              "dependencies": {
+                "dependencies": [
+                  {
+                    "name": "pydantic",
+                    "version": "2.12.5"
+                  },
+                  {
+                    "name": "lfx",
+                    "version": "0.4.2"
+                  },
+                  {
+                    "name": "langchain_core",
+                    "version": "1.3.2"
+                  }
+                ],
+                "total_dependencies": 3
+              },
+              "module": "custom_components.atlas_graph_agent"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Response",
+                "group_outputs": false,
+                "hidden": null,
+                "loop_types": null,
+                "method": "message_response",
+                "name": "response",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_frontend_node_flow_id": {
+                "input_types": [],
+                "value": "75f62ddd-36ed-4705-8337-4ff1e651f779"
+              },
+              "_frontend_node_folder_id": {
+                "input_types": [],
+                "value": "fa170d0f-1a6a-4989-8641-44adff99cb4f"
+              },
+              "_type": "Component",
+              "add_current_date_tool": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Current Date",
+                "dynamic": false,
+                "info": "If true, will add a tool to the agent that returns the current date.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "add_current_date_tool",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": false
+              },
+              "agent_description": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Description [Deprecated]",
+                "dynamic": false,
+                "info": "The description of the agent. This is only used when in Tool Mode. Defaults to 'A helpful assistant with access to the following tools:' and tools are added dynamically. This feature is deprecated and will be removed in future versions.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "agent_description",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "A helpful assistant with access to the following tools:"
+              },
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": true,
+                "display_name": "API Key",
+                "dynamic": false,
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "api_key",
+                "override_skip": false,
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "OPENAI_API_KEY"
+              },
+              "base_url_ibm_watsonx": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "watsonx API Endpoint",
+                "dynamic": false,
+                "external_options": {},
+                "info": "The base URL of the API (IBM watsonx.ai only)",
+                "input_types": [],
+                "name": "base_url_ibm_watsonx",
+                "options": [
+                  "https://us-south.ml.cloud.ibm.com",
+                  "https://eu-de.ml.cloud.ibm.com",
+                  "https://eu-gb.ml.cloud.ibm.com",
+                  "https://au-syd.ml.cloud.ibm.com",
+                  "https://jp-tok.ml.cloud.ibm.com",
+                  "https://ca-tor.ml.cloud.ibm.com"
+                ],
+                "options_metadata": [],
+                "override_skip": false,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "str",
+                "value": "https://us-south.ml.cloud.ibm.com"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from __future__ import annotations\n\nimport json\nimport re\nfrom typing import TYPE_CHECKING\n\nfrom pydantic import ValidationError\n\nfrom lfx.components.models_and_agents.memory import MemoryComponent\n\nif TYPE_CHECKING:\n    from langchain_core.tools import Tool\n\nfrom lfx.base.agents.agent import LCToolsAgentComponent\nfrom lfx.base.agents.events import ExceptionWithMessageError\nfrom lfx.base.models.unified_models import (\n    get_language_model_options,\n    get_llm,\n    handle_model_input_update,\n)\nfrom lfx.base.models.watsonx_constants import IBM_WATSONX_URLS\nfrom lfx.components.agentics.helpers.model_config import validate_model_selection\nfrom lfx.components.helpers import CurrentDateComponent\nfrom lfx.components.langchain_utilities.tool_calling import ToolCallingAgentComponent\nfrom lfx.custom.custom_component.component import get_component_toolkit\nfrom lfx.field_typing.range_spec import RangeSpec\nfrom lfx.helpers.base_model import build_model_from_schema\nfrom lfx.inputs.inputs import BoolInput, DropdownInput, ModelInput, StrInput\nfrom lfx.io import IntInput, MessageTextInput, MultilineInput, Output, SecretStrInput, TableInput\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.schema.message import Message\nfrom lfx.schema.table import EditMode\n\n\ndef set_advanced_true(component_input):\n    component_input.advanced = True\n    return component_input\n\n\nclass AgentComponent(ToolCallingAgentComponent):\n    display_name: str = \"ATLAS Graph Agent\"\n    description: str = \"Query the Graph Agent with a list of IDs to generate a Kumu subgraph focused on those IDs.\"\n    documentation: str = \"https://docs.langflow.org/agents\"\n    icon = \"bot\"\n    beta = False\n    name = \"Agent\"\n\n    memory_inputs = [set_advanced_true(component_input) for component_input in MemoryComponent().inputs]\n\n    inputs = [\n        ModelInput(\n            name=\"model\",\n            display_name=\"Language Model\",\n            info=\"Select your model provider\",\n            real_time_refresh=True,\n            required=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"API Key\",\n            info=\"Overrides global provider settings. Leave blank to use your pre-configured API Key.\",\n            real_time_refresh=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"base_url_ibm_watsonx\",\n            display_name=\"watsonx API Endpoint\",\n            info=\"The base URL of the API (IBM watsonx.ai only)\",\n            options=IBM_WATSONX_URLS,\n            value=IBM_WATSONX_URLS[0],\n            combobox=True,\n            show=False,\n            real_time_refresh=True,\n        ),\n        StrInput(\n            name=\"project_id\",\n            display_name=\"watsonx Project ID\",\n            info=\"The project ID associated with the foundation model (IBM watsonx.ai only)\",\n            show=False,\n            required=False,\n        ),\n        MultilineInput(\n            name=\"system_prompt\",\n            display_name=\"Agent Instructions\",\n            info=\"System Prompt: Initial instructions and context provided to guide the agent's behavior.\",\n            value=\"You are a helpful assistant that can use tools to answer questions and perform tasks.\",\n            advanced=False,\n        ),\n        MessageTextInput(\n            name=\"context_id\",\n            display_name=\"Context ID\",\n            info=\"The context ID of the chat. Adds an extra layer to the local memory.\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"n_messages\",\n            display_name=\"Number of Chat History Messages\",\n            value=100,\n            info=\"Number of chat history messages to retrieve.\",\n            advanced=True,\n            show=True,\n        ),\n        IntInput(\n            name=\"max_tokens\",\n            display_name=\"Max Tokens\",\n            info=\"Maximum number of tokens to generate. Field name varies by provider.\",\n            advanced=True,\n            range_spec=RangeSpec(min=1, max=128000, step=1, step_type=\"int\"),\n        ),\n        MultilineInput(\n            name=\"format_instructions\",\n            display_name=\"Output Format Instructions\",\n            info=\"Generic Template for structured output formatting. Valid only with Structured response.\",\n            value=(\n                \"You are an AI that extracts structured JSON objects from unstructured text. \"\n                \"Use a predefined schema with expected types (str, int, float, bool, dict). \"\n                \"Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. \"\n                \"Fill missing or ambiguous values with defaults: null for missing values. \"\n                \"Remove exact duplicates but keep variations that have different field values. \"\n                \"Always return valid JSON in the expected format, never throw errors. \"\n                \"If multiple objects can be extracted, return them all in the structured format.\"\n            ),\n            advanced=True,\n        ),\n        TableInput(\n            name=\"output_schema\",\n            display_name=\"Output Schema\",\n            info=(\n                \"Schema Validation: Define the structure and data types for structured output. \"\n                \"No validation if no output schema.\"\n            ),\n            advanced=True,\n            required=False,\n            value=[],\n            table_schema=[\n                {\n                    \"name\": \"name\",\n                    \"display_name\": \"Name\",\n                    \"type\": \"str\",\n                    \"description\": \"Specify the name of the output field.\",\n                    \"default\": \"field\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n                {\n                    \"name\": \"description\",\n                    \"display_name\": \"Description\",\n                    \"type\": \"str\",\n                    \"description\": \"Describe the purpose of the output field.\",\n                    \"default\": \"description of field\",\n                    \"edit_mode\": EditMode.POPOVER,\n                },\n                {\n                    \"name\": \"type\",\n                    \"display_name\": \"Type\",\n                    \"type\": \"str\",\n                    \"edit_mode\": EditMode.INLINE,\n                    \"description\": (\"Indicate the data type of the output field (e.g., str, int, float, bool, dict).\"),\n                    \"options\": [\"str\", \"int\", \"float\", \"bool\", \"dict\"],\n                    \"default\": \"str\",\n                },\n                {\n                    \"name\": \"multiple\",\n                    \"display_name\": \"As List\",\n                    \"type\": \"boolean\",\n                    \"description\": \"Set to True if this output field should be a list of the specified type.\",\n                    \"default\": \"False\",\n                    \"edit_mode\": EditMode.INLINE,\n                },\n            ],\n        ),\n        *LCToolsAgentComponent.get_base_inputs(),\n        # removed memory inputs from agent component\n        # *memory_inputs,\n        BoolInput(\n            name=\"add_current_date_tool\",\n            display_name=\"Current Date\",\n            advanced=True,\n            info=\"If true, will add a tool to the agent that returns the current date.\",\n            value=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"response\", display_name=\"Response\", method=\"message_response\"),\n    ]\n\n    def _resolve_selected_model(self):\n        \"\"\"Resolve the selected model, including legacy agent_llm/model_name inputs.\"\"\"\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            if isinstance(self.model, BaseLanguageModel):\n                return self.model\n        except ImportError:\n            pass\n\n        if isinstance(self.model, list) and self.model:\n            return self.model\n\n        legacy_provider = getattr(self, \"agent_llm\", None)\n        legacy_model_name = getattr(self, \"model_name\", None)\n        if not legacy_provider or not legacy_model_name:\n            return self.model\n\n        options = get_language_model_options(user_id=self.user_id)\n        for option in options:\n            if option.get(\"provider\") == legacy_provider and option.get(\"name\") == legacy_model_name:\n                return [option]\n\n        return [\n            {\n                \"name\": legacy_model_name,\n                \"provider\": legacy_provider,\n                \"metadata\": {},\n            }\n        ]\n\n    def _get_max_tokens_value(self):\n        \"\"\"Return the user-supplied max_tokens or None when unset/zero.\"\"\"\n        val = getattr(self, \"max_tokens\", None)\n        if val in {\"\", 0}:\n            return None\n        return val\n\n    def _get_llm(self):\n        \"\"\"Override parent to include max_tokens from the Agent's input field.\"\"\"\n        return get_llm(\n            model=self.model,\n            user_id=self.user_id,\n            api_key=getattr(self, \"api_key\", None),\n            max_tokens=self._get_max_tokens_value(),\n            watsonx_url=getattr(self, \"base_url_ibm_watsonx\", None),\n            watsonx_project_id=getattr(self, \"project_id\", None),\n        )\n\n    async def get_agent_requirements(self):\n        \"\"\"Get the agent requirements for the agent.\"\"\"\n        from langchain_core.tools import StructuredTool\n\n        selected_model = self._resolve_selected_model()\n        try:\n            from langchain_core.language_models import BaseLanguageModel\n\n            is_connected_model = isinstance(selected_model, BaseLanguageModel)\n        except ImportError:\n            is_connected_model = False\n\n        if not is_connected_model:\n            validate_model_selection(selected_model)\n\n        # Ensure _get_llm() uses the resolved model (e.g. from legacy agent_llm/model_name)\n        self.model = selected_model\n        llm_model = self._get_llm()\n        if llm_model is None:\n            msg = \"No language model selected. Please choose a model to proceed.\"\n            raise ValueError(msg)\n\n        # Get memory data\n        self.chat_history = await self.get_memory_data()\n        await logger.adebug(f\"Retrieved {len(self.chat_history)} chat history messages\")\n        if isinstance(self.chat_history, Message):\n            self.chat_history = [self.chat_history]\n\n        # Add current date tool if enabled\n        if self.add_current_date_tool:\n            if not isinstance(self.tools, list):  # type: ignore[has-type]\n                self.tools = []\n            current_date_tool = (await CurrentDateComponent(**self.get_base_args()).to_toolkit()).pop(0)\n\n            if not isinstance(current_date_tool, StructuredTool):\n                msg = \"CurrentDateComponent must be converted to a StructuredTool\"\n                raise TypeError(msg)\n            self.tools.append(current_date_tool)\n\n        # Set shared callbacks for tracing the tools used by the agent\n        self.set_tools_callbacks(self.tools, self._get_shared_callbacks())\n\n        return llm_model, self.chat_history, self.tools\n\n    async def message_response(self) -> Message:\n        try:\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            # Set up and run agent\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=self.system_prompt,\n            )\n            agent = self.create_agent_runnable()\n            result = await self.run_agent(agent)\n\n            # Store result for potential JSON output\n            self._agent_result = result\n\n        except (ValueError, TypeError, KeyError) as e:\n            await logger.aerror(f\"{type(e).__name__}: {e!s}\")\n            raise\n        except ExceptionWithMessageError as e:\n            await logger.aerror(f\"ExceptionWithMessageError occurred: {e}\")\n            raise\n        # Avoid catching blind Exception; let truly unexpected exceptions propagate\n        except Exception as e:\n            await logger.aerror(f\"Unexpected error: {e!s}\")\n            raise\n        else:\n            return result\n\n    def _preprocess_schema(self, schema):\n        \"\"\"Preprocess schema to ensure correct data types for build_model_from_schema.\"\"\"\n        processed_schema = []\n        for field in schema:\n            processed_field = {\n                \"name\": str(field.get(\"name\", \"field\")),\n                \"type\": str(field.get(\"type\", \"str\")),\n                \"description\": str(field.get(\"description\", \"\")),\n                \"multiple\": field.get(\"multiple\", False),\n            }\n            # Ensure multiple is handled correctly\n            if isinstance(processed_field[\"multiple\"], str):\n                processed_field[\"multiple\"] = processed_field[\"multiple\"].lower() in [\n                    \"true\",\n                    \"1\",\n                    \"t\",\n                    \"y\",\n                    \"yes\",\n                ]\n            processed_schema.append(processed_field)\n        return processed_schema\n\n    async def build_structured_output_base(self, content: str):\n        \"\"\"Build structured output with optional BaseModel validation.\"\"\"\n        json_pattern = r\"\\{.*\\}\"\n        schema_error_msg = \"Try setting an output schema\"\n\n        # Try to parse content as JSON first\n        json_data = None\n        try:\n            json_data = json.loads(content)\n        except json.JSONDecodeError:\n            json_match = re.search(json_pattern, content, re.DOTALL)\n            if json_match:\n                try:\n                    json_data = json.loads(json_match.group())\n                except json.JSONDecodeError:\n                    return {\"content\": content, \"error\": schema_error_msg}\n            else:\n                return {\"content\": content, \"error\": schema_error_msg}\n\n        # If no output schema provided, return parsed JSON without validation\n        if not hasattr(self, \"output_schema\") or not self.output_schema or len(self.output_schema) == 0:\n            return json_data\n\n        # Use BaseModel validation with schema\n        try:\n            processed_schema = self._preprocess_schema(self.output_schema)\n            output_model = build_model_from_schema(processed_schema)\n\n            # Validate against the schema\n            if isinstance(json_data, list):\n                # Multiple objects\n                validated_objects = []\n                for item in json_data:\n                    try:\n                        validated_obj = output_model.model_validate(item)\n                        validated_objects.append(validated_obj.model_dump())\n                    except ValidationError as e:\n                        await logger.aerror(f\"Validation error for item: {e}\")\n                        # Include invalid items with error info\n                        validated_objects.append({\"data\": item, \"validation_error\": str(e)})\n                return validated_objects\n\n            # Single object\n            try:\n                validated_obj = output_model.model_validate(json_data)\n                return [validated_obj.model_dump()]  # Return as list for consistency\n            except ValidationError as e:\n                await logger.aerror(f\"Validation error: {e}\")\n                return [{\"data\": json_data, \"validation_error\": str(e)}]\n\n        except (TypeError, ValueError) as e:\n            await logger.aerror(f\"Error building structured output: {e}\")\n            # Fallback to parsed JSON without validation\n            return json_data\n\n    async def json_response(self) -> Data:\n        \"\"\"Convert agent response to structured JSON Data output with schema validation.\"\"\"\n        # Always use structured chat agent for JSON response mode for better JSON formatting\n        try:\n            system_components = []\n\n            # 1. Agent Instructions (system_prompt)\n            agent_instructions = getattr(self, \"system_prompt\", \"\") or \"\"\n            if agent_instructions:\n                system_components.append(f\"{agent_instructions}\")\n\n            # 2. Format Instructions\n            format_instructions = getattr(self, \"format_instructions\", \"\") or \"\"\n            if format_instructions:\n                system_components.append(f\"Format instructions: {format_instructions}\")\n\n            # 3. Schema Information from BaseModel\n            if hasattr(self, \"output_schema\") and self.output_schema and len(self.output_schema) > 0:\n                try:\n                    processed_schema = self._preprocess_schema(self.output_schema)\n                    output_model = build_model_from_schema(processed_schema)\n                    schema_dict = output_model.model_json_schema()\n                    schema_info = (\n                        \"You are given some text that may include format instructions, \"\n                        \"explanations, or other content alongside a JSON schema.\\n\\n\"\n                        \"Your task:\\n\"\n                        \"- Extract only the JSON schema.\\n\"\n                        \"- Return it as valid JSON.\\n\"\n                        \"- Do not include format instructions, explanations, or extra text.\\n\\n\"\n                        \"Input:\\n\"\n                        f\"{json.dumps(schema_dict, indent=2)}\\n\\n\"\n                        \"Output (only JSON schema):\"\n                    )\n                    system_components.append(schema_info)\n                except (ValidationError, ValueError, TypeError, KeyError) as e:\n                    await logger.aerror(f\"Could not build schema for prompt: {e}\", exc_info=True)\n\n            # Combine all components\n            combined_instructions = \"\\n\\n\".join(system_components) if system_components else \"\"\n            llm_model, self.chat_history, self.tools = await self.get_agent_requirements()\n            self.set(\n                llm=llm_model,\n                tools=self.tools or [],\n                chat_history=self.chat_history,\n                input_value=self.input_value,\n                system_prompt=combined_instructions,\n            )\n\n            # Create and run structured chat agent\n            try:\n                structured_agent = self.create_agent_runnable()\n            except (NotImplementedError, ValueError, TypeError) as e:\n                await logger.aerror(f\"Error with structured chat agent: {e}\")\n                raise\n            try:\n                result = await self.run_agent(structured_agent)\n            except (\n                ExceptionWithMessageError,\n                ValueError,\n                TypeError,\n                RuntimeError,\n            ) as e:\n                await logger.aerror(f\"Error with structured agent result: {e}\")\n                raise\n            # Extract content from structured agent result\n            if hasattr(result, \"content\"):\n                content = result.content\n            elif hasattr(result, \"text\"):\n                content = result.text\n            else:\n                content = str(result)\n\n        except (\n            ExceptionWithMessageError,\n            ValueError,\n            TypeError,\n            NotImplementedError,\n            AttributeError,\n        ) as e:\n            await logger.aerror(f\"Error with structured chat agent: {e}\")\n            # Fallback to regular agent\n            content_str = \"No content returned from agent\"\n            return Data(data={\"content\": content_str, \"error\": str(e)})\n\n        # Process with structured output validation\n        try:\n            structured_output = await self.build_structured_output_base(content)\n\n            # Handle different output formats\n            if isinstance(structured_output, list) and structured_output:\n                if len(structured_output) == 1:\n                    return Data(data=structured_output[0])\n                return Data(data={\"results\": structured_output})\n            if isinstance(structured_output, dict):\n                return Data(data=structured_output)\n            return Data(data={\"content\": content})\n\n        except (ValueError, TypeError) as e:\n            await logger.aerror(f\"Error in structured output processing: {e}\")\n            return Data(data={\"content\": content, \"error\": str(e)})\n\n    async def get_memory_data(self):\n        # TODO: This is a temporary fix to avoid message duplication. We should develop a function for this.\n        messages = (\n            await MemoryComponent(**self.get_base_args())\n            .set(\n                session_id=self.graph.session_id,\n                context_id=self.context_id,\n                order=\"Ascending\",\n                n_messages=self.n_messages,\n            )\n            .retrieve_messages()\n        )\n        return [\n            message for message in messages if getattr(message, \"id\", None) != getattr(self.input_value, \"id\", None)\n        ]\n\n    def update_input_types(self, build_config: dotdict) -> dotdict:\n        \"\"\"Update input types for all fields in build_config.\"\"\"\n        for key, value in build_config.items():\n            if isinstance(value, dict):\n                if value.get(\"input_types\") is None:\n                    build_config[key][\"input_types\"] = []\n            elif hasattr(value, \"input_types\") and value.input_types is None:\n                value.input_types = []\n        return build_config\n\n    async def update_build_config(\n        self,\n        build_config: dotdict,\n        field_value: list[dict],\n        field_name: str | None = None,\n    ) -> dotdict:\n        # Update model options with caching (for all field changes)\n        # Agents require tool calling, so filter for only tool-calling capable models\n        build_config = handle_model_input_update(\n            component=self,\n            build_config=dict(build_config),\n            field_value=field_value,\n            field_name=field_name,\n            cache_key_prefix=\"language_model_options_tool_calling\",\n            get_options_func=lambda user_id=None: get_language_model_options(user_id=user_id, tool_calling=True),\n        )\n        build_config = dotdict(build_config)\n\n        if field_name == \"model\":\n            build_config = self.update_input_types(build_config)\n\n            # Validate required keys\n            default_keys = [\n                \"code\",\n                \"_type\",\n                \"model\",\n                \"tools\",\n                \"input_value\",\n                \"add_current_date_tool\",\n                \"system_prompt\",\n                \"agent_description\",\n                \"max_iterations\",\n                \"handle_parsing_errors\",\n                \"verbose\",\n            ]\n            missing_keys = [key for key in default_keys if key not in build_config]\n            if missing_keys:\n                msg = f\"Missing required keys in build_config: {missing_keys}\"\n                raise ValueError(msg)\n        return dotdict({k: v.to_dict() if hasattr(v, \"to_dict\") else v for k, v in build_config.items()})\n\n    async def _get_tools(self) -> list[Tool]:\n        component_toolkit = get_component_toolkit()\n        tools_names = self._build_tools_names()\n        agent_description = self.get_tool_description()\n        # TODO: Agent Description Depreciated Feature to be removed\n        description = f\"{agent_description}{tools_names}\"\n\n        tools = component_toolkit(component=self).get_tools(\n            tool_name=\"Call_Agent\",\n            tool_description=description,\n            # here we do not use the shared callbacks as we are exposing the agent as a tool\n            callbacks=self.get_langchain_callbacks(),\n        )\n        if hasattr(self, \"tools_metadata\"):\n            tools = component_toolkit(component=self, metadata=self.tools_metadata).update_tools_metadata(tools=tools)\n\n        return tools\n"
+              },
+              "context_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Context ID",
+                "dynamic": false,
+                "info": "The context ID of the chat. Adds an extra layer to the local memory.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "context_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "format_instructions": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Output Format Instructions",
+                "dynamic": false,
+                "info": "Generic Template for structured output formatting. Valid only with Structured response.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "format_instructions",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are an AI that extracts structured JSON objects from unstructured text. Use a predefined schema with expected types (str, int, float, bool, dict). Extract ALL relevant instances that match the schema - if multiple patterns exist, capture them all. Fill missing or ambiguous values with defaults: null for missing values. Remove exact duplicates but keep variations that have different field values. Always return valid JSON in the expected format, never throw errors. If multiple objects can be extracted, return them all in the structured format."
+              },
+              "handle_parsing_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Handle Parse Errors",
+                "dynamic": false,
+                "info": "Adds tool-execution retry as a safety net. `create_agent` already feeds tool-call validation errors back to the LLM automatically; this flag layers `ToolRetryMiddleware` on top so transient tool runtime failures are retried (max 2 retries).",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "handle_parsing_errors",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "The input provided by the user for the agent to process.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "is_refresh": true,
+              "max_iterations": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Iterations",
+                "dynamic": false,
+                "info": "Maximum number of model calls the agent can make before stopping (maps to `ModelCallLimitMiddleware.run_limit` on the create_agent path). Must be at least 1 — it is a safety cap, never 'unlimited'.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_iterations",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 15
+              },
+              "max_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Tokens",
+                "dynamic": false,
+                "info": "Maximum number of tokens to generate. Field name varies by provider.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_tokens",
+                "override_skip": false,
+                "placeholder": "",
+                "range_spec": {
+                  "max": 128000,
+                  "min": 1,
+                  "step": 1,
+                  "step_type": "int"
+                },
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 0
+              },
+              "model": {
+                "_input_type": "ModelInput",
+                "advanced": false,
+                "display_name": "Language Model",
+                "dynamic": false,
+                "external_options": {
+                  "fields": {
+                    "data": {
+                      "node": {
+                        "display_name": "Connect other models",
+                        "icon": "CornerDownLeft",
+                        "name": "connect_other_models"
+                      }
+                    }
+                  }
+                },
+                "info": "Select your model provider",
+                "input_types": [
+                  "LanguageModel"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "model_type": "language",
+                "name": "model",
+                "options": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "default": true,
+                      "deprecated": false,
+                      "icon": "OpenAI",
+                      "model_type": "llm",
+                      "not_enabled_locally": true,
+                      "not_supported": false,
+                      "preview": false,
+                      "reasoning": true,
+                      "search": false,
+                      "tool_calling": true
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  }
+                ],
+                "override_skip": false,
+                "placeholder": "Setup Provider",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "track_in_telemetry": false,
+                "type": "model",
+                "value": [
+                  {
+                    "icon": "OpenAI",
+                    "metadata": {
+                      "default": true,
+                      "deprecated": false,
+                      "icon": "OpenAI",
+                      "model_type": "llm",
+                      "not_supported": false,
+                      "preview": false,
+                      "reasoning": true,
+                      "search": false,
+                      "tool_calling": true
+                    },
+                    "name": "gpt-5.4",
+                    "provider": "OpenAI"
+                  }
+                ]
+              },
+              "n_messages": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Chat History Messages",
+                "dynamic": false,
+                "info": "Number of chat history messages to retrieve.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n_messages",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "int",
+                "value": 100
+              },
+              "output_schema": {
+                "_input_type": "TableInput",
+                "advanced": true,
+                "display_name": "Output Schema",
+                "dynamic": false,
+                "info": "Schema Validation: Define the structure and data types for structured output. No validation if no output schema.",
+                "input_types": [
+                  "DataFrame",
+                  "Table"
+                ],
+                "is_list": true,
+                "list_add_label": "Add More",
+                "name": "output_schema",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "table_icon": "Table",
+                "table_schema": [
+                  {
+                    "default": "field",
+                    "description": "Specify the name of the output field.",
+                    "display_name": "Name",
+                    "edit_mode": "inline",
+                    "name": "name",
+                    "type": "str"
+                  },
+                  {
+                    "default": "description of field",
+                    "description": "Describe the purpose of the output field.",
+                    "display_name": "Description",
+                    "edit_mode": "popover",
+                    "name": "description",
+                    "type": "str"
+                  },
+                  {
+                    "default": "str",
+                    "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
+                    "display_name": "Type",
+                    "edit_mode": "inline",
+                    "name": "type",
+                    "options": [
+                      "str",
+                      "int",
+                      "float",
+                      "bool",
+                      "dict"
+                    ],
+                    "type": "str"
+                  },
+                  {
+                    "default": "False",
+                    "description": "Set to True if this output field should be a list of the specified type.",
+                    "display_name": "As List",
+                    "edit_mode": "inline",
+                    "name": "multiple",
+                    "type": "boolean"
+                  }
+                ],
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "trigger_icon": "Table",
+                "trigger_text": "Open table",
+                "type": "table",
+                "value": []
+              },
+              "project_id": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "watsonx Project ID",
+                "dynamic": false,
+                "info": "The project ID associated with the foundation model (IBM watsonx.ai only)",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "project_id",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": ""
+              },
+              "system_prompt": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "ai_enabled": false,
+                "copy_field": false,
+                "display_name": "Agent Instructions",
+                "dynamic": false,
+                "info": "System Prompt: Initial instructions and context provided to guide the agent's behavior. Supports dynamic placeholders: {current_date}, {model_name}, {optional_user_context}.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_prompt",
+                "override_skip": false,
+                "password": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "str",
+                "value": "You are the ATLAS Agent, a subject-matter expert on the MITRE ATLAS framework.\n\nYour job is to answer user questions about adversarial threats to AI systems using ATLAS evidence retrieved from specialized agents. You should sound like a knowledgeable analyst, not a workflow log or orchestration layer.\n\nYou have access to three specialized agents:\n\n1. `ATLAS_VECTOR_SEARCH_AGENT`\n   - Performs semantic discovery over the ATLAS knowledge base.\n   - Use it to find candidate tactics, techniques, mitigations, or case studies from natural-language descriptions, approximate names, threat scenarios, or defense concepts.\n   - Treat its results as candidates, not final verified facts.\n\n2. `ATLAS_DATASET_AGENT`\n   - Performs exact ATLAS dataset operations.\n   - Use it for AML.ID lookup, record hydration, field retrieval, filtering, counting, aggregation, and relationship resolution over structured dataset columns.\n   - Treat its results as authoritative for exact IDs, names, descriptions, URLs, relationships, and dataset-derived counts.\n\n3. `ATLAS_GRAPH_AGENT`\n   - Generates focused Kumu visualization URLs and iframe embeds from selected ATLAS IDs.\n   - Use it only when the user asks for a graph, map, visualization, Kumu URL, embed, network, or subgraph.\n   - Use it only after you have verified the relevant ATLAS IDs.\n   - Treat it as a visualization-output generator only.\n   - Do not use it for ATLAS discovery, relationship expansion, semantic search, dataset lookup, or factual analysis.\n\nDo not invent ATLAS facts. Ground all factual claims in evidence retrieved from the specialized agents.\n\n---\n\n# ATLAS Framework\n\nATLAS, the Adversarial Threat Landscape for AI Systems, is a structured knowledge base of adversary behavior against AI-enabled systems, including real-world attack observations and red-team demonstrations.\n\nEntities in ATLAS are identified by their Adversarial Machine Learning identifier, also called an AML.ID or ATLAS ID.\n\nEntity types:\n\n- Tactics, usually `AML.TA####` — high-level adversary objectives; why an action is performed.\n- Techniques, usually `AML.T####` or `AML.T####.###` — adversary methods; how objectives are achieved.\n- Mitigations, usually `AML.M####` — security measures that prevent or reduce techniques.\n- Case studies, usually `AML.CS####` — incidents or demonstrations showing technique usage.\n\nUse `casestudy` consistently as the internal entity value for case studies.\n\n---\n\n# Context Schema\n\nRetrieved ATLAS records may contain:\n\n- `id` — AML identifier\n- `entity` — `tactic`, `technique`, `mitigation`, or `casestudy`\n- `name` — entity name\n- `text` — entity text or short description\n- `description` — entity description or long description\n- `url` — reference URL\n- `keywords` — relevant keywords\n- `hashtags` — hierarchical hashtags\n- `PARENT_TACTICS` — parent tactic IDs\n- `PARENT_TECHNIQUES` — parent technique IDs\n- `PARENT_MITIGATIONS` — mitigation IDs related to a technique\n- `PARENT_CASESTUDIES` — case study IDs related to a technique\n- `CHILD_TECHNIQUES` — child technique IDs\n\nRelationship summary:\n\n- Tactics have child techniques.\n- Techniques may have parent tactics.\n- Techniques may have parent techniques if they are sub-techniques.\n- Techniques may have child techniques if they are parent techniques.\n- Techniques may have parent mitigations.\n- Techniques may have parent case studies.\n- Mitigations have child techniques they mitigate.\n- Case studies have child techniques they demonstrate.\n\nDo not infer relationships that are not present in retrieved ATLAS data.\n\n---\n\n# Specialized Agent Routing\n\n## Use `ATLAS_VECTOR_SEARCH_AGENT` when:\n\nThe user asks a semantic, fuzzy, exploratory, or natural-language question.\n\nUse it for:\n- Threat scenarios\n- Defense concepts\n- Approximate ATLAS entity names\n- Incomplete entity descriptions\n- Natural-language descriptions of adversarial behavior\n- Requests such as “what ATLAS techniques apply to this?”\n- Requests such as “find relevant mitigations for this scenario”\n- Broad discovery over ATLAS concepts\n\nExamples:\n- “What ATLAS techniques relate to prompt injection?”\n- “An attacker manipulates training data. What does ATLAS call that?”\n- “Find mitigations for model evasion.”\n- “What case studies resemble this scenario?”\n- “Which ATLAS entries are relevant to data poisoning?”\n\nThe Vector Store Agent returns candidate entities. You should usually verify or hydrate important candidate IDs with the Dataset Agent before presenting them as ATLAS facts.\n\n---\n\n## Use `ATLAS_DATASET_AGENT` when:\n\nThe user asks for exact structured information from ATLAS.\n\nUse it for:\n- Exact AML.ID lookup\n- Record hydration\n- Verifying vector-search candidate IDs\n- Retrieving exact names, descriptions, URLs, and entity types\n- Retrieving selected fields\n- Filtering by entity type or field value\n- Counting entities\n- Aggregations\n- Lists of records or IDs\n- Relationship resolution\n- Parent tactics\n- Parent techniques\n- Child techniques\n- Mitigations for techniques\n- Case studies for techniques\n- Dataset-wide analysis\n\nExamples:\n- “Hydrate AML.T0015.”\n- “What are the mitigations for AML.T0015?”\n- “How many case studies are there?”\n- “List all mitigations.”\n- “Which techniques have mitigations?”\n- “What are the children of AML.M0003?”\n- “Show all tactics with more than 10 child techniques.”\n- “Return names and URLs for all case studies.”\n\nThe Dataset Agent is authoritative for exact records, relationships, and counts.\n\n---\n\n## Use `ATLAS_GRAPH_AGENT` when:\n\nThe user explicitly asks for a graph, map, visualization, Kumu URL, embed, network, or subgraph.\n\nUse it for:\n- Kumu graph generation\n- Focused ATLAS visualizations\n- Creating Kumu URLs\n- Creating iframe embeds\n\nImportant Kumu behavior:\n- A focused Kumu URL automatically displays each focused entity and its immediate neighbors.\n- Every ID included in the generated URL becomes a focus point.\n- Every focus point expands its own immediate neighborhood.\n- Therefore, do not add parent, child, mitigation, case-study, or neighboring IDs unless the user explicitly asked to visualize those additional entities as separate focus points.\n\nBefore using the Graph Agent:\n1. Identify the specific ATLAS ID or IDs the user wants visualized.\n2. Verify those IDs with the Dataset Agent.\n3. Send only the verified focus IDs to the Graph Agent.\n4. Preserve the intended focus order, with the primary entity first.\n\nFor a single-ID visualization request:\n- Send exactly one ID.\n- Example: if the user asks to visualize `AML.TA0011`, send only:\n```json\n  {\"ids\": [\"AML.TA0011\"]}\n```\n\n* Do not include child techniques, parent tactics, mitigations, case studies, or other neighboring entities.\n* Kumu will display the immediate neighborhood automatically.\n\nFor a multi-ID visualization request:\n\n* Include multiple IDs only when the user explicitly asks to visualize multiple specific entities, compare entities, or generate a graph around a selected set.\n* Do not enrich the ID list with inferred or related IDs unless explicitly requested.\n\nDo not use the Graph Agent for ordinary textual explanations.\n\n---\n\n# Workflow Guidance\n\n## For fuzzy, scenario-based, or natural-language questions\n\n1. Use `ATLAS_VECTOR_SEARCH_AGENT` to identify semantically relevant candidate ATLAS entities.\n2. Use `ATLAS_DATASET_AGENT` to verify and hydrate the strongest candidate IDs.\n3. Use `ATLAS_DATASET_AGENT` again if relationships, mitigations, case studies, or parent tactics are needed.\n4. Synthesize a concise answer from the verified ATLAS evidence.\n5. Clearly distinguish semantic relevance from exact ATLAS relationships.\n\nExample behavior:\n\n* User: “What ATLAS techniques apply to an attacker causing a model to misclassify inputs?”\n* Route:\n\n  1. Vector search for candidate techniques.\n  2. Dataset hydrate the most relevant IDs.\n  3. Optionally retrieve mitigations or related case studies.\n  4. Answer in analyst prose.\n\n---\n\n## For exact ID-based questions\n\n1. Use `ATLAS_DATASET_AGENT`.\n2. Retrieve the exact entity record.\n3. Retrieve related entities if the user asks for them or if they are clearly useful.\n4. Use `ATLAS_VECTOR_SEARCH_AGENT` only if broader semantic context is requested.\n\nExample behavior:\n\n* User: “What is AML.T0015?”\n* Route:\n\n  1. Dataset lookup.\n  2. Answer with ID, name, type, description, and URL if available.\n\n---\n\n## For exact name or approximate name questions\n\nIf the name appears exact but no AML.ID is provided:\n\n1. Use `ATLAS_DATASET_AGENT` if the task is structured, such as exact field lookup or substring matching.\n2. Use `ATLAS_VECTOR_SEARCH_AGENT` if the name is approximate, partial, ambiguous, misspelled, or scenario-like.\n3. Hydrate the resulting candidate IDs with `ATLAS_DATASET_AGENT` before final synthesis.\n\n---\n\n## For mitigation questions\n\n1. Identify the relevant technique or techniques.\n\n   * Use `ATLAS_DATASET_AGENT` if the user provides exact IDs.\n   * Use `ATLAS_VECTOR_SEARCH_AGENT` if the user describes the threat in natural language.\n2. Use `ATLAS_DATASET_AGENT` to retrieve mitigations linked to the verified techniques.\n3. Summarize mitigations in terms of the ATLAS records and the threats they address.\n\nDo not invent mitigations beyond those present in ATLAS data.\n\n---\n\n## For case-study questions\n\n1. Identify relevant case studies or techniques.\n\n   * Use semantic search for scenario-like questions.\n   * Use dataset lookup for exact IDs or structured filters.\n2. Use `ATLAS_DATASET_AGENT` to retrieve demonstrated techniques and related entity details.\n3. Summarize evidence-backed examples.\n\nDo not claim a case study demonstrates a technique unless that relationship is present in ATLAS data.\n\n---\n\n## For relationship questions\n\nUse `ATLAS_DATASET_AGENT`.\n\nRelationship questions include:\n\n* “What are the parent tactics?”\n* “What are the child techniques?”\n* “Which mitigations address this technique?”\n* “Which case studies demonstrate this technique?”\n* “Which techniques are under this tactic?”\n* “Which techniques are mitigated by this mitigation?”\n* “Which techniques are demonstrated by this case study?”\n\nDo not use semantic search to answer exact relationship questions unless you first need candidate IDs from a vague user description.\n\n---\n\n## For aggregate or dataset-wide questions\n\nUse `ATLAS_DATASET_AGENT`.\n\nAggregate questions include:\n\n* Counts\n* Lists\n* Rankings\n* Filters\n* Groupings\n* Field selection\n* Dataset-wide summaries\n\nExamples:\n\n* “How many techniques are there?”\n* “List all mitigations.”\n* “Which techniques have no mitigations?”\n* “Which tactics have the most child techniques?”\n* “Return all case study names and URLs.”\n\nDo not use vector search for dataset-wide counts or complete lists.\n\n---\n\n## For graph or visualization requests\n\n1. Determine the specific ATLAS ID or IDs the user wants visualized.\n\n   * Use `ATLAS_DATASET_AGENT` for exact ID lookup and verification.\n   * Use `ATLAS_VECTOR_SEARCH_AGENT` only if the graph topic is vague, semantic, approximate, or scenario-based.\n2. Verify the selected IDs with `ATLAS_DATASET_AGENT`.\n3. Send only the verified user-requested focus IDs to `ATLAS_GRAPH_AGENT`, with the primary entity first.\n4. Do not add relationship neighbors to the ID list merely to provide context.\n\n   * Kumu automatically shows immediate neighbors for each focused ID.\n   * Adding neighbor IDs causes those neighbors to expand too, often producing an overly broad graph.\n5. Include the generated Kumu URL and iframe in the final answer.\n\nWhen the user asks for a graph, keep the text brief and prioritize rendering the iframe directly in the Langflow UI.\n\n---\n\n# Agent Result Interpretation\n\n## Vector Store Agent results\n\nTreat Vector Store Agent results as candidate semantic matches.\n\nYou may say:\n\n* “The closest ATLAS matches are...”\n* “Semantically, this maps most closely to...”\n* “This appears related to...”\n\nDo not say:\n\n* “ATLAS definitively classifies this as...” unless verified by the Dataset Agent.\n* “This technique has these mitigations...” unless those relationships are retrieved from the Dataset Agent.\n* “This case study demonstrates...” unless that relationship is present in the dataset.\n\nWhen vector results are weak or ambiguous:\n\n* Say so briefly.\n* Present the best candidates as possibilities.\n* Ask for clarification only when necessary to avoid a misleading answer.\n\n---\n\n## Dataset Agent results\n\nTreat Dataset Agent results as authoritative for exact structured ATLAS data.\n\nYou may say:\n\n* “ATLAS identifies this as...”\n* “The dataset links this technique to...”\n* “ATLAS lists the following child techniques...”\n\nIf the Dataset Agent reports no match:\n\n* Do not invent a replacement.\n* Say that no exact ATLAS dataset match was found.\n* If useful, use the Vector Store Agent to search semantically for approximate matches.\n\n---\n\n## Graph Agent results\n\nTreat Graph Agent results as generated visualization outputs based on the verified focus IDs you supplied.\n\nThe Graph Agent may return:\n\n* `url` — the Kumu embed URL\n* `iframe` — an HTML iframe embed for direct rendering\n\nWhen presenting graph results:\n\n* Include URL in a markdown codeblock.\n* Keep explanatory text brief.\n* Do not imply the graph includes all possible ATLAS context.\n* Do not imply the graph includes all relationships unless that was explicitly requested and verified.\n* Remember that Kumu automatically displays immediate neighbors for focused IDs.\n\n---\n\n# Synthesis Rules\n\nUse the specialized agents to gather evidence, then answer naturally.\n\nYour final answer should:\n\n* Answer the user’s question directly.\n* Include relevant AML IDs and names.\n* Explain the ATLAS relevance in plain language.\n* Distinguish verified dataset facts from semantic candidate matches.\n* Mention uncertainty when results are ambiguous, weak, incomplete, or approximate.\n* Avoid exposing orchestration details unless the user asks for them.\n\nGood phrasing:\n\n* “ATLAS most closely maps this behavior to AML.T0015 — Evade AI Model.”\n* “The dataset links this technique to the following mitigations...”\n* “The closest semantic candidates are...”\n* “I found no exact ATLAS ID match for that string, but the closest candidates are...”\n\nAvoid procedural phrasing:\n\n* “I used the Vector Store Agent...”\n* “Then I called the Dataset Agent...”\n* “Plan followed...”\n* “Tool output says...”\n* “Routing decision...”\n\n---\n\n# Response Style\n\nYour answers should feel like concise expert analysis.\n\nDo:\n\n* Be direct.\n* Be accurate.\n* Use ATLAS IDs and names where relevant.\n* Use short paragraphs and compact bullets when helpful.\n* Keep the tone natural, professional, and helpful.\n* Tailor technical depth to the user’s question.\n* State when something is a semantic match rather than a verified relationship.\n* State when exact ATLAS data is missing or ambiguous.\n* For graph responses, prioritize direct iframe rendering.\n\nDo not:\n\n* Narrate internal tool calls.\n* Expose hidden reasoning.\n* Sound like an orchestration log.\n* Over-explain the workflow.\n* Invent missing names, IDs, descriptions, URLs, relationships, or counts.\n* Present semantic candidates as verified dataset facts.\n* Provide broad cybersecurity advice that is not grounded in ATLAS evidence unless the user asks for general guidance.\n\n---\n\n# Output Requirements\n\nEvery final answer should:\n\n1. Answer the user directly and naturally.\n2. Use retrieved ATLAS evidence.\n3. Include relevant AML IDs and entity names.\n4. Distinguish exact dataset facts from semantic matches or analyst interpretation.\n5. Mention uncertainty when results are ambiguous or incomplete.\n6. Avoid exposing chain-of-thought or internal orchestration.\n\n\nIf the user asks for structured output, provide structured output.\n\nIf the user asks for JSON, return valid JSON only.\n\n---\n\n# Safety and Fidelity Constraints\n\n* Do not invent ATLAS facts.\n* Do not invent ATLAS names.\n* Do not invent ATLAS IDs.\n* Do not invent relationships.\n* Do not invent counts.\n* Do not invent URLs.\n* Do not claim a mitigation, case study, tactic, or technique relationship unless retrieved from ATLAS data.\n* Treat the Dataset Agent as authoritative for exact structured data.\n* Treat the Vector Store Agent as semantic candidate generation.\n* Treat the Graph Agent as visualization generation only.\n* When evidence is incomplete, say so.\n* When a query is outside ATLAS scope, answer briefly and explain the boundary.\n* Do not expose internal chain-of-thought."
+              },
+              "tools": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Tools",
+                "dynamic": false,
+                "info": "These are the tools that the agent can use to help with tasks.",
+                "input_types": [
+                  "Tool"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tools",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": false,
+                "type": "other",
+                "value": ""
+              },
+              "verbose": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Verbose",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "verbose",
+                "override_skip": false,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "track_in_telemetry": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Agent"
+        },
+        "dragging": false,
+        "id": "Agent-yUteS",
+        "measured": {
+          "height": 414,
+          "width": 320
+        },
+        "position": {
+          "x": 1221.0858059881893,
+          "y": 1370.8269779107327
+        },
         "selected": true,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 428.19718452055207,
-      "y": -129.71323740906655,
-      "zoom": 0.47071615522904703
+      "x": 384.3705038120424,
+      "y": -207.20103440788444,
+      "zoom": 0.441128807648396
     }
   },
   "description": "ATLAS KB Agent is a hierarchical agentic system that uses specialized agents for semantic search, CSV relationship lookup, and Kumu graph generation to answer MITRE ATLAS questions with grounded tactics, techniques, mitigations, and case studies.",
   "endpoint_name": null,
-  "id": "566d098c-b34d-4a80-8ba7-65318106a4db",
+  "id": "75f62ddd-36ed-4705-8337-4ff1e651f779",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": false,

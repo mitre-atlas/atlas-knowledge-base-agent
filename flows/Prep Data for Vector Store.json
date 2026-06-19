@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-XFxFp",
+            "id": "DataFrameOperations-hLV5p",
             "name": "output",
             "output_types": [
               "Table"
@@ -15,7 +15,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "BatchRunComponent-0iOV2",
+            "id": "BatchRunComponent-nlmfF",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -23,12 +23,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-XFxFp{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-BatchRunComponent-0iOV2{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-0iOV2œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-hLV5p{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-BatchRunComponent-nlmfF{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-nlmfFœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-XFxFp",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "BatchRunComponent-0iOV2",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-0iOV2œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-hLV5p",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "BatchRunComponent-nlmfF",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-nlmfFœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -36,7 +36,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-ligK7",
+            "id": "OpenAIModel-bTZlA",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -44,19 +44,19 @@
           },
           "targetHandle": {
             "fieldName": "model",
-            "id": "BatchRunComponent-0iOV2",
+            "id": "BatchRunComponent-nlmfF",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "model"
           }
         },
-        "id": "xy-edge__OpenAIModel-ligK7{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-ligK7œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-BatchRunComponent-0iOV2{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-0iOV2œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "id": "reactflow__edge-OpenAIModel-bTZlA{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-bTZlAœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-BatchRunComponent-nlmfF{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-nlmfFœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
         "selected": false,
-        "source": "OpenAIModel-ligK7",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-ligK7œ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "BatchRunComponent-0iOV2",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-0iOV2œ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+        "source": "OpenAIModel-bTZlA",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-bTZlAœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "BatchRunComponent-nlmfF",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-nlmfFœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       },
       {
         "animated": false,
@@ -64,7 +64,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "BatchRunComponent",
-            "id": "BatchRunComponent-0iOV2",
+            "id": "BatchRunComponent-nlmfF",
             "name": "batch_results",
             "output_types": [
               "Table"
@@ -72,7 +72,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-obU5P",
+            "id": "DataFrameOperations-UieFm",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -80,12 +80,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__BatchRunComponent-0iOV2{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-0iOV2œ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-obU5P{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-obU5Pœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-BatchRunComponent-nlmfF{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-nlmfFœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-UieFm{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-UieFmœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "BatchRunComponent-0iOV2",
-        "sourceHandle": "{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-0iOV2œ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-obU5P",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-obU5Pœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "BatchRunComponent-nlmfF",
+        "sourceHandle": "{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-nlmfFœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-UieFm",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-UieFmœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -93,7 +93,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "BatchRunComponent",
-            "id": "BatchRunComponent-6PqIU",
+            "id": "BatchRunComponent-AKS6g",
             "name": "batch_results",
             "output_types": [
               "Table"
@@ -101,7 +101,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-sSm0o",
+            "id": "DataFrameOperations-LTzG4",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -109,12 +109,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__BatchRunComponent-6PqIU{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-6PqIUœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-sSm0o{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-sSm0oœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-BatchRunComponent-AKS6g{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-AKS6gœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-LTzG4{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-LTzG4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "BatchRunComponent-6PqIU",
-        "sourceHandle": "{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-6PqIUœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-sSm0o",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-sSm0oœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "BatchRunComponent-AKS6g",
+        "sourceHandle": "{œdataTypeœ:œBatchRunComponentœ,œidœ:œBatchRunComponent-AKS6gœ,œnameœ:œbatch_resultsœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-LTzG4",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-LTzG4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -122,7 +122,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-bWsq4",
+            "id": "DataFrameOperations-Rj0Cf",
             "name": "output",
             "output_types": [
               "Table"
@@ -130,7 +130,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "BatchRunComponent-6PqIU",
+            "id": "BatchRunComponent-AKS6g",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -138,12 +138,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-bWsq4{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-bWsq4œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-BatchRunComponent-6PqIU{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-6PqIUœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-Rj0Cf{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-Rj0Cfœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-BatchRunComponent-AKS6g{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-AKS6gœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-bWsq4",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-bWsq4œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "BatchRunComponent-6PqIU",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-6PqIUœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-Rj0Cf",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-Rj0Cfœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "BatchRunComponent-AKS6g",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œBatchRunComponent-AKS6gœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -151,7 +151,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-XFxFp",
+            "id": "DataFrameOperations-hLV5p",
             "name": "output",
             "output_types": [
               "Table"
@@ -159,7 +159,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-bWsq4",
+            "id": "DataFrameOperations-Rj0Cf",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -167,12 +167,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-XFxFp{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-bWsq4{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-hLV5p{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-Rj0Cf{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-XFxFp",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-bWsq4",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-hLV5p",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-Rj0Cf",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -180,7 +180,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-XFxFp",
+            "id": "DataFrameOperations-hLV5p",
             "name": "output",
             "output_types": [
               "Table"
@@ -188,7 +188,7 @@
           },
           "targetHandle": {
             "fieldName": "left_dataframe",
-            "id": "DataFrameOperations-bWsq4",
+            "id": "DataFrameOperations-Rj0Cf",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -196,12 +196,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-XFxFp{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-bWsq4{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-hLV5p{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-Rj0Cf{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-XFxFp",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-XFxFpœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-bWsq4",
-        "targetHandle": "{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-hLV5p",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-hLV5pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-Rj0Cf",
+        "targetHandle": "{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -209,7 +209,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-obU5P",
+            "id": "DataFrameOperations-UieFm",
             "name": "output",
             "output_types": [
               "Table"
@@ -217,7 +217,7 @@
           },
           "targetHandle": {
             "fieldName": "right_dataframe",
-            "id": "DataFrameOperations-bWsq4",
+            "id": "DataFrameOperations-Rj0Cf",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -225,12 +225,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-obU5P{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-obU5Pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-bWsq4{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-UieFm{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-UieFmœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-Rj0Cf{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-obU5P",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-obU5Pœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-bWsq4",
-        "targetHandle": "{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-bWsq4œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-UieFm",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-UieFmœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-Rj0Cf",
+        "targetHandle": "{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-Rj0Cfœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -238,7 +238,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "OpenAIModel",
-            "id": "OpenAIModel-XKYQe",
+            "id": "OpenAIModel-9OSLY",
             "name": "model_output",
             "output_types": [
               "LanguageModel"
@@ -246,19 +246,19 @@
           },
           "targetHandle": {
             "fieldName": "model",
-            "id": "BatchRunComponent-6PqIU",
+            "id": "BatchRunComponent-AKS6g",
             "inputTypes": [
               "LanguageModel"
             ],
             "type": "model"
           }
         },
-        "id": "xy-edge__OpenAIModel-XKYQe{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-XKYQeœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-BatchRunComponent-6PqIU{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-6PqIUœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "id": "reactflow__edge-OpenAIModel-9OSLY{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-9OSLYœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-BatchRunComponent-AKS6g{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-AKS6gœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
         "selected": false,
-        "source": "OpenAIModel-XKYQe",
-        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-XKYQeœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
-        "target": "BatchRunComponent-6PqIU",
-        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-6PqIUœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
+        "source": "OpenAIModel-9OSLY",
+        "sourceHandle": "{œdataTypeœ:œOpenAIModelœ,œidœ:œOpenAIModel-9OSLYœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
+        "target": "BatchRunComponent-AKS6g",
+        "targetHandle": "{œfieldNameœ:œmodelœ,œidœ:œBatchRunComponent-AKS6gœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}"
       },
       {
         "animated": false,
@@ -266,7 +266,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-tLZxb",
+            "id": "DataFrameOperations-1kRju",
             "name": "output",
             "output_types": [
               "Table"
@@ -274,7 +274,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-KBy2T",
+            "id": "DataFrameOperations-wNfJ6",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -282,12 +282,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-tLZxb{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-tLZxbœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-KBy2T{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-KBy2Tœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-1kRju{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-1kRjuœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-wNfJ6{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-wNfJ6œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-tLZxb",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-tLZxbœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-KBy2T",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-KBy2Tœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-1kRju",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-1kRjuœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-wNfJ6",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-wNfJ6œ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -295,7 +295,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-sSm0o",
+            "id": "DataFrameOperations-LTzG4",
             "name": "output",
             "output_types": [
               "Table"
@@ -303,7 +303,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-pqWbH",
+            "id": "DataFrameOperations-UuwHO",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -311,12 +311,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-sSm0o{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-sSm0oœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-pqWbH{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-pqWbHœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-LTzG4{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-LTzG4œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-UuwHO{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-UuwHOœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-sSm0o",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-sSm0oœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-pqWbH",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-pqWbHœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-LTzG4",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-LTzG4œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-UuwHO",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-UuwHOœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -324,7 +324,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-pqWbH",
+            "id": "DataFrameOperations-UuwHO",
             "name": "output",
             "output_types": [
               "Table"
@@ -332,7 +332,7 @@
           },
           "targetHandle": {
             "fieldName": "right_dataframe",
-            "id": "DataFrameOperations-tLZxb",
+            "id": "DataFrameOperations-1kRju",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -340,12 +340,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-pqWbH{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-pqWbHœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-tLZxb{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-UuwHO{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-UuwHOœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-1kRju{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-pqWbH",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-pqWbHœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-tLZxb",
-        "targetHandle": "{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-UuwHO",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-UuwHOœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-1kRju",
+        "targetHandle": "{œfieldNameœ:œright_dataframeœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -353,7 +353,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "DataFrameOperations",
-            "id": "DataFrameOperations-KBy2T",
+            "id": "DataFrameOperations-wNfJ6",
             "name": "output",
             "output_types": [
               "Table"
@@ -361,7 +361,7 @@
           },
           "targetHandle": {
             "fieldName": "input",
-            "id": "SaveToFile-sZYB5",
+            "id": "SaveToFile-oaNKq",
             "inputTypes": [
               "Data",
               "JSON",
@@ -372,12 +372,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__DataFrameOperations-KBy2T{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-KBy2Tœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-SaveToFile-sZYB5{œfieldNameœ:œinputœ,œidœ:œSaveToFile-sZYB5œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-DataFrameOperations-wNfJ6{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-wNfJ6œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}-SaveToFile-oaNKq{œfieldNameœ:œinputœ,œidœ:œSaveToFile-oaNKqœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "DataFrameOperations-KBy2T",
-        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-KBy2Tœ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
-        "target": "SaveToFile-sZYB5",
-        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œSaveToFile-sZYB5œ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "DataFrameOperations-wNfJ6",
+        "sourceHandle": "{œdataTypeœ:œDataFrameOperationsœ,œidœ:œDataFrameOperations-wNfJ6œ,œnameœ:œoutputœ,œoutput_typesœ:[œTableœ]}",
+        "target": "SaveToFile-oaNKq",
+        "targetHandle": "{œfieldNameœ:œinputœ,œidœ:œSaveToFile-oaNKqœ,œinputTypesœ:[œDataœ,œJSONœ,œDataFrameœ,œTableœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -385,7 +385,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-txhbB",
+            "id": "File-kStiv",
             "name": "dataframe",
             "output_types": [
               "Table"
@@ -393,7 +393,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-XFxFp",
+            "id": "DataFrameOperations-hLV5p",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -401,12 +401,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__File-txhbB{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-XFxFp{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-XFxFpœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-kStiv{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-hLV5p{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-hLV5pœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-txhbB",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-XFxFp",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-XFxFpœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "File-kStiv",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-hLV5p",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-hLV5pœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -414,7 +414,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-txhbB",
+            "id": "File-kStiv",
             "name": "dataframe",
             "output_types": [
               "Table"
@@ -422,7 +422,7 @@
           },
           "targetHandle": {
             "fieldName": "df",
-            "id": "DataFrameOperations-tLZxb",
+            "id": "DataFrameOperations-1kRju",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -430,12 +430,12 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__File-txhbB{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-tLZxb{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-kStiv{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-1kRju{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-txhbB",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-tLZxb",
-        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "File-kStiv",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-1kRju",
+        "targetHandle": "{œfieldNameœ:œdfœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -443,7 +443,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "File",
-            "id": "File-txhbB",
+            "id": "File-kStiv",
             "name": "dataframe",
             "output_types": [
               "Table"
@@ -451,7 +451,7 @@
           },
           "targetHandle": {
             "fieldName": "left_dataframe",
-            "id": "DataFrameOperations-tLZxb",
+            "id": "DataFrameOperations-1kRju",
             "inputTypes": [
               "DataFrame",
               "Table"
@@ -459,18 +459,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__File-txhbB{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-tLZxb{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-File-kStiv{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}-DataFrameOperations-1kRju{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "File-txhbB",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-txhbBœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
-        "target": "DataFrameOperations-tLZxb",
-        "targetHandle": "{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-tLZxbœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
+        "source": "File-kStiv",
+        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-kStivœ,œnameœ:œdataframeœ,œoutput_typesœ:[œTableœ]}",
+        "target": "DataFrameOperations-1kRju",
+        "targetHandle": "{œfieldNameœ:œleft_dataframeœ,œidœ:œDataFrameOperations-1kRjuœ,œinputTypesœ:[œDataFrameœ,œTableœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "File-txhbB",
+          "id": "File-kStiv",
           "node": {
             "base_classes": [
               "Message"
@@ -1236,7 +1236,7 @@
           "type": "File"
         },
         "dragging": false,
-        "id": "File-txhbB",
+        "id": "File-kStiv",
         "measured": {
           "height": 237,
           "width": 320
@@ -1250,7 +1250,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-XFxFp",
+          "id": "DataFrameOperations-hLV5p",
           "node": {
             "base_classes": [
               "Table"
@@ -1818,7 +1818,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-XFxFp",
+        "id": "DataFrameOperations-hLV5p",
         "measured": {
           "height": 457,
           "width": 320
@@ -1832,7 +1832,7 @@
       },
       {
         "data": {
-          "id": "note-3YH3m",
+          "id": "note-hB9O5",
           "node": {
             "description": "Save as:\n```\natlas-nodes-with-optimized-text-04-2026-v0.csv\n```\nIf on VM, saves to `app/`. Copy it:\n\n```\ndocker cp langflow:/app/atlas-nodes-with-optimized-text-04-2026-v0.csv ./data/processed/from-langflow/atlas-nodes-with-optimized-text-04-2026-v0.csv\n```",
             "display_name": "",
@@ -1845,7 +1845,7 @@
         },
         "dragging": false,
         "height": 380,
-        "id": "note-3YH3m",
+        "id": "note-hB9O5",
         "measured": {
           "height": 380,
           "width": 418
@@ -1861,7 +1861,7 @@
       },
       {
         "data": {
-          "id": "SaveToFile-teNxT",
+          "id": "SaveToFile-DW1Xv",
           "node": {
             "base_classes": [
               "Message"
@@ -2341,7 +2341,7 @@
           "type": "SaveToFile"
         },
         "dragging": false,
-        "id": "SaveToFile-teNxT",
+        "id": "SaveToFile-DW1Xv",
         "measured": {
           "height": 459,
           "width": 320
@@ -2355,7 +2355,7 @@
       },
       {
         "data": {
-          "id": "OpenAIModel-ligK7",
+          "id": "OpenAIModel-bTZlA",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -2460,7 +2460,7 @@
                 "dynamic": false,
                 "info": "The OpenAI API Key to use for the OpenAI model.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -2470,7 +2470,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "MY_AIP_API_KEY"
+                "value": ""
               },
               "code": {
                 "advanced": true,
@@ -2609,7 +2609,7 @@
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "model_name",
                 "override_skip": false,
                 "placeholder": "",
@@ -2620,7 +2620,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "NEMOTRON_NANO"
+                "value": ""
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -2630,7 +2630,7 @@
                 "info": "The base URL of the OpenAI API. Defaults to https://api.openai.com/v1. You can change this to use other APIs like JinaChat, LocalAI and Prem.",
                 "list": false,
                 "list_add_label": "Add More",
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "openai_api_base",
                 "override_skip": false,
                 "placeholder": "",
@@ -2641,7 +2641,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "AIP_BASE_URL"
+                "value": ""
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -2770,7 +2770,7 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-ligK7",
+        "id": "OpenAIModel-bTZlA",
         "measured": {
           "height": 295,
           "width": 320
@@ -2784,7 +2784,7 @@
       },
       {
         "data": {
-          "id": "BatchRunComponent-0iOV2",
+          "id": "BatchRunComponent-nlmfF",
           "node": {
             "base_classes": [
               "Table"
@@ -3121,7 +3121,7 @@
           "type": "BatchRunComponent"
         },
         "dragging": false,
-        "id": "BatchRunComponent-0iOV2",
+        "id": "BatchRunComponent-nlmfF",
         "measured": {
           "height": 431,
           "width": 320
@@ -3135,7 +3135,7 @@
       },
       {
         "data": {
-          "id": "note-mZEgW",
+          "id": "note-PnyHR",
           "node": {
             "description": "Embedding Text",
             "display_name": "",
@@ -3146,7 +3146,7 @@
         },
         "dragging": false,
         "height": 140,
-        "id": "note-mZEgW",
+        "id": "note-PnyHR",
         "measured": {
           "height": 140,
           "width": 280
@@ -3161,7 +3161,7 @@
       },
       {
         "data": {
-          "id": "BatchRunComponent-6PqIU",
+          "id": "BatchRunComponent-AKS6g",
           "node": {
             "base_classes": [
               "Table"
@@ -3498,7 +3498,7 @@
           "type": "BatchRunComponent"
         },
         "dragging": false,
-        "id": "BatchRunComponent-6PqIU",
+        "id": "BatchRunComponent-AKS6g",
         "measured": {
           "height": 431,
           "width": 320
@@ -3512,7 +3512,7 @@
       },
       {
         "data": {
-          "id": "note-nenST",
+          "id": "note-DhBIf",
           "node": {
             "description": "Keywords",
             "display_name": "",
@@ -3523,7 +3523,7 @@
         },
         "dragging": false,
         "height": 140,
-        "id": "note-nenST",
+        "id": "note-DhBIf",
         "measured": {
           "height": 140,
           "width": 280
@@ -3538,7 +3538,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-obU5P",
+          "id": "DataFrameOperations-UieFm",
           "node": {
             "base_classes": [
               "Table"
@@ -4103,7 +4103,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-obU5P",
+        "id": "DataFrameOperations-UieFm",
         "measured": {
           "height": 319,
           "width": 320
@@ -4117,7 +4117,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-sSm0o",
+          "id": "DataFrameOperations-LTzG4",
           "node": {
             "base_classes": [
               "Table"
@@ -4683,7 +4683,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-sSm0o",
+        "id": "DataFrameOperations-LTzG4",
         "measured": {
           "height": 365,
           "width": 320
@@ -4697,7 +4697,7 @@
       },
       {
         "data": {
-          "id": "note-fp5pk",
+          "id": "note-EDBIX",
           "node": {
             "description": "atlas-nodes-04-2026.csv",
             "display_name": "",
@@ -4708,7 +4708,7 @@
         },
         "dragging": false,
         "height": 140,
-        "id": "note-fp5pk",
+        "id": "note-EDBIX",
         "measured": {
           "height": 140,
           "width": 280
@@ -4723,7 +4723,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-bWsq4",
+          "id": "DataFrameOperations-Rj0Cf",
           "node": {
             "base_classes": [
               "Table"
@@ -5293,7 +5293,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-bWsq4",
+        "id": "DataFrameOperations-Rj0Cf",
         "measured": {
           "height": 325,
           "width": 320
@@ -5307,7 +5307,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-tLZxb",
+          "id": "DataFrameOperations-1kRju",
           "node": {
             "base_classes": [
               "Table"
@@ -5877,7 +5877,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-tLZxb",
+        "id": "DataFrameOperations-1kRju",
         "measured": {
           "height": 325,
           "width": 320
@@ -5891,7 +5891,7 @@
       },
       {
         "data": {
-          "id": "OpenAIModel-XKYQe",
+          "id": "OpenAIModel-9OSLY",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -5996,7 +5996,7 @@
                 "dynamic": false,
                 "info": "The OpenAI API Key to use for the OpenAI model.",
                 "input_types": [],
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "api_key",
                 "override_skip": false,
                 "password": true,
@@ -6006,7 +6006,7 @@
                 "title_case": false,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "MY_AIP_API_KEY"
+                "value": ""
               },
               "code": {
                 "advanced": true,
@@ -6145,7 +6145,7 @@
                 "info": "",
                 "list": false,
                 "list_add_label": "Add More",
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "model_name",
                 "override_skip": false,
                 "placeholder": "",
@@ -6156,7 +6156,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "DEVSTRAL"
+                "value": ""
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -6166,7 +6166,7 @@
                 "info": "The base URL of the OpenAI API. Defaults to https://api.openai.com/v1. You can change this to use other APIs like JinaChat, LocalAI and Prem.",
                 "list": false,
                 "list_add_label": "Add More",
-                "load_from_db": true,
+                "load_from_db": false,
                 "name": "openai_api_base",
                 "override_skip": false,
                 "placeholder": "",
@@ -6177,7 +6177,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "AIP_BASE_URL"
+                "value": ""
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -6306,7 +6306,7 @@
           "type": "OpenAIModel"
         },
         "dragging": false,
-        "id": "OpenAIModel-XKYQe",
+        "id": "OpenAIModel-9OSLY",
         "measured": {
           "height": 295,
           "width": 320
@@ -6320,7 +6320,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-KBy2T",
+          "id": "DataFrameOperations-wNfJ6",
           "node": {
             "base_classes": [
               "Table"
@@ -6897,7 +6897,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-KBy2T",
+        "id": "DataFrameOperations-wNfJ6",
         "measured": {
           "height": 871,
           "width": 320
@@ -6911,7 +6911,7 @@
       },
       {
         "data": {
-          "id": "DataFrameOperations-pqWbH",
+          "id": "DataFrameOperations-UuwHO",
           "node": {
             "base_classes": [
               "Table"
@@ -7477,7 +7477,7 @@
           "type": "DataFrameOperations"
         },
         "dragging": false,
-        "id": "DataFrameOperations-pqWbH",
+        "id": "DataFrameOperations-UuwHO",
         "measured": {
           "height": 401,
           "width": 320
@@ -7491,7 +7491,7 @@
       },
       {
         "data": {
-          "id": "SaveToFile-sZYB5",
+          "id": "SaveToFile-oaNKq",
           "node": {
             "base_classes": [
               "Message"
@@ -7958,7 +7958,7 @@
           "type": "SaveToFile"
         },
         "dragging": false,
-        "id": "SaveToFile-sZYB5",
+        "id": "SaveToFile-oaNKq",
         "measured": {
           "height": 391,
           "width": 320
@@ -7979,10 +7979,10 @@
   },
   "description": "Preprocessing LLM that produces embedding text plus semantic tags.",
   "endpoint_name": null,
-  "id": "d06427e7-6178-4913-8c78-e8bdd0d94c5f",
+  "id": "598f1bad-5806-433e-b4a6-fdcb147db49d",
   "is_component": false,
   "last_tested_version": "1.9.2",
   "locked": false,
-  "name": "Prepare ATLAS Data for Vector Store",
+  "name": "Prep Data for Vector Store",
   "tags": []
 }
