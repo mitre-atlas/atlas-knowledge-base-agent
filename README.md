@@ -38,7 +38,7 @@ To gain access to the UI:
 
 1. Submit a request to [ATLAS Agent Forum](https://teams.microsoft.com/l/channel/19%3A80220a1a42d0430388c05cf2ba15d3be%40thread.tacv2/%F0%9F%A4%96%20ATLAS%20Agent%20Forum?groupId=f5e921f5-b390-4dd7-96f5-e92060886198&tenantId=c620dc48-1d50-4952-8b39-df4d54d74d82) to be added to the list of authorized users.
 
-2. Access the UI at [ATLAS Agent Chat UI](http://atlas-agent.mitre.org:7860/playground/566d098c-b34d-4a80-8ba7-65318106a4db).
+2. Access the UI at [ATLAS Agent Chat UI](http://atlas-agent.mitre.org:7860/playground/93e7dec6-299b-496e-80f3-9f0b29c9c96c).
 
 ### MCP Server
 
