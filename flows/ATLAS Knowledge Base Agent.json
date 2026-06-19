@@ -958,7 +958,7 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-06-19T02:04:34.197Z",
+            "last_updated": "2026-06-19T13:29:35.385Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1185,7 +1185,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T02:04:34.198Z",
+            "last_updated": "2026-06-19T13:29:35.386Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1864,7 +1864,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T02:04:34.199Z",
+            "last_updated": "2026-06-19T13:29:35.387Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -2226,7 +2226,7 @@
                 "trace_as_input": true,
                 "track_in_telemetry": false,
                 "type": "model",
-                "value": ""
+                "value": []
               },
               "n_messages": {
                 "_input_type": "IntInput",
@@ -2495,7 +2495,7 @@
             ],
             "frozen": false,
             "icon": "square-terminal",
-            "last_updated": "2026-06-19T02:04:34.199Z",
+            "last_updated": "2026-06-19T13:29:35.387Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3058,7 +3058,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "gemma-4"
+                "value": ""
               },
               "openai_api_base": {
                 "_input_type": "StrInput",
@@ -3079,7 +3079,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "https://models.k8s.aip.mitre.org/v1"
+                "value": ""
               },
               "seed": {
                 "_input_type": "IntInput",
@@ -3255,7 +3255,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T02:04:34.201Z",
+            "last_updated": "2026-06-19T13:29:35.388Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3936,7 +3936,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-06-19T02:04:34.202Z",
+            "last_updated": "2026-06-19T13:29:35.388Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -4461,7 +4461,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T01:05:05.794Z",
+            "last_updated": "2026-06-19T13:29:35.389Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -4574,7 +4574,7 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
+                "info": "Falls back to OPENAI_API_KEY environment variable",
                 "input_types": [],
                 "load_from_db": true,
                 "name": "api_key",
@@ -4741,7 +4741,7 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": true,
+              "is_refresh": false,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -4909,6 +4909,7 @@
                     "description": "Specify the name of the output field.",
                     "display_name": "Name",
                     "edit_mode": "inline",
+                    "formatter": "text",
                     "name": "name",
                     "type": "str"
                   },
@@ -4917,6 +4918,7 @@
                     "description": "Describe the purpose of the output field.",
                     "display_name": "Description",
                     "edit_mode": "popover",
+                    "formatter": "text",
                     "name": "description",
                     "type": "str"
                   },
@@ -4925,6 +4927,7 @@
                     "description": "Indicate the data type of the output field (e.g., str, int, float, bool, dict).",
                     "display_name": "Type",
                     "edit_mode": "inline",
+                    "formatter": "text",
                     "name": "type",
                     "options": [
                       "str",
@@ -4940,6 +4943,7 @@
                     "description": "Set to True if this output field should be a list of the specified type.",
                     "display_name": "As List",
                     "edit_mode": "inline",
+                    "formatter": "text",
                     "name": "multiple",
                     "type": "boolean"
                   }
@@ -5063,14 +5067,14 @@
           "x": 1221.0858059881893,
           "y": 1370.8269779107327
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": 384.3705038120424,
-      "y": -207.20103440788444,
-      "zoom": 0.441128807648396
+      "x": 216.64281209970204,
+      "y": -28.526883396834478,
+      "zoom": 0.278909178660422
     }
   },
   "description": "ATLAS KB Agent is a hierarchical agentic system that uses specialized agents for semantic search, CSV relationship lookup, and Kumu graph generation to answer MITRE ATLAS questions with grounded tactics, techniques, mitigations, and case studies.",
