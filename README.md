@@ -63,10 +63,9 @@ Example questions:
 * Show me case studies involving data poisoning.
 * Generate a graph for techniques related to AI supply chain compromise.
 
-## Other ways to access the ATLAS Agent
+## Access the ATLAS Agent as an MCP Server
 
-1. **MCP Server:** Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
-2. API Access
+Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
 
 ## Notice
 
