@@ -15,8 +15,6 @@ It gives you three ways to work with ATLAS:
 
 **Ask questions. Explore relationships. Generate knowledge graphs. Integrate ATLAS into your workflow.**
 
-![ATLAS Agent Clip](assets/atlas-agent-clip.gif)
-
 ## How It Works
 
 The ATLAS Agent is a hierarchical agentic workflow with an orchestrator that manages three specialist agents:
