@@ -958,7 +958,7 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-06-19T13:29:35.385Z",
+            "last_updated": "2026-06-29T14:17:25.235Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1185,7 +1185,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T13:29:35.386Z",
+            "last_updated": "2026-06-29T14:17:25.235Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -1864,7 +1864,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T13:29:35.387Z",
+            "last_updated": "2026-06-29T14:17:25.237Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -2495,7 +2495,7 @@
             ],
             "frozen": false,
             "icon": "square-terminal",
-            "last_updated": "2026-06-19T13:29:35.387Z",
+            "last_updated": "2026-06-29T14:17:25.238Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3225,7 +3225,7 @@
           "x": -724.3931606145562,
           "y": 1253.2307256372255
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
@@ -3263,7 +3263,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-06-19T13:29:35.388Z",
+            "last_updated": "2026-06-29T14:17:25.239Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -3944,7 +3944,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-06-19T13:29:35.388Z",
+            "last_updated": "2026-06-29T14:17:25.239Z",
             "legacy": false,
             "lf_version": "1.9.2",
             "metadata": {
@@ -4582,7 +4582,7 @@
                 "advanced": true,
                 "display_name": "API Key",
                 "dynamic": false,
-                "info": "Falls back to OPENAI_API_KEY environment variable",
+                "info": "Overrides global provider settings. Leave blank to use your pre-configured API Key.",
                 "input_types": [],
                 "load_from_db": true,
                 "name": "api_key",
@@ -4749,7 +4749,7 @@
                 "type": "str",
                 "value": ""
               },
-              "is_refresh": false,
+              "is_refresh": true,
               "max_iterations": {
                 "_input_type": "IntInput",
                 "advanced": true,
@@ -5080,9 +5080,9 @@
       }
     ],
     "viewport": {
-      "x": 583.2863365235614,
-      "y": -426.66750604870896,
-      "zoom": 0.544372962141234
+      "x": 351.52482966228354,
+      "y": -217.66600190388738,
+      "zoom": 0.4024955429928618
     }
   },
   "description": "ATLAS KB Agent is a hierarchical agentic system that uses specialized agents for semantic search, CSV relationship lookup, and Kumu graph generation to answer MITRE ATLAS questions with grounded tactics, techniques, mitigations, and case studies.",
