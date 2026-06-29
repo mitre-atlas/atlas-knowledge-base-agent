@@ -2,31 +2,20 @@
 
 `Version 1.0.0 — Initial Public Release`
 
-The MITRE ATLAS Knowledge Base Agent, or just ATLAS Agent, is an open-source, Langflow-based agentic AI system for exploring the [MITRE ATLAS Knowledge Base](https://atlas.mitre.org/).
+The ATLAS Knowledge Base Agent is an open-source AI assistant for exploring the MITRE ATLAS Knowledge Base.
 
-It helps users ask natural-language questions about ATLAS tactics, techniques, mitigations, and case studies, while also providing modular subagents and MCP-compatible tools for integration into custom AI security workflows.
+It gives you three ways to work with ATLAS:
 
-![ATLAS Agent Architecture](assets/atlas-agent-diagram.png)
+1. **A natural-language guide for any user**  
+    Learn about ATLAS tactics, techniques, mitigations, and case studies by asking questions in plain English.
+2. **MCP server and API access**  
+    Use the agent and its capabilities inside compatible tools, workflows, and custom applications.
+3. **Fully open-source and customizable**  
+    Inspect, modify, and tailor prompts, behavior, and subagents to fit specific security workflows and research needs.
 
-## What You Get
+**Ask questions. Explore relationships. Generate knowledge graphs. Integrate ATLAS into your workflow.**
 
-The ATLAS Agent provides three things in one package:
-
-1. **The full ATLAS Agent experience**  
-   A hierarchical agentic workflow for answering questions about the ATLAS Knowledge Base.
-
-2. **An MCP-compatible tool suite**  
-   Langflow projects can be exposed through MCP, making the agent and its capabilities available to compatible clients and workflows.
-
-3. **Modular subagents and prompts**  
-   The agent is built from specialist components that can be inspected, modified, and adapted for custom AI security use cases.
-
-## What It Can Do
-
-- Find relevant ATLAS entities, including tactics, techniques, mitigations, and case studies, from natural-language descriptions.
-- Look up exact ATLAS records by AML ID.
-- Summarize relationships among tactics, techniques, mitigations, and case studies.
-- Generate focused graph visualizations using the [ATLAS Knowledge Graph](https://atlas.mitre.org/knowledge-graph).
+![ATLAS Agent Clip](assets/atlas-agent-clip.gif)
 
 ## How It Works
 
@@ -36,19 +25,22 @@ The ATLAS Agent is a hierarchical agentic workflow with an orchestrator that man
 - **Dataset Agent**: performs structured lookup and relationship extraction from the ATLAS dataset.
 - **Kumu Graph Generator Agent**: generates focused graph URLs from verified ATLAS IDs.
 
+![ATLAS Agent Architecture](assets/atlas-agent-diagram.png)
+
 ## Getting Started
 
 The ATLAS Agent is built with [Langflow](https://docs.langflow.org/) and is designed to run with your preferred tool-compatible LLM provider.
 
 **Requirements:**
 * `uv`
+
 ### Step 1. Start Langflow
 
 Navigate to `atlas-knowledge-base-agent/` and run the following command.
 
 ```bash
 uv run langflow run --env-file .env
-````
+```
 
 (Press CTRL+C to quit)
 
@@ -73,8 +65,10 @@ Example questions:
 * Show me case studies involving data poisoning.
 * Generate a graph for techniques related to AI supply chain compromise.
 
-## Use ATLAS Agent as an MCP Server
-Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
+## Other ways to access the ATLAS Agent
+
+1. **MCP Server:** Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
+2. API Access
 
 ## Notice
 
