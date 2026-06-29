@@ -1,8 +1,8 @@
-# MITRE ATLAS Knowledge Base Agent
+# MITRE ATLAS Agent
 
 `Version 1.0.0 — Initial Public Release`
 
-The MITRE ATLAS Knowledge Base (KB) Agent is an open-source, Langflow-based agentic AI system for exploring the [MITRE ATLAS Knowledge Base](https://atlas.mitre.org/).
+The MITRE ATLAS Knowledge Base Agent, or just ATLAS Agent, is an open-source, Langflow-based agentic AI system for exploring the [MITRE ATLAS Knowledge Base](https://atlas.mitre.org/).
 
 It helps users ask natural-language questions about ATLAS tactics, techniques, mitigations, and case studies, while also providing modular subagents and MCP-compatible tools for integration into custom AI security workflows.
 
@@ -10,7 +10,7 @@ It helps users ask natural-language questions about ATLAS tactics, techniques, m
 
 ## What You Get
 
-The ATLAS KB Agent provides three things in one package:
+The ATLAS Agent provides three things in one package:
 
 1. **The full ATLAS Agent experience**  
    A hierarchical agentic workflow for answering questions about the ATLAS Knowledge Base.
@@ -30,7 +30,7 @@ The ATLAS KB Agent provides three things in one package:
 
 ## How It Works
 
-The ATLAS KB Agent is a hierarchical agentic workflow with an orchestrator that manages three specialist agents:
+The ATLAS Agent is a hierarchical agentic workflow with an orchestrator that manages three specialist agents:
 
 - **Vector Store Agent**: performs semantic search over ATLAS entities.
 - **Dataset Agent**: performs structured lookup and relationship extraction from the ATLAS dataset.
@@ -38,7 +38,7 @@ The ATLAS KB Agent is a hierarchical agentic workflow with an orchestrator that 
 
 ## Getting Started
 
-The ATLAS KB Agent is built with [Langflow](https://docs.langflow.org/) and is designed to run with your preferred tool-compatible LLM provider.
+The ATLAS Agent is built with [Langflow](https://docs.langflow.org/) and is designed to run with your preferred tool-compatible LLM provider.
 
 **Requirements:**
 * `uv`
@@ -62,7 +62,7 @@ On the highlighted model component, enter the following values for your LLM prov
 
 ### Step 3. Start Chatting
 
-Open the Langflow playground and start chatting with the ATLAS KB Agent.
+Open the Langflow playground and start chatting with the ATLAS Agent.
 
 Example questions:
 
@@ -71,7 +71,7 @@ Example questions:
 * Show me case studies involving data poisoning.
 * Generate a graph for techniques related to AI supply chain compromise.
 
-## Use ATLAS KB Agent as an MCP Server
+## Use ATLAS Agent as an MCP Server
 Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
 
 ## Notice
