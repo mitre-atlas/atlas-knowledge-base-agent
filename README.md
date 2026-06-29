@@ -44,6 +44,8 @@ The ATLAS Agent is built with [Langflow](https://docs.langflow.org/) and is desi
 * `uv`
 ### Step 1. Start Langflow
 
+Navigate to `atlas-knowledge-base-agent/` and run the following command.
+
 ```bash
 uv run langflow run --env-file .env
 ````
@@ -52,13 +54,13 @@ uv run langflow run --env-file .env
 
 ### Step 2. Configure Models
 
-Open the flow named **ATLAS Knowledge Base Agent**.
+Open the flow named **ATLAS Agent**.
 
 On the highlighted model component, enter the following values for your LLM provider:
 
-* `model_name`
-* `base_url`
-* `api_key`
+* `Model Name`
+* `API Base URL`
+* `API Key`
 
 ### Step 3. Start Chatting
 
