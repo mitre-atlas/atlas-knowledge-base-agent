@@ -6,7 +6,7 @@ The MITRE ATLAS Knowledge Base Agent, or just ATLAS Agent, is an open-source, La
 
 It helps users ask natural-language questions about ATLAS tactics, techniques, mitigations, and case studies, while also providing modular subagents and MCP-compatible tools for integration into custom AI security workflows.
 
-![ATLAS Agent Architecture](assets/atlas-agent-architecture.png)
+![ATLAS Agent Architecture](assets/atlas-agent-diagram.png)
 
 ## What You Get
 
