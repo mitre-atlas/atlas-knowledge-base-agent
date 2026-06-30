@@ -11,3 +11,15 @@ wheels/
 
 # .DS_Store
 .DS_Store
+# Environment files
+.env
+.env.*
+!.env.example
+# OS metadata
+**/.DS_Store
+# Langflow local runtime secrets and SQLite sidecar files
+data/databases/langflow_db/secret_key
+data/databases/langflow_db/*.db-shm
+data/databases/langflow_db/*.db-wal
+data/databases/chroma_db/*.db-shm
+data/databases/chroma_db/*.db-wal

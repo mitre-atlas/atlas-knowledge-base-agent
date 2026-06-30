@@ -32,7 +32,17 @@ The ATLAS Agent is built with [Langflow](https://docs.langflow.org/) and is desi
 **Requirements:**
 * `uv`
 
-### Step 1. Start Langflow
+### Step 1. Create a local environment file
+
+Copy the example environment file before starting Langflow:
+
+```bash
+cp .env.example .env
+```
+
+The `.env` file is intentionally gitignored so local paths, generated Langflow secrets, and provider credentials stay out of commits.
+
+### Step 2. Start Langflow
 
 Navigate to `atlas-knowledge-base-agent/` and run the following command.
 
@@ -42,7 +52,7 @@ uv run langflow run --env-file .env
 
 (Press CTRL+C to quit)
 
-### Step 2. Configure Models
+### Step 3. Configure Models
 
 Open the flow named **ATLAS Agent**.
 
@@ -52,7 +62,7 @@ On the highlighted model component, enter the following values for your LLM prov
 * `API Base URL`
 * `API Key`
 
-### Step 3. Start Chatting
+### Step 4. Start Chatting
 
 Open the Langflow playground and start chatting with the ATLAS Agent.
 
