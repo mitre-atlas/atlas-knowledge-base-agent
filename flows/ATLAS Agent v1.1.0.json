@@ -258,6 +258,8 @@
         "targetHandle": "{œfieldNameœ:œtoolsœ,œidœ:œAgent-Z3BbTœ,œinputTypesœ:[œToolœ],œtypeœ:œotherœ}"
       },
       {
+        "animated": false,
+        "className": "",
         "data": {
           "sourceHandle": {
             "dataType": "vLLMModel",
@@ -277,6 +279,7 @@
           }
         },
         "id": "xy-edge__vLLMModel-UmLpF{œdataTypeœ:œvLLMModelœ,œidœ:œvLLMModel-UmLpFœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}-Agent-Z3BbT{œfieldNameœ:œmodelœ,œidœ:œAgent-Z3BbTœ,œinputTypesœ:[œLanguageModelœ],œtypeœ:œmodelœ}",
+        "selected": false,
         "source": "vLLMModel-UmLpF",
         "sourceHandle": "{œdataTypeœ:œvLLMModelœ,œidœ:œvLLMModel-UmLpFœ,œnameœ:œmodel_outputœ,œoutput_typesœ:[œLanguageModelœ]}",
         "target": "Agent-Z3BbT",
@@ -903,7 +906,7 @@
             ],
             "frozen": false,
             "icon": "search",
-            "last_updated": "2026-07-31T23:00:46.883Z",
+            "last_updated": "2026-07-31T23:45:38.520Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -1203,7 +1206,7 @@
             ],
             "frozen": false,
             "icon": "square-terminal",
-            "last_updated": "2026-07-31T23:00:46.884Z",
+            "last_updated": "2026-07-31T23:45:38.521Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -1511,7 +1514,7 @@
             ],
             "frozen": false,
             "icon": "link",
-            "last_updated": "2026-07-31T23:00:46.885Z",
+            "last_updated": "2026-07-31T23:45:38.522Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -1788,7 +1791,7 @@
             "frozen": false,
             "icon": "file-text",
             "key": "File",
-            "last_updated": "2026-07-31T23:00:46.886Z",
+            "last_updated": "2026-07-31T23:45:38.522Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -2550,7 +2553,7 @@
             "frozen": false,
             "icon": "file-text",
             "key": "File",
-            "last_updated": "2026-07-31T23:00:46.886Z",
+            "last_updated": "2026-07-31T23:45:38.523Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -3312,7 +3315,7 @@
             "frozen": false,
             "icon": "file-text",
             "key": "File",
-            "last_updated": "2026-07-31T23:00:46.888Z",
+            "last_updated": "2026-07-31T23:45:38.524Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -4310,7 +4313,7 @@
             ],
             "frozen": false,
             "icon": "bot",
-            "last_updated": "2026-07-31T23:00:46.889Z",
+            "last_updated": "2026-07-31T23:45:38.525Z",
             "legacy": false,
             "lf_version": "1.10.2",
             "metadata": {
@@ -5355,9 +5358,9 @@
       }
     ],
     "viewport": {
-      "x": 156.57905447036,
-      "y": -226.12662427989085,
-      "zoom": 0.33319501075497765
+      "x": 115.51494300199988,
+      "y": -272.4239163500904,
+      "zoom": 0.38558199218106576
     }
   },
   "description": "Explore MITRE ATLAS with AI.",
