@@ -1,120 +1,81 @@
 # MITRE ATLAS Agent
 
-`Version 0.0.1 (beta)`
+`Version 1.1.0 — Single-Agent Release · ATLAS data v2026.7`
 
-The ATLAS Agent helps answer questions about the [MITRE ATLAS Framework](https://atlas.mitre.org/) by leveraging the [ATLAS Knowledge Graph](https://atlas.mitre.org/knowledge-graph).
+The ATLAS Agent is an open-source AI assistant for exploring the MITRE ATLAS Knowledge Base.
 
-![alt text](assets/atlas-agent-architecture.png)
+It gives you three ways to work with ATLAS:
 
-## What It Can Do
+1. **A natural-language guide for any user**  
+    Learn about ATLAS tactics, techniques, mitigations, and case studies by asking questions in plain English.
+2. **MCP server and API access**  
+    Use the agent and its capabilities inside compatible tools, workflows, and custom applications.
+3. **Fully open-source and customizable**  
+    Inspect, modify, and tailor prompts, behavior, and tools to fit specific security workflows and research needs.
 
-- Find relevant ATLAS entities (tactics, techniques, mitigations, and case studies) from natural-language descriptions.
-- Look up exact ATLAS records by AML ID.
-- Summarize relationships among tactics, techniques, mitigations, and case studies.
-- Generate focused graph visualizations using the [ATLAS Knowledge Graph](https://atlas.mitre.org/knowledge-graph).
+**Ask questions. Explore relationships. Generate knowledge graphs. Integrate ATLAS into your workflow.**
 
 ## How It Works
 
-The ATLAS Agent is a hierarchical agentic workflow with an ochestrator which manages three specialist agents:
+The ATLAS Agent uses a single agent with direct access to three purpose-built tools. This streamlined architecture reduces handoffs and complexity for faster responses while retaining the core ATLAS research capabilities:
 
-- **Vector Store Agent**: semantic search over ATLAS entities.
-- **Dataset Agent**: structured lookup and relationship extraction from the ATLAS dataset.
-- **Kumu Graph Generator Agent**: focused graph URL generation from verified ATLAS IDs.
+- **Vector Store**: performs semantic search over ATLAS entities.
+- **Dataset**: performs structured lookup and relationship extraction from the ATLAS dataset.
+- **Graph Visualizer**: generates focused graph URLs from verified ATLAS IDs.
 
-Typical routing:
+![ATLAS Agent Architecture](assets/atlas-agent-diagram.png)
 
-1. Natural-language questions use semantic search, then structured verification.
-2. Exact AML ID questions use structured lookup, with relationship expansion when useful.
-3. Mitigation or case-study questions identify related techniques, then summarize the supporting records.
-4. Graph requests verify relevant IDs, then generate a focused Kumu subgraph.
+The bundled dataset and vector store are synchronized with the MITRE ATLAS data release `v2026.7`.
 
 ## Getting Started
 
-The ATLAS Agent can be accessed via a simple UI interface or as an MCP Server.
+The ATLAS Agent is built with [Langflow](https://docs.langflow.org/) and is designed to run with your preferred tool-compatible LLM provider.
 
-### Chat UI (Recommended)
+**Requirements:**
+* `uv`
 
-To gain access to the UI: 
+### Step 1. Start Langflow
 
-1. Submit a request to [ATLAS Agent Forum](https://teams.microsoft.com/l/channel/19%3A80220a1a42d0430388c05cf2ba15d3be%40thread.tacv2/%F0%9F%A4%96%20ATLAS%20Agent%20Forum?groupId=f5e921f5-b390-4dd7-96f5-e92060886198&tenantId=c620dc48-1d50-4952-8b39-df4d54d74d82) to be added to the list of authorized users.
+Navigate to `atlas-agent/` and run the following command.
 
-2. Access the UI at [ATLAS Agent Chat UI](http://atlas-agent.mitre.org:7860/playground/93e7dec6-299b-496e-80f3-9f0b29c9c96c).
-
-### MCP Server
-
-Prerequisites:
-
-- An MCP-compatible client, such as Continue or Cline. See MITRE's guide for [Coding Assistants](https://ai-platform.pages.mitre.org/external-tools/overview/#ai-coding-assistants).
-- `uvx` available on your `PATH` so the client can run `mcp-proxy`.
-
-Add the matching configuration to your MCP client.
-
-#### macOS/Linux
-
-```json
-{
-  "mcpServers": {
-    "lf-atlas_agent_mcp": {
-      "command": "uvx",
-      "args": [
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "http://atlas-agent.mitre.org:7860/api/v1/mcp/project/6b4977da-f398-4df3-8b00-37e7486b951f/streamable"
-      ]
-    }
-  }
-}
+```bash
+uv run langflow run --env-file .env
 ```
 
-#### Windows
+(Press CTRL+C to quit)
 
-```json
-{
-  "mcpServers": {
-    "lf-atlas_agent_mcp": {
-      "command": "cmd",
-      "args": [
-        "/c",
-        "uvx",
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "http://atlas-agent.mitre.org:7860/api/v1/mcp/project/6b4977da-f398-4df3-8b00-37e7486b951f/streamable"
-      ]
-    }
-  }
-}
-```
+### Step 2. Configure Models
 
-#### WSL
+Open the flow named **ATLAS Agent v1.1.0**.
 
-```json
-{
-  "mcpServers": {
-    "lf-atlas_agent_mcp": {
-      "command": "wsl",
-      "args": [
-        "uvx",
-        "mcp-proxy",
-        "--transport",
-        "streamablehttp",
-        "http://atlas-agent.mitre.org:7860/api/v1/mcp/project/6b4977da-f398-4df3-8b00-37e7486b951f/streamable"
-      ]
-    }
-  }
-}
-```
+On the highlighted model component, enter the following values for your LLM provider:
 
-Restart your MCP client after updating its configuration.
+* `Model Name`
+* `API Base URL`
+* `API Key`
 
-## Example Prompts
+Langflow offers several LLM components.
 
-- `What ATLAS techniques are most relevant to prompt injection against an LLM application?`
-- `Summarize AML.T0051 and list related mitigations.`
-- `Which case studies demonstrate attacks against AI supply chains?`
-- `Create a graph for AML.T0015 and its related mitigations.`
+### Step 3. Start Chatting
 
-## Feedback & Community Support
+Open the Langflow playground and start chatting with the ATLAS Agent.
 
-MS Teams: [🤖 ATLAS Agent Forum](https://gitlab.mitre.org/dgomez/atlas-agent-mcp)
+Example questions:
+
+* What ATLAS techniques are related to prompt injection?
+* What mitigations apply to model poisoning?
+* Show me case studies involving data poisoning.
+* Generate a graph for techniques related to AI supply chain compromise.
+
+## Access the ATLAS Agent as an MCP Server
+
+Every Langflow project runs a separate MCP server that exposes the project's flows as MCP tools. See [Langflow as MCP Server](https://docs.langflow.org/mcp-client#mcp-http-mode).
+
+## Release Notes
+
+See [CHANGELOG.md](CHANGELOG.md) for release history and upgrade notes.
+
+## Notice
+
+Copyright 2026 The MITRE Corporation.
+Approved for Public Release; Distribution Unlimited. Case Number 26-1336.
