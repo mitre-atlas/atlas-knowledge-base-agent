@@ -1,14 +1,10 @@
 [project]
 name = "atlas-agent"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.1.0"
+description = "ATLAS Knowledge Base Agent Langflow deployment"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "chromadb>=1.5.5",
-    "dotenv>=0.9.9",
-    "ipykernel>=7.2.0",
-    "langflow>=1.8.4",
-    "openpyxl>=3.1.5",
-    "pandas>=2.2.3",
+    "ipykernel>=7.3.0",
+    "langflow==1.10.2",
 ]

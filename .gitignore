@@ -9,14 +9,12 @@ wheels/
 # Virtual environments
 .venv
 
-# Environment variables
-.env
-
-# Langflow database
-.langflow
-
-# Continue files
-.continue/
-
 # .DS_Store
 .DS_Store
+
+# SQLite temporary files
+*.db-shm
+*.db-wal
+secret_key
+data/databases/langflow_db/profile_pictures/
+data/databases/langflow_db/alembic/
